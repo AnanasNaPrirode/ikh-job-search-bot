@@ -1,611 +1,1306 @@
 {
-  "generatedAt": null,
-  "dryRun": true,
+  "generatedAt": "2026-09-21T20:59:57.224Z",
+  "dryRun": false,
   "totals": {
-    "sources": 119,
-    "ok": 0,
-    "down": 0,
-    "liveButEmpty": 0,
-    "postings": 0,
-    "pmTitled": 0,
-    "aboveThreshold": 0,
-    "threshold": 30
+    "sources": 129,
+    "ok": 128,
+    "down": 1,
+    "liveButEmpty": 3,
+    "postings": 10197,
+    "archTitled": 525,
+    "aboveThreshold": 120,
+    "threshold": 40
   },
   "sources": [
     {
       "kind": "greenhouse",
       "company": "appfire",
-      "url": "https://boards-api.greenhouse.io/v1/boards/appfire/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/appfire/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 138648,
+      "ms": 206,
+      "postings": 10
     },
     {
       "kind": "greenhouse",
       "company": "gitlab",
-      "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 3239154,
+      "ms": 166,
+      "postings": 206
     },
     {
       "kind": "greenhouse",
       "company": "elastic",
-      "url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 7528035,
+      "ms": 227,
+      "postings": 367
     },
     {
       "kind": "greenhouse",
       "company": "vercel",
-      "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 851244,
+      "ms": 101,
+      "postings": 84
     },
     {
       "kind": "greenhouse",
       "company": "cockroachlabs",
-      "url": "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 319386,
+      "ms": 87,
+      "postings": 21
     },
     {
       "kind": "greenhouse",
       "company": "anthropic",
-      "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 8926757,
+      "ms": 272,
+      "postings": 617
     },
     {
       "kind": "greenhouse",
       "company": "datadog",
-      "url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 5654785,
+      "ms": 182,
+      "postings": 454
     },
     {
       "kind": "greenhouse",
       "company": "twilio",
-      "url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 2135531,
+      "ms": 124,
+      "postings": 143
     },
     {
       "kind": "greenhouse",
       "company": "cloudflare",
-      "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 6683996,
+      "ms": 216,
+      "postings": 382
     },
     {
       "kind": "greenhouse",
       "company": "figma",
-      "url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 1731598,
+      "ms": 88,
+      "postings": 155
     },
     {
       "kind": "greenhouse",
       "company": "airtable",
-      "url": "https://boards-api.greenhouse.io/v1/boards/airtable/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 264595,
+      "ms": 91,
+      "postings": 16
     },
     {
       "kind": "greenhouse",
       "company": "contentful",
-      "url": "https://boards-api.greenhouse.io/v1/boards/contentful/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/contentful/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 164779,
+      "ms": 61,
+      "postings": 15
     },
     {
       "kind": "greenhouse",
       "company": "typeform",
-      "url": "https://boards-api.greenhouse.io/v1/boards/typeform/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/typeform/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 197378,
+      "ms": 55,
+      "postings": 17
     },
     {
       "kind": "greenhouse",
       "company": "mongodb",
-      "url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 4536108,
+      "ms": 197,
+      "postings": 403
     },
     {
       "kind": "greenhouse",
       "company": "make",
-      "url": "https://boards-api.greenhouse.io/v1/boards/make/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/make/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 144462,
+      "ms": 63,
+      "postings": 12
     },
     {
       "kind": "greenhouse",
       "company": "remotecom",
-      "url": "https://boards-api.greenhouse.io/v1/boards/remotecom/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/remotecom/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 3901658,
+      "ms": 120,
+      "postings": 177
     },
     {
       "kind": "greenhouse",
       "company": "monzo",
-      "url": "https://boards-api.greenhouse.io/v1/boards/monzo/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/monzo/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 941542,
+      "ms": 76,
+      "postings": 67
     },
     {
       "kind": "greenhouse",
       "company": "wise",
-      "url": "https://boards-api.greenhouse.io/v1/boards/wise/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/wise/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 78356,
+      "ms": 59,
+      "postings": 17
     },
     {
       "kind": "greenhouse",
       "company": "adyen",
-      "url": "https://boards-api.greenhouse.io/v1/boards/adyen/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/adyen/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 2015030,
+      "ms": 118,
+      "postings": 217
     },
     {
       "kind": "greenhouse",
       "company": "amplitude",
-      "url": "https://boards-api.greenhouse.io/v1/boards/amplitude/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 624450,
+      "ms": 70,
+      "postings": 40
     },
     {
       "kind": "greenhouse",
       "company": "mixpanel",
-      "url": "https://boards-api.greenhouse.io/v1/boards/mixpanel/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/mixpanel/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 1028975,
+      "ms": 173,
+      "postings": 76
     },
     {
       "kind": "greenhouse",
       "company": "bird",
-      "url": "https://boards-api.greenhouse.io/v1/boards/bird/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/bird/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 279788,
+      "ms": 63,
+      "postings": 32
     },
     {
       "kind": "greenhouse",
       "company": "sumup",
-      "url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 3824202,
+      "ms": 162,
+      "postings": 371
     },
     {
       "kind": "greenhouse",
       "company": "n26",
-      "url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/n26/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 789266,
+      "ms": 87,
+      "postings": 76
     },
     {
       "kind": "greenhouse",
       "company": "cabify",
-      "url": "https://boards-api.greenhouse.io/v1/boards/cabify/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/cabify/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 561869,
+      "ms": 80,
+      "postings": 68
     },
     {
       "kind": "greenhouse",
       "company": "wallapop",
-      "url": "https://boards-api.greenhouse.io/v1/boards/wallapop/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/wallapop/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 88280,
+      "ms": 60,
+      "postings": 6
     },
     {
       "kind": "greenhouse",
       "company": "celonis",
-      "url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 4276712,
+      "ms": 145,
+      "postings": 252
     },
     {
       "kind": "greenhouse",
       "company": "polyai",
-      "url": "https://boards-api.greenhouse.io/v1/boards/polyai/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/polyai/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 53181,
+      "ms": 58,
+      "postings": 2
     },
     {
       "kind": "greenhouse",
       "company": "parloa",
-      "url": "https://boards-api.greenhouse.io/v1/boards/parloa/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/parloa/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 555118,
+      "ms": 69,
+      "postings": 48
     },
     {
       "kind": "greenhouse",
       "company": "gympass",
-      "url": "https://boards-api.greenhouse.io/v1/boards/gympass/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/gympass/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 1401199,
+      "ms": 164,
+      "postings": 88
     },
     {
       "kind": "greenhouse",
       "company": "gocardless",
-      "url": "https://boards-api.greenhouse.io/v1/boards/gocardless/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/gocardless/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 393948,
+      "ms": 76,
+      "postings": 27
     },
     {
       "kind": "greenhouse",
       "company": "intercom",
-      "url": "https://boards-api.greenhouse.io/v1/boards/intercom/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/intercom/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 1445479,
+      "ms": 87,
+      "postings": 116
     },
     {
       "kind": "greenhouse",
       "company": "grafanalabs",
-      "url": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs?content=true",
+      "http": 200,
+      "ok": true,
+      "bytes": 2057727,
+      "ms": 111,
+      "postings": 133
     },
     {
       "kind": "greenhouse",
       "company": "deepmind",
-      "url": "https://boards-api.greenhouse.io/v1/boards/deepmind/jobs"
+      "url": "https://boards-api.greenhouse.io/v1/boards/deepmind/jobs?content=true",
+      "http": 404,
+      "ok": false,
+      "bytes": 38,
+      "ms": 50,
+      "postings": 0
     },
     {
       "kind": "ashby",
       "company": "n8n",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/n8n"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/n8n",
+      "http": 200,
+      "ok": true,
+      "bytes": 763641,
+      "ms": 122,
+      "postings": 34
     },
     {
       "kind": "ashby",
       "company": "linear",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/linear"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/linear",
+      "http": 200,
+      "ok": true,
+      "bytes": 432676,
+      "ms": 37,
+      "postings": 32
     },
     {
       "kind": "ashby",
       "company": "ramp",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/ramp"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/ramp",
+      "http": 200,
+      "ok": true,
+      "bytes": 2539503,
+      "ms": 73,
+      "postings": 150
     },
     {
       "kind": "ashby",
       "company": "openai",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/openai"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/openai",
+      "http": 200,
+      "ok": true,
+      "bytes": 13516465,
+      "ms": 184,
+      "postings": 815
     },
     {
       "kind": "ashby",
       "company": "perplexity",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/perplexity"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
+      "http": 200,
+      "ok": true,
+      "bytes": 1046987,
+      "ms": 53,
+      "postings": 119
     },
     {
       "kind": "ashby",
       "company": "langchain",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/langchain"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+      "http": 200,
+      "ok": true,
+      "bytes": 1370547,
+      "ms": 59,
+      "postings": 103
     },
     {
       "kind": "ashby",
       "company": "replit",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/replit"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/replit",
+      "http": 200,
+      "ok": true,
+      "bytes": 1155438,
+      "ms": 62,
+      "postings": 76
     },
     {
       "kind": "ashby",
       "company": "supabase",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/supabase"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+      "http": 200,
+      "ok": true,
+      "bytes": 783919,
+      "ms": 46,
+      "postings": 57
     },
     {
       "kind": "ashby",
       "company": "posthog",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/posthog"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/posthog",
+      "http": 200,
+      "ok": true,
+      "bytes": 184512,
+      "ms": 55,
+      "postings": 9
     },
     {
       "kind": "ashby",
       "company": "browserbase",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/browserbase"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/browserbase",
+      "http": 200,
+      "ok": true,
+      "bytes": 61544,
+      "ms": 31,
+      "postings": 7
     },
     {
       "kind": "ashby",
       "company": "cohere",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/cohere"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/cohere",
+      "http": 200,
+      "ok": true,
+      "bytes": 2325062,
+      "ms": 88,
+      "postings": 142
     },
     {
       "kind": "ashby",
       "company": "elevenlabs",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+      "http": 200,
+      "ok": true,
+      "bytes": 3220970,
+      "ms": 59,
+      "postings": 225
     },
     {
       "kind": "ashby",
       "company": "writer",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/writer"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/writer",
+      "http": 200,
+      "ok": true,
+      "bytes": 734109,
+      "ms": 41,
+      "postings": 51
     },
     {
       "kind": "ashby",
       "company": "sierra",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/sierra"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sierra",
+      "http": 200,
+      "ok": true,
+      "bytes": 3724917,
+      "ms": 70,
+      "postings": 210
     },
     {
       "kind": "ashby",
       "company": "decagon",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/decagon"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/decagon",
+      "http": 200,
+      "ok": true,
+      "bytes": 1792651,
+      "ms": 91,
+      "postings": 145
     },
     {
       "kind": "ashby",
       "company": "vanta",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/vanta"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/vanta",
+      "http": 200,
+      "ok": true,
+      "bytes": 1494105,
+      "ms": 62,
+      "postings": 93
     },
     {
       "kind": "ashby",
       "company": "cursor",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/cursor"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+      "http": 200,
+      "ok": true,
+      "bytes": 1024125,
+      "ms": 62,
+      "postings": 121
     },
     {
       "kind": "ashby",
       "company": "lovable",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/lovable"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/lovable",
+      "http": 200,
+      "ok": true,
+      "bytes": 836912,
+      "ms": 43,
+      "postings": 78
     },
     {
       "kind": "ashby",
       "company": "harvey",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/harvey"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/harvey",
+      "http": 200,
+      "ok": true,
+      "bytes": 3974268,
+      "ms": 177,
+      "postings": 305
     },
     {
       "kind": "ashby",
       "company": "qonto",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/qonto"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/qonto",
+      "http": 200,
+      "ok": true,
+      "bytes": 716316,
+      "ms": 76,
+      "postings": 44
     },
     {
       "kind": "ashby",
       "company": "gorgias",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/gorgias"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/gorgias",
+      "http": 200,
+      "ok": true,
+      "bytes": 248206,
+      "ms": 31,
+      "postings": 15
     },
     {
       "kind": "ashby",
       "company": "photoroom",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/photoroom"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/photoroom",
+      "http": 200,
+      "ok": true,
+      "bytes": 258890,
+      "ms": 126,
+      "postings": 18
     },
     {
       "kind": "ashby",
       "company": "alan",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/alan"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/alan",
+      "http": 200,
+      "ok": true,
+      "bytes": 2132346,
+      "ms": 135,
+      "postings": 115
     },
     {
       "kind": "ashby",
       "company": "doctolib",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/doctolib"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/doctolib",
+      "http": 200,
+      "ok": true,
+      "bytes": 2280373,
+      "ms": 94,
+      "postings": 151
     },
     {
       "kind": "ashby",
       "company": "pennylane",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/pennylane"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/pennylane",
+      "http": 200,
+      "ok": true,
+      "bytes": 4347910,
+      "ms": 110,
+      "postings": 149
     },
     {
       "kind": "ashby",
       "company": "ledger",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/ledger"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/ledger",
+      "http": 200,
+      "ok": true,
+      "bytes": 94205,
+      "ms": 71,
+      "postings": 7
     },
     {
       "kind": "ashby",
       "company": "sifflet",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/sifflet"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sifflet",
+      "http": 200,
+      "ok": true,
+      "bytes": 18901,
+      "ms": 106,
+      "postings": 2
     },
     {
       "kind": "ashby",
       "company": "modal",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/modal"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/modal",
+      "http": 200,
+      "ok": true,
+      "bytes": 325517,
+      "ms": 35,
+      "postings": 35
     },
     {
       "kind": "ashby",
       "company": "baseten",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/baseten"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/baseten",
+      "http": 200,
+      "ok": true,
+      "bytes": 1301566,
+      "ms": 50,
+      "postings": 100
     },
     {
       "kind": "ashby",
       "company": "weaviate",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/weaviate"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/weaviate",
+      "http": 200,
+      "ok": true,
+      "bytes": 35869,
+      "ms": 32,
+      "postings": 3
     },
     {
       "kind": "ashby",
       "company": "langfuse",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/langfuse"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/langfuse",
+      "http": 200,
+      "ok": true,
+      "bytes": 28,
+      "ms": 126,
+      "postings": 0
     },
     {
       "kind": "ashby",
       "company": "braintrust",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/braintrust"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/braintrust",
+      "http": 200,
+      "ok": true,
+      "bytes": 233486,
+      "ms": 40,
+      "postings": 28
     },
     {
       "kind": "ashby",
       "company": "nabla",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/nabla"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/nabla",
+      "http": 200,
+      "ok": true,
+      "bytes": 423080,
+      "ms": 93,
+      "postings": 19
     },
     {
       "kind": "ashby",
       "company": "owkin",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/owkin"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/owkin",
+      "http": 200,
+      "ok": true,
+      "bytes": 37510,
+      "ms": 68,
+      "postings": 2
     },
     {
       "kind": "ashby",
       "company": "poolside",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/poolside"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/poolside",
+      "http": 200,
+      "ok": true,
+      "bytes": 99203,
+      "ms": 77,
+      "postings": 8
     },
     {
       "kind": "ashby",
       "company": "synthesia",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/synthesia"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/synthesia",
+      "http": 200,
+      "ok": true,
+      "bytes": 664692,
+      "ms": 38,
+      "postings": 52
     },
     {
       "kind": "ashby",
       "company": "legora",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/legora"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/legora",
+      "http": 200,
+      "ok": true,
+      "bytes": 3913178,
+      "ms": 105,
+      "postings": 280
     },
     {
       "kind": "ashby",
       "company": "tacto",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/tacto"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/tacto",
+      "http": 200,
+      "ok": true,
+      "bytes": 425394,
+      "ms": 71,
+      "postings": 23
     },
     {
       "kind": "ashby",
       "company": "granola",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/granola"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/granola",
+      "http": 200,
+      "ok": true,
+      "bytes": 158177,
+      "ms": 57,
+      "postings": 18
     },
     {
       "kind": "ashby",
       "company": "attio",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/attio"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/attio",
+      "http": 200,
+      "ok": true,
+      "bytes": 366460,
+      "ms": 35,
+      "postings": 40
     },
     {
       "kind": "ashby",
       "company": "dust",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/dust"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/dust",
+      "http": 200,
+      "ok": true,
+      "bytes": 496376,
+      "ms": 121,
+      "postings": 24
     },
     {
       "kind": "ashby",
       "company": "choco",
-      "url": "https://api.ashbyhq.com/posting-api/job-board/choco"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/choco",
+      "http": 200,
+      "ok": true,
+      "bytes": 33275,
+      "ms": 60,
+      "postings": 3
     },
     {
       "kind": "recruitee",
       "company": "hostaway",
-      "url": "https://hostaway.recruitee.com/api/offers/"
+      "url": "https://hostaway.recruitee.com/api/offers/",
+      "http": 200,
+      "ok": true,
+      "bytes": 250131,
+      "ms": 277,
+      "postings": 9
     },
     {
       "kind": "recruitee",
       "company": "channable",
-      "url": "https://channable.recruitee.com/api/offers/"
+      "url": "https://channable.recruitee.com/api/offers/",
+      "http": 200,
+      "ok": true,
+      "bytes": 407266,
+      "ms": 371,
+      "postings": 15
     },
     {
       "kind": "recruitee",
       "company": "bunq",
-      "url": "https://bunq.recruitee.com/api/offers/"
+      "url": "https://bunq.recruitee.com/api/offers/",
+      "http": 200,
+      "ok": true,
+      "bytes": 421962,
+      "ms": 358,
+      "postings": 16
     },
     {
       "kind": "lever",
       "company": "pigment",
-      "url": "https://api.lever.co/v0/postings/pigment?mode=json"
+      "url": "https://api.lever.co/v0/postings/pigment?mode=json",
+      "http": 200,
+      "ok": true,
+      "bytes": 2163320,
+      "ms": 800,
+      "postings": 138
     },
     {
       "kind": "lever",
       "company": "contentsquare",
-      "url": "https://api.lever.co/v0/postings/contentsquare?mode=json"
+      "url": "https://api.lever.co/v0/postings/contentsquare?mode=json",
+      "http": 200,
+      "ok": true,
+      "bytes": 614871,
+      "ms": 86,
+      "postings": 31
     },
     {
       "kind": "lever",
       "company": "aircall",
-      "url": "https://api.lever.co/v0/postings/aircall?mode=json"
+      "url": "https://api.lever.co/v0/postings/aircall?mode=json",
+      "http": 200,
+      "ok": true,
+      "bytes": 1351370,
+      "ms": 122,
+      "postings": 77
     },
     {
       "kind": "workable",
       "company": "huggingface",
-      "url": "https://apply.workable.com/api/v1/widget/accounts/huggingface"
+      "url": "https://apply.workable.com/api/v1/widget/accounts/huggingface",
+      "http": 200,
+      "ok": true,
+      "bytes": 5677,
+      "ms": 269,
+      "postings": 8
     },
     {
       "kind": "teamtailor",
       "company": "tibber",
-      "url": "https://tibber.teamtailor.com/jobs.json"
+      "url": "https://tibber.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 123357,
+      "ms": 903,
+      "postings": 9
     },
     {
       "kind": "teamtailor",
       "company": "anyfin",
-      "url": "https://anyfin.teamtailor.com/jobs.json"
+      "url": "https://anyfin.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 197324,
+      "ms": 1157,
+      "postings": 13
     },
     {
       "kind": "teamtailor",
       "company": "templafy",
-      "url": "https://templafy.teamtailor.com/jobs.json"
+      "url": "https://templafy.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 137096,
+      "ms": 892,
+      "postings": 7
     },
     {
       "kind": "teamtailor",
       "company": "podimo",
-      "url": "https://podimo.teamtailor.com/jobs.json"
+      "url": "https://podimo.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 311720,
+      "ms": 895,
+      "postings": 17
     },
     {
       "kind": "teamtailor",
       "company": "lunar",
-      "url": "https://lunar.teamtailor.com/jobs.json"
+      "url": "https://lunar.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 180838,
+      "ms": 698,
+      "postings": 14
     },
     {
       "kind": "teamtailor",
       "company": "instabee",
-      "url": "https://instabee.teamtailor.com/jobs.json"
+      "url": "https://instabee.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 540541,
+      "ms": 1279,
+      "postings": 48
     },
     {
       "kind": "teamtailor",
       "company": "tacton",
-      "url": "https://tacton.teamtailor.com/jobs.json"
+      "url": "https://tacton.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 161228,
+      "ms": 789,
+      "postings": 3
     },
     {
       "kind": "teamtailor",
       "company": "doconomy",
-      "url": "https://doconomy.teamtailor.com/jobs.json"
+      "url": "https://doconomy.teamtailor.com/jobs.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 11180,
+      "ms": 486,
+      "postings": 1
     },
     {
       "kind": "personio",
       "company": "userlane",
-      "url": "https://userlane.jobs.personio.de/xml"
+      "url": "https://userlane.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 141111,
+      "ms": 1021,
+      "postings": 8
     },
     {
       "kind": "personio",
       "company": "alasco",
-      "url": "https://alasco.jobs.personio.de/xml"
+      "url": "https://alasco.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 28425,
+      "ms": 726,
+      "postings": 11
     },
     {
       "kind": "personio",
       "company": "capmo",
-      "url": "https://capmo.jobs.personio.de/xml"
+      "url": "https://capmo.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 39175,
+      "ms": 875,
+      "postings": 8
     },
     {
       "kind": "personio",
       "company": "building-radar",
-      "url": "https://building-radar.jobs.personio.de/xml"
+      "url": "https://building-radar.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 62409,
+      "ms": 781,
+      "postings": 6
     },
     {
       "kind": "personio",
       "company": "koppla",
-      "url": "https://koppla.jobs.personio.de/xml"
+      "url": "https://koppla.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 2992,
+      "ms": 717,
+      "postings": 3
     },
     {
       "kind": "personio",
       "company": "celus",
-      "url": "https://celus.jobs.personio.de/xml"
+      "url": "https://celus.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 1631,
+      "ms": 578,
+      "postings": 2
     },
     {
       "kind": "personio",
       "company": "adverity",
-      "url": "https://adverity.jobs.personio.de/xml"
+      "url": "https://adverity.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 7592,
+      "ms": 734,
+      "postings": 2
     },
     {
       "kind": "personio",
       "company": "1komma5grad",
-      "url": "https://1komma5grad.jobs.personio.de/xml"
+      "url": "https://1komma5grad.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 2154671,
+      "ms": 1648,
+      "postings": 311
     },
     {
       "kind": "personio",
       "company": "ottonova",
-      "url": "https://ottonova.jobs.personio.de/xml"
+      "url": "https://ottonova.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 84662,
+      "ms": 778,
+      "postings": 7
     },
     {
       "kind": "personio",
       "company": "personio",
-      "url": "https://personio.jobs.personio.de/xml"
+      "url": "https://personio.jobs.personio.de/xml",
+      "http": 200,
+      "ok": true,
+      "bytes": 815,
+      "ms": 594,
+      "postings": 1
     },
     {
       "kind": "getro",
       "company": "Point Nine",
-      "url": "https://api.getro.com/api/v2/collections/1680/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/1680/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 30478,
+      "ms": 197,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "Atomico",
-      "url": "https://api.getro.com/api/v2/collections/36986/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/36986/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 28118,
+      "ms": 145,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "Cherry Ventures",
-      "url": "https://api.getro.com/api/v2/collections/44081/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/44081/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 34696,
+      "ms": 246,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "Earlybird",
-      "url": "https://api.getro.com/api/v2/collections/617/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/617/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 26804,
+      "ms": 143,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "Dawn Capital",
-      "url": "https://api.getro.com/api/v2/collections/3063/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/3063/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 30843,
+      "ms": 123,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "Firstminute Capital",
-      "url": "https://api.getro.com/api/v2/collections/178/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/178/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 29157,
+      "ms": 125,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "HV Capital",
-      "url": "https://api.getro.com/api/v2/collections/234/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/234/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 29494,
+      "ms": 155,
+      "postings": 20
     },
     {
       "kind": "getro",
       "company": "Seedcamp",
-      "url": "https://api.getro.com/api/v2/collections/4186/search/jobs"
+      "url": "https://api.getro.com/api/v2/collections/4186/search/jobs",
+      "http": 200,
+      "ok": true,
+      "bytes": 29422,
+      "ms": 147,
+      "postings": 20
+    },
+    {
+      "kind": "pinpoint",
+      "company": "improbable",
+      "url": "https://improbable.pinpointhq.com/postings.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 40255,
+      "ms": 698,
+      "postings": 5
+    },
+    {
+      "kind": "pinpoint-rss",
+      "company": "improbable",
+      "url": "https://improbable.pinpointhq.com/en/jobs.rss",
+      "http": 200,
+      "ok": true,
+      "bytes": 23684,
+      "ms": 314,
+      "postings": 0
+    },
+    {
+      "kind": "pinpoint",
+      "company": "unmind",
+      "url": "https://unmind.pinpointhq.com/postings.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 40235,
+      "ms": 662,
+      "postings": 5
+    },
+    {
+      "kind": "pinpoint-rss",
+      "company": "unmind",
+      "url": "https://unmind.pinpointhq.com/en/jobs.rss",
+      "http": 200,
+      "ok": true,
+      "bytes": 23721,
+      "ms": 209,
+      "postings": 0
+    },
+    {
+      "kind": "pinpoint",
+      "company": "quantexa",
+      "url": "https://quantexa.pinpointhq.com/postings.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 11,
+      "ms": 483,
+      "postings": 0
+    },
+    {
+      "kind": "pinpoint-rss",
+      "company": "quantexa",
+      "url": "https://quantexa.pinpointhq.com/en/jobs.rss",
+      "http": 200,
+      "ok": true,
+      "bytes": 1918,
+      "ms": 161,
+      "postings": 0
+    },
+    {
+      "kind": "pinpoint",
+      "company": "marshmallow",
+      "url": "https://marshmallow.pinpointhq.com/postings.json",
+      "http": 200,
+      "ok": true,
+      "bytes": 11,
+      "ms": 435,
+      "postings": 0
+    },
+    {
+      "kind": "pinpoint-rss",
+      "company": "marshmallow",
+      "url": "https://marshmallow.pinpointhq.com/en/jobs.rss",
+      "http": 200,
+      "ok": true,
+      "bytes": 1594,
+      "ms": 154,
+      "postings": 0
+    },
+    {
+      "kind": "bamboohr",
+      "company": "FINBOURNE",
+      "url": "https://finbourne.bamboohr.com/careers/list",
+      "http": 200,
+      "ok": true,
+      "bytes": 1038,
+      "ms": 706,
+      "postings": 3
     },
     {
       "kind": "smartrecruiters",
       "company": "DeliveryHero",
-      "url": "https://api.smartrecruiters.com/v1/companies/DeliveryHero/postings?q=%22product%20manager%22&limit=100"
+      "url": "https://api.smartrecruiters.com/v1/companies/DeliveryHero/postings?q=%22architect%22&limit=100",
+      "http": 200,
+      "ok": true,
+      "bytes": 36750,
+      "ms": 460,
+      "postings": 16
+    },
+    {
+      "kind": "smartrecruiters",
+      "company": "DeliveryHero",
+      "url": "https://api.smartrecruiters.com/v1/companies/DeliveryHero/postings?q=%22engineering%20manager%22&limit=100",
+      "http": 200,
+      "ok": true,
+      "bytes": 30404,
+      "ms": 505,
+      "postings": 13
     },
     {
       "kind": "remoteok",
       "company": "RemoteOK",
-      "url": "https://remoteok.com/api"
+      "url": "https://remoteok.com/api",
+      "http": 200,
+      "ok": true,
+      "bytes": 623925,
+      "ms": 668,
+      "postings": 99
     },
     {
       "kind": "himalayas",
       "company": "Himalayas",
-      "url": "https://himalayas.app/jobs/api?limit=100"
+      "url": "https://himalayas.app/jobs/api?limit=100",
+      "http": 200,
+      "ok": true,
+      "bytes": 135100,
+      "ms": 157,
+      "postings": 20
     },
     {
       "kind": "wwr",
       "company": "WeWorkRemotely",
-      "url": "https://weworkremotely.com/categories/remote-product-jobs.rss"
+      "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+      "http": 200,
+      "ok": true,
+      "bytes": 214158,
+      "ms": 244,
+      "postings": 25
     },
     {
       "kind": "remotive",
       "company": "Remotive",
-      "url": "https://remotive.com/api/remote-jobs?category=product&limit=100"
+      "url": "https://remotive.com/api/remote-jobs?category=software-dev&limit=100",
+      "http": 200,
+      "ok": true,
+      "bytes": 172768,
+      "ms": 217,
+      "postings": 18
     },
     {
       "kind": "jobicy",
       "company": "Jobicy",
-      "url": "https://jobicy.com/api/v2/remote-jobs?count=100"
+      "url": "https://jobicy.com/api/v2/remote-jobs?count=100",
+      "http": 200,
+      "ok": true,
+      "bytes": 805759,
+      "ms": 217,
+      "postings": 100
     },
     {
       "kind": "workingnomads",
       "company": "WorkingNomads",
-      "url": "https://www.workingnomads.com/api/exposed_jobs/"
+      "url": "https://www.workingnomads.com/api/exposed_jobs/",
+      "http": 200,
+      "ok": true,
+      "bytes": 248199,
+      "ms": 611,
+      "postings": 55
     },
     {
       "kind": "arbeitnow",
       "company": "Arbeitnow",
-      "url": "https://www.arbeitnow.com/api/job-board-api"
+      "url": "https://www.arbeitnow.com/api/job-board-api",
+      "http": 200,
+      "ok": true,
+      "bytes": 2192835,
+      "ms": 179,
+      "postings": 250
     },
     {
       "kind": "themuse",
       "company": "TheMuse",
-      "url": "https://www.themuse.com/api/public/jobs?category=Product%20Management&page=1"
+      "url": "https://www.themuse.com/api/public/jobs?category=Software%20Engineering&page=1",
+      "http": 200,
+      "ok": true,
+      "bytes": 152125,
+      "ms": 274,
+      "postings": 20
     },
     {
       "kind": "themuse",
       "company": "TheMuse",
-      "url": "https://www.themuse.com/api/public/jobs?category=Product%20Management&page=2"
+      "url": "https://www.themuse.com/api/public/jobs?category=Software%20Engineering&page=2",
+      "http": 200,
+      "ok": true,
+      "bytes": 144114,
+      "ms": 178,
+      "postings": 20
     }
   ]
 }
