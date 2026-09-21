@@ -19,8 +19,8 @@ const SEEN_FILE = path.join(HERE, 'seen.json');
 const STATUS_JSON = path.join(HERE, 'status.json');
 const STATUS_MD = path.join(HERE, 'STATUS.md');
 
-const TOKEN = process.env.TELEGRAM_TOKEN;
-const CHAT = process.env.TELEGRAM_CHAT_ID;
+const TOKEN = (process.env.TELEGRAM_TOKEN || '').trim().replace(/^bot/i, '');
+const CHAT = (process.env.TELEGRAM_CHAT_ID || '').trim();
 const DRY = process.env.DRY_RUN === '1';
 const THRESHOLD = Number(process.env.THRESHOLD || 40);
 const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
@@ -28,6 +28,17 @@ const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 if (!DRY && (!TOKEN || !CHAT)) {
   console.error('TELEGRAM_TOKEN and TELEGRAM_CHAT_ID are required unless DRY_RUN=1');
   process.exit(1);
+}
+if (!DRY) {
+  if (!TOKEN.includes(':')) {
+    console.error('TELEGRAM_TOKEN does not look like a BotFather token (expected digits:secret, no "bot" prefix)');
+    process.exit(1);
+  }
+  if (!/^-?\d+$/.test(CHAT)) {
+    console.error('TELEGRAM_CHAT_ID should be a numeric chat id (groups are negative)');
+    process.exit(1);
+  }
+  console.log(`telegram: token ${TOKEN.length} chars, chat ${CHAT}`);
 }
 
 const telegram = async (text) => {
