@@ -167,7 +167,7 @@ for (const [fund, id] of getro) {
     url: `https://api.getro.com/api/v2/collections/${id}/search/jobs`,
     method: 'POST',
     headers: { accept: 'application/json', 'content-type': 'application/json' },
-    body: JSON.stringify({ query: 'product manager', page: 0 }),
+    body: JSON.stringify({ query: '', page: 0 }),
     // All eight funds hit the same host, and Datadog bot protection 403s the
     // burst if they follow each other at the normal 200 ms spacing.
     delayMs: 4000,
@@ -193,21 +193,23 @@ for (const [org, label] of bamboohr) {
     url: `https://${org}.bamboohr.com/careers/list` } });
 }
 for (const org of smartrecruiters) {
-  out.push({ json: { kind: 'smartrecruiters', company: org,
-    url: `https://api.smartrecruiters.com/v1/companies/${org}/postings?q=%22product%20manager%22&limit=100` } });
+  for (const q of ['architect', 'engineering manager']) {
+    out.push({ json: { kind: 'smartrecruiters', company: org,
+      url: `https://api.smartrecruiters.com/v1/companies/${org}/postings?q=${encodeURIComponent('"'+q+'"')}&limit=100` } });
+  }
 }
 out.push({ json: { kind: 'remoteok', company: 'RemoteOK',
   url: 'https://remoteok.com/api' } });
 out.push({ json: { kind: 'himalayas', company: 'Himalayas',
   url: 'https://himalayas.app/jobs/api?limit=100' } });
 out.push({ json: { kind: 'wwr', company: 'WeWorkRemotely',
-  url: 'https://weworkremotely.com/categories/remote-product-jobs.rss' } });
+  url: 'https://weworkremotely.com/categories/remote-programming-jobs.rss' } });
 
 // Aggregators added after the first day. Remotive and Jobicy are the useful ones:
 // they expose a real location field (candidate_required_location / jobGeo) rather
 // than WeWorkRemotely's optimistic "Anywhere in the World".
 out.push({ json: { kind: 'remotive', company: 'Remotive',
-  url: 'https://remotive.com/api/remote-jobs?category=product&limit=100' } });
+  url: 'https://remotive.com/api/remote-jobs?category=software-dev&limit=100' } });
 out.push({ json: { kind: 'jobicy', company: 'Jobicy',
   url: 'https://jobicy.com/api/v2/remote-jobs?count=100' } });
 out.push({ json: { kind: 'workingnomads', company: 'WorkingNomads',
@@ -216,7 +218,7 @@ out.push({ json: { kind: 'arbeitnow', company: 'Arbeitnow',
   url: 'https://www.arbeitnow.com/api/job-board-api' } });
 for (const page of [1, 2]) {
   out.push({ json: { kind: 'themuse', company: 'TheMuse',
-    url: `https://www.themuse.com/api/public/jobs?category=Product%20Management&page=${page}` } });
+    url: `https://www.themuse.com/api/public/jobs?category=Software%20Engineering&page=${page}` } });
 }
 
 return out;
@@ -563,81 +565,92 @@ const DONE_COMPANIES = /^(example-company|another-company)$/i;
 // notification step suppresses. Leave the placeholder if you have none yet.
 const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 
-// EXAMPLE relevance profile — REPLACE THIS WITH YOUR OWN.
-// The keyword lists, seniority weights, geography bonuses and language gates below
-// encode one candidate's search (senior/lead PM, B2B SaaS + AI products, EU-based).
-// Everything from TITLE_LEAD down to the language penalties is configuration, not logic.
+// Profile: Ivan Khakharev — three CV tracks, one radar.
+// Sources: Obsidian Work/Prof Cvalification and CVs
+//   • Ivan_Khakharev_Solution_Architect.pdf
+//   • Ivan_Khakharev_AI_Solutions_Architect.pdf
+//   • Ivan_Khakharev_Engineering_Manager.pdf
+// Lives in Salou, Spain (EU residence). English C1, Spanish A1.
+// Open to fully remote worldwide with 4–6h overlap with US Eastern;
+// US *onsite/hybrid* stays a hard penalty, US *remote* is a mild one.
+// PM and analyst titles are the wrong track, not a fallback.
 //
 // Design note: signal lives in the TITLE and the LOCATION field. Almost every
 // tech job description name-drops "AI", so description keywords are scored
 // weakly and capped — otherwise everything saturates at 100.
 
 const TITLE_LEAD = [
-  'staff product manager', 'principal product manager', 'lead product manager',
-  'group product manager', 'head of product', 'product lead', 'product director',
-  'director of product', 'director, product', 'director product management',
-  'vp product', 'vp of product', 'chief product',
+  'staff architect', 'principal architect', 'lead architect',
+  'lead solution architect', 'lead platform architect', 'lead integration architect',
+  'head of architecture', 'director of architecture', 'director, architecture',
+  'vp architecture', 'vp of architecture', 'chief architect', 'distinguished architect',
+  'architecture lead', 'head of platform architecture',
+  'head of engineering', 'director of engineering', 'vp of engineering', 'vp engineering',
+  'engineering director', 'group engineering manager', 'senior director of engineering',
 ];
-const TITLE_SENIOR = ['senior product manager', 'sr product manager', 'sr. product manager'];
-const TITLE_BASE = ['product manager', 'product owner', 'product management'];
+const TITLE_SENIOR = [
+  'senior solution architect', 'senior platform architect', 'senior integration architect',
+  'senior technical architect', 'senior software architect', 'senior systems architect',
+  'senior system architect', 'senior enterprise architect', 'senior architect',
+  'sr solution architect', 'sr. solution architect', 'sr architect', 'sr. architect',
+  'senior engineering manager', 'sr engineering manager', 'sr. engineering manager',
+  'senior technical lead', 'senior tech lead',
+];
+const TITLE_BASE = [
+  'solution architect', 'solutions architect', 'platform architect',
+  'integration architect', 'technical architect', 'software architect',
+  'system architect', 'systems architect', 'enterprise architect',
+  'application architect', 'architect',
+  'engineering manager', 'software engineering manager', 'engineering lead',
+  'development manager', 'technical lead', 'tech lead',
+];
 const TITLE_AI = [
-  'ai product', 'product manager - ai', 'product manager, ai', 'ai pm',
-  'genai product', 'llm product', 'agent product',
+  'ai architect', 'ml architect', 'llm architect', 'genai architect',
+  'ai platform architect', 'agent architect',
+  'ai solutions architect', 'ai solution architect', 'ai integration',
+  'automation architect', 'workflow automation',
 ];
 const TITLE_PLATFORM = [
-  'platform product manager', 'technical product manager',
-  'product manager, platform', 'product manager - platform',
-  'product manager, ai platform',
+  'platform architect', 'solution architect', 'solutions architect',
+  'integration architect', 'technical architect', 'api architect',
 ];
 
 // Description keywords: weak individually, capped in aggregate.
+// Each term maps to evidence on the CV (campaign platform, Supplier Portal, Apitizer).
 const KW = [
-  [/\bagent(ic|s)?\b/i, 5, 'agents'],
-  [/\bllm|large language model|genai|gen ai\b/i, 4, 'LLM'],
-  [/\beval(s|uation)? (set|suite|harness)|benchmark/i, 5, 'evals'],
-  [/orchestrat/i, 4, 'orchestration'],
-  [/\brag\b|retrieval.augmented/i, 3, 'RAG'],
-  [/developer tool|devtool|developer experience|developer platform/i, 4, 'devtools'],
-  [/governance|guardrail|observability|finops|audit trail/i, 4, 'governance'],
-  [/\bb2b\b|enterprise saas/i, 3, 'B2B SaaS'],
-  [/open ?source/i, 3, 'open source'],
-  [/fintech|insurtech|crypto|hospitality|proptech|govtech|geospatial|medtech/i, 3, 'domain match'],
-  [/pricing|monetiz|go-to-market/i, 2, 'commercial'],
-  // Non-AI signals that still map to real CV evidence. Without these, a strong
-  // growth/PLG role scores on title alone and falls under the threshold — which is
-  // exactly what happened to one strong PLG role (scored 44, missed) even though it
-  // was the closest fit found all day.
-  [/product.led growth|\bplg\b/i, 5, 'PLG'],
-  [/activation|onboarding|retention|churn/i, 4, 'activation/retention'],
-  [/\ba\/b test|experimentation|experiment/i, 4, 'experimentation'],
-  [/funnel|cohort|\bsql\b/i, 3, 'analytics'],
-  [/coach|mentor|lead a team|managing product managers|line manage/i, 3, 'people leadership'],
-  [/pre.sales|rfp|tender|procurement/i, 3, 'pre-sales'],
+  [/\bopenapi\b|swagger|api (contract|design|gateway|platform|standard)/i, 5, 'API design'],
+  [/rest(ful)? api/i, 4, 'REST'],
+  [/system design|systems design|c4 model|\badrs?\b|architecture decision/i, 5, 'system design'],
+  [/event[\s-]driven|message broker|\bkafka\b|event streaming/i, 5, 'event-driven'],
+  [/integration (layer|space|platform|pattern)/i, 4, 'integrations'],
+  [/\bfastapi\b|\bpython\b/i, 3, 'Python/FastAPI'],
+  [/\bredis\b|caching|\bcache\b/i, 3, 'caching'],
+  [/data model|erd\b|entity.relationship|data pipeline/i, 4, 'data modeling'],
+  [/rbac|role[\s-]based|permission model/i, 3, 'RBAC'],
+  [/retail|e-?commerce|campaign management|martech/i, 3, 'retail/martech'],
+  [/microservices?|distributed system/i, 4, 'distributed systems'],
+  [/stakeholder|requirements engineering|technical documentation/i, 3, 'analysis'],
+  [/mentor|coach|lead a team|people leadership|one[\s-]to[\s-]ones?/i, 3, 'people leadership'],
+  [/\boracle\b|\bpl\/?sql\b/i, 2, 'Oracle'],
+  [/\bagent(ic|s)?\b|agent skill|multi[\s-]step agent/i, 4, 'agents'],
+  [/\bllm|large language model|genai|gen ai\b/i, 3, 'LLM'],
+  [/\brag\b|retrieval[\s-]augmented|retrieval over (docs|documentation|code)/i, 4, 'RAG'],
+  [/delivery process|kanban|team cadence|backlog flow|engineering manager/i, 4, 'eng management'],
+  [/\belt\b|data ingestion|staging (set|table)/i, 3, 'ELT pipelines'],
+  [/\bnext\.?js\b|typescript|postgresql|supabase/i, 3, 'modern stack'],
 ];
 const KW_CAP = 26;
 
-// Credentials that are genuinely SCARCE in the PM pool, scored OUTSIDE KW_CAP for the
-// same reason the title bonuses are: these are not name-dropped. Every tech posting
-// says "AI" somewhere, which is why description keywords are capped — but a JD that
-// says "EU MDR" or "ISO 14971" is naming something almost no product manager can
-// answer, and the few who can are worth more than a keyword match. If the
-// configured profile holds a scarce credential, keep it OUT of the capped bucket, or
-// the roles that specifically ask for the rarest thing on the CV will rank
-// no higher than the roles that ask for nothing in particular.
-// EXAMPLE GROUP -- replace these terms with whatever is scarce about your own profile.
-//
-// Deliberately absent: GDPR and HIPAA. They appear in the privacy notice at the
-// bottom of half the postings in Europe, so they measure boilerplate, not the role.
+// Scarce relative to a typical architect pool — not name-dropped AI.
+// Deliberately absent: GDPR and HIPAA (privacy-notice boilerplate).
 const SCARCE = [
-  [/eu mdr|mdr 2017\/745|\bivdr\b/i, 12, 'medical-device regulation'],
-  [/iso ?14971|iec ?62366|iec ?62304|iso ?13485|510\(k\)|fda (submission|clearance|approval|requirement)/i, 12, 'medtech standards'],
-  [/medical device|clinical (software|workflow|documentation|safety|validation)|regulatory (documentation|submission|affairs|compliance)/i, 8, 'regulated medtech'],
-  [/\bpatient|clinician|\bdoctor|\bclinic\b|\behr\b|\bemr\b|practice management|health ?tech|digital health/i, 5, 'healthcare domain'],
-  [/public sector|govtech|\bgovernment\b|sovereign|smart city|critical infrastructure|defence|defense/i, 6, 'public sector / sovereign'],
-  [/eu ai act|regulated (environment|industry|data)|audit(ability|able)|traceability/i, 5, 'regulated environment'],
+  [/openapi|swagger|api contract|contract[\s-]first|api governance|postman collection/i, 10, 'API contract practice'],
+  [/campaign management|martech platform|customer data platform|\bcdp\b|personalization engine/i, 8, 'campaign/martech platform'],
+  [/high[\s-]load|high[\s-]throughput|tens of millions|10m\+|million (events|messages|customers)/i, 8, 'high-load scale'],
+  [/integration architecture|enterprise integration|event[\s-]driven architecture/i, 6, 'integration architecture'],
+  [/agent skill|compos(able|ed) skill|multi[\s-]step agent|agent(ic)? workflow/i, 10, 'agent workflow design'],
+  [/retrieval over (docs|documentation|code)|question[\s-]answering over/i, 8, 'doc/code RAG'],
 ];
-// Capped too, just far higher than the boilerplate bucket: a genuine medtech-regulatory
-// JD should be able to clear the threshold on this signal alone, but not saturate.
 const SCARCE_CAP = 24;
 
 
@@ -651,11 +664,11 @@ const SCARCE_CAP = 24;
 // Retune the list to whatever your own rare habit actually is. Measured effect here:
 // that posting went 48 -> 70, and corpus-wide >=48 went 83 -> 100.
 const WORKING_METHOD = [
-  [/\b(claude code|claude|cursor|copilot|windsurf|lovable|replit|bolt\.new|\bv0\b)\b/i, 10, 'names an AI tool she uses daily'],
+  [/\b(claude code|claude|cursor|copilot|windsurf|lovable|replit|bolt\.new|\bv0\b)\b/i, 10, 'daily AI tooling'],
   [/\bai[\s-]native\b|\bai[\s-]first\b/i, 8, 'AI-native team'],
   [/(use|using|used|usage of|adopt\w*|leverag\w*|habitual\w*|fluent\w*)[\s\w]{0,24}\bai (tool|tooling|assistant)/i, 8, 'requires hands-on AI tooling'],
-  [/spec[\s-]driven|openspec|prototype it yourself|build (a |your own )?prototype|vibe cod/i, 7, 'spec-driven / self-prototyping'],
-  [/shipped something|built something|show us,? not tell|something you can demo/i, 7, 'show-not-tell builder bar'],
+  [/spec[\s-]driven|openspec|api[\s-]first|documentation as (the )?source of truth|prototype it yourself/i, 7, 'spec-driven / API-first'],
+  [/shipped something|built something|show us,? not tell|something you can demo|hands[\s-]on (builder|coding|backend)/i, 7, 'hands-on builder bar'],
   [/agentic workflow|agentic product|agent pipeline/i, 6, 'agentic practice'],
 ];
 // Capped like the other buckets: five of these firing is a strong signal, not five
@@ -664,30 +677,28 @@ const WM_CAP = 22;
 
 // Title-level topic bonuses (these are real signal, not boilerplate).
 const TITLE_KW = [
-  [/\bai\b|artificial intelligence|genai|\bllm\b/i, 18, 'AI in title'],
-  [/\bagent(ic|s)?\b/i, 14, 'agents in title'],
-  [/\bplatform\b|infrastructure/i, 10, 'platform in title'],
-  [/governance|compliance|trust|security/i, 8, 'governance in title'],
-  [/\bapi(s)?\b|integration(s)?\b|ecosystem/i, 7, 'API/ecosystem in title'],
-  // Same reasoning as SCARCE below: a health or public-sector title is a much stronger
-  // match for a health / public-sector profile than a generic one, and it is never boilerplate in a title.
-  [/health|clinical|medical|patient|care\b|\bmedtech\b/i, 10, 'health in title'],
-  [/public sector|government|govtech|sovereign|defence|defense/i, 8, 'public sector in title'],
+  [/ai solutions? architect/i, 14, 'AI solutions architect in title'],
+  [/solutions? architect/i, 12, 'solution architect in title'],
+  [/platform architect/i, 12, 'platform architect in title'],
+  [/integration architect/i, 10, 'integration architect in title'],
+  [/engineering manager/i, 12, 'engineering manager in title'],
+  [/technical lead|tech lead/i, 8, 'technical lead in title'],
+  [/\bapi(s)?\b/i, 8, 'API in title'],
+  [/\bplatform\b/i, 6, 'platform in title'],
+  [/\bai\b|artificial intelligence|genai|\bllm\b/i, 8, 'AI in title'],
+  [/\bagent(ic|s)?\b/i, 6, 'agents in title'],
 ];
 
-// Titles that are PM-shaped but off-track for the configured profile.
+// Architect-shaped but off-track: junior, PM, sales, vendor-product architects.
 const TITLE_BLOCK = [
   [/\bintern(ship)?\b|graduate|junior|entry.level|working student|apprentice|trainee/i, 'junior'],
-  [/\bengineer(ing)?\b|\bdeveloper\b|\bsre\b|data scientist|\bdesigner\b|\barchitect\b/i, 'eng/design'],
+  [/\bproduct manager\b|\bproduct owner\b|product management/i, 'PM'],
   [/\bcounsel\b|attorney|paralegal|\blegal\b/i, 'legal'],
-  [/account executive|\bsales\b|recruiter|customer success|support engineer|solutions engineer/i, 'non-PM'],
+  [/account executive|\bsales\b|recruiter|customer success|support engineer|solutions engineer/i, 'non-arch'],
   [/marketing|growth marketing|brand|content strateg/i, 'marketing'],
-  [/\bintern\b|contract recruiter|localization/i, 'other'],
-  // "Staff AI Product Analyst, Product Management" cleared the PM gate on the trailing
-  // words and scored 70 once descriptions were switched on. An analyst title ending in the words
-  // "Product Management" is still not a PM role.
-  [/product analyst|data analyst|business analyst|analytics engineer/i, 'analyst'],
-  [/\bintern\b|contract recruiter|localization/i, 'other'],
+  [/\bdesigner\b|data scientist/i, 'design/DS'],
+  [/product analyst|data analyst|business analyst|analytics engineer|system analyst/i, 'analyst'],
+  [/salesforce architect|sap architect|servicenow architect|network architect|landscape architect/i, 'wrong architect'],
 ];
 
 // Location vocabulary. Both lists used to be country-level while most boards write a
@@ -711,7 +722,7 @@ const US_WORD = /\b(u\.?s\.?a?\.?|united states)\b/i;
 // and usOnly requires !EU_WORD anyway, so an EU city that shares a US name (Berlin
 // CT, Paris TX) is still protected by EU_WORD winning first.
 const US_CITY = /\b(san francisco|new york|nyc\b|palo alto|mountain view|san jose|san mateo|sunnyvale|santa clara|seattle|bellevue|austin|chicago|boston|cambridge, ma|denver|boulder|atlanta|dallas|houston|miami|philadelphia|phoenix|portland, or|san diego|los angeles|\bla\b(?! ?paz)|minneapolis|detroit|pittsburgh|nashville|charlotte|raleigh|durham|salt lake city|las vegas|kansas city|st\.? louis|columbus, oh|arlington|bethesda|reston|mclean|redmond|sacramento)\b/i;
-const EU_WORD = /\b(emea|europe|european|spain|madrid|barcelona|valencia|m[aá]laga|granada|sevilla|bilbao|germany|berlin|munich|m[uü]nchen|hamburg|cologne|k[oö]ln|frankfurt|stuttgart|d[uü]sseldorf|mannheim|karlsruhe|leipzig|dresden|g[oö]ttingen|heidelberg|netherlands|amsterdam|utrecht|rotterdam|eindhoven|the hague|den haag|portugal|lisbon|lisboa|porto|ireland|dublin|cork|uk|united kingdom|england|scotland|wales|london|manchester|edinburgh|glasgow|bristol|cambridge, uk|oxford|leeds|birmingham|poland|warsaw|warszawa|krak[oó]w|krakow|wroc[lł]aw|gda[nń]sk|pozna[nń]|france|paris|lyon|marseille|toulouse|bordeaux|nantes|lille|italy|italia|milan|milano|rome|roma|turin|torino|bologna|naples|napoli|sweden|stockholm|gothenburg|g[oö]teborg|malm[oö]|denmark|copenhagen|k[oø]benhavn|aarhus|austria|vienna|wien|graz|switzerland|zurich|z[uü]rich|geneva|gen[eè]ve|basel|lausanne|belgium|brussels|bruxelles|antwerp|ghent|gent|leuven|czech|czechia|prague|praha|brno|romania|bucharest|bucure[sș]ti|cluj|timi[sș]oara|bulgaria|sofia|plovdiv|greece|athens|thessaloniki|hungary|budapest|estonia|tallinn|tartu|latvia|riga|lithuania|vilnius|kaunas|croatia|zagreb|split|slovakia|bratislava|slovenia|ljubljana|finland|helsinki|espoo|tampere|norway|oslo|bergen|trondheim|luxembourg|malta|cyprus|nicosia|iceland|reykjav[ií]k|serbia|belgrade|beograd|novi sad)\b/i;
+const EU_WORD = /\b(emea|europe|european|spain|madrid|barcelona|valencia|m[aá]laga|granada|sevilla|bilbao|salou|tarragona|catalu[nñ]a|catalonia|reus|germany|berlin|munich|m[uü]nchen|hamburg|cologne|k[oö]ln|frankfurt|stuttgart|d[uü]sseldorf|mannheim|karlsruhe|leipzig|dresden|g[oö]ttingen|heidelberg|netherlands|amsterdam|utrecht|rotterdam|eindhoven|the hague|den haag|portugal|lisbon|lisboa|porto|ireland|dublin|cork|uk|united kingdom|england|scotland|wales|london|manchester|edinburgh|glasgow|bristol|cambridge, uk|oxford|leeds|birmingham|poland|warsaw|warszawa|krak[oó]w|krakow|wroc[lł]aw|gda[nń]sk|pozna[nń]|france|paris|lyon|marseille|toulouse|bordeaux|nantes|lille|italy|italia|milan|milano|rome|roma|turin|torino|bologna|naples|napoli|sweden|stockholm|gothenburg|g[oö]teborg|malm[oö]|denmark|copenhagen|k[oø]benhavn|aarhus|austria|vienna|wien|graz|switzerland|zurich|z[uü]rich|geneva|gen[eè]ve|basel|lausanne|belgium|brussels|bruxelles|antwerp|ghent|gent|leuven|czech|czechia|prague|praha|brno|romania|bucharest|bucure[sș]ti|cluj|timi[sș]oara|bulgaria|sofia|plovdiv|greece|athens|thessaloniki|hungary|budapest|estonia|tallinn|tartu|latvia|riga|lithuania|vilnius|kaunas|croatia|zagreb|split|slovakia|bratislava|slovenia|ljubljana|finland|helsinki|espoo|tampere|norway|oslo|bergen|trondheim|luxembourg|malta|cyprus|nicosia|iceland|reykjav[ií]k|serbia|belgrade|beograd|novi sad)\b/i;
 // Only the location field may claim worldwide eligibility. Tested against
 // location+description at first, which meant a company blurb was enough: one
 // company's "enabling sustainable growth for businesses worldwide" handed its
@@ -747,25 +758,32 @@ for (const item of $input.all()) {
   const loc = j.location || '';
   const desc = j.description || '';
 
-  // Gate 1: must be a product-management title.
-  const isLead = TITLE_LEAD.some((t) => title.includes(t));
-  const isSenior = TITLE_SENIOR.some((t) => title.includes(t));
+  // Gate 1: must match one of the three CV tracks (architect / AI architect / EM).
+  // Seniority words like "staff" must NOT open the gate on their own — otherwise
+  // "Staff Software Engineer" would score as a lead target role.
   const isAi = TITLE_AI.some((t) => title.includes(t));
   const isPlatform = TITLE_PLATFORM.some((t) => title.includes(t));
-  const isPm = isLead || isSenior || isAi || isPlatform
+  const isTarget = TITLE_LEAD.some((t) => title.includes(t))
+    || TITLE_SENIOR.some((t) => title.includes(t))
+    || isAi || isPlatform
     || TITLE_BASE.some((t) => title.includes(t));
-  if (!isPm) continue;
+  if (!isTarget) continue;
 
-  // Gate 2: PM-shaped but wrong track.
+  // Gate 2: right-shaped but wrong track.
   if (TITLE_BLOCK.some(([re]) => re.test(title))) continue;
+
+  const isLead = TITLE_LEAD.some((t) => title.includes(t))
+    || /\b(staff|principal|distinguished|fellow|head of|director of|vp of|\bvp\b|chief)\b/.test(title);
+  const isSenior = TITLE_SENIOR.some((t) => title.includes(t))
+    || /\b(senior|sr\.?)\b/.test(title);
 
   let score = 0;
   const reasons = [];
 
-  // Seniority. Tune to your level: for a 10+ year candidate a plain PM role is a step down.
+  // Seniority. A plain match on any of the three tracks is a step toward the target.
   if (isLead) { score += 28; reasons.push('lead/staff title'); }
   else if (isSenior) { score += 24; reasons.push('senior title'); }
-  else { score += 12; reasons.push('PM title'); }
+  else { score += 12; reasons.push('target title'); }
 
   if (isAi) { score += 6; reasons.push('AI role'); }
   if (isPlatform) { score += 5; reasons.push('platform role'); }
@@ -825,14 +843,18 @@ for (const item of $input.all()) {
     reasons.push(AGGREGATOR ? 'worldwide (unverified)' : 'worldwide');
   } else if (euRemote) { score += 16; reasons.push('remote EU/EMEA'); }
   else if (EU_WORD.test(loc)) { score += 9; reasons.push('EU location'); }
-  else if (isRemote && !usOnly) { score += 7; reasons.push('remote'); }
+  else if (isRemote) { score += 7; reasons.push('remote'); }
 
-  if (usOnly) { score -= 32; reasons.push('-US-only'); }
+  if (usOnly && isRemote) {
+    // CVs say open to fully remote worldwide with 4–6h US-Eastern overlap.
+    // Remote-US is takeable; onsite/hybrid US is not.
+    score -= 8; reasons.push('-US-remote');
+  } else if (usOnly) { score -= 32; reasons.push('-US-only'); }
   else if (usHint) { score -= 20; reasons.push('-likely US-only'); }
 
   // A role that names Spain is worth more than a generic EU one: no visa friction,
   // no relocation conversation, no employment-structure question.
-  if (/\bspain\b|madrid|barcelona|m[aá]laga|granada|valencia/i.test(loc)) {
+  if (/\bspain\b|madrid|barcelona|m[aá]laga|granada|valencia|salou|tarragona|catalu[nñ]a|catalonia|reus/i.test(loc)) {
     score += 7; reasons.push('Spain-eligible');
   }
   if (/\bhybrid\b/i.test(loc)) { score -= 10; reasons.push('-hybrid'); }
@@ -935,7 +957,7 @@ const LOC_TAG = new RegExp([
   'hungary|estonia|latvia|lithuania|croatia|serbia|slovakia|slovenia|turkey',
   'united kingdom|england|scotland|wales|\\buk\\b|\\bus\\b|\\busa\\b',
   'united states|canada|israel|singapore|india|brazil|mexico|japan|australia',
-  'madrid|barcelona|valencia|malaga|warsaw|krakow|berlin|munich|hamburg|cologne',
+  'madrid|barcelona|valencia|malaga|salou|tarragona|warsaw|krakow|berlin|munich|hamburg|cologne',
   'frankfurt|paris|london|manchester|dublin|amsterdam|utrecht|rotterdam|lisbon',
   'porto|milan|rome|turin|vienna|zurich|geneva|stockholm|copenhagen|oslo',
   'helsinki|prague|budapest|bucharest|athens|sofia|tallinn|riga|vilnius|zagreb',
@@ -1218,7 +1240,7 @@ connections = {
 
 workflow = {
     "id": "jobsradar0000001",
-    "name": "Jobs Radar — PM/AI roles → Telegram",
+    "name": "Jobs Radar — Solution/Platform Architect → Telegram",
     "active": False,
     "nodes": nodes,
     "connections": connections,
@@ -1228,5 +1250,5 @@ workflow = {
 }
 
 out = pathlib.Path(__file__).with_name("jobs-radar.workflow.json")
-out.write_text(json.dumps(workflow, indent=2, ensure_ascii=False))
+out.write_text(json.dumps(workflow, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"wrote {out} ({out.stat().st_size} bytes, {len(nodes)} nodes)")

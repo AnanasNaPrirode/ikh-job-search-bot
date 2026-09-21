@@ -61,7 +61,7 @@ const shortlist = scored
   })
   .map((j) => ({ ...j, applied: j.history === 'applied' || j.history === 'closed' }));
 
-console.log(`\n${normalized.length} postings -> ${scored.length} PM-titled -> ${shortlist.length} EU-eligible roles (country clones collapsed; [APPLIED BEFORE] = already in your applied/closed lists)\n`);
+console.log(`\n${normalized.length} postings -> ${scored.length} architect-titled -> ${shortlist.length} EU-eligible roles (country clones collapsed; [APPLIED BEFORE] = already in your applied/closed lists)\n`);
 for (const j of shortlist.slice(0, 30)) {
   console.log(`${String(j.score).padStart(3)} | ${j.company}${j.applied ? ' [APPLIED BEFORE]' : ''} | ${j.title}`);
   console.log(`      ${j.location}  ·  ${j.reasons.join(' · ')}`);

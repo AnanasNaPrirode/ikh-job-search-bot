@@ -92,7 +92,7 @@ const normalized = run(code('Normalize Jobs'), {
   $: (n) => ({ all: () => (n === 'Build Source List' ? sources : []) }),
 });
 const scored = run(code('Score vs Profile'), { $input: { all: () => normalized } });
-console.log(`${normalized.length} postings -> ${scored.length} PM-titled`);
+console.log(`${normalized.length} postings -> ${scored.length} architect-titled`);
 
 // Per-board yield: normalize one source at a time so a board that parses to
 // nothing is distinguishable from a board that simply has no openings.
@@ -116,7 +116,7 @@ for (const k of Object.keys(store.seen)) {
 // multi-country employer can spend the whole run. The kept variant is the one the
 // configured profile can actually take; the others are named in the message.
 const collapsed = run(code('Collapse Role Clones'), { $input: { all: () => scored } });
-console.log(`PM-titled: ${scored.length} -> ${collapsed.length} distinct roles after collapsing clones`);
+console.log(`architect-titled: ${scored.length} -> ${collapsed.length} distinct roles after collapsing clones`);
 
 const fresh = [];
 let suppressed = 0;
@@ -202,7 +202,7 @@ const status = {
     down: down.length,
     liveButEmpty: empty.length,
     postings: normalized.length,
-    pmTitled: scored.length,
+    archTitled: scored.length,
     aboveThreshold: fresh.length,
     threshold: THRESHOLD,
   },
@@ -219,7 +219,7 @@ const md = [
   `Generated ${stamp} by \`radar.mjs\` — do not edit, it is overwritten every run.`,
   '',
   `**${badge.toUpperCase()}** · ${ok}/${health.length} boards responding (${pct}) · `
-    + `${normalized.length} postings → ${scored.length} PM-titled → ${fresh.length} above ${THRESHOLD}`,
+    + `${normalized.length} postings → ${scored.length} architect-titled → ${fresh.length} above ${THRESHOLD}`,
   '',
   '## Down',
   '',

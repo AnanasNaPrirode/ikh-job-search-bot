@@ -1,28 +1,12 @@
 # Jobs Radar
 
-Scans 119 public job boards every 4 hours, scores each posting against a profile you
-configure, and pushes anything relevant to Telegram. Self-hosted, no API keys, no paid
-services — GitHub Actions is the only runtime it needs.
+Scans 119 public job boards every 4 hours, scores each posting against **Ivan
+Khakharev's** three CV tracks (Solution Architect, AI Solutions Architect,
+Engineering Manager), and pushes anything relevant to Telegram. Based in Salou,
+Spain; open to fully remote worldwide. GitHub Actions is the only runtime it needs.
 
-## This is a template — you have to build your own version
-
-Cloning this and pressing run will get you somebody else's shortlist. Two things are
-yours to create before it is useful:
-
-**1. Your own flow.** `jobs-radar.workflow.json` is an n8n workflow export. Import it into
-your own n8n instance (`http://localhost:5678` in Docker is enough) and it becomes an
-editable flow you own — or skip n8n entirely and run `radar.mjs`, which executes the exact
-same Code-node scripts from that same JSON file. Either way the workflow is yours to
-change: sources, schedule, threshold, delivery channel.
-
-**2. Your own filters, derived from your own CV.** The scoring node shipped here encodes
-one candidate's search — senior/lead product management, B2B SaaS and AI products, EU-based,
-with penalties for on-site work and for languages that candidate does not speak. **None of
-that is logic; all of it is configuration**, and none of it fits you.
-
-Sit down with your CV and rewrite it against what you actually have and actually want:
-
-- the **titles** at, above and below your level (`TITLE_LEAD`, `TITLE_SENIOR`, `TITLE_BASE`)
+The scoring profile is in `build_workflow.py`. After editing it, run
+`python build_workflow.py` so `jobs-radar.workflow.json` stays in sync.
 - the **topics** worth weighting in a job title (`TITLE_AI`, `TITLE_PLATFORM`, `TITLE_KW`)
 - the **description keywords** that map to real evidence you can point at in an interview —
   not everything you find interesting (`KW`)

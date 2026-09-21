@@ -1,6 +1,19 @@
 # Setup
 
-Five steps. No paid services, no API keys beyond a Telegram bot.
+This fork is scored for **Ivan Khakharev** across three CV tracks:
+
+- Solution Architect (platform & integration)
+- AI Solutions Architect (agent workflows, RAG, automation)
+- Engineering Manager / Technical Lead
+
+based in Salou, Spain, open to fully remote worldwide. The profile lives in `build_workflow.py`. Rebuild after edits:
+
+```bash
+python build_workflow.py
+node test_scoring.mjs
+```
+
+Five steps to get alerts. No paid services, no API keys beyond a Telegram bot.
 
 ## 1. Make it yours
 

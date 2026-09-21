@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 radar-health.html
 __pycache__/
+_cv_extract/
+_extract_cvs.py
