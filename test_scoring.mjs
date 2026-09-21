@@ -24,6 +24,22 @@ check('Salesforce Architect is blocked as the wrong architect track',
 const em = one({title:'Engineering Manager', description:'Lead a cross-functional engineering team, Kanban delivery and mentoring.'});
 check('Engineering Manager titles score', !!em && em.score > 0, String(em && em.score));
 check('Engineering Manager title is named', em && em.reasons.includes('engineering manager in title'), em && em.reasons.join(' · '));
+check('Head of Engineering is dropped as too senior for the EM track',
+  one({title:'Head of Engineering', description:'Lead the engineering organisation.'}) === null);
+check('Director of Engineering is dropped as too senior for the EM track',
+  one({title:'Director of Engineering', description:'Set engineering strategy for the org.'}) === null);
+check('VP of Engineering is dropped as too senior for the EM track',
+  one({title:'VP of Engineering', description:'Own the engineering organisation.'}) === null);
+check('Head of Architecture is dropped as too senior for the SA band',
+  one({title:'Head of Architecture', description:'Own the architecture organisation.'}) === null);
+check('Director of Architecture is dropped as too senior for the SA band',
+  one({title:'Director of Architecture', description:'Set architecture strategy for the org.'}) === null);
+check('Chief Architect is dropped as too senior for the SA band',
+  one({title:'Chief Architect', description:'Own technical architecture for the company.'}) === null);
+check('Principal Architect is dropped as too senior for the SA band',
+  one({title:'Principal Architect', description:'Set architecture direction across teams.'}) === null);
+check('Staff Architect is dropped as too senior for the SA band',
+  one({title:'Staff Architect', description:'Lead architecture for a product area.'}) === null);
 
 const tl = one({title:'Technical Lead', description:'Own system design and integration architecture for the platform.'});
 check('Technical Lead titles score', !!tl && tl.score > 0, String(tl && tl.score));

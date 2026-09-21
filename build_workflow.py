@@ -580,13 +580,8 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 // weakly and capped — otherwise everything saturates at 100.
 
 const TITLE_LEAD = [
-  'staff architect', 'principal architect', 'lead architect',
-  'lead solution architect', 'lead platform architect', 'lead integration architect',
-  'head of architecture', 'director of architecture', 'director, architecture',
-  'vp architecture', 'vp of architecture', 'chief architect', 'distinguished architect',
-  'architecture lead', 'head of platform architecture',
-  'head of engineering', 'director of engineering', 'vp of engineering', 'vp engineering',
-  'engineering director', 'group engineering manager', 'senior director of engineering',
+  'lead architect', 'lead solution architect', 'lead platform architect',
+  'lead integration architect',
 ];
 const TITLE_SENIOR = [
   'senior solution architect', 'senior platform architect', 'senior integration architect',
@@ -699,6 +694,12 @@ const TITLE_BLOCK = [
   [/\bdesigner\b|data scientist/i, 'design/DS'],
   [/product analyst|data analyst|business analyst|analytics engineer|system analyst/i, 'analyst'],
   [/salesforce architect|sap architect|servicenow architect|network architect|landscape architect/i, 'wrong architect'],
+  // EM track stops at manager / tech lead — head/director/VP of engineering is a
+  // level above the CV, not a stretch title.
+  [/head of .{0,24}engineering|director of .{0,24}engineering|engineering director|vp .{0,12}engineering|svp .{0,12}engineering/i, 'too-senior EM'],
+  // Architect track is Solution Architect at the start–middle of the band.
+  // Head/Director/VP/Chief/Principal/Staff would bounce at interview.
+  [/head of .{0,24}architecture|director.{0,16}architecture|architecture director|vp .{0,12}architecture|chief architect|distinguished architect|fellow architect|(staff|principal) .{0,24}architect/i, 'too-senior arch'],
 ];
 
 // Location vocabulary. Both lists used to be country-level while most boards write a

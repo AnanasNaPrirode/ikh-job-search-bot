@@ -1,12 +1,9 @@
 name: Jobs Radar
 
 on:
-  # The schedule is commented out on purpose: this is a template, and a scheduled
-  # run without TELEGRAM_TOKEN / TELEGRAM_CHAT_ID set would fail every 4 hours.
-  # Add your secrets (see SETUP.md), then uncomment.
-  # schedule:
-  #   # Every 4 hours. GitHub cron is UTC and can lag a few minutes under load.
-  #   - cron: '0 */4 * * *'
+  # Every 4 hours. GitHub cron is UTC and can lag a few minutes under load.
+  schedule:
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

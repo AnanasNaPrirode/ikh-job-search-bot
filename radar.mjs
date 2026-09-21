@@ -30,6 +30,19 @@ if (!DRY && (!TOKEN || !CHAT)) {
   process.exit(1);
 }
 
+const telegram = async (text) => {
+  const r = await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ chat_id: CHAT, text, disable_web_page_preview: false }),
+  });
+  if (!r.ok) {
+    console.error(`telegram ${r.status}: ${(await r.text()).slice(0, 200)}`);
+    return false;
+  }
+  return true;
+};
+
 const code = (name) => {
   const node = WF.nodes.find((n) => n.name === name);
   if (!node) throw new Error(`node not found: ${name}`);
@@ -47,6 +60,12 @@ if (fs.existsSync(SEEN_FILE)) {
 }
 store.seen = store.seen || {};
 const seenBefore = Object.keys(store.seen).length;
+
+if (!DRY && seenBefore === 0) {
+  await telegram(
+    'Jobs Radar is live. Scanning boards for Solution Architect, AI Solutions Architect and Engineering Manager roles…',
+  );
+}
 
 // ---- 1. sources ------------------------------------------------------------
 const sources = run(code('Build Source List'), {});
@@ -159,13 +178,9 @@ for (const j of batch) {
   if (DRY) {
     console.log('---\n' + text);
   } else {
-    const r = await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ chat_id: CHAT, text, disable_web_page_preview: false }),
-    });
-    if (!r.ok) {
-      console.error(`telegram ${r.status} for ${j.title}: ${(await r.text()).slice(0, 200)}`);
+    const okSend = await telegram(text);
+    if (!okSend) {
+      console.error(`telegram failed for ${j.title}`);
       continue; // do not mark as seen, so it retries next run
     }
     await new Promise((res) => setTimeout(res, 1200));
@@ -174,6 +189,12 @@ for (const j of batch) {
   // Retire the sibling clones with it, so the other locations of the same role do
   // not arrive next run looking new.
   for (const u of j.cloneUrls || []) store.seen[u] = now;
+}
+
+if (!DRY && seenBefore === 0 && batch.length === 0) {
+  await telegram(
+    `First scan finished: ${normalized.length} postings → ${scored.length} matching titles → 0 above ${THRESHOLD}. Next run in 4 hours.`,
+  );
 }
 
 // ---- 6. persist ------------------------------------------------------------
