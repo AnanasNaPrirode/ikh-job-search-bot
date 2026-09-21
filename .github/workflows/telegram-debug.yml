@@ -1,0 +1,51 @@
+name: Telegram debug
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check bot token and list chat ids
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: |
+          set -euo pipefail
+          TOKEN="${TELEGRAM_TOKEN#"${TELEGRAM_TOKEN%%[![:space:]]*}"}"
+          TOKEN="${TOKEN%"${TOKEN##*[![:space:]]}"}"
+          TOKEN="${TOKEN#bot}"
+          if [ -z "$TOKEN" ]; then
+            echo "TELEGRAM_TOKEN secret is empty"
+            exit 1
+          fi
+          if [[ "$TOKEN" != *:* ]]; then
+            echo "TELEGRAM_TOKEN does not look like a BotFather token (expected digits:secret)"
+            exit 1
+          fi
+          echo "token length: ${#TOKEN}"
+          echo "--- getMe ---"
+          curl -sS "https://api.telegram.org/bot${TOKEN}/getMe"
+          echo
+          echo "--- chat ids from getUpdates ---"
+          curl -sS "https://api.telegram.org/bot${TOKEN}/getUpdates" \
+            | python3 -c '
+          import json,sys
+          data=json.load(sys.stdin)
+          print("ok:", data.get("ok"), "error:", data.get("description",""))
+          results=data.get("result") or []
+          print("updates:", len(results))
+          ids=set()
+          for u in results:
+            for key in ("message","edited_message","my_chat_member","channel_post"):
+              obj=u.get(key) or {}
+              chat=(obj.get("chat") or {})
+              if chat.get("id") is not None:
+                ids.add((chat.get("id"), chat.get("type"), chat.get("username"), chat.get("title") or chat.get("first_name")))
+          if not ids:
+            print("NO_CHAT_IDS")
+            print("Open https://t.me/AnanasNaPrirode_job_search_bot , press Start, send any message, then re-run this workflow.")
+          else:
+            for i,typ,user,name in sorted(ids):
+              print(f"CHAT_ID={i} type={typ} username={user} name={name}")
+          '
