@@ -482,6 +482,227 @@
         "+1 other location"
       ],
       "url": "https://job-boards.greenhouse.io/monzo/jobs/6945371"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Engineering Manager ERP (f/m/x)",
+      "company": "Enpal",
+      "location": "Berlin",
+      "score": 78,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "integrations",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "EU location",
+        "daily AI tooling",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-erp-berlin-142699"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Business Analytics Architect",
+      "company": "Muckrack",
+      "location": "Remote (Ireland",
+      "score": 68,
+      "reasons": [
+        "target title",
+        "integrations",
+        "Python/FastAPI",
+        "data modeling",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "ELT pipelines",
+        "remote EU/EMEA",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-business-analytics-architect-122610"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Engineering Manager, AI Models Infrastructure",
+      "company": "intercom",
+      "location": "Dublin, Ireland",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "AI in title",
+        "retail/martech",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location",
+        "-stale 160d",
+        "+2 other locations"
+      ],
+      "url": "https://job-boards.greenhouse.io/intercom/jobs/7818585"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Systems Engineering Manager",
+      "company": "modal",
+      "location": "Stockholm",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "agents",
+        "eng management",
+        "EU location",
+        "-stale 126d",
+        "daily AI tooling",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/modal/b16126e4-cf92-4db9-955e-0da6eec0574d"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Engineering Manager",
+      "company": "instabee",
+      "location": "Stockholm, SE",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://instabee.teamtailor.com/jobs/8394943-engineering-manager"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Engineering Manager, Dedicated Integrations Team",
+      "company": "gitlab",
+      "location": "Bangalore, India",
+      "score": 48,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management"
+      ],
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8725225002"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Senior Information Security Infrastructure Engineer - Security Architecture - InfoSec",
+      "company": "elastic",
+      "location": "Spain",
+      "score": 48,
+      "reasons": [
+        "senior title",
+        "REST",
+        "Python/FastAPI",
+        "agents",
+        "ELT pipelines",
+        "EU location",
+        "Spain-eligible",
+        "+5 other locations"
+      ],
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8088013&gh_jid=8088013"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Tech Lead, Agent Framework - Observability",
+      "company": "elastic",
+      "location": "Spain",
+      "score": 48,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "agents in title",
+        "system design",
+        "analysis",
+        "agents",
+        "EU location",
+        "Spain-eligible",
+        "-stale 67d",
+        "+3 other locations"
+      ],
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8059920&gh_jid=8059920"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Technical Lead Manager",
+      "company": "mongodb",
+      "location": "Cork, Ireland",
+      "score": 48,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "remote EU/EMEA",
+        "-stale 78d",
+        "AI-native team",
+        "+1 other location"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8045345"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Engineering Manager, Safeguards",
+      "company": "anthropic",
+      "location": "London, UK",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management"
+      ],
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5410610008"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Engineering Manager",
+      "company": "supabase",
+      "location": "Remote, Global",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "worldwide",
+        "-stale 92d"
+      ],
+      "url": "https://jobs.ashbyhq.com/supabase/99a80436-89ec-412b-b782-1dd462bd16dc"
+    },
+    {
+      "sentAt": "2026-09-22T19:40:43.073Z",
+      "title": "Toptal: Power Platform Solutions Architect for Global Pharmaceutical Company",
+      "company": "WeWorkRemotely",
+      "location": "North America Only",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "platform in title",
+        "integration architecture"
+      ],
+      "url": "https://weworkremotely.com/remote-jobs/toptal-power-platform-solutions-architect-for-global-pharmaceutical-company"
     }
   ]
 }
