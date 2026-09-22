@@ -29,7 +29,7 @@ Everything from `TITLE_LEAD` down to the language penalties is configuration:
 | `TITLE_AI`, `TITLE_PLATFORM`, `TITLE_KW` | the topics you want weighted in the title |
 | `KW` | description keywords that map to real evidence on your CV |
 | `TITLE_BLOCK` | title shapes to reject outright (junior, engineering, sales…) |
-| `EU_WORD`, the Spain bonus, `-hybrid` / `-onsite` penalties | your geography and work-arrangement preferences |
+| `EU_WORD`, `UK_WORD`, the Spain bonus, `-hybrid` / `-onsite` penalties | your geography and work-arrangement preferences |
 | the language gates | languages you do **not** work in |
 
 Ship the defaults and you will get one particular person's shortlist. That is the
@@ -59,9 +59,9 @@ DRY_RUN=1 node radar.mjs          # score and print locally, send nothing
 gh workflow run radar.yml -f dry_run=true
 ```
 
-The scheduled workflow runs every 4 hours and commits `seen.json`, `status.json`
-and `STATUS.md` back to the repo, so dedup state and board health are readable
-without opening a log.
+The scheduled workflow runs every 4 hours and commits `seen.json`, `sent.json`,
+`status.json` and `STATUS.md` back to the repo, so dedup state, what was actually
+sent, and board health are readable without opening a log.
 
 ## Ad-hoc shortlist
 

@@ -46,7 +46,29 @@ check('Technical Lead titles score', !!tl && tl.score > 0, String(tl && tl.score
 
 const staffEm = one({title:'Staff Engineering Manager', description:'Lead delivery for a 10-person engineering team.'});
 check('Staff Engineering Manager is scored as lead',
-  staffEm && staffEm.reasons.includes('lead/staff title'), staffEm && staffEm.reasons.join(' · '));
+  staffEm && staffEm.reasons.includes('lead title'), staffEm && staffEm.reasons.join(' · '));
+
+const sa = one({title:'Solution Architect', description:'Own the architecture.'});
+const seniorSa = one({title:'Senior Solution Architect', description:'Own the architecture.'});
+check('seniority does not change the title-match points',
+  sa && seniorSa && sa.score === seniorSa.score,
+  `${sa && sa.score} vs ${seniorSa && seniorSa.score}`);
+check('plain SA is labelled target title', sa && sa.reasons.includes('target title'), sa && sa.reasons.join(' · '));
+check('senior SA is labelled senior title',
+  seniorSa && seniorSa.reasons.includes('senior title'), seniorSa && seniorSa.reasons.join(' · '));
+
+const berlinEmpty = one({title:'Solution Architect', location:'Berlin', description:''});
+check('empty-description SA in Berlin scores 44 and clears the threshold',
+  berlinEmpty && berlinEmpty.score === 44,
+  String(berlinEmpty && berlinEmpty.score));
+
+const emMadrid = one({title:'Engineering Manager', location:'Madrid',
+  description:'Lead a cross-functional engineering team, Kanban delivery and mentoring.'});
+const seniorEm = one({title:'Senior Engineering Manager', location:'Madrid',
+  description:'Lead a cross-functional engineering team, Kanban delivery and mentoring.'});
+check('Senior EM is penalised relative to EM',
+  seniorEm && emMadrid && seniorEm.reasons.includes('-senior EM') && seniorEm.score < emMadrid.score,
+  `${seniorEm && seniorEm.score} vs ${emMadrid && emMadrid.score} — ${seniorEm && seniorEm.reasons.join(' · ')}`);
 
 // Baseline: a generic senior solution architect role in Spain, no scarce signal.
 const base = one({title:TITLE, description:'You will own the architecture for our B2B SaaS product.'});
@@ -210,6 +232,66 @@ check('history never leaks into reasons',
   !known.reasons.join(' ').match(/applied|closed/), known.reasons.join(' · '));
 check('history does not change the score',
   known.score === unknown.score, `${known.score} vs ${unknown.score}`);
+
+// ---------------------------------------------------------------- UK is not EU
+
+const london = one({title:TITLE, location:'London', description:'Own the architecture.'});
+check('London is not an EU location',
+  !london.reasons.includes('EU location') && !london.reasons.includes('remote EU/EMEA'),
+  london.reasons.join(' · '));
+check('UK without sponsorship is penalised',
+  london.reasons.includes('-UK, no sponsorship'), london.reasons.join(' · '));
+
+const londonSponsor = one({title:TITLE, location:'London, United Kingdom',
+  description:'Own the architecture. Visa sponsorship is available for this role.'});
+check('UK with visa sponsorship is not penalised',
+  !londonSponsor.reasons.includes('-UK, no sponsorship'), londonSponsor.reasons.join(' · '));
+check('UK still does not earn the EU bonus even with sponsorship',
+  !londonSponsor.reasons.includes('EU location'), londonSponsor.reasons.join(' · '));
+
+const ukRemote = one({title:TITLE, location:'Remote within the UK',
+  description:'This role is remote within the UK.'});
+check('Remote-UK without sponsorship is penalised and is not EU-remote',
+  ukRemote.reasons.includes('-UK, no sponsorship') && !ukRemote.reasons.includes('remote EU/EMEA'),
+  ukRemote.reasons.join(' · '));
+
+const londonBerlin = one({title:TITLE, location:'London or Berlin', description:'Own the architecture.'});
+check('London or Berlin is not UK-penalised because an EU option exists',
+  !londonBerlin.reasons.includes('-UK, no sponsorship') && londonBerlin.reasons.includes('EU location'),
+  londonBerlin.reasons.join(' · '));
+
+const dublin = one({title:TITLE, location:'Dublin', description:'Own the architecture.'});
+check('Ireland stays in the EU list',
+  dublin.reasons.includes('EU location') && !dublin.reasons.includes('-UK, no sponsorship'),
+  dublin.reasons.join(' · '));
+
+// ---------------------------------------------------------- customer-facing
+
+const internal = one({title:TITLE, location:'Madrid',
+  description:'Own the architecture for our B2B SaaS product.'});
+check('an internal architecture JD is not tagged customer-facing',
+  !internal.reasons.includes('-customer-facing'), internal.reasons.join(' · '));
+
+const presales = one({title:TITLE, location:'Madrid',
+  description:'Own the architecture for our B2B SaaS product. Partner with account executives as the primary technical advisor to enterprise customers. Pre-sales.'});
+check('pre-sales is penalised as customer-facing',
+  presales.reasons.includes('-customer-facing') && presales.score === internal.score - 30,
+  `${presales.score} vs ${internal.score} — ${presales.reasons.join(' · ')}`);
+check('pre-sales falls below the threshold',
+  presales.score < 40, String(presales.score));
+
+const postsales = one({title:TITLE, location:'Madrid',
+  description:'Own the architecture for our B2B SaaS product. Post-sales implementation: scope and design end-to-end deployments at the customer.'});
+check('post-sales is penalised the same way, not labelled only',
+  postsales.reasons.includes('-customer-facing') && postsales.score === internal.score - 30,
+  `${postsales.score} vs ${internal.score} — ${postsales.reasons.join(' · ')}`);
+
+for (const t of ['Applied AI Architect', 'Partner Architect', 'Implementation Architect', 'Forward Deployed Architect']) {
+  const r = one({title:t, location:'Madrid', description:'Own the architecture for our B2B SaaS product.'});
+  check(`"${t}" is penalised as customer-facing by title`,
+    r && r.reasons.includes('-customer-facing') && r.score < 40,
+    r ? `${r.score} — ${r.reasons.join(' · ')}` : 'dropped by title gate');
+}
 
 console.log(fail? `\n${fail} FAILURE(S)` : '\nall checks passed');
 process.exit(fail?1:0);

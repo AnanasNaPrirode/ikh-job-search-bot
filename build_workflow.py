@@ -573,7 +573,12 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 // Lives in Salou, Spain (EU residence). English C1, Spanish A1.
 // Open to fully remote worldwide with 4–6h overlap with US Eastern;
 // US *onsite/hybrid* stays a hard penalty, US *remote* is a mild one.
+// No UK work rights (yet): London is not the EU, and a UK-locked role without
+// visa sponsorship is a penalty. Drop that check if Global Talent lands.
 // PM and analyst titles are the wrong track, not a fallback.
+// Customer-facing is out of scope for now (all three CVs are internal
+// architecture). Penalty, not a label: −30 is enough to push a generic Spain
+// SA below the threshold. Drop the block if a customer-facing CV is written.
 //
 // Design note: signal lives in the TITLE and the LOCATION field. Almost every
 // tech job description name-drops "AI", so description keywords are scored
@@ -723,7 +728,12 @@ const US_WORD = /\b(u\.?s\.?a?\.?|united states)\b/i;
 // and usOnly requires !EU_WORD anyway, so an EU city that shares a US name (Berlin
 // CT, Paris TX) is still protected by EU_WORD winning first.
 const US_CITY = /\b(san francisco|new york|nyc\b|palo alto|mountain view|san jose|san mateo|sunnyvale|santa clara|seattle|bellevue|austin|chicago|boston|cambridge, ma|denver|boulder|atlanta|dallas|houston|miami|philadelphia|phoenix|portland, or|san diego|los angeles|\bla\b(?! ?paz)|minneapolis|detroit|pittsburgh|nashville|charlotte|raleigh|durham|salt lake city|las vegas|kansas city|st\.? louis|columbus, oh|arlington|bethesda|reston|mclean|redmond|sacramento)\b/i;
-const EU_WORD = /\b(emea|europe|european|spain|madrid|barcelona|valencia|m[aá]laga|granada|sevilla|bilbao|salou|tarragona|catalu[nñ]a|catalonia|reus|germany|berlin|munich|m[uü]nchen|hamburg|cologne|k[oö]ln|frankfurt|stuttgart|d[uü]sseldorf|mannheim|karlsruhe|leipzig|dresden|g[oö]ttingen|heidelberg|netherlands|amsterdam|utrecht|rotterdam|eindhoven|the hague|den haag|portugal|lisbon|lisboa|porto|ireland|dublin|cork|uk|united kingdom|england|scotland|wales|london|manchester|edinburgh|glasgow|bristol|cambridge, uk|oxford|leeds|birmingham|poland|warsaw|warszawa|krak[oó]w|krakow|wroc[lł]aw|gda[nń]sk|pozna[nń]|france|paris|lyon|marseille|toulouse|bordeaux|nantes|lille|italy|italia|milan|milano|rome|roma|turin|torino|bologna|naples|napoli|sweden|stockholm|gothenburg|g[oö]teborg|malm[oö]|denmark|copenhagen|k[oø]benhavn|aarhus|austria|vienna|wien|graz|switzerland|zurich|z[uü]rich|geneva|gen[eè]ve|basel|lausanne|belgium|brussels|bruxelles|antwerp|ghent|gent|leuven|czech|czechia|prague|praha|brno|romania|bucharest|bucure[sș]ti|cluj|timi[sș]oara|bulgaria|sofia|plovdiv|greece|athens|thessaloniki|hungary|budapest|estonia|tallinn|tartu|latvia|riga|lithuania|vilnius|kaunas|croatia|zagreb|split|slovakia|bratislava|slovenia|ljubljana|finland|helsinki|espoo|tampere|norway|oslo|bergen|trondheim|luxembourg|malta|cyprus|nicosia|iceland|reykjav[ií]k|serbia|belgrade|beograd|novi sad)\b/i;
+// UK is not the EU. EU residence does not grant UK work rights, so london / uk /
+// manchester must not earn the +9 EU bonus. Ireland (dublin, cork) stays: that
+// *is* the EU. Re-add the UK cities here if a UK visa route is in hand.
+const EU_WORD = /\b(emea|europe|european|spain|madrid|barcelona|valencia|m[aá]laga|granada|sevilla|bilbao|salou|tarragona|catalu[nñ]a|catalonia|reus|germany|berlin|munich|m[uü]nchen|hamburg|cologne|k[oö]ln|frankfurt|stuttgart|d[uü]sseldorf|mannheim|karlsruhe|leipzig|dresden|g[oö]ttingen|heidelberg|netherlands|amsterdam|utrecht|rotterdam|eindhoven|the hague|den haag|portugal|lisbon|lisboa|porto|ireland|dublin|cork|poland|warsaw|warszawa|krak[oó]w|krakow|wroc[lł]aw|gda[nń]sk|pozna[nń]|france|paris|lyon|marseille|toulouse|bordeaux|nantes|lille|italy|italia|milan|milano|rome|roma|turin|torino|bologna|naples|napoli|sweden|stockholm|gothenburg|g[oö]teborg|malm[oö]|denmark|copenhagen|k[oø]benhavn|aarhus|austria|vienna|wien|graz|switzerland|zurich|z[uü]rich|geneva|gen[eè]ve|basel|lausanne|belgium|brussels|bruxelles|antwerp|ghent|gent|leuven|czech|czechia|prague|praha|brno|romania|bucharest|bucure[sș]ti|cluj|timi[sș]oara|bulgaria|sofia|plovdiv|greece|athens|thessaloniki|hungary|budapest|estonia|tallinn|tartu|latvia|riga|lithuania|vilnius|kaunas|croatia|zagreb|split|slovakia|bratislava|slovenia|ljubljana|finland|helsinki|espoo|tampere|norway|oslo|bergen|trondheim|luxembourg|malta|cyprus|nicosia|iceland|reykjav[ií]k|serbia|belgrade|beograd|novi sad)\b/i;
+const UK_WORD = /\b(uk|united kingdom|england|scotland|wales|london|manchester|edinburgh|glasgow|bristol|cambridge, uk|oxford|leeds|birmingham)\b/i;
+const UK_SPONSOR = /visa sponsorship (is )?(available|provided|offered)|we (can|will|do) sponsor|sponsorship available/i;
 // Only the location field may claim worldwide eligibility. Tested against
 // location+description at first, which meant a company blurb was enough: one
 // company's "enabling sustainable growth for businesses worldwide" handed its
@@ -781,10 +791,15 @@ for (const item of $input.all()) {
   let score = 0;
   const reasons = [];
 
-  // Seniority. A plain match on any of the three tracks is a step toward the target.
-  if (isLead) { score += 28; reasons.push('lead/staff title'); }
-  else if (isSenior) { score += 24; reasons.push('senior title'); }
-  else { score += 12; reasons.push('target title'); }
+  // Level is not fit. Senior used to award +24 vs +12 for the same target role,
+  // which pushed empty Senior JDs over the threshold and left a plain
+  // "Solution Architect" (the start–middle of the band the TITLE_BLOCK comment
+  // describes) two points short. Same title-match points for every target role;
+  // seniority is a label, not a score.
+  score += 18;
+  reasons.push(isLead ? 'lead title' : isSenior ? 'senior title' : 'target title');
+  // Senior EM usually means a manager of managers, a level above the CV.
+  if (isSenior && /engineering manager/.test(title)) { score -= 15; reasons.push('-senior EM'); }
 
   if (isAi) { score += 6; reasons.push('AI role'); }
   if (isPlatform) { score += 5; reasons.push('platform role'); }
@@ -861,6 +876,14 @@ for (const item of $input.all()) {
   if (/\bhybrid\b/i.test(loc)) { score -= 10; reasons.push('-hybrid'); }
   if (/\bon.?site\b/i.test(loc)) { score -= 12; reasons.push('-onsite'); }
 
+  // UK work rights are not in hand. Penalty-only, not a drop. Skip when the
+  // location also names an EU city ("London or Berlin") — there is a reachable
+  // variant. Sponsorship in the JD also lifts it. Delete this block if Global
+  // Talent or another UK route lands.
+  if (UK_WORD.test(loc) && !EU_WORD.test(loc) && !UK_SPONSOR.test(desc)) {
+    score -= 20; reasons.push('-UK, no sponsorship');
+  }
+
   // Language gates. Penalise roles run in a language you do not work in; adjust to your own.
   if (/\b(se requiere|imprescindible|espa[nñ]ol|castellano)\b/i.test(desc)) {
     score -= 25; reasons.push('-Spanish-language');
@@ -878,6 +901,24 @@ for (const item of $input.all()) {
   // most wants to avoid. A labelled role low in the list costs one glance.
   if (/medical degree|practi[sc]ing medicine|active licensure|clinical licensure|registered nurse/i.test(desc)) {
     score -= 40; reasons.push('-clinical credential required');
+  }
+
+  // Customer-facing architect is a different track from the three internal-
+  // architecture CVs. Vendor "Solutions Architect" (MongoDB, Anthropic, Grafana)
+  // is typically pre-sales; Partner / Implementation Architect is post-sales.
+  // Both are client-facing — workshops, AE pairing, quota — and both are out
+  // of scope until a fourth CV is written. −30, not a label and not a drop:
+  // that takes a generic Spain SA (51) to 21, below the threshold, while a
+  // mis-tagged internal role with real CV hits can still surface for a glance.
+  //
+  // Limit: boards that return no description (Workable, SmartRecruiters,
+  // BambooHR, often Personio) can only be caught by title. A bare
+  // "Solutions Architect" on those boards will still pass; sent.json will
+  // show how large that hole is after a week of live runs.
+  const CUSTOMER_TITLE = /applied ai architect|partner architect|field cto|forward[\s-]deployed|implementation architect/i;
+  const CUSTOMER_FACING = /pre-?sales|post-?sales|account executives?|\bquota\b|customer-facing|technical sales|partner with (our )?(sales|account)|sales cycle/i;
+  if (CUSTOMER_TITLE.test(title) || CUSTOMER_FACING.test(desc) || CUSTOMER_FACING.test(title)) {
+    score -= 30; reasons.push('-customer-facing');
   }
 
 
