@@ -236,6 +236,252 @@
         "-stale 62d"
       ],
       "url": "https://jobs.ashbyhq.com/ledger/a81b4e34-fbc5-4546-9ef7-6afdf5a35178"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Senior Technical Architect – Hybrid (Product / Platform) (m/f/d)",
+      "company": "Implico Gmbh",
+      "location": "Hamburg",
+      "score": 100,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "platform in title",
+        "event-driven",
+        "integrations",
+        "distributed systems",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack",
+        "integration architecture",
+        "agent workflow design",
+        "EU location",
+        "AI-native team",
+        "requires hands-on AI tooling",
+        "spec-driven / API-first",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-technical-architect-hybrid-product-platform-hamburg-4637"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Tech Lead - Platform",
+      "company": "Pelico",
+      "location": "Paris",
+      "score": 84,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "platform in title",
+        "integrations",
+        "agents",
+        "modern stack",
+        "agent workflow design",
+        "EU location",
+        "daily AI tooling",
+        "AI-native team",
+        "spec-driven / API-first",
+        "hands-on builder bar",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/tech-lead-platform-paris-208372"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Java Tech Lead",
+      "company": "appfire",
+      "location": "Poland",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "event-driven",
+        "distributed systems",
+        "people leadership",
+        "LLM",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "-stale 98d",
+        "daily AI tooling",
+        "+1 other location"
+      ],
+      "url": "https://job-boards.greenhouse.io/appfire/jobs/4706397005"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Software Architect - Enterprise AI",
+      "company": "twilio",
+      "location": "Remote - Canada",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "AI in title",
+        "system design",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "remote"
+      ],
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8213861"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Engineering Manager, SRE",
+      "company": "remotecom",
+      "location": "Remote-EMEA",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "people leadership",
+        "modern stack",
+        "remote EU/EMEA"
+      ],
+      "url": "https://job-boards.greenhouse.io/remotecom/jobs/7979356003"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Engineering Manager - Data Delivery Platform",
+      "company": "adyen",
+      "location": "Amsterdam",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Applied AI, Technical Lead, Forward Deployed AI Engineer",
+      "company": "Mistral.ai",
+      "location": "Munich",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "AI in title",
+        "API design",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "eng management",
+        "agent workflow design",
+        "EU location",
+        "-customer-facing",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/applied-ai-technical-lead-forward-deployed-ai-engineer-munich-480362"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Backend Software Engineering Manager (Hands-On) | MMS Users",
+      "company": "gympass",
+      "location": "Brazil (Remote)",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "data modeling",
+        "people leadership",
+        "agents",
+        "eng management",
+        "modern stack",
+        "agent workflow design",
+        "remote",
+        "-stale 50d"
+      ],
+      "url": "https://job-boards.greenhouse.io/gympass/jobs/8649635002"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Engineering Manager, App Primitives - CAN",
+      "company": "vanta",
+      "location": "Remote - Canada",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "API design",
+        "data modeling",
+        "analysis",
+        "eng management",
+        "remote"
+      ],
+      "url": "https://jobs.ashbyhq.com/vanta/38123211-8982-45af-a733-7c81eab67e84"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Engineering Manager, Agent Foundations: Agent Execution",
+      "company": "gitlab",
+      "location": "Remote, United States",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "agents in title",
+        "Python/FastAPI",
+        "people leadership",
+        "agents",
+        "eng management",
+        "modern stack",
+        "remote",
+        "-US-remote"
+      ],
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Engineering Manager",
+      "company": "tacton",
+      "location": "Stockholm, SE",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "EU location",
+        "-stale 55d",
+        "AI-native team"
+      ],
+      "url": "https://tacton.teamtailor.com/jobs/8145535-engineering-manager"
+    },
+    {
+      "sentAt": "2026-09-22T16:02:38.126Z",
+      "title": "Engineering Manager",
+      "company": "monzo",
+      "location": "Barcelona",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "Spain-eligible",
+        "-stale 418d",
+        "+1 other location"
+      ],
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/6945371"
     }
   ]
 }
