@@ -16,6 +16,7 @@ import path from 'node:path';
 const HERE = path.dirname(new URL(import.meta.url).pathname);
 const WF = JSON.parse(fs.readFileSync(path.join(HERE, 'jobs-radar.workflow.json'), 'utf8'));
 const SEEN_FILE = path.join(HERE, 'seen.json');
+const SENT_FILE = path.join(HERE, 'sent.json');
 const STATUS_JSON = path.join(HERE, 'status.json');
 const STATUS_MD = path.join(HERE, 'STATUS.md');
 
@@ -71,6 +72,16 @@ if (fs.existsSync(SEEN_FILE)) {
 }
 store.seen = store.seen || {};
 const seenBefore = Object.keys(store.seen).length;
+
+// Review log of what actually went to Telegram. seen.json is URL-only, so a
+// later scoring audit had nothing to compare against the CVs. sent.json keeps
+// title / company / location / score / reasons / url, last 500 entries,
+// committed by the same CI.
+let sentLog = { sent: [] };
+if (fs.existsSync(SENT_FILE)) {
+  try { sentLog = JSON.parse(fs.readFileSync(SENT_FILE, 'utf8')); } catch { /* start fresh */ }
+}
+if (!Array.isArray(sentLog.sent)) sentLog.sent = [];
 
 if (!DRY && seenBefore === 0) {
   await telegram(
@@ -195,6 +206,17 @@ for (const j of batch) {
       continue; // do not mark as seen, so it retries next run
     }
     await new Promise((res) => setTimeout(res, 1200));
+    if (!sentLog.sent.some((e) => e.url === j.url)) {
+      sentLog.sent.push({
+        sentAt: new Date(now).toISOString(),
+        title: j.title || '',
+        company: j.company || '',
+        location: j.location || '',
+        score: j.score,
+        reasons: j.reasons || [],
+        url: j.url,
+      });
+    }
   }
   store.seen[j.url] = now;
   // Retire the sibling clones with it, so the other locations of the same role do
@@ -210,8 +232,11 @@ if (!DRY && seenBefore === 0 && batch.length === 0) {
 
 // ---- 6. persist ------------------------------------------------------------
 if (!DRY) {
+  if (sentLog.sent.length > 500) sentLog.sent = sentLog.sent.slice(-500);
   fs.writeFileSync(SEEN_FILE, JSON.stringify(store, null, 0) + '\n');
+  fs.writeFileSync(SENT_FILE, JSON.stringify(sentLog, null, 2) + '\n');
   console.log(`seen: ${seenBefore} -> ${Object.keys(store.seen).length}`);
+  console.log(`sent log: ${sentLog.sent.length} postings`);
 }
 
 // ---- 7. health report ------------------------------------------------------

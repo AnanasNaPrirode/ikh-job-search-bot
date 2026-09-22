@@ -25,7 +25,7 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     permissions:
-      contents: write        # needed to commit seen.json back
+      contents: write        # needed to commit seen.json + sent.json back
     steps:
       - uses: actions/checkout@v4
 
@@ -48,13 +48,13 @@ jobs:
       - name: Persist dedup state and health report
         if: ${{ inputs.dry_run != true }}
         run: |
-          if git diff --quiet -- seen.json status.json STATUS.md; then
+          if git diff --quiet -- seen.json sent.json status.json STATUS.md; then
             echo "nothing changed, nothing to commit"
             exit 0
           fi
           git config user.name  "jobs-radar[bot]"
           git config user.email "jobs-radar@users.noreply.github.com"
-          git add seen.json status.json STATUS.md
+          git add seen.json sent.json status.json STATUS.md
           git commit -m "chore: update seen postings + status"
           git push
 

@@ -28,8 +28,10 @@ plus manual `workflow_dispatch` with a `dry_run` toggle. Secrets `TELEGRAM_TOKEN
 `TELEGRAM_CHAT_ID` live in repo settings, never in the code.
 
 `radar.mjs` executes the *same* Code-node scripts stored in `jobs-radar.workflow.json`,
-so the cloud runner and n8n can never drift apart. Dedup state is `seen.json`, committed
-back by the workflow after each run.
+so the cloud runner and n8n can never drift apart. Dedup state is `seen.json`
+(URLs only). What actually went to Telegram is `sent.json` — title, company,
+location, score, reasons, url — so a scoring audit can be done from GitHub
+without re-fetching boards. Both are committed back by the workflow after each run.
 
 ```bash
 gh workflow run radar.yml -f dry_run=true    # score and print, send nothing
@@ -43,7 +45,7 @@ a permissions error — `gh auth switch --user <your-account>` fixes it.
 ## Health
 
 `STATUS.md` is regenerated on every run (dry runs included) and committed by CI
-next to `seen.json`, so the current state is readable straight from the repo
+next to `seen.json` and `sent.json`, so the current state is readable straight from the repo
 without opening a log. `status.json` is the same data unrounded, per board:
 HTTP code, bytes, latency and how many postings that board parsed to.
 
@@ -199,13 +201,15 @@ Gates (drop outright):
   sales/CS/recruiter, or marketing
 
 Points:
-- lead/staff/principal/head/director title +28 · senior +24 · plain PM +12
-- AI in title +18 · agents in title +14 · platform +10 · governance +8 · API/ecosystem +7
-- description keywords +2…+5 each, capped +26 (includes non-AI signals: PLG,
-  activation/retention, experimentation, analytics, people leadership, pre-sales)
+- any target title **+18** (lead / senior / plain — seniority is a label, not a score)
+- Senior Engineering Manager **−15** (manager of managers, above the CV)
+- AI / platform / agents / API in title as `TITLE_KW` (see `build_workflow.py`)
+- description keywords +2…+5 each, capped +26
 - worldwide +16 (only +6 from aggregators, see below) · remote EU/EMEA +16 ·
   EU location +9 · generic remote +7 · **Spain named +7**
 - **US-only −32** · likely US-only from an aggregator −20 · hybrid −10 · onsite −12
+- **UK without visa sponsorship −20** (UK is not the EU; Ireland stays; skipped if the location also names an EU city)
+- customer-facing **−30** (pre-sales, post-sales, Partner / Implementation / Applied AI Architect titles)
 - Spanish-language role −25 · other native language required −18
 - posting older than 45 days −12 · older than 30 days −6 (penalty-only, no
   freshness bonus; missing dates cost nothing). Greenhouse uses `first_published`,
@@ -512,7 +516,11 @@ key, which is why it is not done here.
 
 ## Known limits
 
-- **Only EU and US geography is modelled.** The location census turned up real volume
+- **Dedup state is `seen.json` in this repo.** Deleting it re-announces everything.
+  `sent.json` is the reviewable log of what was actually pushed — not a second
+  dedup store. Seed `DONE_COMPANIES` with companies you have already applied to
+  or ruled out — see the `_why` map inside the file for the reason on each.
+- **Only EU and US geography is modelled, plus a UK-without-sponsorship penalty.** The location census turned up real volume
   in places that are neither: Canada/Toronto (~75), India/Bangalore (~150), Singapore
   (132), Tokyo (116), Sydney/Australia (~95), Brazil/São Paulo (~70), Mexico, Seoul,
   Lima. None is EU-eligible, but they take the plain `remote` +7 rather than a
@@ -524,8 +532,5 @@ key, which is why it is not done here.
   and keywords — it cannot tell a genuinely good platform role from one that
   merely uses the right words. A pre-wired LLM rerank step is the upgrade path;
   it needs an Anthropic or OpenAI key in n8n credentials.
-- **Dedup state is `seen.json` in this repo.** Deleting it re-announces everything.
-  Seed `DONE_COMPANIES` with companies you have already applied to or ruled out —
-  see the `_why` map inside the file for the reason on each.
 - **`MAX_PER_RUN` is 12.** Anything above threshold beyond that waits for the next run,
   and the run log says how many were held back.
