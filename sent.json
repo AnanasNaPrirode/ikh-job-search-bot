@@ -703,6 +703,223 @@
         "integration architecture"
       ],
       "url": "https://weworkremotely.com/remote-jobs/toptal-power-platform-solutions-architect-for-global-pharmaceutical-company"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager, Navigation Incidents",
+      "company": "Mapbox",
+      "location": "Mapbox Germany",
+      "score": 73,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "agent workflow design",
+        "EU location",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-navigation-incidents-mapbox-germany-335114"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager",
+      "company": "cohere",
+      "location": "Germany",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location",
+        "-stale 85d",
+        "AI-native team"
+      ],
+      "url": "https://jobs.ashbyhq.com/cohere/335a6fe6-c857-4c5e-866a-4163496e1254"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Information Security Architect",
+      "company": "sumup",
+      "location": "Sofia, Bulgaria",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "system design",
+        "analysis",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://sumup.com/careers/positions/8644927002?gh_jid=8644927002"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Partner Development Manager - Japan",
+      "company": "cohere",
+      "location": "Tokyo",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "agent workflow design"
+      ],
+      "url": "https://jobs.ashbyhq.com/cohere/1a31d80f-0d8b-475a-a60a-b13393ba8687"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager, App Primitives",
+      "company": "vanta",
+      "location": "Remote U.S.",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "API design",
+        "data modeling",
+        "analysis",
+        "eng management",
+        "remote",
+        "-US-remote"
+      ],
+      "url": "https://jobs.ashbyhq.com/vanta/529a6e77-c965-4b32-be80-1837fbb3d1ce"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager - Observability & Reliability Engineering Obsession (x/f/m)",
+      "company": "doctolib",
+      "location": "Paris",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "Python/FastAPI",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "-stale 319d",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/doctolib/cb31d3ce-a9e5-4703-87ec-44426f06f050"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager - Site Reliability & Observability (x/f/m)",
+      "company": "doctolib",
+      "location": "Paris",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "Python/FastAPI",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "-stale 47d",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/doctolib/2736e3e2-f9c3-4036-a758-a067f3938371"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager, Connectivity - London",
+      "company": "anthropic",
+      "location": "London, UK",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "API design",
+        "Python/FastAPI",
+        "distributed systems",
+        "people leadership",
+        "agents",
+        "eng management",
+        "modern stack",
+        "-stale 75d"
+      ],
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5309805008"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Engineering Manager - Content Discovery",
+      "company": "wallapop",
+      "location": "Barcelona",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "Spain-eligible",
+        "-stale 69d"
+      ],
+      "url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4928727101"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Solutions Architect, (Italian fluency)",
+      "company": "Stripe",
+      "location": "Italy",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://stripe.com/careers/listing/solutions-architect-italian-fluency/8144233"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Tech Lead - Solutions",
+      "company": "Pelico",
+      "location": "Paris",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "agents",
+        "modern stack",
+        "agent workflow design",
+        "EU location",
+        "-customer-facing",
+        "AI-native team",
+        "spec-driven / API-first",
+        "hands-on builder bar",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/tech-lead-solutions-paris-135636"
+    },
+    {
+      "sentAt": "2026-09-22T22:35:15.136Z",
+      "title": "Generalist Architect",
+      "company": "Meetdavis",
+      "location": "Paris",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "retail/martech",
+        "analysis",
+        "modern stack",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/generalist-architect-paris-52392"
     }
   ]
 }
