@@ -1,3 +1,241 @@
 {
-  "sent": []
+  "sent": [
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Application Security Engineering Manager",
+      "company": "synthesia",
+      "location": "Europe",
+      "score": 65,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "RBAC",
+        "analysis",
+        "agents",
+        "LLM",
+        "eng management",
+        "EU location",
+        "-stale 105d",
+        "daily AI tooling",
+        "AI-native team"
+      ],
+      "url": "https://jobs.ashbyhq.com/synthesia/b682f464-c147-48a3-8064-edd5df8cd512"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Partner Solutions Architect (EMEA)",
+      "company": "datadog",
+      "location": "Italy, Remote; Portugal, Remote; Spain, Remote",
+      "score": 64,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "Python/FastAPI",
+        "people leadership",
+        "remote EU/EMEA",
+        "Spain-eligible",
+        "+6 other locations"
+      ],
+      "url": "https://careers.datadoghq.com/detail/8204056/?gh_jid=8204056"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager - Observability | Spain | Remote",
+      "company": "grafanalabs",
+      "location": "Spain (Remote)",
+      "score": 64,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "agents",
+        "remote EU/EMEA",
+        "Spain-eligible",
+        "+4 other locations"
+      ],
+      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6202560004"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager, Billing",
+      "company": "supabase",
+      "location": "Remote, Global",
+      "score": 63,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "worldwide"
+      ],
+      "url": "https://jobs.ashbyhq.com/supabase/b4a2f5e5-5c51-4c1a-abde-a89de27451c7"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager - Foundations",
+      "company": "legora",
+      "location": "Stockholm HQ",
+      "score": 63,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://jobs.ashbyhq.com/legora/1d340497-7dcc-4ed7-ac01-49695d880de0"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager Heartbeat AI (m/f/d)",
+      "company": "1komma5grad",
+      "location": "Remote, Hamburg, Berlin, München",
+      "score": 63,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "AI in title",
+        "distributed systems",
+        "agents",
+        "modern stack",
+        "remote EU/EMEA",
+        "-stale 85d",
+        "daily AI tooling"
+      ],
+      "url": "https://1komma5grad.jobs.personio.de/job/2691218"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager - Edge AI",
+      "company": "sumup",
+      "location": "Berlin, Germany",
+      "score": 61,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "AI in title",
+        "system design",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "eng management",
+        "EU location",
+        "-stale 131d"
+      ],
+      "url": "https://sumup.com/careers/positions/8530960002?gh_jid=8530960002"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager, AI Builder Experience",
+      "company": "mongodb",
+      "location": "Gurugram",
+      "score": 60,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "AI in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "modern stack",
+        "agent workflow design",
+        "-stale 47d"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8106167"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager Scheduling Team (x/f/m)",
+      "company": "doctolib",
+      "location": "Berlin",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "event-driven",
+        "caching",
+        "data modeling",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "-aging 35d"
+      ],
+      "url": "https://jobs.ashbyhq.com/doctolib/e54b9321-f094-4f26-99eb-58f091e9e552"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager - Regulatory Reporting Data",
+      "company": "adyen",
+      "location": "Amsterdam",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8110803"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager, FDE Agentic Platform",
+      "company": "cohere",
+      "location": "Toronto",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "agents in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management"
+      ],
+      "url": "https://jobs.ashbyhq.com/cohere/e906188a-e089-4b86-85b9-aad0d4413c68"
+    },
+    {
+      "sentAt": "2026-09-22T08:56:42.362Z",
+      "title": "Engineering Manager - Cloud Wallet",
+      "company": "ledger",
+      "location": "Montpellier, France",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "event-driven",
+        "data modeling",
+        "eng management",
+        "modern stack",
+        "high-load scale",
+        "EU location",
+        "-stale 62d"
+      ],
+      "url": "https://jobs.ashbyhq.com/ledger/a81b4e34-fbc5-4546-9ef7-6afdf5a35178"
+    }
+  ]
 }
