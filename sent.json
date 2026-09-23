@@ -1123,6 +1123,201 @@
         "+1 other location"
       ],
       "url": "https://jobs.ashbyhq.com/vanta/1198e8b4-63d6-431c-bd37-8a709645ca63"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager - Data Platform",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 62,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "Python/FastAPI",
+        "caching",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149561-engineering-manager-data-platform"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Group Design Platform Software & AI Architect (m/f/d)",
+      "company": "SGB-SMIT Group",
+      "location": "Regensburg, Bayern, Germany",
+      "score": 62,
+      "reasons": [
+        "target title",
+        "AI role",
+        "platform in title",
+        "AI in title",
+        "system design",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/group-design-platform-software-ai-architect-regensburg-313599"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149575-engineering-manager"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Cloud Engineering Manager",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149569-cloud-engineering-manager"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager, Managed Services",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149528-engineering-manager-managed-services"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "OpenStack Engineering Manager",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149573-openstack-engineering-manager"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager - Ubuntu Security",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149572-engineering-manager-ubuntu-security"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager - Security Standards and Hardening",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149536-engineering-manager-security-standards-and-hardening"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager - AppArmor",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149526-engineering-manager-apparmor"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Engineering Manager - Ubuntu Linux Kernel",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149570-engineering-manager-ubuntu-linux-kernel"
+    },
+    {
+      "sentAt": "2026-09-23T08:59:00.944Z",
+      "title": "Partner Solutions Architect",
+      "company": "Nebius",
+      "location": "Europe",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "API design",
+        "integrations",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "RAG",
+        "integration architecture",
+        "EU location",
+        "-customer-facing"
+      ],
+      "url": "https://jobicy.com/jobs/149503-partner-solutions-architect"
     }
   ]
 }
