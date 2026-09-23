@@ -1351,6 +1351,43 @@
         "EU location"
       ],
       "url": "https://jobs.elastic.co/jobs?gh_jid=8156268&gh_jid=8156268"
+    },
+    {
+      "sentAt": "2026-09-23T22:36:22.672Z",
+      "title": "Engineering Manager, K4B",
+      "company": "Kayak",
+      "location": "Berlin Office",
+      "score": 58,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "API design",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-k4b-berlin-160572"
+    },
+    {
+      "sentAt": "2026-09-23T22:36:22.672Z",
+      "title": "Senior Engineering Manager, K4B",
+      "company": "Kayak",
+      "location": "Berlin Office",
+      "score": 43,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "API design",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-engineering-manager-k4b-berlin-381616"
     }
   ]
 }
