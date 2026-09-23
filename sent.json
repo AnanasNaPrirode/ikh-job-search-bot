@@ -920,6 +920,209 @@
         "AI-native team"
       ],
       "url": "https://www.arbeitnow.com/view/generalist-architect-paris-52392"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Engineering Manager - Go-to-Market (m/f/d)",
+      "company": "Statista",
+      "location": "Hamburg or Berlin",
+      "score": 60,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "modern stack",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-go-to-market-hamburg-or-berlin-303314"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Solution Architect – Client Solutions (m/w/d)",
+      "company": "Fincite Gmbh",
+      "location": "Frankfurt am Main",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "analysis",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-client-solutions-frankfurt-am-main-457400"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Engineering Manager, Core Services",
+      "company": "openai",
+      "location": "San Francisco",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "remote",
+        "-US-remote"
+      ],
+      "url": "https://jobs.ashbyhq.com/openai/ebc65e7d-d86a-4066-aa82-3a7758d97bb6"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Technical Lead (Platform)",
+      "company": "Aveni",
+      "location": "United Kingdom",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "platform in title",
+        "event-driven",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "ELT pipelines",
+        "integration architecture",
+        "-UK, no sponsorship"
+      ],
+      "url": "https://www.arbeitnow.com/view/technical-lead-platform-united-kingdom-418785"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Engineering Manager - Verification",
+      "company": "sumup",
+      "location": "Sofia, Bulgaria",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "eng management",
+        "integration architecture",
+        "EU location",
+        "-stale 161d",
+        "+1 other location"
+      ],
+      "url": "https://sumup.com/careers/positions/8507674002?gh_jid=8507674002"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Fullstack Software Engineer (x/f/m) - Global Architecture",
+      "company": "alan",
+      "location": "Anywhere in France, Belgium, Spain",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "Python/FastAPI",
+        "data modeling",
+        "people leadership",
+        "modern stack",
+        "worldwide",
+        "Spain-eligible",
+        "-stale 233d"
+      ],
+      "url": "https://jobs.ashbyhq.com/alan/14813db4-b0f6-4441-b317-14eba0ce09d5"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Engineering Manager - Product Engineering",
+      "company": "legora",
+      "location": "Stockholm HQ",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "-stale 326d",
+        "AI-native team"
+      ],
+      "url": "https://jobs.ashbyhq.com/legora/ed78f7f3-9183-4c78-9728-f135ce7cb112"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Tech Lead /Sr. Principal Engineer (L6)",
+      "company": "twilio",
+      "location": "Remote - India",
+      "score": 41,
+      "reasons": [
+        "lead title",
+        "technical lead in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "remote",
+        "-stale 99d"
+      ],
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7966928"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Engineering Manager, Server Networking Security (Rust)",
+      "company": "mongodb",
+      "location": "Cork, Ireland; Dublin, Ireland",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "EU location",
+        "-stale 184d",
+        "AI-native team"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7698054"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Technical Lead Manager - Training Runtime, Data(set) Movement",
+      "company": "openai",
+      "location": "San Francisco",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "API design",
+        "Python/FastAPI",
+        "caching",
+        "data modeling",
+        "distributed systems",
+        "high-load scale",
+        "remote",
+        "-US-remote",
+        "-stale 106d"
+      ],
+      "url": "https://jobs.ashbyhq.com/openai/4cbbf0b1-7c0b-4c42-bf38-48377f847e91"
+    },
+    {
+      "sentAt": "2026-09-23T02:36:20.690Z",
+      "title": "Engineering Manager - Reporting",
+      "company": "vanta",
+      "location": "Remote - Canada",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "remote",
+        "-stale 85d",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/vanta/1198e8b4-63d6-431c-bd37-8a709645ca63"
     }
   ]
 }
