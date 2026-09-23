@@ -1318,6 +1318,39 @@
         "-customer-facing"
       ],
       "url": "https://jobicy.com/jobs/149503-partner-solutions-architect"
+    },
+    {
+      "sentAt": "2026-09-23T15:51:54.871Z",
+      "title": "Engineering Manager",
+      "company": "Finom",
+      "location": "Berlin",
+      "score": 60,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "Python/FastAPI",
+        "caching",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-berlin-26263"
+    },
+    {
+      "sentAt": "2026-09-23T15:51:54.871Z",
+      "title": "Senior Solutions Architect - SIEM",
+      "company": "elastic",
+      "location": "The Netherlands",
+      "score": 44,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8156268&gh_jid=8156268"
     }
   ]
 }
