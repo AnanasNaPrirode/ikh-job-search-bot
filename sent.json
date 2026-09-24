@@ -1388,6 +1388,75 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/senior-engineering-manager-k4b-berlin-381616"
+    },
+    {
+      "sentAt": "2026-09-24T08:54:24.054Z",
+      "title": "AI Solutions Architect",
+      "company": "Point72",
+      "location": "n/a",
+      "score": 77,
+      "reasons": [
+        "target title",
+        "AI role",
+        "platform role",
+        "AI solutions architect in title",
+        "solution architect in title",
+        "AI in title",
+        "Python/FastAPI",
+        "agents",
+        "LLM",
+        "RAG"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-solutions-architect-133876"
+    },
+    {
+      "sentAt": "2026-09-24T08:54:24.054Z",
+      "title": "Engineering Manager Ads Backend",
+      "company": "Zattoo",
+      "location": "Berlin, Berlin",
+      "score": 61,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "distributed systems",
+        "analysis",
+        "eng management",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-ads-backend-berlin-berlin-361469"
+    },
+    {
+      "sentAt": "2026-09-24T08:54:24.054Z",
+      "title": "Engineering Manager - MLOps & Analytics",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "people leadership",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://jobicy.com/jobs/149521-engineering-manager-mlops-analytics"
+    },
+    {
+      "sentAt": "2026-09-24T08:54:24.054Z",
+      "title": "Front End Engineering Manager, Firefox Desktop",
+      "company": "Mozilla",
+      "location": "Canada",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "modern stack"
+      ],
+      "url": "https://jobicy.com/jobs/151502-front-end-engineering-manager-firefox-desktop"
     }
   ]
 }
