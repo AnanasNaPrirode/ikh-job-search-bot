@@ -1472,6 +1472,86 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-experience-above-the-box-all-genders-dusseldorf-73597"
+    },
+    {
+      "sentAt": "2026-09-25T09:15:09.983Z",
+      "title": "Engineering Manager, RC Capital",
+      "company": "RevenueCat",
+      "location": "EMEA, LATAM, Canada, USA",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "remote EU/EMEA"
+      ],
+      "url": "https://jobicy.com/jobs/151629-engineering-manager-rc-capital"
+    },
+    {
+      "sentAt": "2026-09-25T09:15:09.983Z",
+      "title": "Software Architect (m/f/d) für Web-, Backend- und Plattformlösungen",
+      "company": "Swissbit",
+      "location": "DE-München",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "API design",
+        "REST",
+        "Python/FastAPI",
+        "modern stack",
+        "API contract practice",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-341479"
+    },
+    {
+      "sentAt": "2026-09-25T09:15:09.983Z",
+      "title": "AI Integration & Automation Engineer (m/w/d) GER",
+      "company": "Customs Support Group",
+      "location": "Remote job, Remote",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "Python/FastAPI",
+        "agents",
+        "LLM",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-ai-integration-automation-engineer-ger-32348"
+    },
+    {
+      "sentAt": "2026-09-25T09:15:09.983Z",
+      "title": "Engineering Manager - Canada",
+      "company": "Ashby",
+      "location": "Canada",
+      "score": 48,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "high-load scale",
+        "+1 other location"
+      ],
+      "url": "https://jobicy.com/jobs/151633-engineering-manager-canada"
+    },
+    {
+      "sentAt": "2026-09-25T09:15:09.983Z",
+      "title": "Senior Azure Cloud Platform Architect (m/w/d)",
+      "company": "think about IT GmbH",
+      "location": "Nuremberg",
+      "score": 41,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "platform architect in title",
+        "platform in title"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-azure-cloud-platform-architect-nuremberg-445640"
     }
   ]
 }
