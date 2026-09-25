@@ -1552,6 +1552,139 @@
         "platform in title"
       ],
       "url": "https://www.arbeitnow.com/view/senior-azure-cloud-platform-architect-nuremberg-445640"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "Senior HR Tech Solution Architect (m/f/d)",
+      "company": "Flix",
+      "location": "Berlin, Berlin, Germany",
+      "score": 83,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "REST",
+        "event-driven",
+        "integrations",
+        "people leadership",
+        "agents",
+        "LLM",
+        "integration architecture",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-hr-tech-solution-architect-berlin-79213"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "Lead Enterprise & Solution Architect",
+      "company": "Multiplai GmbH",
+      "location": "n/a",
+      "score": 67,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "system design",
+        "integrations",
+        "data modeling",
+        "distributed systems",
+        "analysis",
+        "agents",
+        "LLM",
+        "RAG",
+        "integration architecture"
+      ],
+      "url": "https://www.arbeitnow.com/view/lead-enterprise-solution-architect-n-a-46863"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "AI Integration Engineer / Specialist",
+      "company": "BaehrBots GmbH",
+      "location": "Dresden",
+      "score": 65,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "Python/FastAPI",
+        "agents",
+        "LLM",
+        "RAG",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-integration-engineer-specialist-dresden-146964"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "Engineering Manager (f/m/d/x)",
+      "company": "EMIL Group GmbH",
+      "location": "Berlin",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-x-berlin-346535"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "Toptal: Power Platform Solutions Architect",
+      "company": "WeWorkRemotely",
+      "location": "North America Only",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "platform in title",
+        "system design",
+        "integration architecture"
+      ],
+      "url": "https://weworkremotely.com/remote-jobs/toptal-power-platform-solutions-architect"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "Engineering Manager",
+      "company": "eucalyptus",
+      "location": "n/a",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-344336"
+    },
+    {
+      "sentAt": "2026-09-25T16:14:27.939Z",
+      "title": "Senior Engineering Manager (Hands-on) - Offer",
+      "company": "alan",
+      "location": "Paris, France",
+      "score": 43,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "system design",
+        "people leadership",
+        "LLM",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://jobs.ashbyhq.com/alan/88c0bbe1-ec12-4d7b-97f1-cff384e4208f"
     }
   ]
 }
