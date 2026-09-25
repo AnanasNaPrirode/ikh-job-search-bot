@@ -1,14 +1,13 @@
 # Radar status
 
-Generated 2026-09-25T16:14:27.939Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-09-25T23:00:39.772Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**YELLOW** · 127/129 boards responding (98%) · 10162 postings → 528 architect-titled → 7 above 40
+**YELLOW** · 128/129 boards responding (99%) · 10158 postings → 525 architect-titled → 2 above 40
 
 ## Down
 
 | ATS | Board | HTTP | Postings |
 |---|---|---|---|
-| greenhouse | make | The operation was aborted due to timeout | 0 |
 | greenhouse | deepmind | 404 | 0 |
 
 ## Live but returning nothing
@@ -27,13 +26,13 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 34 | 32 | 4699 |
-| ashby | 42 | 42 | 3904 |
+| greenhouse | 34 | 33 | 4696 |
+| ashby | 42 | 42 | 3902 |
 | personio | 10 | 10 | 352 |
 | arbeitnow | 1 | 1 | 250 |
 | lever | 3 | 3 | 249 |
 | getro | 8 | 8 | 160 |
-| teamtailor | 8 | 8 | 109 |
+| teamtailor | 8 | 8 | 110 |
 | jobicy | 1 | 1 | 100 |
 | remoteok | 1 | 1 | 99 |
 | workingnomads | 1 | 1 | 58 |
