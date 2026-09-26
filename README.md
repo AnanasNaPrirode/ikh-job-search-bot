@@ -151,6 +151,14 @@ Run manually  ─┴→ Build Source List → Fetch Board → Normalize Jobs
      none clears 48 — one of them went 52 → 33. Without the join, a 72-day-old
      posting is announced as though it were fresh.
 
+  **Amazon** is the one big-tech board with a public JSON search
+  (`https://www.amazon.jobs/en/search.json`): five requests, one per country
+  (`normalized_country_code[]=ESP|GBR|IRL|DEU|NLD`), `base_query=technical program manager`,
+  full JD plus qualifications, posted date. Use the country filter — `loc_query=Spain` is
+  fuzzy and returned US roles. Google, Meta and Bloomberg render their careers pages with
+  script (Bloomberg on Avature) and have no such endpoint, so they are not sources; look
+  those up by hand and paste the links. Flo Health is a plain Greenhouse board (`flohealth`).
+
   **BambooHR** is the cheap one: `https://<tenant>.bamboohr.com/careers/list` is
   public JSON with no auth and no bot protection, and `.../careers/<id>/detail` adds
   the full JD, `datePosted` and `compensation`. Only the list is fetched, because
@@ -201,15 +209,27 @@ Gates (drop outright):
   sales/CS/recruiter, or marketing
 
 Points:
-- any target title **+18** (lead / senior / plain — seniority is a label, not a score)
+- any target title **+18** (lead / senior / plain — seniority is a label, not a score).
+  Targets are the architect and engineering-manager titles plus **Technical Program Manager**
+  (also "programme", TPM, Technical Infrastructure PM) and technical / product / engineering / software /
+  IT **Delivery Manager**: IC roles, the realistic entry into big tech. A bare "Program Manager" or
+  "Delivery Manager" does not open the gate; Principal / Staff / Director / Head of those titles are dropped
+  as above the CV (Amazon L7, Google Staff). Product Manager stays blocked
 - Senior Engineering Manager **−15** (manager of managers, above the CV)
 - AI / platform / agents / API in title as `TITLE_KW` (see `build_workflow.py`)
 - description keywords +2…+5 each, capped +26
 - worldwide +16 (only +6 from aggregators, see below) · remote EU/EMEA +16 ·
   EU location +9 · generic remote +7 · **Spain named +7**
 - **US-only −32** · likely US-only from an aggregator −20 · hybrid −10 · onsite −12
-- **UK without visa sponsorship −20** (UK is not the EU; Ireland stays; skipped if the location also names an EU city)
-- customer-facing **−30** (pre-sales, post-sales, Partner / Implementation / Applied AI Architect titles)
+- **UK without visa sponsorship −20** (UK is not the EU; Ireland stays; skipped if the location also names an EU city).
+  Also skipped for employers in `UK_LICENSED` (Amazon/AWS, Google, Meta, Bloomberg, Flo Health), whose
+  postings hold a Skilled Worker sponsor licence but never say so. Labelled `UK, licensed sponsor`; a JD that
+  explicitly says it will not sponsor keeps the penalty. The exemption removes the penalty, it adds no bonus,
+  so a London role from these companies still scores 20 below the same role in an EU city
+- customer-facing **−30** (pre-sales, post-sales, Partner / Implementation / Applied AI Architect titles;
+  also any Solutions Architect / Customer Engineer / Partner Engineer title at Amazon, Google or Meta —
+  that is the vendor's pre-sales role). For programme/delivery titles the bare phrase "customer-facing"
+  does not count, because a TPM JD uses it about the product
 - Spanish-language role −25 · other native language required −18
 - posting older than 45 days −12 · older than 30 days −6 (penalty-only, no
   freshness bonus; missing dates cost nothing). Greenhouse uses `first_published`,

@@ -293,5 +293,115 @@ for (const t of ['Applied AI Architect', 'Partner Architect', 'Implementation Ar
     r ? `${r.score} — ${r.reasons.join(' · ')}` : 'dropped by title gate');
 }
 
+// ------------------------------------------------- licensed UK sponsors
+
+const licensedLondon = one({title:TITLE, company:'Bloomberg', location:'London', description:'Own the architecture.'});
+check('a licensed sponsor is not penalised for UK without a sponsorship sentence',
+  licensedLondon && !licensedLondon.reasons.includes('-UK, no sponsorship')
+    && licensedLondon.reasons.includes('UK, licensed sponsor'),
+  licensedLondon && licensedLondon.reasons.join(' · '));
+check('a licensed sponsor still earns no EU bonus in London',
+  !licensedLondon.reasons.includes('EU location'), licensedLondon.reasons.join(' · '));
+check('the exemption is worth exactly the 20 points',
+  licensedLondon.score === london.score + 20, `${licensedLondon.score} vs ${london.score}`);
+
+for (const c of ['Amazon', 'Google', 'Meta', 'flohealth', 'Flo Health', 'Bloomberg L.P.']) {
+  const r = one({title:TITLE, company:c, location:'London, England', description:'Own the architecture.'});
+  check(`"${c}" is recognised as a licensed sponsor`,
+    r && !r.reasons.includes('-UK, no sponsorship'), r && r.reasons.join(' · '));
+}
+for (const c of ['Metabase', 'Flowable', 'x']) {
+  const r = one({title:TITLE, company:c, location:'London', description:'Own the architecture.'});
+  check(`"${c}" is not mistaken for a licensed sponsor`,
+    r && r.reasons.includes('-UK, no sponsorship'), r && r.reasons.join(' · '));
+}
+
+const licensedNoSponsor = one({title:TITLE, company:'Amazon', location:'London',
+  description:'Own the architecture. We are unable to offer visa sponsorship for this role.'});
+check('a licensed sponsor that says it will not sponsor keeps the penalty',
+  licensedNoSponsor && licensedNoSponsor.reasons.includes('-UK, no sponsorship'),
+  licensedNoSponsor && licensedNoSponsor.reasons.join(' · '));
+
+const licensedRtw = one({title:TITLE, company:'Amazon', location:'London',
+  description:'Own the architecture. You must have the right to work in the UK.'});
+check('a routine right-to-work line does not cancel the licensed-sponsor exemption',
+  licensedRtw && !licensedRtw.reasons.includes('-UK, no sponsorship'),
+  licensedRtw && licensedRtw.reasons.join(' · '));
+
+// ------------------------------------------------------------------ TPM track
+
+const TPM_JD = 'Drive cross-team technical programs: system design, integrations and dependency management.';
+for (const t of ['Technical Program Manager', 'Senior Technical Program Manager', 'Sr. Technical Program Manager',
+                 'Technical Programme Manager', 'Technical Program Manager III', 'Sr Technical Infrastructure Program Manager',
+                 'Senior TPM', 'Technical Delivery Manager', 'Product Delivery Manager', 'Engineering Program Manager']) {
+  const r = one({title:t, location:'Barcelona, Catalonia, ESP', description:TPM_JD});
+  check(`"${t}" opens the gate and clears the threshold`,
+    r && r.score >= 40, r ? `${r.score} — ${r.reasons.join(' · ')}` : 'dropped by title gate');
+}
+const tpm = one({title:'Technical Program Manager', location:'Madrid', description:TPM_JD});
+check('TPM is named in the reasons', tpm && tpm.reasons.includes('TPM in title'), tpm && tpm.reasons.join(' · '));
+
+for (const t of ['Principal Technical Program Manager', 'Staff Technical Program Manager',
+                 'Director, Technical Program Management', 'Head of Program Management',
+                 'Principal Technical Program Manager , World Wide Fulfillment Design & Engineering',
+                 'Director of Delivery Management']) {
+  check(`"${t}" is dropped as too senior for the TPM track`,
+    one({title:t, location:'Barcelona', description:TPM_JD}) === null);
+}
+for (const t of ['Program Manager', 'Delivery Manager', 'Project Manager', 'Marketing Program Manager',
+                 'Senior Technical Product Manager', 'Technical Product Manager']) {
+  check(`"${t}" stays out`, one({title:t, location:'Madrid', description:TPM_JD}) === null);
+}
+
+const amazonTpmBcn = one({title:'Sr. Technical Program Manager, Procurement', company:'Amazon',
+  location:'Barcelona, Catalonia, ESP', description:TPM_JD});
+check('Amazon TPM in Barcelona is shortlisted with Spain named',
+  amazonTpmBcn && amazonTpmBcn.score >= 40 && amazonTpmBcn.reasons.includes('Spain-eligible'),
+  amazonTpmBcn && `${amazonTpmBcn.score} — ${amazonTpmBcn.reasons.join(' · ')}`);
+const amazonTpmLon = one({title:'Sr Technical Infrastructure Program Manager, EMEA Data Center Delivery', company:'Amazon',
+  location:'London, England, GBR', description:TPM_JD});
+// London earns no location points (not EU, not remote), so a thin JD lands just under
+// the threshold; the exemption's job is to not subtract 20 more, not to add a bonus.
+check('Amazon TPM in London is UK-exempt and scores 20 above the same role at an unlisted company',
+  amazonTpmLon && !amazonTpmLon.reasons.includes('-UK, no sponsorship'),
+  amazonTpmLon && `${amazonTpmLon.score} — ${amazonTpmLon.reasons.join(' · ')}`);
+const unlicensedTpmLon = one({title:'Sr Technical Infrastructure Program Manager, EMEA Data Center Delivery', company:'Acme',
+  location:'London, England, GBR', description:TPM_JD});
+check('the same TPM in London at an unlisted company keeps the UK penalty',
+  unlicensedTpmLon && unlicensedTpmLon.reasons.includes('-UK, no sponsorship')
+    && amazonTpmLon.score === unlicensedTpmLon.score + 20,
+  unlicensedTpmLon && `${unlicensedTpmLon.score} vs ${amazonTpmLon.score}`);
+const amazonTpmLonRich = one({title:'Sr Technical Infrastructure Program Manager, EMEA Data Center Delivery', company:'Amazon',
+  location:'London, England, GBR',
+  description:TPM_JD + ' Own API design and integration platform roadmaps across microservices and distributed systems; stakeholder requirements, technical documentation and system design reviews.'});
+check('a keyword-rich Amazon TPM JD in London clears the threshold',
+  amazonTpmLonRich && amazonTpmLonRich.score >= 40,
+  amazonTpmLonRich && `${amazonTpmLonRich.score} — ${amazonTpmLonRich.reasons.join(' · ')}`);
+
+check('an engineer title is not opened by the TIPM abbreviation',
+  one({title:'Sr Mechanical Engineer, TIPM, Global Building Design & Engineering', company:'Amazon',
+    location:'Madrid, Community of Madrid, ESP', description:TPM_JD}) === null);
+const tpmIncidental = one({title:'Senior Technical Program Manager, EC2', company:'Amazon', location:'Berlin, DEU',
+  description:TPM_JD + ' Cloudscape powers every customer-facing surface of the console.'});
+check('"customer-facing" describing the product does not penalise a TPM role',
+  tpmIncidental && !tpmIncidental.reasons.includes('-customer-facing'), tpmIncidental && tpmIncidental.reasons.join(' · '));
+const tpmPresales = one({title:'Senior Technical Program Manager', company:'Acme', location:'Berlin, DEU',
+  description:TPM_JD + ' Partner with account executives during the sales cycle.'});
+check('a TPM role that is actually pre-sales is still penalised',
+  tpmPresales && tpmPresales.reasons.includes('-customer-facing'), tpmPresales && tpmPresales.reasons.join(' · '));
+
+// ------------------------------------------------ big-tech customer-facing SA
+
+for (const c of ['Amazon', 'Google', 'Meta']) {
+  const r = one({title:'Solutions Architect', company:c, location:'Madrid', description:'Own the architecture.'});
+  const plain = one({title:'Solutions Architect', company:'Acme', location:'Madrid', description:'Own the architecture.'});
+  check(`${c} Solutions Architect is penalised as the vendor's customer-facing role`,
+    r && r.reasons.includes('-customer-facing') && r.score === plain.score - 30,
+    r && `${r.score} vs ${plain.score} — ${r.reasons.join(' · ')}`);
+}
+const bloombergSa = one({title:'Solutions Architect', company:'Bloomberg', location:'London', description:'Own the architecture.'});
+check("a non-vendor company's Solutions Architect is not caught by the vendor rule",
+  bloombergSa && !bloombergSa.reasons.includes('-customer-facing'), bloombergSa && bloombergSa.reasons.join(' · '));
+
 console.log(fail? `\n${fail} FAILURE(S)` : '\nall checks passed');
 process.exit(fail?1:0);

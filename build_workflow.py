@@ -48,6 +48,8 @@ const greenhouse = [
   'cabify', 'wallapop', 'celonis', 'polyai', 'parloa', 'gympass',
   // Added 2026-08-19 (verified live): EU fintech/devtools + London AI labs
   'gocardless', 'intercom', 'grafanalabs', 'deepmind',
+  // Added 2026-09-23 (verified live): Vilnius/London health-tech, TPM and data roles
+  'flohealth',
 ];
 const ashby = [
   'n8n', 'linear', 'ramp', 'openai', 'perplexity', 'langchain', 'replit',
@@ -115,6 +117,13 @@ const bamboohr = [
   ['finbourne', 'FINBOURNE'],
 ];
 const smartrecruiters = ['DeliveryHero'];
+// Amazon's own careers search is a public JSON endpoint (no auth, no bot wall), which
+// Google, Meta and Bloomberg do not offer (script-rendered pages / Avature). One
+// request per country, TPM only: Amazon's architect titles are AWS Solutions
+// Architect, i.e. pre-sales. The country filter is what keeps this to a page of
+// results -- `loc_query=Spain` is fuzzy and returned US roles.
+// Codes are ISO-3: Spain, UK, Ireland, Germany, Netherlands.
+const amazonCountries = ['ESP', 'GBR', 'IRL', 'DEU', 'NLD'];
 // Getro powers the talent boards of most European VCs: one endpoint per fund
 // covers its whole portfolio, which is the small-company bracket that guessing
 // individual ATS tenants keeps missing. Ids come from the board's own
@@ -197,6 +206,10 @@ for (const org of smartrecruiters) {
     out.push({ json: { kind: 'smartrecruiters', company: org,
       url: `https://api.smartrecruiters.com/v1/companies/${org}/postings?q=${encodeURIComponent('"'+q+'"')}&limit=100` } });
   }
+}
+for (const cc of amazonCountries) {
+  out.push({ json: { kind: 'amazon', company: 'Amazon',
+    url: `https://www.amazon.jobs/en/search.json?base_query=${encodeURIComponent('technical program manager')}&normalized_country_code%5B%5D=${cc}&sort=recent&result_limit=100` } });
 }
 out.push({ json: { kind: 'remoteok', company: 'RemoteOK',
   url: 'https://remoteok.com/api' } });
@@ -451,6 +464,17 @@ responses.forEach((resp, i) => {
         description: '',
         postedAt: j.releasedDate,
       }));
+    } else if (kind === 'amazon') {
+      // The JD is split across three fields; the requirements are in the last two.
+      (parsed.jobs || []).forEach((j) => push({
+        title: j.title,
+        url: `https://www.amazon.jobs${j.job_path}`,
+        location: j.normalized_location || j.location,
+        description: [j.description, j.basic_qualifications, j.preferred_qualifications]
+          .filter(Boolean).join(' '),
+        // "September  2, 2026" -- two spaces on single-digit days.
+        postedAt: j.posted_date ? String(j.posted_date).replace(/\s+/g, ' ') : null,
+      }));
     } else if (kind === 'remoteok') {
       const arr = Array.isArray(parsed) ? parsed.slice(1) : [];
       arr.forEach((j) => push({
@@ -576,6 +600,9 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 // No UK work rights (yet): London is not the EU, and a UK-locked role without
 // visa sponsorship is a penalty. Drop that check if Global Talent lands.
 // PM and analyst titles are the wrong track, not a fallback.
+// Technical Program Manager / technical delivery manager is the exception: an IC
+// role (no reports) that fits the cross-team integration record, and the realistic
+// entry into big tech. Product Manager stays blocked.
 // Customer-facing is out of scope for now (all three CVs are internal
 // architecture). Penalty, not a label: −30 is enough to push a generic Spain
 // SA below the threshold. Drop the block if a customer-facing CV is written.
@@ -603,7 +630,17 @@ const TITLE_BASE = [
   'application architect', 'architect',
   'engineering manager', 'software engineering manager', 'engineering lead',
   'development manager', 'technical lead', 'tech lead',
+  // TPM is the IC entry into big tech for this profile (Amazon, Google, Meta): cross-team
+  // programmes, integrations, dependencies. Qualified titles only -- a bare "Program
+  // Manager" or "Delivery Manager" is as likely marketing or logistics. British spelling
+  // ("programme") is real: London postings use it.
+  'technical program manager', 'technical programme manager',
+  'engineering program manager', 'engineering programme manager',
+  'technical infrastructure program manager',
+  'technical delivery manager', 'product delivery manager',
+  'engineering delivery manager', 'software delivery manager', 'it delivery manager',
 ];
+const TITLE_TPM = /\btpm\b|\btipm\b/i;
 const TITLE_AI = [
   'ai architect', 'ml architect', 'llm architect', 'genai architect',
   'ai platform architect', 'agent architect',
@@ -683,6 +720,8 @@ const TITLE_KW = [
   [/integration architect/i, 10, 'integration architect in title'],
   [/engineering manager/i, 12, 'engineering manager in title'],
   [/technical lead|tech lead/i, 8, 'technical lead in title'],
+  [/technical program(me)? manager|engineering program(me)? manager|infrastructure program(me)? manager|\btpm\b|\btipm\b/i, 12, 'TPM in title'],
+  [/(technical|product|engineering|software|it) delivery manager/i, 10, 'delivery manager in title'],
   [/\bapi(s)?\b/i, 8, 'API in title'],
   [/\bplatform\b/i, 6, 'platform in title'],
   [/\bai\b|artificial intelligence|genai|\bllm\b/i, 8, 'AI in title'],
@@ -705,6 +744,9 @@ const TITLE_BLOCK = [
   // Architect track is Solution Architect at the start–middle of the band.
   // Head/Director/VP/Chief/Principal/Staff would bounce at interview.
   [/head of .{0,24}architecture|director.{0,16}architecture|architecture director|vp .{0,12}architecture|chief architect|distinguished architect|fellow architect|(staff|principal) .{0,24}architect/i, 'too-senior arch'],
+  // TPM track stops at Senior (Amazon L6, Google TPM III / Senior). Principal is L7,
+  // Staff is above Senior at Google, and Director/Head manage programme managers.
+  [/(principal|staff|distinguished|director|head of|vp|svp).{0,30}(program(me)?|delivery) manag|(director|head|vp).{0,24}program(me)? management/i, 'too-senior TPM'],
 ];
 
 // Location vocabulary. Both lists used to be country-level while most boards write a
@@ -734,6 +776,18 @@ const US_CITY = /\b(san francisco|new york|nyc\b|palo alto|mountain view|san jos
 const EU_WORD = /\b(emea|europe|european|spain|madrid|barcelona|valencia|m[aá]laga|granada|sevilla|bilbao|salou|tarragona|catalu[nñ]a|catalonia|reus|germany|berlin|munich|m[uü]nchen|hamburg|cologne|k[oö]ln|frankfurt|stuttgart|d[uü]sseldorf|mannheim|karlsruhe|leipzig|dresden|g[oö]ttingen|heidelberg|netherlands|amsterdam|utrecht|rotterdam|eindhoven|the hague|den haag|portugal|lisbon|lisboa|porto|ireland|dublin|cork|poland|warsaw|warszawa|krak[oó]w|krakow|wroc[lł]aw|gda[nń]sk|pozna[nń]|france|paris|lyon|marseille|toulouse|bordeaux|nantes|lille|italy|italia|milan|milano|rome|roma|turin|torino|bologna|naples|napoli|sweden|stockholm|gothenburg|g[oö]teborg|malm[oö]|denmark|copenhagen|k[oø]benhavn|aarhus|austria|vienna|wien|graz|switzerland|zurich|z[uü]rich|geneva|gen[eè]ve|basel|lausanne|belgium|brussels|bruxelles|antwerp|ghent|gent|leuven|czech|czechia|prague|praha|brno|romania|bucharest|bucure[sș]ti|cluj|timi[sș]oara|bulgaria|sofia|plovdiv|greece|athens|thessaloniki|hungary|budapest|estonia|tallinn|tartu|latvia|riga|lithuania|vilnius|kaunas|croatia|zagreb|split|slovakia|bratislava|slovenia|ljubljana|finland|helsinki|espoo|tampere|norway|oslo|bergen|trondheim|luxembourg|malta|cyprus|nicosia|iceland|reykjav[ií]k|serbia|belgrade|beograd|novi sad)\b/i;
 const UK_WORD = /\b(uk|united kingdom|england|scotland|wales|london|manchester|edinburgh|glasgow|bristol|cambridge, uk|oxford|leeds|birmingham)\b/i;
 const UK_SPONSOR = /visa sponsorship (is )?(available|provided|offered)|we (can|will|do) sponsor|sponsorship available/i;
+// Employers known to hold a UK Skilled Worker sponsor licence. Their postings almost
+// never say so, so UK_SPONSOR alone would penalise exactly the roles a UK route is
+// realistic for. Matched against the start of the company field (a Greenhouse slug or
+// an aggregator's display name). Add a company only once its licence is confirmed on
+// the gov.uk register of licensed sponsors -- the penalty is the safe default.
+const UK_LICENSED = /^(amazon|aws|google|meta|bloomberg|flo ?health)\b/i;
+// A licensed employer that says it will not sponsor for this role keeps the penalty.
+const UK_NO_SPONSOR = /(no|not|unable to|cannot|can't|do not|don't|does not|won't|will not)\W+(\w+\W+){0,4}sponsor|without (visa )?sponsorship/i;
+// Big-tech "Solutions Architect" / "Customer Engineer" is the vendor's pre-sales role
+// (AWS SA, Google Cloud, Meta Partner), not an internal architect. Their internal
+// architects are titled Software Engineer, which the title gate already drops.
+const CUSTOMER_VENDOR = /^(amazon|aws|google|meta)\b/i;
 // Only the location field may claim worldwide eligibility. Tested against
 // location+description at first, which meant a company blurb was enough: one
 // company's "enabling sustainable growth for businesses worldwide" handed its
@@ -777,7 +831,10 @@ for (const item of $input.all()) {
   const isTarget = TITLE_LEAD.some((t) => title.includes(t))
     || TITLE_SENIOR.some((t) => title.includes(t))
     || isAi || isPlatform
-    || TITLE_BASE.some((t) => title.includes(t));
+    || TITLE_BASE.some((t) => title.includes(t))
+    // The abbreviation alone must not open the gate on an engineer title: Amazon
+    // posts "Sr Mechanical Engineer, TIPM, Global Building Design & Engineering".
+    || (TITLE_TPM.test(title) && !/\bengineer\b/.test(title));
   if (!isTarget) continue;
 
   // Gate 2: right-shaped but wrong track.
@@ -880,8 +937,14 @@ for (const item of $input.all()) {
   // location also names an EU city ("London or Berlin") — there is a reachable
   // variant. Sponsorship in the JD also lifts it. Delete this block if Global
   // Talent or another UK route lands.
-  if (UK_WORD.test(loc) && !EU_WORD.test(loc) && !UK_SPONSOR.test(desc)) {
-    score -= 20; reasons.push('-UK, no sponsorship');
+  // Known licensed sponsors are exempt unless the JD itself says no sponsorship.
+  if (UK_WORD.test(loc) && !EU_WORD.test(loc)) {
+    const licensed = UK_LICENSED.test((j.company || '').trim()) && !UK_NO_SPONSOR.test(desc);
+    if (licensed) {
+      reasons.push('UK, licensed sponsor');
+    } else if (!UK_SPONSOR.test(desc)) {
+      score -= 20; reasons.push('-UK, no sponsorship');
+    }
   }
 
   // Language gates. Penalise roles run in a language you do not work in; adjust to your own.
@@ -917,7 +980,16 @@ for (const item of $input.all()) {
   // show how large that hole is after a week of live runs.
   const CUSTOMER_TITLE = /applied ai architect|partner architect|field cto|forward[\s-]deployed|implementation architect/i;
   const CUSTOMER_FACING = /pre-?sales|post-?sales|account executives?|\bquota\b|customer-facing|technical sales|partner with (our )?(sales|account)|sales cycle/i;
-  if (CUSTOMER_TITLE.test(title) || CUSTOMER_FACING.test(desc) || CUSTOMER_FACING.test(title)) {
+  const CUSTOMER_FACING_STRICT = /pre-?sales|post-?sales|account executives?|\bquota\b|technical sales|partner with (our )?(sales|account)|sales cycle/i;
+  const vendorSa = CUSTOMER_VENDOR.test((j.company || '').trim())
+    && /solutions? architect|customer engineer|partner engineer/i.test(title);
+  // A TPM JD says "customer-facing" about the product (a console surface, capacity
+  // commitments), not about the job -- live Amazon EC2 and Cloudscape TPM roles were
+  // penalised 30 for it. For programme/delivery titles only the sales markers count.
+  const isProgramme = /program(me)? manager|delivery manager|\btpm\b|\btipm\b/i.test(title);
+  const customerFacing = isProgramme ? CUSTOMER_FACING_STRICT : CUSTOMER_FACING;
+  if (CUSTOMER_TITLE.test(title) || vendorSa
+      || customerFacing.test(desc) || customerFacing.test(title)) {
     score -= 30; reasons.push('-customer-facing');
   }
 
