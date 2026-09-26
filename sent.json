@@ -1946,6 +1946,65 @@
         "+1 other location"
       ],
       "url": "https://www.amazon.jobs/en/jobs/10450171/first-deployment-technical-program-manager-robotics-delivery-packaging-innovation"
+    },
+    {
+      "sentAt": "2026-09-26T15:27:25.427Z",
+      "title": "Software Architect",
+      "company": "Autodesk",
+      "location": "EMEA, UK",
+      "score": 69,
+      "reasons": [
+        "target title",
+        "API design",
+        "REST",
+        "system design",
+        "event-driven",
+        "data modeling",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack",
+        "API contract practice",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/150381-software-architect"
+    },
+    {
+      "sentAt": "2026-09-26T15:27:25.427Z",
+      "title": "Engineering Manager, Platform",
+      "company": "Firmus",
+      "location": "Sydney, Australia",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-platform-sydney-australia-123544"
+    },
+    {
+      "sentAt": "2026-09-26T15:27:25.427Z",
+      "title": "Engineering Manager",
+      "company": "gitlab",
+      "location": "Bangalore, India",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "agents",
+        "eng management",
+        "+1 other location"
+      ],
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8799044002"
     }
   ]
 }
