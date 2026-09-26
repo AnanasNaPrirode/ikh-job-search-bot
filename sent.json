@@ -2005,6 +2005,68 @@
         "+1 other location"
       ],
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8799044002"
+    },
+    {
+      "sentAt": "2026-09-26T22:17:52.601Z",
+      "title": "AI Solution Architect (m/w/d)",
+      "company": "virtual7 GmbH",
+      "location": "Homeoffice, Remote",
+      "score": 83,
+      "reasons": [
+        "target title",
+        "AI role",
+        "platform role",
+        "AI solutions architect in title",
+        "solution architect in title",
+        "AI in title",
+        "Python/FastAPI",
+        "analysis",
+        "LLM",
+        "RAG",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-ai-solution-architect-nurnberg-mittelfranken-72576"
+    },
+    {
+      "sentAt": "2026-09-26T22:17:52.601Z",
+      "title": "Engineering Manager, Consumer Alliance (m/f/x)",
+      "company": "hellofresh",
+      "location": "Berlin, Berlin",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "high-load scale",
+        "EU location",
+        "-customer-facing",
+        "hands-on builder bar"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-consumer-alliance-berlin-berlin-163923"
+    },
+    {
+      "sentAt": "2026-09-26T22:17:52.601Z",
+      "title": "Senior Solutions Architect - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
+      "company": "Auvaria",
+      "location": "München",
+      "score": 40,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "AI in title",
+        "event-driven",
+        "Python/FastAPI",
+        "people leadership",
+        "agents",
+        "LLM",
+        "EU location",
+        "-customer-facing"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-solutions-architect-data-ai-engineer-4-days-week-german-speaking-munchen-414296"
     }
   ]
 }
