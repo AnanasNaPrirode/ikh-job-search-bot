@@ -1757,6 +1757,195 @@
         "AI-native team"
       ],
       "url": "https://www.arbeitnow.com/view/senior-corporate-development-manager-berlin-zentrale-34485"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Technical Program Manager, AI Delivery for Public Sector & Defence, Canada",
+      "company": "cohere",
+      "location": "Ottawa",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "AI in title",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG"
+      ],
+      "url": "https://jobs.ashbyhq.com/cohere/01a34bc3-6421-4af2-bf5b-f42e98155dda"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Technical Infrastructure Program Manager, Fiber Deployment, Global Connectivity Infrastructure Development",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "high-load scale",
+        "EU location",
+        "+1 other location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10544092/technical-infrastructure-program-manager-fiber-deployment-global-connectivity-infrastructure-development"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Senior Technical Program Manager",
+      "company": "parloa",
+      "location": "Berlin Office",
+      "score": 49,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "analysis",
+        "agents",
+        "LLM",
+        "EU location"
+      ],
+      "url": "https://job-boards.eu.greenhouse.io/parloa/jobs/4977196101"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Founding Technical Program Manager",
+      "company": "supabase",
+      "location": "Remote, Global",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "modern stack",
+        "worldwide",
+        "-aging 36d"
+      ],
+      "url": "https://jobs.ashbyhq.com/supabase/7a5d81a2-c586-4d7f-a179-89c95869ca33"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Senior Technical Program Manager, Cloudscape Design System, Cloudscape",
+      "company": "Amazon",
+      "location": "Berlin, Berlin, DEU",
+      "score": 46,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "modern stack",
+        "EU location",
+        "-aging 37d"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10509670/senior-technical-program-manager-cloudscape-design-system-cloudscape"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Senior Technical Infrastructure Program Manager, Manufacturing Operations",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "score": 45,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10533694/senior-technical-infrastructure-program-manager-manufacturing-operations"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "TIPM, Network Delivery, Data Center Capacity Delivery",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10535764/tipm-network-delivery-data-center-capacity-delivery"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Senior Technical Program Manager Atlas Clusters",
+      "company": "mongodb",
+      "location": "Cork, Ireland; Dublin, Ireland",
+      "score": 44,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "EU location",
+        "-stale 207d",
+        "AI-native team"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7672303"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Senior Technical Program Manager, Services Tools & Diagnostics",
+      "company": "twilio",
+      "location": "Remote - US",
+      "score": 43,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "REST",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack",
+        "remote",
+        "-US-remote",
+        "-stale 71d"
+      ],
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067440"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "Sr. Technical Program Manager, Managed Operations",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "analysis",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10553241/sr-technical-program-manager-managed-operations"
+    },
+    {
+      "sentAt": "2026-09-26T09:44:57.129Z",
+      "title": "First Deployment Technical Program Manager, Robotics Delivery & Packaging Innovation",
+      "company": "Amazon",
+      "location": "Barcelona, Catalonia, ESP",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "EU location",
+        "Spain-eligible",
+        "-stale 102d",
+        "+1 other location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10450171/first-deployment-technical-program-manager-robotics-delivery-packaging-innovation"
     }
   ]
 }
