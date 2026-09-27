@@ -2102,6 +2102,114 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-core-team-hamburg-189180"
+    },
+    {
+      "sentAt": "2026-09-27T16:06:59.638Z",
+      "title": "Engineering Manager - Confidential Computing & AI Products",
+      "company": "Dashlane",
+      "location": "Paris",
+      "score": 80,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "AI in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-confidential-computing-ai-products-paris-465069"
+    },
+    {
+      "sentAt": "2026-09-27T16:06:59.638Z",
+      "title": "Engineering Manager - Enterprise Products",
+      "company": "Dashlane",
+      "location": "Paris",
+      "score": 72,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-enterprise-products-paris-335811"
+    },
+    {
+      "sentAt": "2026-09-27T16:06:59.638Z",
+      "title": "Engineering Manager - Software/Cloud",
+      "company": "Rivr",
+      "location": "Zürich",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-software-cloud-zurich-103499"
+    },
+    {
+      "sentAt": "2026-09-27T16:06:59.638Z",
+      "title": "Engineering Manager",
+      "company": "Scoreplay",
+      "location": "Paris office",
+      "score": 51,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-paris-148463"
+    },
+    {
+      "sentAt": "2026-09-27T16:06:59.638Z",
+      "title": "Engineering Manager, Service Platform",
+      "company": "Instacart",
+      "location": "Canada",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "distributed systems",
+        "analysis",
+        "eng management"
+      ],
+      "url": "https://jobicy.com/jobs/147603-engineering-manager-service-platform"
+    },
+    {
+      "sentAt": "2026-09-27T16:06:59.638Z",
+      "title": "Tech Lead – Testing Engineer",
+      "company": "Rivr",
+      "location": "Zürich",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "Python/FastAPI",
+        "data modeling",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/tech-lead-testing-engineer-zurich-213088"
     }
   ]
 }
