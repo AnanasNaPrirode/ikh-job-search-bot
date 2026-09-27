@@ -2210,6 +2210,37 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/tech-lead-testing-engineer-zurich-213088"
+    },
+    {
+      "sentAt": "2026-09-27T22:44:37.273Z",
+      "title": "Technical Program Manager (AI/ML)",
+      "company": "Cuspai",
+      "location": "Berlin, DE",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "AI in title",
+        "analysis",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/technical-program-manager-ai-ml-berlin-15679"
+    },
+    {
+      "sentAt": "2026-09-27T22:44:37.273Z",
+      "title": "Scientific Data Architect - Basel, Switzerland",
+      "company": "Tetrascience",
+      "location": "Basel, Switzerland",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/scientific-data-architect-basel-switzerland-340246"
     }
   ]
 }
