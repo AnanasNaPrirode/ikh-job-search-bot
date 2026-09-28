@@ -2256,6 +2256,81 @@
         "eng management"
       ],
       "url": "https://jobicy.com/jobs/154108-engineering-manager-feegow-100-remote-within-brazil"
+    },
+    {
+      "sentAt": "2026-09-28T10:22:06.793Z",
+      "title": "Genesys Solution Architect",
+      "company": "capco",
+      "location": "n/a",
+      "score": 57,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "REST",
+        "event-driven",
+        "integrations",
+        "analysis",
+        "integration architecture"
+      ],
+      "url": "https://www.arbeitnow.com/view/genesys-solution-architect-404081"
+    },
+    {
+      "sentAt": "2026-09-28T10:22:06.793Z",
+      "title": "Solutions Architect - CPG and Manufacturing",
+      "company": "databricks",
+      "location": "Zürich",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "data modeling",
+        "retail/martech",
+        "analysis",
+        "agents",
+        "EU location",
+        "-customer-facing",
+        "AI-native team",
+        "hands-on builder bar"
+      ],
+      "url": "https://www.arbeitnow.com/view/solutions-architect-cpg-and-manufacturing-zurich-79219"
+    },
+    {
+      "sentAt": "2026-09-28T10:22:06.793Z",
+      "title": "Senior Engineer - Enterprise Architecture",
+      "company": "mongodb",
+      "location": "Gurugram",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8221293"
+    },
+    {
+      "sentAt": "2026-09-28T10:22:06.793Z",
+      "title": "Software Engineer 3 - Enterprise Architecture",
+      "company": "mongodb",
+      "location": "Gurugram",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8221290"
     }
   ]
 }
