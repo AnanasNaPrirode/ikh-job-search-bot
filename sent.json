@@ -2331,6 +2331,43 @@
         "modern stack"
       ],
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8221290"
+    },
+    {
+      "sentAt": "2026-09-28T19:02:01.497Z",
+      "title": "Backend Engineering Manager",
+      "company": "YAZIO",
+      "location": "Berlin",
+      "score": 62,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "REST",
+        "system design",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/backend-engineering-manager-berlin-444267"
+    },
+    {
+      "sentAt": "2026-09-28T19:02:01.497Z",
+      "title": "Senior Engineering Manager, Agents Platform",
+      "company": "synthesia",
+      "location": "Europe",
+      "score": 43,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "platform in title",
+        "agents in title",
+        "analysis",
+        "agents",
+        "EU location"
+      ],
+      "url": "https://jobs.ashbyhq.com/synthesia/4c6dedb3-2dbf-46b7-9336-a2b19b55dfd7"
     }
   ]
 }
