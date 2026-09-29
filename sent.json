@@ -2469,6 +2469,77 @@
         "daily AI tooling"
       ],
       "url": "https://www.arbeitnow.com/view/software-architecture-development-munchen-489716"
+    },
+    {
+      "sentAt": "2026-09-29T23:19:04.920Z",
+      "title": "Senior Engineering Manager (GenAI & Agentic Platforms)",
+      "company": "Preply",
+      "location": "Barcelona, Spain",
+      "score": 45,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "AI in title",
+        "agents in title",
+        "EU location",
+        "Spain-eligible",
+        "+2 other locations"
+      ],
+      "url": "https://jobs.ashbyhq.com/preply/ff54daff-108a-424c-8c67-8335873d4652"
+    },
+    {
+      "sentAt": "2026-09-29T23:19:04.920Z",
+      "title": "Enterprise Solution Architect (human)",
+      "company": "NEURA Robotics",
+      "location": "72 Riederich, Germany",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://jobs.neura-robotics.com/offer-redirect/?offerApiId=YjVhNmRlODMtMjdkYy00MGY1LWI5N2ItZWRmZjFhN2ZmYjg0&showApplicationForm=false"
+    },
+    {
+      "sentAt": "2026-09-29T23:19:04.920Z",
+      "title": "Engineering Manager",
+      "company": "sumup",
+      "location": "São Paulo, Brazil",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "Python/FastAPI",
+        "caching",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "-stale 84d"
+      ],
+      "url": "https://sumup.com/careers/positions/8559967002?gh_jid=8559967002"
+    },
+    {
+      "sentAt": "2026-09-29T23:19:04.920Z",
+      "title": "Senior Security Operations Engineering Manager (m/w/d)",
+      "company": "NVISO",
+      "location": "Munich",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "retail/martech",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "requires hands-on AI tooling",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-security-operations-engineering-manager-munich-299778"
     }
   ]
 }
