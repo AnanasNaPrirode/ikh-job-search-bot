@@ -2420,6 +2420,55 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-experience-above-the-box-all-genders-dusseldorf-481472"
+    },
+    {
+      "sentAt": "2026-09-29T17:23:28.245Z",
+      "title": "Software Architect (m/f/d) für Web-, Backend- und Plattformlösungen",
+      "company": "Swissbit",
+      "location": "DE-München",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "API design",
+        "REST",
+        "Python/FastAPI",
+        "modern stack",
+        "API contract practice",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-353393"
+    },
+    {
+      "sentAt": "2026-09-29T17:23:28.245Z",
+      "title": "Senior Security Operations Engineering Manager (m/w/d)",
+      "company": "NVISO",
+      "location": "Frankfurt am Main",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "retail/martech",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-security-operations-engineering-manager-frankfurt-am-main-305429"
+    },
+    {
+      "sentAt": "2026-09-29T17:23:28.245Z",
+      "title": "Software Architecture & Development (m/w/d)",
+      "company": "ECOZA GmbH",
+      "location": "München",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "modern stack",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-architecture-development-munchen-489716"
     }
   ]
 }
