@@ -2368,6 +2368,24 @@
         "EU location"
       ],
       "url": "https://jobs.ashbyhq.com/synthesia/4c6dedb3-2dbf-46b7-9336-a2b19b55dfd7"
+    },
+    {
+      "sentAt": "2026-09-29T00:06:33.170Z",
+      "title": "Engineering Manager",
+      "company": "lunar",
+      "location": "Aarhus, DK",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location",
+        "-stale 53d",
+        "AI-native team"
+      ],
+      "url": "https://lunar.teamtailor.com/jobs/8185088-engineering-manager"
     }
   ]
 }
