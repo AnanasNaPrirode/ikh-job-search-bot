@@ -2669,6 +2669,88 @@
         "eng management"
       ],
       "url": "https://jobicy.com/jobs/152085-engineering-manager-6"
+    },
+    {
+      "sentAt": "2026-09-30T17:20:11.404Z",
+      "title": "AI Architect, Finance",
+      "company": "ShopFully",
+      "location": "Italy, Spain",
+      "score": 68,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "Python/FastAPI",
+        "retail/martech",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "EU location",
+        "Spain-eligible"
+      ],
+      "url": "https://jobicy.com/jobs/154278-ai-architect-finance"
+    },
+    {
+      "sentAt": "2026-09-30T17:20:11.404Z",
+      "title": "Engineering Manager - Mobile (f/m/d)",
+      "company": "Awin",
+      "location": "Berlin, Berlin; Hannover, Lower Saxony; München, Bavaria",
+      "score": 57,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location",
+        "hands-on builder bar"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-mobile-berlin-berlin-hannover-lower-saxony-munchen-bavaria-361735"
+    },
+    {
+      "sentAt": "2026-09-30T17:20:11.404Z",
+      "title": "Engineering Manager - Authentication & Authorisation",
+      "company": "Pleo",
+      "location": "Spain, Denmark, Portugal",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "EU location",
+        "Spain-eligible"
+      ],
+      "url": "https://jobs.ashbyhq.com/pleo/f3543998-a314-438c-b8b3-d7d8916cf97a"
+    },
+    {
+      "sentAt": "2026-09-30T17:20:11.404Z",
+      "title": "Technical Program Manager - Physical Infrastructure, Data Center Delivery, TIPM DCD qualification Team",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "EU location",
+        "+1 other location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10565438/technical-program-manager-physical-infrastructure-data-center-delivery-tipm-dcd-qualification-team"
+    },
+    {
+      "sentAt": "2026-09-30T17:20:11.404Z",
+      "title": "Solution Architect",
+      "company": "UiPath",
+      "location": "Bucharest, Romania",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://jobs.ashbyhq.com/uipath/438035f3-91c9-4765-b941-6f912c910983"
     }
   ]
 }
