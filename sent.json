@@ -2751,6 +2751,39 @@
         "EU location"
       ],
       "url": "https://jobs.ashbyhq.com/uipath/438035f3-91c9-4765-b941-6f912c910983"
+    },
+    {
+      "sentAt": "2026-09-30T23:22:56.525Z",
+      "title": "Senior Corporate Development Manager (m/w/d)",
+      "company": "Thermondo",
+      "location": "Berlin (Zentrale)",
+      "score": 54,
+      "reasons": [
+        "senior title",
+        "analysis",
+        "people leadership",
+        "LLM",
+        "EU location",
+        "daily AI tooling",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-corporate-development-manager-berlin-zentrale-34533"
+    },
+    {
+      "sentAt": "2026-09-30T23:22:56.525Z",
+      "title": "Freelance- Lead Developer- Technical Lead",
+      "company": "Jack Morton Worldwide",
+      "location": "n/a",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "system design",
+        "Python/FastAPI",
+        "people leadership",
+        "modern stack"
+      ],
+      "url": "https://www.arbeitnow.com/view/freelance-lead-developer-technical-lead-181763"
     }
   ]
 }
