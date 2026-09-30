@@ -2540,6 +2540,23 @@
         "+1 other location"
       ],
       "url": "https://www.arbeitnow.com/view/senior-security-operations-engineering-manager-munich-299778"
+    },
+    {
+      "sentAt": "2026-09-30T03:11:53.851Z",
+      "title": "Toptal: Senior Data Engineer – AWS Data Lake Pipeline Architecture",
+      "company": "WeWorkRemotely",
+      "location": "Anywhere in the World",
+      "score": 43,
+      "reasons": [
+        "senior title",
+        "REST",
+        "event-driven",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "worldwide (unverified)"
+      ],
+      "url": "https://weworkremotely.com/remote-jobs/toptal-senior-data-engineer-aws-data-lake-pipeline-architecture"
     }
   ]
 }
