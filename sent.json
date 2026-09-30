@@ -2557,6 +2557,118 @@
         "worldwide (unverified)"
       ],
       "url": "https://weworkremotely.com/remote-jobs/toptal-senior-data-engineer-aws-data-lake-pipeline-architecture"
+    },
+    {
+      "sentAt": "2026-09-30T10:08:54.882Z",
+      "title": "Senior Engineering Manager [gn] Data Intelligence Platform",
+      "company": "Actian",
+      "location": "Europe - Remote",
+      "score": 74,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "platform in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "agent workflow design",
+        "remote EU/EMEA",
+        "AI-native team",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-senior-engineering-manager-gn-data-intelligence-platform-188032"
+    },
+    {
+      "sentAt": "2026-09-30T10:08:54.882Z",
+      "title": "Engineering Manager - Grafana Application Security | EMEA | (Remote, Spain)",
+      "company": "grafanalabs",
+      "location": "Spain (Remote)",
+      "score": 71,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "remote EU/EMEA",
+        "Spain-eligible",
+        "+2 other locations"
+      ],
+      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6211674004"
+    },
+    {
+      "sentAt": "2026-09-30T10:08:54.882Z",
+      "title": "Tech Lead: AI & Innovation",
+      "company": "Vicoland",
+      "location": "Berlin",
+      "score": 70,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "AI in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/tech-lead-ai-innovation-berlin-238413"
+    },
+    {
+      "sentAt": "2026-09-30T10:08:54.882Z",
+      "title": "Lead Frontend Engineer (m/f/d) - Web Platform & Architecture",
+      "company": "Assetmetrix Gmbh",
+      "location": "München",
+      "score": 61,
+      "reasons": [
+        "target title",
+        "platform in title",
+        "REST",
+        "people leadership",
+        "modern stack",
+        "EU location",
+        "daily AI tooling",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/lead-frontend-engineer-web-platform-architecture-munchen-437873"
+    },
+    {
+      "sentAt": "2026-09-30T10:08:54.882Z",
+      "title": "Engineering Manager",
+      "company": "Enode",
+      "location": "Europe",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "retail/martech",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/152044-engineering-manager-5"
+    },
+    {
+      "sentAt": "2026-09-30T10:08:54.882Z",
+      "title": "Engineering Manager",
+      "company": "Teachable",
+      "location": "Brazil",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "people leadership",
+        "eng management"
+      ],
+      "url": "https://jobicy.com/jobs/152085-engineering-manager-6"
     }
   ]
 }
