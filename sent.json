@@ -2891,6 +2891,94 @@
         "-UK, no sponsorship"
       ],
       "url": "https://jobicy.com/jobs/152147-engineering-manager-data-platform-2"
+    },
+    {
+      "sentAt": "2026-10-01T17:47:34.386Z",
+      "title": "Engineering Manager - AI platform",
+      "company": "DiliTrust",
+      "location": "Paris - La Défense",
+      "score": 67,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "AI in title",
+        "API design",
+        "system design",
+        "integrations",
+        "Python/FastAPI",
+        "analysis",
+        "LLM",
+        "RAG",
+        "eng management",
+        "modern stack",
+        "integration architecture",
+        "EU location",
+        "-other language"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-ai-platform-paris-la-defense-215826"
+    },
+    {
+      "sentAt": "2026-10-01T17:47:34.386Z",
+      "title": "Solution Architect (m/w/d) Data & AI",
+      "company": "cbs Corporate Business Solutions GmbH",
+      "location": "Heidelberg, Baden-Württemberg, Deutschland",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "AI in title",
+        "analysis",
+        "agents",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-data-ai-heidelberg-438393"
+    },
+    {
+      "sentAt": "2026-10-01T17:47:34.386Z",
+      "title": "Engineering Manager (m/w/d) – Core Team",
+      "company": "Metergrid",
+      "location": "Hamburg",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-core-team-hamburg-429800"
+    },
+    {
+      "sentAt": "2026-10-01T17:47:34.386Z",
+      "title": "Senior Robotics Software Engineer - Autonomy Architecture",
+      "company": "Gravis Robotics",
+      "location": "Zurich",
+      "score": 47,
+      "reasons": [
+        "senior title",
+        "Python/FastAPI",
+        "remote EU/EMEA",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-robotics-software-engineer-autonomy-architecture-zurich-257021"
+    },
+    {
+      "sentAt": "2026-10-01T17:47:34.386Z",
+      "title": "Engineering Manager - Authentication & Authorisation",
+      "company": "Pleo",
+      "location": "Madrid, Spain, Copenhagen, Denmark, Lisbon, Portugal",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "EU location",
+        "Spain-eligible"
+      ],
+      "url": "https://jobs.ashbyhq.com/pleo/0eac4a7a-c550-44b1-bde3-f27e48c34812"
     }
   ]
 }
