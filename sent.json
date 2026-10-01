@@ -2784,6 +2784,54 @@
         "modern stack"
       ],
       "url": "https://www.arbeitnow.com/view/freelance-lead-developer-technical-lead-181763"
+    },
+    {
+      "sentAt": "2026-10-01T03:19:07.910Z",
+      "title": "AI Technical Lead - Developer Tooling",
+      "company": "jetbrains",
+      "location": "Berlin; Munich; Remote",
+      "score": 68,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "AI in title",
+        "analysis",
+        "agents",
+        "LLM",
+        "remote EU/EMEA",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-ai-technical-lead-developer-tooling-51547"
+    },
+    {
+      "sentAt": "2026-10-01T03:19:07.910Z",
+      "title": "Engineering Manager - Cloud & Security (m/f/x)",
+      "company": "FINN",
+      "location": "Munich",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-cloud-security-munich-474711"
+    },
+    {
+      "sentAt": "2026-10-01T03:19:07.910Z",
+      "title": "Senior Technical Program Manager (IDE Department)",
+      "company": "jetbrains",
+      "location": "Berlin; Munich",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-technical-program-manager-ide-department-berlin-munich-127966"
     }
   ]
 }
