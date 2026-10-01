@@ -2832,6 +2832,65 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/senior-technical-program-manager-ide-department-berlin-munich-127966"
+    },
+    {
+      "sentAt": "2026-10-01T10:37:34.072Z",
+      "title": "AI Solution Architect (m/w/d)",
+      "company": "virtual7 GmbH",
+      "location": "Homeoffice, Remote",
+      "score": 83,
+      "reasons": [
+        "target title",
+        "AI role",
+        "platform role",
+        "AI solutions architect in title",
+        "solution architect in title",
+        "AI in title",
+        "Python/FastAPI",
+        "analysis",
+        "LLM",
+        "RAG",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-ai-solution-architect-nurnberg-mittelfranken-193080"
+    },
+    {
+      "sentAt": "2026-10-01T10:37:34.072Z",
+      "title": "Product Engineering Lead (f/d/m)",
+      "company": "Ceezer",
+      "location": "Berlin",
+      "score": 48,
+      "reasons": [
+        "target title",
+        "API design",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/product-engineering-lead-berlin-77431"
+    },
+    {
+      "sentAt": "2026-10-01T10:37:34.072Z",
+      "title": "Engineering Manager - Data Platform",
+      "company": "Spotify",
+      "location": "UK",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "event-driven",
+        "analysis",
+        "people leadership",
+        "LLM",
+        "eng management",
+        "integration architecture",
+        "-UK, no sponsorship"
+      ],
+      "url": "https://jobicy.com/jobs/152147-engineering-manager-data-platform-2"
     }
   ]
 }
