@@ -2979,6 +2979,76 @@
         "Spain-eligible"
       ],
       "url": "https://jobs.ashbyhq.com/pleo/0eac4a7a-c550-44b1-bde3-f27e48c34812"
+    },
+    {
+      "sentAt": "2026-10-02T10:12:18.417Z",
+      "title": "Engineering Manager - Platform and IT & Compliance",
+      "company": "trawa",
+      "location": "Berlin HQ",
+      "score": 61,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-platform-and-it-compliance-berlin-456356"
+    },
+    {
+      "sentAt": "2026-10-02T10:12:18.417Z",
+      "title": "Solution Architect (m/f/d)",
+      "company": "Quantum-Systems GmbH",
+      "location": "Gilching",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "system design",
+        "analysis",
+        "people leadership"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-gilching-295196"
+    },
+    {
+      "sentAt": "2026-10-02T10:12:18.417Z",
+      "title": "Technical Program Manager - Compute Systems Engineering",
+      "company": "Nebius",
+      "location": "Europe, Netherlands, UK",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149859-technical-program-manager-compute-systems-engineering"
+    },
+    {
+      "sentAt": "2026-10-02T10:12:18.417Z",
+      "title": "Engineering Manager, Data & Analytics",
+      "company": "Staffbase",
+      "location": "Berlin, Brandenburg; Chemnitz, Sachsen; Dresden, Sachsen",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location",
+        "-customer-facing",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-data-analytics-berlin-brandenburg-chemnitz-sachsen-dresden-sachsen-195760"
     }
   ]
 }
