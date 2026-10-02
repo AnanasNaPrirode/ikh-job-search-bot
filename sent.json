@@ -3049,6 +3049,67 @@
         "AI-native team"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-data-analytics-berlin-brandenburg-chemnitz-sachsen-dresden-sachsen-195760"
+    },
+    {
+      "sentAt": "2026-10-02T17:08:10.536Z",
+      "title": "Partner Development Manager",
+      "company": "cohere",
+      "location": "Berlin",
+      "score": 60,
+      "reasons": [
+        "target title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "agent workflow design",
+        "EU location",
+        "agentic practice",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/cohere/f74933db-e97f-41c9-97ab-daa57880a12b"
+    },
+    {
+      "sentAt": "2026-10-02T17:08:10.536Z",
+      "title": "Engineering Manager - Data processing Engines",
+      "company": "workato",
+      "location": "Berlin; Frankfurt; Munich",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-data-processing-engines-berlin-frankfurt-munich-233377"
+    },
+    {
+      "sentAt": "2026-10-02T17:08:10.536Z",
+      "title": "Senior Solutions Architect (Search Specialist)",
+      "company": "mongodb",
+      "location": "Barcelona; Dublin; London",
+      "score": 48,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "event-driven",
+        "Python/FastAPI",
+        "data modeling",
+        "distributed systems",
+        "people leadership",
+        "EU location",
+        "Spain-eligible",
+        "-customer-facing",
+        "AI-native team"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8248829"
     }
   ]
 }
