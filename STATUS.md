@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-10-01T23:36:41.886Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-10-02T03:19:55.493Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**YELLOW** · 133/135 boards responding (99%) · 9978 postings → 599 architect-titled → 0 above 40
+**YELLOW** · 132/135 boards responding (98%) · 9922 postings → 600 architect-titled → 0 above 40
 
 ## Down
 
@@ -10,6 +10,7 @@ Generated 2026-10-01T23:36:41.886Z by `radar.mjs` — do not edit, it is overwri
 |---|---|---|---|
 | greenhouse | amplitude | 404 | 0 |
 | greenhouse | deepmind | 404 | 0 |
+| workingnomads | WorkingNomads | The operation was aborted due to timeout | 0 |
 
 ## Live but returning nothing
 
@@ -29,7 +30,7 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 35 | 33 | 4445 |
+| greenhouse | 35 | 33 | 4448 |
 | ashby | 42 | 42 | 3840 |
 | personio | 10 | 10 | 366 |
 | arbeitnow | 1 | 1 | 326 |
@@ -38,7 +39,6 @@ board that should always have jobs.
 | teamtailor | 8 | 8 | 119 |
 | jobicy | 1 | 1 | 100 |
 | remoteok | 1 | 1 | 99 |
-| workingnomads | 1 | 1 | 59 |
 | amazon | 5 | 5 | 40 |
 | themuse | 2 | 2 | 40 |
 | recruitee | 3 | 3 | 32 |
@@ -50,4 +50,5 @@ board that should always have jobs.
 | workable | 1 | 1 | 8 |
 | bamboohr | 1 | 1 | 3 |
 | pinpoint-rss | 4 | 4 | 0 |
+| workingnomads | 1 | 0 | 0 |
 
