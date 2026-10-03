@@ -3404,6 +3404,44 @@
         "daily AI tooling"
       ],
       "url": "https://jobicy.com/jobs/154448-engineering-manager-emea-platform"
+    },
+    {
+      "sentAt": "2026-10-03T22:35:21.152Z",
+      "title": "Engineering Manager ERP (f/m/x)",
+      "company": "Enpal",
+      "location": "Berlin",
+      "score": 78,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "integrations",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "EU location",
+        "daily AI tooling",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-erp-berlin-274294"
+    },
+    {
+      "sentAt": "2026-10-03T22:35:21.152Z",
+      "title": "Software Architect (m/f/d) für Web-, Backend- und Plattformlösungen",
+      "company": "Swissbit",
+      "location": "DE-München",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "API design",
+        "REST",
+        "Python/FastAPI",
+        "modern stack",
+        "API contract practice",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-224789"
     }
   ]
 }
