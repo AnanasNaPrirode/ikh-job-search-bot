@@ -3174,6 +3174,210 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-spain-paris-6769"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Engineering Manager - Web",
+      "company": "Canonical",
+      "location": "EMEA",
+      "score": 58,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "API design",
+        "REST",
+        "analysis",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149976-engineering-manager-web"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Solution Architect (m/f/d)",
+      "company": "Quantum-Systems GmbH",
+      "location": "Gilching, Bayern, Germany",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-gilching-260250"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Canonical",
+      "location": "APAC, EMEA",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Engineering Manager for IAM (Identity and Access Management)",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149980-engineering-manager-for-iam-identity-and-access-management"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Software Engineering Manager - Container and Virtualisation Infrastructure",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149973-software-engineering-manager-container-and-virtualisation-infrastructure"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "GitOps Engineering Manager",
+      "company": "Canonical",
+      "location": "APAC, EMEA",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149939-gitops-engineering-manager"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Engineering Manager - Public Cloud, Python, Golang",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149985-engineering-manager-public-cloud-python-golang"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Engineering Manager- Ceph & Distributed Storage",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149970-engineering-manager-ceph-distributed-storage"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Information Systems - Open Source Technical Architect",
+      "company": "Canonical",
+      "location": "EMEA",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "platform role",
+        "distributed systems",
+        "people leadership",
+        "high-load scale",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149979-information-systems-open-source-technical-architect"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Golang Engineering Manager, Commercial Systems",
+      "company": "Canonical",
+      "location": "EMEA",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149984-golang-engineering-manager-commercial-systems"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Python Engineering Manager, Commercial Systems",
+      "company": "Canonical",
+      "location": "EMEA",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/149989-python-engineering-manager-commercial-systems"
+    },
+    {
+      "sentAt": "2026-10-03T09:34:48.827Z",
+      "title": "Senior Dynamics 365 & Power Platform Technical Lead",
+      "company": "Speedgoat",
+      "location": "Liebefeld, Bern, Switzerland",
+      "score": 41,
+      "reasons": [
+        "senior title",
+        "technical lead in title",
+        "platform in title",
+        "integrations",
+        "data modeling",
+        "analysis",
+        "modern stack",
+        "integration architecture",
+        "EU location",
+        "-customer-facing",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-dynamics-365-power-platform-technical-lead-liebefeld-bern-switzerland-498734"
     }
   ]
 }
