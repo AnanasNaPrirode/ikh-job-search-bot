@@ -3442,6 +3442,46 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-224789"
+    },
+    {
+      "sentAt": "2026-10-04T10:21:41.089Z",
+      "title": "Solution Architect (All Genders)",
+      "company": "Diva E",
+      "location": "München (MUC1)",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "retail/martech",
+        "analysis",
+        "LLM",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-all-genders-munchen-muc1-174078"
+    },
+    {
+      "sentAt": "2026-10-04T10:21:41.089Z",
+      "title": "Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B)",
+      "company": "Samsara",
+      "location": "Poland",
+      "score": 51,
+      "reasons": [
+        "senior title",
+        "technical lead in title",
+        "platform in title",
+        "agents in title",
+        "system design",
+        "event-driven",
+        "data modeling",
+        "people leadership",
+        "agents",
+        "modern stack",
+        "EU location",
+        "-customer-facing",
+        "daily AI tooling"
+      ],
+      "url": "https://jobicy.com/jobs/154396-sr-software-engineer-ii-tech-lead-agentic-platform-poland-remote-b2b"
     }
   ]
 }
