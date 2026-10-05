@@ -30,7 +30,7 @@ Everything from `TITLE_LEAD` down to the language penalties is configuration:
 | `KW` | description keywords that map to real evidence on your CV |
 | `TITLE_BLOCK` | title shapes to reject outright (junior, engineering, sales…) |
 | `EU_WORD`, `UK_WORD`, the Spain bonus, `-hybrid` / `-onsite` penalties | your geography and work-arrangement preferences |
-| the language gates | languages you do **not** work in |
+| the language gates | required German / fluent ES/FR / other non-English working language — **drop** |
 
 Ship the defaults and you will get one particular person's shortlist. That is the
 point of changing them.

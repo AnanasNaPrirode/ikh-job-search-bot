@@ -403,5 +403,36 @@ const bloombergSa = one({title:'Solutions Architect', company:'Bloomberg', locat
 check("a non-vendor company's Solutions Architect is not caught by the vendor rule",
   bloombergSa && !bloombergSa.reasons.includes('-customer-facing'), bloombergSa && bloombergSa.reasons.join(' · '));
 
+// ------------------------------------------------- language knockout
+
+const berlinEn = one({title:TITLE, location:'Berlin', description:'Own the architecture. Working language is English.'});
+check('an English-speaking Berlin role still scores',
+  berlinEn && berlinEn.score > 0 && berlinEn.reasons.includes('EU location'),
+  berlinEn && berlinEn.reasons.join(' · '));
+check('German as a plus does not drop the role',
+  one({title:TITLE, location:'Munich', description:'Own the architecture. German is a plus.'}) !== null);
+
+for (const d of [
+  'Own the architecture. Fluent German required.',
+  'Own the architecture. Native German or C1 Deutsch.',
+  'Own the architecture. Verhandlungssicheres Deutsch ist Voraussetzung.',
+  'Own the architecture. Sehr gute Deutschkenntnisse erforderlich.',
+  'Own the architecture. Deutsch fließend in Wort und Schrift.',
+]) {
+  check(`German requirement is dropped: ${d.slice(22, 56)}`,
+    one({title:TITLE, location:'Berlin', description:d}) === null);
+}
+
+check('fluent Spanish required is dropped',
+  one({title:TITLE, location:'Madrid', description:'Own the architecture. Fluent Spanish is required.'}) === null);
+check('imprescindible castellano is dropped',
+  one({title:TITLE, location:'Barcelona', description:'Own the architecture. Imprescindible castellano nativo.'}) === null);
+check('fluent French required is dropped',
+  one({title:TITLE, location:'Paris', description:'Own the architecture. Fluent French is mandatory.'}) === null);
+check('French as a plus does not drop the role',
+  one({title:TITLE, location:'Paris', description:'Own the architecture. French is a plus.'}) !== null);
+check('fluent Dutch required is dropped',
+  one({title:TITLE, location:'Amsterdam', description:'Own the architecture. Fluent Dutch required.'}) === null);
+
 console.log(fail? `\n${fail} FAILURE(S)` : '\nall checks passed');
 process.exit(fail?1:0);

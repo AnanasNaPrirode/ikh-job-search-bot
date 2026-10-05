@@ -230,7 +230,7 @@ Points:
   also any Solutions Architect / Customer Engineer / Partner Engineer title at Amazon, Google or Meta —
   that is the vendor's pre-sales role). For programme/delivery titles the bare phrase "customer-facing"
   does not count, because a TPM JD uses it about the product
-- Spanish-language role −25 · other native language required −18
+- **required German / fluent Spanish / fluent French / other non-English working language is a drop** (English is the working language; Spanish and French are A1). "German is a plus" and an English-speaking Berlin role still pass
 - posting older than 45 days −12 · older than 30 days −6 (penalty-only, no
   freshness bonus; missing dates cost nothing). Greenhouse uses `first_published`,
   not `updated_at`, so an edited-but-old posting still reads as old. Added after

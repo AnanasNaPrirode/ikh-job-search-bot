@@ -594,7 +594,9 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 //   • Ivan_Khakharev_Solution_Architect.pdf
 //   • Ivan_Khakharev_AI_Solutions_Architect.pdf
 //   • Ivan_Khakharev_Engineering_Manager.pdf
-// Lives in Salou, Spain (EU residence). English C1, Spanish A1.
+// Lives in Salou, Spain (EU residence). Working language: English.
+// Spanish and French are A1 — a plus, not a requirement we can meet.
+// Required German / Dutch / Italian / fluent Spanish / fluent French is a drop.
 // Open to fully remote worldwide with 4–6h overlap with US Eastern;
 // US *onsite/hybrid* stays a hard penalty, US *remote* is a mild one.
 // No UK work rights (yet): London is not the EU, and a UK-locked role without
@@ -749,6 +751,33 @@ const TITLE_BLOCK = [
   [/(principal|staff|distinguished|director|head of|vp|svp).{0,30}(program(me)?|delivery) manag|(director|head|vp).{0,24}program(me)? management/i, 'too-senior TPM'],
 ];
 
+// Required language we cannot work in → drop, not a penalty. A Berlin role in
+// English must still pass; "German is a plus" must still pass. B2+ / fluent /
+// native / verhandlungssicher is a knockout. Spanish and French A1 is not C1.
+const LANG_DROP = new RegExp([
+  '(fluent|native|proficient|business[\\s-]?level|professional).{0,16}(german|deutsch)',
+  '(german|deutsch).{0,20}(fluent|native|proficient|mandatory|required|essential|must)',
+  'c[12]\\s*(level )?(in )?(german|deutsch)',
+  '(german|deutsch)\\s*(c[12]|b2)',
+  'b2\\s*(in |level )?(german|deutsch)',
+  'verhandlungssicher(es)?\\s*deutsch',
+  '(sehr )?gute(s)? deutschkenntnisse',
+  'flie[sß]end(es)?\\s*deutsch',
+  'deutsch\\s*(flie[sß]end|verhandlungssicher|muttersprach)',
+  'muttersprachler.{0,16}deutsch|deutsch.{0,16}muttersprach',
+  '(fluent|native|proficient|business[\\s-]?level).{0,16}french',
+  'french.{0,20}(fluent|native|proficient|mandatory|required|essential)',
+  'c[12]\\s*(level )?(in )?french',
+  'fran[cç]ais.{0,16}(courant|natif|obligatoire)',
+  '(fluent|native|proficient|business[\\s-]?level).{0,16}(spanish|espa[nñ]ol|castellano)',
+  '(spanish|espa[nñ]ol|castellano).{0,20}(fluent|native|proficient|mandatory|required|essential)',
+  'c[12]\\s*(level )?(in )?(spanish|espa[nñ]ol)',
+  '(se requiere|imprescindible).{0,24}(espa[nñ]ol|castellano)',
+  '(espa[nñ]ol|castellano).{0,16}(nativo|fluido|obligatorio|imprescindible)',
+  '(fluent|native|proficient).{0,16}(dutch|italian|polish|portuguese|swedish|danish|finnish|norwegian|czech|hungarian|greek|romanian|turkish|catalan)',
+  '(dutch|italian|polish|portuguese).{0,20}(fluent|native|mandatory|required)',
+].join('|'), 'i');
+
 // Location vocabulary. Both lists used to be country-level while most boards write a
 // bare city, and the cost is easy to under-estimate: on one 9,720-posting corpus,
 // **4,197 (43%) had a location matching NEITHER pattern**. The damage was one-sided.
@@ -839,6 +868,11 @@ for (const item of $input.all()) {
 
   // Gate 2: right-shaped but wrong track.
   if (TITLE_BLOCK.some(([re]) => re.test(title))) continue;
+
+  // Gate 3: a language we cannot work in. English is the working language;
+  // Spanish/French A1 is not enough for fluent/C1/native. Location in DE/FR/ES
+  // is not a language requirement — "German is a plus" stays.
+  if (LANG_DROP.test(desc) || LANG_DROP.test(title)) continue;
 
   const isLead = TITLE_LEAD.some((t) => title.includes(t))
     || /\b(staff|principal|distinguished|fellow|head of|director of|vp of|\bvp\b|chief)\b/.test(title);
@@ -947,13 +981,7 @@ for (const item of $input.all()) {
     }
   }
 
-  // Language gates. Penalise roles run in a language you do not work in; adjust to your own.
-  if (/\b(se requiere|imprescindible|espa[nñ]ol|castellano)\b/i.test(desc)) {
-    score -= 25; reasons.push('-Spanish-language');
-  }
-  if (/fluent (in )?(german|deutsch|french|dutch|italian)|native (german|french)/i.test(desc)) {
-    score -= 18; reasons.push('-other language');
-  }
+  // Language: required non-English is a drop (Gate 3), not a score penalty.
 
   // -40, not a smaller number, because it has to survive the health boost that put the
   // role near the top in the first place: a Clinical Product Lead scored 94 raw
