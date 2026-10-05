@@ -3550,6 +3550,42 @@
         "-stale 263d"
       ],
       "url": "https://job-boards.greenhouse.io/intercom/jobs/7541123"
+    },
+    {
+      "sentAt": "2026-10-05T17:52:10.885Z",
+      "title": "AI Architect / AI engineering lead",
+      "company": "Jobgether",
+      "location": "France",
+      "score": 70,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "system design",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack",
+        "EU location",
+        "daily AI tooling",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-architect-ai-engineering-lead-france-375129"
+    },
+    {
+      "sentAt": "2026-10-05T17:52:10.885Z",
+      "title": "Solution Engineer / Architect (m/w/d)",
+      "company": "BuildlinX",
+      "location": "Hamburg",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "event-driven",
+        "distributed systems",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-engineer-architect-hamburg-95843"
     }
   ]
 }
