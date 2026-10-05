@@ -198,6 +198,9 @@ Run manually  ─┴→ Build Source List → Fetch Board → Normalize Jobs
   Under the company name the message includes a one-sentence product blurb lifted from
   the JD's "About us" block, so a bank / video tool / observability platform can be
   skipped without opening the posting. Empty-description boards omit the line.
+  When the selection rules change, bump `LOGIC_BUILD` in `radar.mjs`: the next live run
+  posts a one-off divider in the chat (`Сборка новой логики отбора`) and remembers the
+  id in `seen.json`, so cards above that line are the old rules.
 
 ## Scoring
 

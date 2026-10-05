@@ -26,6 +26,21 @@ const DRY = process.env.DRY_RUN === '1';
 const THRESHOLD = Number(process.env.THRESHOLD || 40);
 const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 
+// Bump `id` (and the text) whenever scoring, filters or the Telegram card change.
+// The next live run posts this once, then remembers it in seen.json, so the chat
+// has a divider: cards above are the old rules, cards below are the new ones.
+const LOGIC_BUILD = {
+  id: '2026-10-05-lang-and-blurb',
+  text: [
+    'Сборка новой логики отбора',
+    '',
+    'Вакансии ниже — уже по новым правилам. То, что выше в чате, можно не смотреть.',
+    '',
+    '• обязательный DE / ES / FR и другие не-английские языки — отсев',
+    '• под компанией — одно предложение про продукт',
+  ].join('\n'),
+};
+
 if (!DRY && (!TOKEN || !CHAT)) {
   console.error('TELEGRAM_TOKEN and TELEGRAM_CHAT_ID are required unless DRY_RUN=1');
   process.exit(1);
@@ -181,6 +196,16 @@ if (fresh.length > batch.length) {
 }
 
 // ---- 5. notify -------------------------------------------------------------
+if (!DRY && store.logicBuild !== LOGIC_BUILD.id) {
+  const okBuild = await telegram(LOGIC_BUILD.text);
+  if (okBuild) {
+    store.logicBuild = LOGIC_BUILD.id;
+    console.log(`logic-build marker sent: ${LOGIC_BUILD.id}`);
+  } else {
+    console.error('logic-build marker failed, will retry next run');
+  }
+}
+
 for (const j of batch) {
   const text = [
     `${j.score}/100  ${j.title}`,

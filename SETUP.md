@@ -63,6 +63,10 @@ The scheduled workflow runs every 4 hours and commits `seen.json`, `sent.json`,
 `status.json` and `STATUS.md` back to the repo, so dedup state, what was actually
 sent, and board health are readable without opening a log.
 
+When you change the scoring or the Telegram card, bump `LOGIC_BUILD` in `radar.mjs`
+(new `id` + a short note). The next live run posts that note once, then remembers
+the id in `seen.json` — a divider in the chat so older cards can be ignored.
+
 ## Ad-hoc shortlist
 
 `hunt.mjs` runs the same pipeline once and prints a ranked shortlist with URLs,
