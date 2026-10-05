@@ -3515,6 +3515,41 @@
         "AI-native team"
       ],
       "url": "https://www.arbeitnow.com/view/senior-corporate-development-manager-berlin-zentrale-426823"
+    },
+    {
+      "sentAt": "2026-10-05T11:02:51.202Z",
+      "title": "Engineering Manager - Python and K8s",
+      "company": "Canonical",
+      "location": "APAC, EMEA",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/150121-engineering-manager-python-and-k8s"
+    },
+    {
+      "sentAt": "2026-10-05T11:02:51.202Z",
+      "title": "Engineering Manager",
+      "company": "intercom",
+      "location": "Berlin, Germany",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "retail/martech",
+        "people leadership",
+        "agents",
+        "eng management",
+        "EU location",
+        "-stale 263d"
+      ],
+      "url": "https://job-boards.greenhouse.io/intercom/jobs/7541123"
     }
   ]
 }
