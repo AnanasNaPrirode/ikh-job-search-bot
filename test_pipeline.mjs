@@ -56,6 +56,7 @@ console.log('\n--- top 15 ---');
 for (const s of scored.slice(0, 15)) {
   const j = s.json;
   console.log(`${String(j.score).padStart(3)} | ${j.company} | ${j.title} | ${j.location}`);
+  if (j.blurb) console.log(`      ${j.blurb}`);
   console.log(`      ${j.reasons.join(' · ')}`);
 }
 
@@ -77,7 +78,7 @@ if (process.argv.includes('--notify')) {
   if (!TOKEN || !CHAT) { console.error('set TELEGRAM_TOKEN and TELEGRAM_CHAT_ID to use --notify'); process.exit(1); }
   for (const s of passing.slice(0, n)) {
     const j = s.json;
-    const text = `${j.score}/100  ${j.title}\n${j.company}  ·  ${j.location}\n${j.reasons.join(' · ')}\n${j.url}`;
+    const text = `${j.score}/100  ${j.title}\n${j.company}  ·  ${j.location}${j.blurb ? `\n${j.blurb}` : ''}\n${j.reasons.join(' · ')}\n${j.url}`;
     const r = await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },

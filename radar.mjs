@@ -185,6 +185,7 @@ for (const j of batch) {
   const text = [
     `${j.score}/100  ${j.title}`,
     `${j.company}  ·  ${j.location}`,
+    ...(j.blurb ? [j.blurb] : []),
     ...(j.history === 'applied'
       ? ['⚠ already applied to this company — check your log before spending another']
       : []),
@@ -212,6 +213,7 @@ for (const j of batch) {
         title: j.title || '',
         company: j.company || '',
         location: j.location || '',
+        blurb: j.blurb || '',
         score: j.score,
         reasons: j.reasons || [],
         url: j.url,

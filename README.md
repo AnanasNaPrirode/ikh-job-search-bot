@@ -30,7 +30,7 @@ plus manual `workflow_dispatch` with a `dry_run` toggle. Secrets `TELEGRAM_TOKEN
 `radar.mjs` executes the *same* Code-node scripts stored in `jobs-radar.workflow.json`,
 so the cloud runner and n8n can never drift apart. Dedup state is `seen.json`
 (URLs only). What actually went to Telegram is `sent.json` — title, company,
-location, score, reasons, url — so a scoring audit can be done from GitHub
+location, product blurb, score, reasons, url — so a scoring audit can be done from GitHub
 without re-fetching boards. Both are committed back by the workflow after each run.
 
 ```bash
@@ -195,6 +195,9 @@ Run manually  ─┴→ Build Source List → Fetch Board → Normalize Jobs
 - **Relevant enough?** — threshold **48**. See "Read the whole posting" below before lowering it.
 - **Send to Telegram** — via your own bot (create one with `@BotFather`). Token and chat id come from the
   `TELEGRAM_TOKEN` / `TELEGRAM_CHAT_ID` environment variables — never committed.
+  Under the company name the message includes a one-sentence product blurb lifted from
+  the JD's "About us" block, so a bank / video tool / observability platform can be
+  skipped without opening the posting. Empty-description boards omit the line.
 
 ## Scoring
 

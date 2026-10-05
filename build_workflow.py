@@ -844,6 +844,45 @@ const EU_DESC = new RegExp([
   'work(ing)? authoriz(ation|ed) in the eu\\b',
 ].join('|'), 'i');
 
+// One sentence under the company name in Telegram: what the product is, so a
+// bank / video platform / observability tool can be skipped without opening the
+// JD. Boards with no description (Workable, SmartRecruiters, BambooHR, Getro)
+// leave this empty and the line is omitted. Prefer the "About us" block; skip
+// "you will" / funding / EOE so the job-duty opening never becomes the blurb.
+const ROLE_HEAD = /\b(about the (role|job|position)|the role|what (you.?ll|you will) (do|bring)|responsibilities|requirements|who you are|your (mission|responsibilities)|job description|what we.?re looking)\b/i;
+const DUTY_SENT = /^(you will|you.?ll |we.?re looking|we are (looking|seeking|hiring)|as (an?|our) |this role|in this role|join us|the (ideal|successful) candidate)/i;
+const NOISE_SENT = /equal opportunity|privacy (policy|notice)|gdpr|apply now|benefits include|salary range|visa sponsor|series [a-g]\b|raised \$?\d|valuation stands|total funding|backed by|investors? including|follow us on|learn more at|headquartered in|offices (in|and teams)|we are a \d+% remote/i;
+const PRODUCT_SENT = /\b(platform|product|saas|marketplace|api\b|bank(?:ing)?|fintech|observability|monitoring|video|cloud|payments?|healthcare|analytics|database|devtools|developer tools|open.?source|infrastructure|company behind|provider of|helps? (companies|teams|people|businesses|developers)|we (build|make|provide|offer|enable|help))\b/i;
+const companyBlurb = (text, company) => {
+  const raw = String(text || '').replace(/\s+/g, ' ').trim();
+  if (raw.length < 50) return '';
+  const cut = raw.search(ROLE_HEAD);
+  const head = (cut > 120 ? raw.slice(0, cut) : raw).slice(0, 1800);
+  // Split on ". " only after a real word, so "e.g. Bits" and "U.S. customers" stay one sentence.
+  // Also split after "Fortune 100. Founded" — a digit is a real sentence end,
+  // unlike "e.g. Bits" / "U.S. customers".
+  const parts = head.split(/(?<=(?:[A-Za-z]{4}|[0-9])[.!?])\s+/)
+    .map((s) => s.replace(/^[^A-Za-z]+/, '').trim())
+    .filter(Boolean);
+  const compact = (x) => String(x || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const co = compact(company);
+  const picked = [];
+  for (const s of parts) {
+    const t = s.replace(/^(about us|about the company|who we are|what we do|our (mission|story|product)|the company|description|overview|summary)[:.\s-]*/i, '').trim();
+    if (t.length < 28 || t.length > 360) continue;
+    if (DUTY_SENT.test(t) || NOISE_SENT.test(t)) continue;
+    const named = co.length >= 4 && compact(t).includes(co.slice(0, 12));
+    if (!PRODUCT_SENT.test(t) && !named && !/^we\b/i.test(t)) continue;
+    picked.push(t);
+    if (picked.join(' ').length >= 90 || picked.length >= 2) break;
+  }
+  if (!picked.length) return '';
+  const out = picked.join(' ');
+  if (out.length <= 180) return out;
+  const clipAt = out.lastIndexOf(' ', 177);
+  return (clipAt > 80 ? out.slice(0, clipAt) : out.slice(0, 177)).replace(/[.,;: ]+$/, '') + '\u2026';
+};
+
 const out = [];
 
 for (const item of $input.all()) {
@@ -1057,7 +1096,8 @@ for (const item of $input.all()) {
   const co = (j.company || '').trim();
   const history = CLOSED_DOORS.test(co) ? 'closed'
     : DONE_COMPANIES.test(co) ? 'applied' : null;
-  out.push({ json: { ...j, score, reasons: [...new Set(reasons)], history } });
+  out.push({ json: { ...j, score, reasons: [...new Set(reasons)], history,
+    blurb: companyBlurb(desc, j.company) } });
 }
 
 out.sort((a, b) => b.json.score - a.json.score);
@@ -1265,6 +1305,7 @@ return batch;
 TELEGRAM_TEXT = (
     "={{ '*' + $json.score + '/100* — ' + $json.title }}\n"
     "{{ $json.company }} · {{ $json.location }}\n"
+    "{{ $json.blurb ? $json.blurb + '\\n' : '' }}"
     "{{ $json.history === 'applied' ? '⚠ already applied to this company — check your log before spending another\\n' : '' }}"
     "{{ $json.reasons.join(' · ') }}\n\n"
     "{{ $json.url }}"
@@ -1350,6 +1391,7 @@ nodes = [
             " disable_web_page_preview: false,"
             " text: $json.score + '/100  ' + $json.title"
             " + '\\n' + $json.company + '  ·  ' + $json.location"
+            " + ($json.blurb ? '\\n' + $json.blurb : '')"
             " + '\\n' + $json.reasons.join(' · ')"
             " + (($json.alsoOpenIn || []).length"
             "    ? '\\nalso open in: ' + $json.alsoOpenIn.join(', ') : '')"

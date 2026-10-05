@@ -434,5 +434,39 @@ check('French as a plus does not drop the role',
 check('fluent Dutch required is dropped',
   one({title:TITLE, location:'Amsterdam', description:'Own the architecture. Fluent Dutch required.'}) === null);
 
+// ------------------------------------------------- company product blurb
+
+const synth = one({title:TITLE, company:'synthesia', location:'Europe',
+  description:'Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100. Founded in 2017, the company is headquartered in London, with offices and teams across Europe and the US. Following our recent Series E funding round, where we raised $200 million, our valuation stands at $4 billion. About the role We are looking for a Senior Solution Architect to own the architecture.'});
+check('blurb takes the product sentence and stops before the role',
+  synth && /AI video platform/i.test(synth.blurb) && !/looking for/i.test(synth.blurb),
+  synth && synth.blurb);
+check('blurb stays off the reasons list',
+  synth && !synth.reasons.some((r) => /video platform/i.test(r)),
+  synth && synth.reasons.join(' · '));
+
+const graf = one({title:TITLE, company:'grafanalabs', location:'Spain (Remote)',
+  description:'Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards. The role You will own the architecture.'});
+check('a long Grafana-style opener is clipped to one Telegram line',
+  graf && /Grafana Cloud/i.test(graf.blurb) && graf.blurb.length <= 181 && /…$/.test(graf.blurb),
+  graf && `${graf.blurb.length} ${graf.blurb}`);
+
+const dog = one({title:TITLE, company:'datadog', location:'Spain (Remote)',
+  description:'As a Research Engineer on our team, you will partner with Research Scientists to turn research ideas into working systems. Building on our track record of AI-powered solutions (e.g. Bits AI), Datadog AI Research tackles high-risk problems in cloud observability and security. You will own the architecture.'});
+check('a role-first JD still yields the product sentence',
+  dog && /observability/i.test(dog.blurb) && !/^as a /i.test(dog.blurb),
+  dog && dog.blurb);
+
+const monzoBank = one({title:TITLE, company:'monzo', location:'Spain (Remote)',
+  description:"We're on a mission to make money work for everyone. We're waving goodbye to the complicated and confusing ways of traditional banking. About the role You will own the architecture."});
+check('a mission + banking opener names the product',
+  monzoBank && /bank/i.test(monzoBank.blurb),
+  monzoBank && monzoBank.blurb);
+
+check('a duty-only JD does not invent a company blurb',
+  (one({title:TITLE, description:'You will own the architecture for our B2B SaaS product.'}) || {}).blurb === '');
+check('an empty description has no blurb',
+  (one({title:TITLE, location:'Berlin', description:''}) || {}).blurb === '');
+
 console.log(fail? `\n${fail} FAILURE(S)` : '\nall checks passed');
 process.exit(fail?1:0);
