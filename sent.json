@@ -3690,6 +3690,181 @@
         "EU location"
       ],
       "url": "https://job-boards.greenhouse.io/adyen/jobs/8156666"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Expert Tech Solution Architect - HR (m/f/d)",
+      "company": "Flix",
+      "location": "Munich, Bavaria, Germany",
+      "blurb": "At Flix, we offer a dynamic work environment with competitive pay, strong growth opportunities, and a tech-driven approach to making travel more accessible, sustainable, and…",
+      "score": 83,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "REST",
+        "event-driven",
+        "integrations",
+        "people leadership",
+        "agents",
+        "LLM",
+        "integration architecture",
+        "EU location",
+        "daily AI tooling",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/expert-tech-solution-architect-hr-munich-75257"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "AI Architect / AI engineering lead",
+      "company": "Jobgether",
+      "location": "Switzerland",
+      "blurb": "",
+      "score": 70,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "system design",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-architect-ai-engineering-lead-switzerland-226484"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Engineering Manager, Business Technology (m/f/d)",
+      "company": "autoscout24",
+      "location": "n/a",
+      "blurb": "div p strong A career driven by you. /strong Join AutoScout24 Group and experience life in the fast lane.",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "integrations",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "integration architecture"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-business-technology-258332"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "1150 - Senior Data Platform Architect - Palantir Foundry & Databricks Integration",
+      "company": "GoFasti",
+      "location": "LATAM",
+      "blurb": "We Make Remote Work Remarkable • TopTalent from LatAm Hello! We are GoFasti , a Talent-as-a-Service.",
+      "score": 58,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "platform architect in title",
+        "platform in title",
+        "Python/FastAPI",
+        "data modeling",
+        "analysis",
+        "remote"
+      ],
+      "url": "https://jobicy.com/jobs/154742-1150-senior-data-platform-architect-palantir-foundry-databricks-integration"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Senior Engineering Manager (m/f/d)",
+      "company": "affinidi",
+      "location": "Berlin",
+      "blurb": "div class= content-intro p span data-contrast= none strong About the Company /strong /span /p p span data-contrast= none strong Affinidi nbsp; /strong is a technology company…",
+      "score": 46,
+      "reasons": [
+        "senior title",
+        "-senior EM",
+        "engineering manager in title",
+        "system design",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-engineering-manager-berlin-436673"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Engineering Manager - Software and System Testing (f/m/d)",
+      "company": "Munich Electrification",
+      "location": "Munich",
+      "blurb": "About Munich Electrification Munich Electrification is an innovative company founded with the aim of accelerating the transition to electric and connected mobility.",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-software-and-system-testing-munich-258660"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Technical Program Manager",
+      "company": "Monks",
+      "location": "Brazil",
+      "blurb": "Please note that we will never request payment or bank account information at any stage of the recruitment process.",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "agents",
+        "eng management"
+      ],
+      "url": "https://jobicy.com/jobs/154754-technical-program-manager-6"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Senior Dynamics 365 & Power Platform Technical Lead",
+      "company": "Speedgoat",
+      "location": "Liebefeld, Bern, Switzerland",
+      "blurb": "Your Impact We are looking for a senior, hands-on Dynamics 365 Power Platform Technical Lead to own the technical development, integration, and lifecycle management of our…",
+      "score": 41,
+      "reasons": [
+        "senior title",
+        "technical lead in title",
+        "platform in title",
+        "integrations",
+        "data modeling",
+        "analysis",
+        "modern stack",
+        "integration architecture",
+        "EU location",
+        "-customer-facing",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-dynamics-365-power-platform-technical-lead-liebefeld-bern-switzerland-172869"
+    },
+    {
+      "sentAt": "2026-10-06T23:29:41.268Z",
+      "title": "Engineering Manager (m/f/d)",
+      "company": "autoscout24",
+      "location": "n/a",
+      "blurb": "p strong span data-contrast= auto A career driven by you. /span /strong span data-contrast= auto Join AutoScout24 Group and experience life in the fast lane.",
+      "score": 40,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-28763"
     }
   ]
 }
