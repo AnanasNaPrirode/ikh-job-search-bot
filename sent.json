@@ -3586,6 +3586,63 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/solution-engineer-architect-hamburg-95843"
+    },
+    {
+      "sentAt": "2026-10-06T01:11:07.207Z",
+      "title": "Engineering Manager (m/w/d) – Core Team",
+      "company": "Metergrid",
+      "location": "Hamburg",
+      "blurb": "Das Betreiberportal ist kein generisches SaaS.",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-core-team-hamburg-55221"
+    },
+    {
+      "sentAt": "2026-10-06T01:11:07.207Z",
+      "title": "Technical Infrastructure Program Manager - Fiber Deployment, Global Connectivity Infrastructure Development",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "blurb": "Amazon provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world.",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "people leadership",
+        "high-load scale",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10569802/technical-infrastructure-program-manager-fiber-deployment-global-connectivity-infrastructure-development"
+    },
+    {
+      "sentAt": "2026-10-06T01:11:07.207Z",
+      "title": "Senior Solutions Architect - Data & AI Engineer (f/m/d, 4-Days-Week), German Speaking",
+      "company": "Auvaria",
+      "location": "München",
+      "blurb": "Willkommen bei Auvaria, wo Leidenschaft, Teamgeist und Verantwortung unsere Kultur prägen. Wir sind ein mehrfach ausgezeichneter AWS Consulting Engineering Partner mit Büros in…",
+      "score": 40,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "AI in title",
+        "event-driven",
+        "Python/FastAPI",
+        "people leadership",
+        "agents",
+        "LLM",
+        "EU location",
+        "-customer-facing",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-solutions-architect-data-ai-engineer-4-days-week-german-speaking-munchen-237552"
     }
   ]
 }
