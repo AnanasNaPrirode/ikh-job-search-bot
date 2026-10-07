@@ -3882,6 +3882,95 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/senior-software-engineer-software-architect-ai-cloud-dusseldorf-32323"
+    },
+    {
+      "sentAt": "2026-10-07T18:12:28.060Z",
+      "title": "Remote Engineering Manager (Algorithms Team) (m/f/d)",
+      "company": "Roompricegenie",
+      "location": "Remote Germany",
+      "blurb": "About RoomPriceGenie ✨🧞‍♂️ Founded in 2017, RoomPriceGenie is dedicated to helping hoteliers around the globe achieve optimal pricing.",
+      "score": 65,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "Python/FastAPI",
+        "data modeling",
+        "people leadership",
+        "eng management",
+        "remote EU/EMEA"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-engineering-manager-algorithms-team-47686"
+    },
+    {
+      "sentAt": "2026-10-07T18:12:28.060Z",
+      "title": "Engineering Manager II",
+      "company": "gocardless",
+      "location": "Riga, Latvia",
+      "blurb": "div class= content-intro h3 strong About us /strong /h3 p GoCardless, a Mollie company, is a global leader in bank payments.",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "eng management",
+        "EU location",
+        "daily AI tooling",
+        "+2 other locations"
+      ],
+      "url": "https://job-boards.greenhouse.io/gocardless/jobs/8261497"
+    },
+    {
+      "sentAt": "2026-10-07T18:12:28.060Z",
+      "title": "Engineering Manager",
+      "company": "prolific",
+      "location": "Remote",
+      "blurb": "",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-engineering-manager-86893"
+    },
+    {
+      "sentAt": "2026-10-07T18:12:28.060Z",
+      "title": "Engineering Manager IAM – Core Identity (F/H)",
+      "company": "Decathlontechnology",
+      "location": "Lille - Btwin Village, Nord; Paris, Paris",
+      "blurb": "",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "retail/martech",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-iam-core-identity-f-h-lille-btwin-village-nord-paris-paris-497788"
+    },
+    {
+      "sentAt": "2026-10-07T18:12:28.060Z",
+      "title": "Solution Architect - Enterprise Data Platform & Cloud Solutions",
+      "company": "Keyrus",
+      "location": "Colombia",
+      "blurb": "Why Keyrus, Why Now! Keyrus is an international group of 2,800 consultants and experts across 28 countries, built on a single conviction: AI does not transform businesses.",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "platform in title"
+      ],
+      "url": "https://himalayas.app/companies/keyrus/jobs/solution-architect-enterprise-data-platform-cloud-solutions-6412675542"
     }
   ]
 }
