@@ -3865,6 +3865,23 @@
         "eng management"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-28763"
+    },
+    {
+      "sentAt": "2026-10-07T10:44:54.971Z",
+      "title": "Senior Software Engineer / Software Architect – AI & Cloud (m/w/d)",
+      "company": "ProcuVia AG",
+      "location": "Düsseldorf",
+      "blurb": "Die ProcuVia AG entwickelt praxisnahe Softwarelösungen für Einkauf, Supply Chain und angrenzende Unternehmensprozesse.",
+      "score": 44,
+      "reasons": [
+        "senior title",
+        "AI in title",
+        "Python/FastAPI",
+        "LLM",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-software-engineer-software-architect-ai-cloud-dusseldorf-32323"
     }
   ]
 }
