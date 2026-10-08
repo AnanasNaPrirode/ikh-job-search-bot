@@ -4111,6 +4111,79 @@
         "EU location"
       ],
       "url": "https://www.amazon.jobs/en/jobs/10573014/sr-technical-program-manager-european-sovereign-cloud"
+    },
+    {
+      "sentAt": "2026-10-08T18:07:20.216Z",
+      "title": "Engineering Manager",
+      "company": "Aqemia",
+      "location": "Paris",
+      "blurb": "About AQEMIA AQEMIA is a drug invention company dedicated to creating entirely new medicines to address major unmet medical needs.",
+      "score": 66,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "spec-driven / API-first"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-paris-483507"
+    },
+    {
+      "sentAt": "2026-10-08T18:07:20.216Z",
+      "title": "Tech Lead Java (H/F) - Nantes",
+      "company": "SFEIR",
+      "location": "Nantes",
+      "blurb": "C’est quoi SFEIR ? SFEIR, c’est avant tout une communauté de 900 techs en France, Belgique et Luxembourg, réunis autour d’une même passion : construire des solutions modernes…",
+      "score": 58,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "event-driven",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/tech-lead-java-h-f-nantes-211234"
+    },
+    {
+      "sentAt": "2026-10-08T18:07:20.216Z",
+      "title": "Engineering Manager",
+      "company": "Factorial HR",
+      "location": "Madrid, Spain",
+      "blurb": "",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "EU location",
+        "Spain-eligible"
+      ],
+      "url": "https://careers.factorial.com/job_posting/engineering-manager-306774"
+    },
+    {
+      "sentAt": "2026-10-08T18:07:20.216Z",
+      "title": "Architecte Cloud (F/H/NB)",
+      "company": "SFEIR",
+      "location": "Bordeaux",
+      "blurb": "SFEIR est un cabinet d'expertise technologique spécialisé dans la conception, l'architecture et l'industrialisation de solutions numériques sur-mesure.",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "distributed systems",
+        "LLM",
+        "EU location",
+        "daily AI tooling",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/architecte-cloud-b-bordeaux-78686"
     }
   ]
 }
