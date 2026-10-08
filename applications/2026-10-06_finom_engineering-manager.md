@@ -5,7 +5,7 @@ track: EM
 url: https://jobs.eu.lever.co/pnlfin/4e2f2e46-4f34-411e-a7e2-93b6ac38997c
 applied: 2026-10-06
 location: Berlin
-cv: EM (уточнить версию)
+cv: EM, адаптирована под вакансию налету в чате (файл не сохранён)
 salary_asked: —
 status: applied
 ---
