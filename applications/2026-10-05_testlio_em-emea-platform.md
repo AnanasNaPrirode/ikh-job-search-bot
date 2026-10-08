@@ -5,7 +5,7 @@ track: EM
 url: https://job-boards.greenhouse.io/testlio/jobs/8179579
 applied: 2026-10-05
 location: 100% remote (EMEA, Испания в списке)
-cv: EM (уточнить версию)
+cv: EM, адаптирована под вакансию налету в чате (файл не сохранён)
 salary_asked: —
 status: rejected
 ---
