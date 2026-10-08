@@ -5,7 +5,7 @@ track: EM
 url: https://www.arbeitnow.com/view/remote-engineering-manager-algorithms-team-47686
 applied: 2026-10-08
 location: Remote, UTC+0…+2
-cv: EM (уточнить версию)
+cv: EM, адаптирована под вакансию налету в чате (файл не сохранён)
 salary_asked: — (вилка вакансии 100–110k €)
 status: applied
 ---
