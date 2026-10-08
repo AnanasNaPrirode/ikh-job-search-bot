@@ -30,13 +30,14 @@ const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 // The next live run posts this once, then remembers it in seen.json, so the chat
 // has a divider: cards above are the old rules, cards below are the new ones.
 const LOGIC_BUILD = {
-  id: '2026-10-08-analyst-seniority',
+  id: '2026-10-08-ru-abroad-ats',
   text: [
     'Сборка новой логики отбора',
     '',
     'Вакансии ниже — уже по новым правилам. То, что выше в чате, можно не смотреть.',
     '',
-    '• аналитик без lead/senior в title: −12 (иначе хлынут джуниорские вакансии)',
+    '• в радар добавлены публичные ATS русских компаний за рубежом (ManyChat, Plata, JetBrains, Wrike, Mapbox, Miro…)',
+    '• LinkedIn / Workday / «просто карьерный сайт» бот по-прежнему не открывает — только JSON-доски',
   ].join('\n'),
 };
 

@@ -1,6 +1,7 @@
 # Jobs Radar
 
-Scans 119 public job boards every 4 hours, scores each posting against **Ivan
+Scans public job boards every 4 hours (Greenhouse, Ashby, and a HyperCareer
+slice of RU-abroad companies whose ATS speaks JSON), scores each posting against **Ivan
 Khakharev's** four CV tracks (Solution Architect, AI Solutions Architect,
 Engineering Manager, Lead Systems Analyst), and pushes anything relevant to Telegram. Based in Salou,
 Spain; open to fully remote worldwide. GitHub Actions is the only runtime it needs.

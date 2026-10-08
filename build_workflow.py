@@ -50,6 +50,10 @@ const greenhouse = [
   'gocardless', 'intercom', 'grafanalabs', 'deepmind',
   // Added 2026-09-23 (verified live): Vilnius/London health-tech, TPM and data roles
   'flohealth',
+  // HyperCareer RU-abroad (probed 2026-10-08). Public Greenhouse JSON only —
+  // the marketing careers page is not enough; radar.mjs never renders JS.
+  'platacard', 'jetbrains', 'wrike', 'nebius', 'groupib', 'orioninnovation',
+  'toloka', 'xometry', 'archway', 'avride', 'dbeaver', 'veeamsoftware',
 ];
 const ashby = [
   'n8n', 'linear', 'ramp', 'openai', 'perplexity', 'langchain', 'replit',
@@ -64,14 +68,19 @@ const ashby = [
   'poolside', 'synthesia', 'legora', 'tacto', 'granola', 'attio',
   // Added 2026-08-19 (verified live): Paris agents (dust), Berlin AI B2B (choco)
   'dust', 'choco',
+  // HyperCareer RU-abroad (probed 2026-10-08)
+  'manychat', 'recraft', 'vivid', 'miro', 'lightspeed', 'mapbox', 'volka',
+  'hirehire', 'flipper', 'humanoid',
 ];
-const recruitee = ['hostaway', 'channable', 'bunq'];
+const recruitee = ['hostaway', 'channable', 'bunq', 'intento', 'mayflower', 'teleperformance'];
 // Teamtailor public JSON Feed. Nordic/EU mid-market. Caveat: the feed returns
 // only the ~10 most recent postings per board and ignores ?page=, which suits a
 // radar looking for new roles but means it is not a full board listing.
 const teamtailor = [
   'tibber', 'anyfin', 'templafy', 'podimo', 'lunar', 'instabee',
   'tacton', 'doconomy',
+  // HyperCareer RU-abroad (probed 2026-10-08)
+  'praktika', 'investengine', 'replika', 'sumsub',
 ];
 // Personio XML boards — the DACH startup ATS, the segment the big-brand boards
 // miss entirely — an 11-person Munich ConTech firm sat in exactly this bracket.
@@ -83,10 +92,10 @@ const personio = [
 ];
 // Lever public postings API. Verified live 2026-08-19; mistral exists but
 // publishes 0 postings through the API, so it is not listed.
-const lever = ['pigment', 'contentsquare', 'aircall'];
+const lever = ['pigment', 'contentsquare', 'aircall', 'airslate', 'unlimit', 'easybrain'];
 // Workable widget API (v1 GET; the v3 endpoint needs POST which Fetch Board
 // cannot do). No description in the list response — title/location only.
-const workable = ['huggingface'];
+const workable = ['huggingface', 'platinum-list', 'joom', 'admirals', 'libertexgroup'];
 // SmartRecruiters public postings API. Full-text q filter with an exact phrase
 // keeps Delivery Hero's 1000+ postings down to a fetchable page; the score
 // node's title gate drops the non-PM remainder.
@@ -116,7 +125,7 @@ const pinpoint = ['improbable', 'unmind', 'quantexa', 'marshmallow'];
 const bamboohr = [
   ['finbourne', 'FINBOURNE'],
 ];
-const smartrecruiters = ['DeliveryHero'];
+const smartrecruiters = ['DeliveryHero', 'joom', 'talentgrator'];
 // Amazon's own careers search is a public JSON endpoint (no auth, no bot wall), which
 // Google, Meta and Bloomberg do not offer (script-rendered pages / Avature). One
 // request per country, TPM only: Amazon's architect titles are AWS Solutions
@@ -202,7 +211,7 @@ for (const [org, label] of bamboohr) {
     url: `https://${org}.bamboohr.com/careers/list` } });
 }
 for (const org of smartrecruiters) {
-  for (const q of ['architect', 'engineering manager']) {
+  for (const q of ['architect', 'engineering manager', 'systems analyst']) {
     out.push({ json: { kind: 'smartrecruiters', company: org,
       url: `https://api.smartrecruiters.com/v1/companies/${org}/postings?q=${encodeURIComponent('"'+q+'"')}&limit=100` } });
   }
