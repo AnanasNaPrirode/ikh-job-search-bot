@@ -971,6 +971,14 @@ for (const item of $input.all()) {
   // Senior EM usually means a manager of managers, a level above the CV.
   if (isSenior && /engineering manager/.test(title)) { score -= 15; reasons.push('-senior EM'); }
 
+  // Analyst titles without lead/senior. Seniority is a label, not a score, so a
+  // plain "Systems Analyst" used to tie a Lead. The analyst pool is junior-heavy;
+  // architect / EM / TPM titles are not penalised here.
+  const isAnalyst = /\b(systems?|business|functional|technical|solutions?) analyst\b|requirements engineer|systemanalytiker|analista funcional|analista de sistemas/i.test(title);
+  if (isAnalyst && !/\b(lead|senior|sr\.?|principal|staff)\b/.test(title)) {
+    score -= 12; reasons.push('-analyst without lead/senior');
+  }
+
   if (isAi) { score += 6; reasons.push('AI role'); }
   if (isPlatform) { score += 5; reasons.push('platform role'); }
 

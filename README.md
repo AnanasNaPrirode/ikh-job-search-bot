@@ -228,6 +228,7 @@ Points:
   "Delivery Manager" does not open the gate; Principal / Staff / Director / Head of those titles are dropped
   as above the CV (Amazon L7, Google Staff). Product Manager stays blocked
 - Senior Engineering Manager **−15** (manager of managers, above the CV)
+- analyst title without lead/senior/sr/principal/staff **−12** (the analyst pool is junior-heavy; architect / EM / TPM titles are untouched)
 - AI / platform / agents / API in title as `TITLE_KW` (see `build_workflow.py`)
 - description keywords +2…+5 each, capped +26
 - worldwide +16 (only +6 from aggregators, see below) · remote EU/EMEA +16 ·

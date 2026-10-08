@@ -75,6 +75,28 @@ check('data analyst stays dropped',
   one({title:'Senior Data Analyst', location:'Madrid', description:'Build dashboards in SQL.'}) === null);
 check('Head of Business Analysis is dropped as too senior for the analyst track',
   one({title:'Head of Business Analysis', description:'Lead the analysis organisation.'}) === null);
+
+const plainSaAnalyst = one({title:'Systems Analyst', location:'Madrid',
+  description:'Own requirements, API contracts and data models for the platform.'});
+const leadSaAnalyst = one({title:'Lead Systems Analyst', location:'Madrid',
+  description:'Own requirements, API contracts and data models for the platform.'});
+const seniorSaAnalyst = one({title:'Senior Systems Analyst', location:'Madrid',
+  description:'Own requirements, API contracts and data models for the platform.'});
+check('a plain Systems Analyst is penalised as junior-heavy',
+  plainSaAnalyst && plainSaAnalyst.reasons.includes('-analyst without lead/senior'),
+  plainSaAnalyst && plainSaAnalyst.reasons.join(' · '));
+check('Lead Systems Analyst is not penalised for missing senior',
+  leadSaAnalyst && !leadSaAnalyst.reasons.includes('-analyst without lead/senior'),
+  leadSaAnalyst && leadSaAnalyst.reasons.join(' · '));
+check('Senior Systems Analyst is not penalised for missing lead',
+  seniorSaAnalyst && !seniorSaAnalyst.reasons.includes('-analyst without lead/senior'),
+  seniorSaAnalyst && seniorSaAnalyst.reasons.join(' · '));
+check('the analyst junior penalty is exactly 12 against the same JD at Lead',
+  plainSaAnalyst && leadSaAnalyst && leadSaAnalyst.score - plainSaAnalyst.score === 12,
+  plainSaAnalyst && leadSaAnalyst && `${leadSaAnalyst.score} vs ${plainSaAnalyst.score}`);
+check('a Solution Architect is not hit by the analyst junior penalty',
+  !one({title:'Solution Architect', location:'Madrid', description:'Own the architecture.'})
+    .reasons.includes('-analyst without lead/senior'));
 check('Salesforce Architect is blocked as the wrong architect track',
   one({title:'Salesforce Architect', location:'Madrid', description:'Design Salesforce solutions.'}) === null);
 
