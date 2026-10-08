@@ -31,6 +31,32 @@ check('Software Engineering Manager is not caught by the IC-engineer drop',
     description:'Lead a cross-functional engineering team, Kanban delivery and mentoring.'}));
 check('Software Architect is not caught by the IC-engineer drop',
   !!one({title:'Software Architect', location:'Madrid', description:'Own the architecture.'}));
+check('Lead Systems Analyst scores as the current-role track',
+  !!one({title:'Lead Systems Analyst', location:'Madrid',
+    description:'Own requirements, API contracts and data models for the platform.'}));
+check('systems analyst title is named',
+  (one({title:'Lead Systems Analyst', location:'Madrid',
+    description:'Own requirements, API contracts and data models for the platform.'})
+    || {}).reasons.includes('systems analyst in title'));
+check('Technical Business Analyst scores',
+  !!one({title:'Technical Business Analyst', location:'Madrid',
+    description:'Write functional specifications and REST API contracts.'}));
+check('Business Systems Analyst scores',
+  !!one({title:'Business Systems Analyst', location:'Spain (Remote)',
+    description:'Specify integrations and ER models.'}));
+check('Requirements Engineer is an analyst title, not an IC-engineer drop',
+  !!one({title:'Requirements Engineer', location:'Madrid',
+    description:'Own requirements and API contracts for the platform.'}));
+check('a bare Business Analyst does not open the gate',
+  one({title:'Business Analyst', location:'Madrid', description:'Gather requirements and write user stories.'}) === null);
+check('Senior Business Analyst without systems/technical stays out',
+  one({title:'Senior Business Analyst', location:'Madrid', description:'Stakeholder workshops and process mapping.'}) === null);
+check('product analyst stays dropped',
+  one({title:'Senior Product Analyst', location:'Madrid', description:'Own the product metrics roadmap.'}) === null);
+check('data analyst stays dropped',
+  one({title:'Senior Data Analyst', location:'Madrid', description:'Build dashboards in SQL.'}) === null);
+check('Head of Business Analysis is dropped as too senior for the analyst track',
+  one({title:'Head of Business Analysis', description:'Lead the analysis organisation.'}) === null);
 check('Salesforce Architect is blocked as the wrong architect track',
   one({title:'Salesforce Architect', location:'Madrid', description:'Design Salesforce solutions.'}) === null);
 

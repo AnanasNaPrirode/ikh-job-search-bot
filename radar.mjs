@@ -30,13 +30,14 @@ const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 // The next live run posts this once, then remembers it in seen.json, so the chat
 // has a divider: cards above are the old rules, cards below are the new ones.
 const LOGIC_BUILD = {
-  id: '2026-10-08-no-swe',
+  id: '2026-10-08-systems-analyst',
   text: [
     'Сборка новой логики отбора',
     '',
     'Вакансии ниже — уже по новым правилам. То, что выше в чате, можно не смотреть.',
     '',
-    '• Software Engineer / Tech Lead и другие IC-engineer title — отсев (это SWE-скрин, не архитектор/EM)',
+    '• добавлен трек текущей роли: Lead Systems Analyst / Technical Business Analyst',
+    '• product / data / BI analyst и голый Business Analyst по-прежнему вне поиска',
   ].join('\n'),
 };
 
@@ -99,7 +100,7 @@ if (!Array.isArray(sentLog.sent)) sentLog.sent = [];
 
 if (!DRY && seenBefore === 0) {
   await telegram(
-    'Jobs Radar is live. Scanning boards for Solution Architect, AI Solutions Architect and Engineering Manager roles…',
+    'Jobs Radar is live. Scanning boards for Solution Architect, AI Solutions Architect, Engineering Manager and Lead Systems Analyst roles…',
   );
 }
 
@@ -147,7 +148,7 @@ const normalized = run(code('Normalize Jobs'), {
   $: (n) => ({ all: () => (n === 'Build Source List' ? sources : []) }),
 });
 const scored = run(code('Score vs Profile'), { $input: { all: () => normalized } });
-console.log(`${normalized.length} postings -> ${scored.length} architect-titled`);
+console.log(`${normalized.length} postings -> ${scored.length} matching titles`);
 
 // Per-board yield: normalize one source at a time so a board that parses to
 // nothing is distinguishable from a board that simply has no openings.
@@ -171,7 +172,7 @@ for (const k of Object.keys(store.seen)) {
 // multi-country employer can spend the whole run. The kept variant is the one the
 // configured profile can actually take; the others are named in the message.
 const collapsed = run(code('Collapse Role Clones'), { $input: { all: () => scored } });
-console.log(`architect-titled: ${scored.length} -> ${collapsed.length} distinct roles after collapsing clones`);
+console.log(`matching titles: ${scored.length} -> ${collapsed.length} distinct roles after collapsing clones`);
 
 const fresh = [];
 let suppressed = 0;
@@ -302,7 +303,7 @@ const md = [
   `Generated ${stamp} by \`radar.mjs\` — do not edit, it is overwritten every run.`,
   '',
   `**${badge.toUpperCase()}** · ${ok}/${health.length} boards responding (${pct}) · `
-    + `${normalized.length} postings → ${scored.length} architect-titled → ${fresh.length} above ${THRESHOLD}`,
+    + `${normalized.length} postings → ${scored.length} matching titles → ${fresh.length} above ${THRESHOLD}`,
   '',
   '## Down',
   '',

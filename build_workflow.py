@@ -589,11 +589,12 @@ const DONE_COMPANIES = /^(example-company|another-company)$/i;
 // notification step suppresses. Leave the placeholder if you have none yet.
 const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 
-// Profile: Ivan Khakharev — three CV tracks, one radar.
-// Sources: Obsidian Work/Prof Cvalification and CVs
+// Profile: Ivan Khakharev — four CV tracks, one radar.
+// Sources: D:\CV resume and Obsidian Work/Prof Cvalification and CVs
 //   • Ivan_Khakharev_Solution_Architect.pdf
 //   • Ivan_Khakharev_AI_Solutions_Architect.pdf
 //   • Ivan_Khakharev_Engineering_Manager.pdf
+//   • Ivan_Khakharev_Lead_Systems_Analyst.pdf  (current role)
 // Lives in Salou, Spain (EU residence). Working language: English.
 // Spanish and French are A1 — a plus, not a requirement we can meet.
 // Required German / Dutch / Italian / fluent Spanish / fluent French is a drop.
@@ -601,12 +602,14 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 // US *onsite/hybrid* stays a hard penalty, US *remote* is a mild one.
 // No UK work rights (yet): London is not the EU, and a UK-locked role without
 // visa sponsorship is a penalty. Drop that check if Global Talent lands.
-// PM and analyst titles are the wrong track, not a fallback.
-// Technical Program Manager / technical delivery manager is the exception: an IC
-// role (no reports) that fits the cross-team integration record, and the realistic
-// entry into big tech. Product Manager stays blocked.
-// Customer-facing is out of scope for now (all three CVs are internal
-// architecture). Penalty, not a label: −30 is enough to push a generic Spain
+// PM titles stay blocked. Product / data / BI / financial analyst stay blocked —
+// those are not the current-role CV. The analyst gate is systems / technical BA
+// only: Lead Systems Analyst, Technical Business Analyst, Business Systems Analyst.
+// A bare "Business Analyst" or "Senior Business Analyst" does not open it (too much
+// process-BA and finance-BA noise). Technical Program Manager / technical delivery
+// manager stays: an IC role that fits the cross-team integration record.
+// Customer-facing is out of scope for now (the CVs are internal architecture /
+// analysis). Penalty, not a label: −30 is enough to push a generic Spain
 // SA below the threshold. Drop the block if a customer-facing CV is written.
 //
 // Design note: signal lives in the TITLE and the LOCATION field. Almost every
@@ -616,6 +619,8 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 const TITLE_LEAD = [
   'lead architect', 'lead solution architect', 'lead platform architect',
   'lead integration architect',
+  'lead systems analyst', 'lead system analyst', 'lead business systems analyst',
+  'lead technical business analyst', 'lead technical analyst',
 ];
 const TITLE_SENIOR = [
   'senior solution architect', 'senior platform architect', 'senior integration architect',
@@ -624,6 +629,10 @@ const TITLE_SENIOR = [
   'sr solution architect', 'sr. solution architect', 'sr architect', 'sr. architect',
   'senior engineering manager', 'sr engineering manager', 'sr. engineering manager',
   'senior technical lead', 'senior tech lead',
+  'senior systems analyst', 'senior system analyst', 'sr. systems analyst',
+  'sr systems analyst', 'sr. system analyst', 'senior business systems analyst',
+  'senior technical business analyst', 'senior technical analyst',
+  'senior functional analyst', 'senior requirements analyst',
 ];
 const TITLE_BASE = [
   'solution architect', 'solutions architect', 'platform architect',
@@ -632,6 +641,10 @@ const TITLE_BASE = [
   'application architect', 'architect',
   'engineering manager', 'software engineering manager', 'engineering lead',
   'development manager', 'technical lead', 'tech lead',
+  'systems analyst', 'system analyst', 'business systems analyst',
+  'technical business analyst', 'technical analyst', 'functional analyst',
+  'requirements analyst', 'requirements engineer', 'it business analyst',
+  'it systems analyst',
   // TPM is the IC entry into big tech for this profile (Amazon, Google, Meta): cross-team
   // programmes, integrations, dependencies. Qualified titles only -- a bare "Program
   // Manager" or "Delivery Manager" is as likely marketing or logistics. British spelling
@@ -724,6 +737,9 @@ const TITLE_KW = [
   [/technical lead|tech lead/i, 8, 'technical lead in title'],
   [/technical program(me)? manager|engineering program(me)? manager|infrastructure program(me)? manager|\btpm\b|\btipm\b/i, 12, 'TPM in title'],
   [/(technical|product|engineering|software|it) delivery manager/i, 10, 'delivery manager in title'],
+  [/systems? analyst/i, 12, 'systems analyst in title'],
+  [/technical business analyst|business systems analyst/i, 10, 'technical BA in title'],
+  [/functional analyst|requirements (analyst|engineer)/i, 8, 'functional analyst in title'],
   [/\bapi(s)?\b/i, 8, 'API in title'],
   [/\bplatform\b/i, 6, 'platform in title'],
   [/\bai\b|artificial intelligence|genai|\bllm\b/i, 8, 'AI in title'],
@@ -738,13 +754,17 @@ const TITLE_BLOCK = [
   [/account executive|\bsales\b|recruiter|customer success|support engineer|solutions engineer/i, 'non-arch'],
   [/marketing|growth marketing|brand|content strateg/i, 'marketing'],
   [/\bdesigner\b|data scientist/i, 'design/DS'],
-  [/product analyst|data analyst|business analyst|analytics engineer|system analyst/i, 'analyst'],
+  // Product / data / BI analyst is a different CV from Lead Systems Analyst.
+  // A bare "Business Analyst" is not in TITLE_* so it never opens the gate;
+  // keep these blocked even if a later title overlay would match.
+  [/product analyst|data analyst|analytics engineer|financial analyst|marketing analyst|security analyst|soc analyst|research analyst|credit analyst|people analyst|hr analyst|bi analyst|web analyst|seo analyst|operations analyst|quant analyst|business intelligence analyst/i, 'wrong analyst'],
   // IC engineer is a different CV. "Tech lead" in a Software Engineer posting
   // used to open the gate because TITLE_BASE contains "tech lead" — live miss:
   // "Sr. Software Engineer II / Tech lead, Agentic Platform". `\bengineer\b`
   // does not match Engineering Manager / Software Engineering Manager
   // ("engineering" is a different word). Software Architect is unaffected.
-  [/\bengineer\b/i, 'IC engineer'],
+  // Requirements Engineer is an analyst title on this CV (IREB-shaped), not SWE.
+  [/(?<!requirements )\bengineer\b/i, 'IC engineer'],
   [/salesforce architect|sap architect|servicenow architect|network architect|landscape architect/i, 'wrong architect'],
   // EM track stops at manager / tech lead — head/director/VP of engineering is a
   // level above the CV, not a stretch title.
@@ -755,6 +775,9 @@ const TITLE_BLOCK = [
   // TPM track stops at Senior (Amazon L6, Google TPM III / Senior). Principal is L7,
   // Staff is above Senior at Google, and Director/Head manage programme managers.
   [/(principal|staff|distinguished|director|head of|vp|svp).{0,30}(program(me)?|delivery) manag|(director|head|vp).{0,24}program(me)? management/i, 'too-senior TPM'],
+  // Analyst track stops at Lead (the current title). Head/Director of BA is a
+  // manager of analysts, a level above the CV.
+  [/head of .{0,24}(business |systems )?analy|director.{0,16}(business |systems )?analy|(head|director|vp).{0,20}business analysis/i, 'too-senior analyst'],
 ];
 
 // Required language we cannot work in → drop, not a penalty. A Berlin role in
@@ -897,7 +920,7 @@ for (const item of $input.all()) {
   const loc = j.location || '';
   const desc = j.description || '';
 
-  // Gate 1: must match one of the three CV tracks (architect / AI architect / EM).
+  // Gate 1: must match one of the four CV tracks (architect / AI architect / EM / systems analyst).
   // Seniority words like "staff" must NOT open the gate on their own — otherwise
   // "Staff Software Engineer" would score as a lead target role.
   const isAi = TITLE_AI.some((t) => title.includes(t));

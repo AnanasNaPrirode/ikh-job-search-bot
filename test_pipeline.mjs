@@ -46,7 +46,7 @@ console.log('per source:', bySource);
 
 // ---- Score vs Profile ------------------------------------------------------
 const scored = run(code('Score vs Profile'), { $input: { all: () => normalized } });
-console.log(`PM-titled after gates: ${scored.length}`);
+console.log(`matching titles after gates: ${scored.length}`);
 
 const THRESHOLD = 48;
 const passing = scored.filter((s) => s.json.score >= THRESHOLD);

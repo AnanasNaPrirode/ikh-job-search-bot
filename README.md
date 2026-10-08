@@ -1,8 +1,8 @@
 # Jobs Radar
 
 Scans 119 public job boards every 4 hours, scores each posting against **Ivan
-Khakharev's** three CV tracks (Solution Architect, AI Solutions Architect,
-Engineering Manager), and pushes anything relevant to Telegram. Based in Salou,
+Khakharev's** four CV tracks (Solution Architect, AI Solutions Architect,
+Engineering Manager, Lead Systems Analyst), and pushes anything relevant to Telegram. Based in Salou,
 Spain; open to fully remote worldwide. GitHub Actions is the only runtime it needs.
 
 The scoring profile is in `build_workflow.py`. After editing it, run
@@ -213,11 +213,15 @@ Gates (drop outright):
 - title is not a product-management title
 - title says junior/intern/graduate, **IC engineer** (Software Engineer even
   with Tech Lead in the same string), designer, sales/CS/recruiter, or marketing.
-  Engineering Manager / Software Engineering Manager / Software Architect stay.
+  Engineering Manager / Software Engineering Manager / Software Architect stay
+- **product / data / BI / financial analyst** stay dropped. The analyst gate is
+  the current-role CV only: systems analyst, technical business analyst, business
+  systems analyst, functional / requirements analyst. A bare "Business Analyst"
+  does not open it
 
 Points:
 - any target title **+18** (lead / senior / plain — seniority is a label, not a score).
-  Targets are the architect and engineering-manager titles plus **Technical Program Manager**
+  Targets are the architect, engineering-manager and **systems-analyst** titles plus **Technical Program Manager**
   (also "programme", TPM, Technical Infrastructure PM) and technical / product / engineering / software /
   IT **Delivery Manager**: IC roles, the realistic entry into big tech. A bare "Program Manager" or
   "Delivery Manager" does not open the gate; Principal / Staff / Director / Head of those titles are dropped
@@ -271,7 +275,8 @@ Two things learned wiring it up:
   one glance.
 
 Also blocked: `product analyst` and friends. "Staff AI Product Analyst, **Product Management**"
-clears a naive PM-title gate on its trailing words.
+clears a naive PM-title gate on its trailing words. Systems / technical BA titles
+are the fourth CV track and are scored, not blocked.
 
 Calibrate against **labelled** roles, not by feel: score a handful you already judged good and
 bad, and check the ordering. `node test_scoring.mjs` asserts the whole group, no network.

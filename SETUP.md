@@ -1,10 +1,11 @@
 # Setup
 
-This fork is scored for **Ivan Khakharev** across three CV tracks:
+This fork is scored for **Ivan Khakharev** across four CV tracks:
 
 - Solution Architect (platform & integration)
 - AI Solutions Architect (agent workflows, RAG, automation)
 - Engineering Manager / Technical Lead
+- Lead Systems Analyst / Technical Business Analyst (current role)
 
 based in Salou, Spain, open to fully remote worldwide. The profile lives in `build_workflow.py`. Rebuild after edits:
 
