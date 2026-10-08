@@ -3991,6 +3991,126 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-data-intelligence-berlin-445105"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "Engineering Manager - Authentication & Authorisation",
+      "company": "Pleo",
+      "location": "Denmark, Portugal, Spain, UK",
+      "blurb": "About Pleo Messy spend management is tricky business. At Pleo, we're changing that.",
+      "score": 64,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "Spain-eligible",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://jobicy.com/jobs/154819-engineering-manager-authentication-authorisation"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "Engineering Manager",
+      "company": "Olo",
+      "location": "Belfast, Northern Ireland, Remote",
+      "blurb": "Olo is a leading SaaS platform accelerating digital transformation in the restaurant industry, by helping customers deliver more personalised and profitable guest experiences.",
+      "score": 61,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "remote EU/EMEA"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-engineering-manager-455820"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "Software Architect (m/f/d) für Web-, Backend- und Plattformlösungen",
+      "company": "Swissbit",
+      "location": "DE-München",
+      "blurb": "A Swissbit more you. Bei uns gestaltest du die Zukunft! Swissbit ist der führende europäische Hersteller von Speicher- und Security-Lösungen für Industrie- und IoT-Anwendungen.",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "API design",
+        "REST",
+        "Python/FastAPI",
+        "modern stack",
+        "API contract practice",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-75043"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "Engineering Manager - Linux Hardware Enablement",
+      "company": "Canonical",
+      "location": "APAC, EMEA, LATAM, Canada, USA",
+      "blurb": "",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/148702-engineering-manager-linux-hardware-enablement"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "Technical Lead, Observability - Paris",
+      "company": "Hcompany",
+      "location": "Hybrid Paris",
+      "blurb": "Who you'd work with You'll work with every team at H, across infrastructure, product, engineering and research.",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "system design",
+        "agents",
+        "agent workflow design",
+        "EU location",
+        "-hybrid"
+      ],
+      "url": "https://www.arbeitnow.com/view/technical-lead-observability-paris-369262"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "IT Engineering Lead - Stockholm",
+      "company": "legora",
+      "location": "Stockholm HQ",
+      "blurb": "Legora is redefining how legal work gets done. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same…",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "system design",
+        "people leadership",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://jobs.ashbyhq.com/legora/8f22c5c0-a889-46ea-b4d1-3d7360694a01"
+    },
+    {
+      "sentAt": "2026-10-08T15:06:34.282Z",
+      "title": "Sr. Technical Program Manager, European Sovereign Cloud",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "blurb": "For more information on ESC, please check out our blog: https://aws.amazon.com/blogs/aws/in-the-works-aws-european-sovereign-cloud/",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10573014/sr-technical-program-manager-european-sovereign-cloud"
     }
   ]
 }
