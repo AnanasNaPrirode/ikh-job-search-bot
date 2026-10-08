@@ -4441,6 +4441,61 @@
         "agentic practice"
       ],
       "url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4977893101"
+    },
+    {
+      "sentAt": "2026-10-08T20:57:55.514Z",
+      "title": "Engineering Manager - Golang [Telesales]",
+      "company": "platacard",
+      "location": "Worldwide",
+      "blurb": "It is also planned to develop a platform based on the team’s solution, so you will have the opportunity to directly influence the end-result.",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "agents",
+        "eng management",
+        "worldwide",
+        "-stale 52d"
+      ],
+      "url": "https://plata.careers/vacancy/details?id=5392528008&gh_jid=5392528008"
+    },
+    {
+      "sentAt": "2026-10-08T20:57:55.514Z",
+      "title": "Security Tech Lead",
+      "company": "veeamsoftware",
+      "location": "Warsaw, Poland",
+      "blurb": "",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "event-driven",
+        "Python/FastAPI",
+        "distributed systems",
+        "people leadership",
+        "modern stack",
+        "EU location",
+        "-stale 183d",
+        "+1 other location"
+      ],
+      "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4835415101"
+    },
+    {
+      "sentAt": "2026-10-08T20:57:55.514Z",
+      "title": "Senior Research Scientist (Architectures Research)",
+      "company": "nebius",
+      "location": "Israel; Remote - Europe; United Kingdom",
+      "blurb": "div class= content-intro p strong About Nebius: /strong /p p Nebius is leading a new era in cloud infrastructure for the global AI economy.",
+      "score": 40,
+      "reasons": [
+        "senior title",
+        "Python/FastAPI",
+        "people leadership",
+        "remote EU/EMEA",
+        "+1 other location"
+      ],
+      "url": "https://careers.nebius.com/?gh_jid=4975305101"
     }
   ]
 }
