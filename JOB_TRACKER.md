@@ -6,13 +6,15 @@
 
 ## 1. Поданные заявки
 
-| Дата | Компания | Роль | Локация / формат | CV | Ключевые детали |
-|---|---|---|---|---|---|
-| 05.10 | Supabase | Engineering Manager | Remote Global | EM (Supabase) | Иван отправил сам. Лимит Supabase — 3 заявки за 60 дней, это одна из трёх |
-| 05.10 | Lunar | Engineering Manager, Platform | Aarhus, 4 дня в офисе | EM (Lunar) + cover letter | Зарплата 68–75k DKK в месяц без пенсии. Нужно разрешение на работу в Дании. Подтверждение «Thanks for applying» получено |
-| 05.10 | Grafana Labs | EM, Observability (Ingest) | Spain Remote, 94–117k € + RSU | EM (Grafana) | Sponsorship = Yes. Submit Иван нажал сам: на форме вопрос «human/AI» и капча |
-| 08.10 | Pleo | EM, Authentication & Authorisation | Spain Remote (Ashby) | EM (base PDF) | Right to work = No + «will require sponsorship» (нужен перевод с ВНЖ кочевника на рабочий). Salary 95 000 €. «Success — You're in the mix» получено |
-| 05.10 | Spotify | EM, Data Platform | London, hybrid | EM (Spotify) | Lever. В шапке CV: «relocation to London — sponsorship required». Подтверждение «Application submitted!» получено |
+| Дата | Компания | Роль | Локация / формат | CV | Ключевые детали | Карточка |
+|---|---|---|---|---|---|---|
+| 05.10 | Supabase | Engineering Manager | Remote Global | EM (Supabase) | Иван отправил сам. Лимит Supabase — 3 заявки за 60 дней, это одна из трёх | [карточка](applications/2026-10-05_supabase_engineering-manager.md) |
+| 05.10 | Lunar | Engineering Manager, Platform | Aarhus, 4 дня в офисе | EM (Lunar) + cover letter | Зарплата 68–75k DKK в месяц без пенсии. Нужно разрешение на работу в Дании. Подтверждение «Thanks for applying» получено | [карточка](applications/2026-10-05_lunar_em-platform.md) |
+| 05.10 | Grafana Labs | EM, Observability (Ingest) | Spain Remote, 94–117k € + RSU | EM (Grafana) | Sponsorship = Yes. Submit Иван нажал сам: на форме вопрос «human/AI» и капча | [карточка](applications/2026-10-05_grafana_em-observability-ingest.md) |
+| 08.10 | Pleo | EM, Authentication & Authorisation | Spain Remote (Ashby) | EM (base PDF) | Right to work = No + «will require sponsorship» (нужен перевод с ВНЖ кочевника на рабочий). Salary 95 000 €. «Success — You're in the mix» получено | [карточка](applications/2026-10-08_pleo_em-auth.md) |
+| 05.10 | Spotify | EM, Data Platform | London, hybrid | EM (Spotify) | Lever. В шапке CV: «relocation to London — sponsorship required». Подтверждение «Application submitted!» получено | [карточка](applications/2026-10-05_spotify_em-data-platform.md) |
+| 08.10 | CoinsPaid | Senior Business System Analyst | Remote – European Region | Lead Systems Analyst | Lever EU. Salary 5 500–6 500 €/мес gross. Fintech = Yes (4 мес. в банке, кредитный конвейер). Выход через 2–3 недели | [карточка](applications/2026-10-08_coinspaid_senior-bsa.md) |
+| 08.10 | Libertex Group | System Business Analyst (Remote) | Remote (Serbia в карточке) | Lead Systems Analyst + cover letter | Workable, data-отдел, маркетинговые системы. Salary 6 000 €/мес gross | [карточка](applications/2026-10-08_libertex_system-business-analyst.md) |
 
 ## 2. Очередь — подать (проверены как подходящие)
 
@@ -38,6 +40,7 @@
 | Wrike 🆕 | Software Engineering Manager | https://job-boards.greenhouse.io/wrike/jobs/4737940005 | Прага (или Никосия), hybrid 2–3 дня. Стек не задан | 3+ года формального управления, performance management; релокация не упомянута |
 | JetBrains 🆕 | Founding Tech Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4977893101 | Мадрид в списке локаций, свобода стека, GTM + AI-агенты — близко к твоим agent skills | Чистый IC: много раннего кода самому. Уже есть JetBrains AI Technical Lead в очереди |
 | Mayflower 🆕 | Team Lead (cross-functional) | https://mayflower.recruitee.com/o/team-lead | Лимасол, EU-контракт + 3-летняя виза Кипра, полный relocation-пакет | Офис, Кипр; 2+ года формального управления и performance reviews |
+| Mayflower 🆕 | Business Analyst (Growth) | https://mayflower.recruitee.com/o/business-analyst-growth | По сути системный аналитик: требования, API, микросервисы, LLM-документация. 5+ лет BA/SA. EU-контракт + виза Кипра | Офис в Лимасоле (можно стартовать удалённо). У них же Team Lead — выбрать одну |
 | Swissbit 🆕 | Software Architect für Web-, Backend- und Plattformlösungen | https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-75043 | Чистая архитектурная роль: REST/OpenAPI, Python в списке, event-driven, K8s. Опыт «несколько лет», без 10+ | Мюнхен, офис, remote не упомянут. Описание частично на немецком — вероятно нужен немецкий. Нужна Blue Card |
 | trawa | EM, Data Intelligence | https://www.arbeitnow.com/view/engineering-manager-data-intelligence-berlin-445105 | Стартап из энергетики (Series A). Команда отвечает за DWH, биллинг и инвойсинг — близко к твоему ELT | Берлин, 3 дня в офисе, нужна Blue Card. Стек ClickHouse, dbt, Terraform |
 | AutoScout24 | EM, Business Technology | https://www.arbeitnow.com/view/engineering-manager-business-technology-258332 | Интеграции, API, middleware, миграции, AI-first | Нужно 10+ лет и опыт с ERP, Billing, CRM, HRIS. Город не указан |
@@ -127,10 +130,14 @@
 
 ## 7. Как обновлять этот файл
 
+**Карточки заявок.** На каждую поданную заявку — файл `applications/YYYY-MM-DD_company_role.md`: метаданные, этапы, что отправили (ответы формы, cover letter), гэпы на момент подачи и снапшот текста вакансии. При отказе заполнить блок «Разбор» — потом по всем карточкам можно сравнить, на каких требованиях и этапах отсеивают.
+
+**Найденные ATS-доски (ещё не в боте):** CoinsPaid (Lever EU `coinspaid`), Libertex (Workable `libertexgroup`), Admirals (Workable `admirals`), Finom (Lever EU `pnlfin`), InDrive (Pinpoint `indrive`), Salmon (Ashby `salmon-group`), The Soul Publishing (Workable `thesoul-publishing-1`), Semrush (Workday).
+
 Файл живёт в репозитории бота: `JOB_TRACKER.md` рядом с `sent.json` и `STATUS.md`. Второй источник — `companies_ru_abroad.csv` (список HyperCareer, 156 компаний; колонки `ats`/`ats_slug` — найденная публичная ATS-доска, проверено 08.10).
 
 1. Взять новые вакансии из `sent.json` бота после даты в шапке.
 2. Отсеять повторы. Бот иногда присылает ту же вакансию с новым URL, сверять по компании и названию роли.
-3. Разнести вакансии по разделам 2–5. Поданные заявки перенести в раздел 1 с датой.
+3. Разнести вакансии по разделам 2–5. Поданные заявки перенести в раздел 1 с датой и сразу создать карточку в `applications/` со снапшотом текста вакансии (вакансии закрываются, и текст пропадает).
 4. Обновить дату в шапке и закоммитить в `main` (commit message: `tracker: YYYY-MM-DD ...`).
 5. После подачи — добавить компанию в `DONE_COMPANIES` (или `CLOSED_DOORS` для закрытых) в `build_workflow.py`, чтобы бот помечал повторы.
