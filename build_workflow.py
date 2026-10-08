@@ -603,11 +603,15 @@ const CLOSED_DOORS = /^(a-company-you-have-stopped-applying-to)$/i;
 // No UK work rights (yet): London is not the EU, and a UK-locked role without
 // visa sponsorship is a penalty. Drop that check if Global Talent lands.
 // PM titles stay blocked. Product / data / BI / financial analyst stay blocked —
-// those are not the current-role CV. The analyst gate is systems / technical BA
-// only: Lead Systems Analyst, Technical Business Analyst, Business Systems Analyst.
-// A bare "Business Analyst" or "Senior Business Analyst" does not open it (too much
-// process-BA and finance-BA noise). Technical Program Manager / technical delivery
-// manager stays: an IC role that fits the cross-team integration record.
+// those are not the current-role CV. There is no Western 1:1 for "Lead System
+// Analyst", so the gate uses the market aliases: Technical / Lead Business Analyst
+// and Business Systems Analyst (UK/IE); Functional / IT Business Analyst (NL/BE);
+// Requirements Engineer, IT-Business Analyst, Systemanalytiker (DACH);
+// Solution Analyst (international remote); Analista funcional (ES — Spanish-required
+// JDs still drop via LANG_DROP). A bare "Business Analyst" or "Senior Business
+// Analyst" without Lead/Technical/Systems/IT does not open it. Technical Program
+// Manager / technical delivery manager stays: an IC role that fits the cross-team
+// integration record.
 // Customer-facing is out of scope for now (the CVs are internal architecture /
 // analysis). Penalty, not a label: −30 is enough to push a generic Spain
 // SA below the threshold. Drop the block if a customer-facing CV is written.
@@ -621,6 +625,8 @@ const TITLE_LEAD = [
   'lead integration architect',
   'lead systems analyst', 'lead system analyst', 'lead business systems analyst',
   'lead technical business analyst', 'lead technical analyst',
+  'lead business analyst', 'lead functional analyst', 'lead solution analyst',
+  'lead solutions analyst', 'lead it business analyst',
 ];
 const TITLE_SENIOR = [
   'senior solution architect', 'senior platform architect', 'senior integration architect',
@@ -633,6 +639,8 @@ const TITLE_SENIOR = [
   'sr systems analyst', 'sr. system analyst', 'senior business systems analyst',
   'senior technical business analyst', 'senior technical analyst',
   'senior functional analyst', 'senior requirements analyst',
+  'senior it business analyst', 'senior solution analyst', 'senior solutions analyst',
+  'senior requirements engineer',
 ];
 const TITLE_BASE = [
   'solution architect', 'solutions architect', 'platform architect',
@@ -644,7 +652,8 @@ const TITLE_BASE = [
   'systems analyst', 'system analyst', 'business systems analyst',
   'technical business analyst', 'technical analyst', 'functional analyst',
   'requirements analyst', 'requirements engineer', 'it business analyst',
-  'it systems analyst',
+  'it systems analyst', 'solution analyst', 'solutions analyst',
+  'systemanalytiker', 'analista funcional', 'analista de sistemas',
   // TPM is the IC entry into big tech for this profile (Amazon, Google, Meta): cross-team
   // programmes, integrations, dependencies. Qualified titles only -- a bare "Program
   // Manager" or "Delivery Manager" is as likely marketing or logistics. British spelling
@@ -737,9 +746,10 @@ const TITLE_KW = [
   [/technical lead|tech lead/i, 8, 'technical lead in title'],
   [/technical program(me)? manager|engineering program(me)? manager|infrastructure program(me)? manager|\btpm\b|\btipm\b/i, 12, 'TPM in title'],
   [/(technical|product|engineering|software|it) delivery manager/i, 10, 'delivery manager in title'],
-  [/systems? analyst/i, 12, 'systems analyst in title'],
-  [/technical business analyst|business systems analyst/i, 10, 'technical BA in title'],
-  [/functional analyst|requirements (analyst|engineer)/i, 8, 'functional analyst in title'],
+  [/systems? analyst|systemanalytiker/i, 12, 'systems analyst in title'],
+  [/technical business analyst|business systems analyst|lead business analyst|it business analyst/i, 10, 'technical BA in title'],
+  [/functional analyst|analista funcional|requirements (analyst|engineer)/i, 8, 'functional analyst in title'],
+  [/solutions? analyst/i, 10, 'solution analyst in title'],
   [/\bapi(s)?\b/i, 8, 'API in title'],
   [/\bplatform\b/i, 6, 'platform in title'],
   [/\bai\b|artificial intelligence|genai|\bllm\b/i, 8, 'AI in title'],
@@ -916,7 +926,8 @@ const out = [];
 
 for (const item of $input.all()) {
   const j = item.json;
-  const title = (j.title || '').toLowerCase();
+  // Hyphens folded so "IT-Business Analyst" matches "it business analyst".
+  const title = (j.title || '').toLowerCase().replace(/[-–—]/g, ' ');
   const loc = j.location || '';
   const desc = j.description || '';
 

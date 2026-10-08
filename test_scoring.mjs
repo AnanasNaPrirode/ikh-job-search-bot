@@ -47,6 +47,24 @@ check('Business Systems Analyst scores',
 check('Requirements Engineer is an analyst title, not an IC-engineer drop',
   !!one({title:'Requirements Engineer', location:'Madrid',
     description:'Own requirements and API contracts for the platform.'}));
+check('Lead Business Analyst is a UK/IE alias and scores',
+  !!one({title:'Lead Business Analyst', location:'Dublin',
+    description:'Own requirements, API contracts and data models for the platform.'}));
+check('IT-Business Analyst hyphenated DACH title scores',
+  !!one({title:'IT-Business Analyst', location:'Berlin',
+    description:'Specify REST API contracts and integrations. Working language is English.'}));
+check('Solution Analyst scores as the international-remote alias',
+  !!one({title:'Solution Analyst', location:'Spain (Remote)',
+    description:'Specify integrations and ER models.'}));
+check('Systemanalytiker scores when the JD is English',
+  !!one({title:'Systemanalytiker (m/w/d)', location:'Berlin',
+    description:'Own requirements and API contracts. Working language is English.'}));
+check('Analista funcional scores when Spanish is not required',
+  !!one({title:'Analista funcional', location:'Madrid',
+    description:'Own requirements and API contracts. Working language is English.'}));
+check('Analista funcional with required Spanish is still dropped',
+  one({title:'Analista funcional', location:'Madrid',
+    description:'Own the architecture. Imprescindible castellano nativo.'}) === null);
 check('a bare Business Analyst does not open the gate',
   one({title:'Business Analyst', location:'Madrid', description:'Gather requirements and write user stories.'}) === null);
 check('Senior Business Analyst without systems/technical stays out',

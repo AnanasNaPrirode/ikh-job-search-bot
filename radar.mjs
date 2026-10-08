@@ -30,14 +30,14 @@ const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 // The next live run posts this once, then remembers it in seen.json, so the chat
 // has a divider: cards above are the old rules, cards below are the new ones.
 const LOGIC_BUILD = {
-  id: '2026-10-08-systems-analyst',
+  id: '2026-10-08-analyst-aliases',
   text: [
     'Сборка новой логики отбора',
     '',
     'Вакансии ниже — уже по новым правилам. То, что выше в чате, можно не смотреть.',
     '',
-    '• добавлен трек текущей роли: Lead Systems Analyst / Technical Business Analyst',
-    '• product / data / BI analyst и голый Business Analyst по-прежнему вне поиска',
+    '• рыночные алиасы Lead System Analyst: Lead BA, IT-Business Analyst, Solution Analyst, Systemanalytiker, Analista funcional',
+    '• голый Business Analyst / Senior BA и product/data analyst — по-прежнему вне поиска',
   ].join('\n'),
 };
 

@@ -215,9 +215,10 @@ Gates (drop outright):
   with Tech Lead in the same string), designer, sales/CS/recruiter, or marketing.
   Engineering Manager / Software Engineering Manager / Software Architect stay
 - **product / data / BI / financial analyst** stay dropped. The analyst gate is
-  the current-role CV only: systems analyst, technical business analyst, business
-  systems analyst, functional / requirements analyst. A bare "Business Analyst"
-  does not open it
+  the current-role CV plus its market aliases: Technical / Lead Business Analyst,
+  Business Systems Analyst, Functional / IT Business Analyst, Requirements Engineer,
+  Systemanalytiker, Solution Analyst, Analista funcional. A bare "Business Analyst"
+  or "Senior Business Analyst" does not open it. Spanish-required ES postings still drop
 
 Points:
 - any target title **+18** (lead / senior / plain — seniority is a label, not a score).
