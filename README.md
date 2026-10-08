@@ -211,8 +211,9 @@ score weakly and are capped at +22 — without that cap everything saturates at
 
 Gates (drop outright):
 - title is not a product-management title
-- title says junior/intern/graduate, engineer/designer/architect,
-  sales/CS/recruiter, or marketing
+- title says junior/intern/graduate, **IC engineer** (Software Engineer even
+  with Tech Lead in the same string), designer, sales/CS/recruiter, or marketing.
+  Engineering Manager / Software Engineering Manager / Software Architect stay.
 
 Points:
 - any target title **+18** (lead / senior / plain — seniority is a label, not a score).

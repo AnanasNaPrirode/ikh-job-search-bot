@@ -18,6 +18,19 @@ check('engineer titles without architect are dropped',
   one({title:'Senior Software Engineer', location:'Madrid', description:'Build backend services in Python.'}) === null);
 check('Staff Software Engineer is not opened by the staff overlay',
   one({title:'Staff Software Engineer', location:'Madrid', description:'Lead the backend team.'}) === null);
+check('Software Engineer / Tech lead is dropped — that is still an SWE screen',
+  one({title:'Sr. Software Engineer II / Tech lead, Agentic Platform (Poland, Remote, B2B)',
+    location:'Poland', description:'Lead the agentic platform. You will own the architecture.'}) === null);
+check('Senior Software Engineer, Tech Lead is dropped',
+  one({title:'Senior Software Engineer, Tech Lead', location:'Madrid',
+    description:'Lead a squad building the platform.'}) === null);
+check('a plain Tech Lead still scores',
+  !!one({title:'Tech Lead', location:'Madrid', description:'Own system design and integration architecture for the platform.'}));
+check('Software Engineering Manager is not caught by the IC-engineer drop',
+  !!one({title:'Software Engineering Manager', location:'Madrid',
+    description:'Lead a cross-functional engineering team, Kanban delivery and mentoring.'}));
+check('Software Architect is not caught by the IC-engineer drop',
+  !!one({title:'Software Architect', location:'Madrid', description:'Own the architecture.'}));
 check('Salesforce Architect is blocked as the wrong architect track',
   one({title:'Salesforce Architect', location:'Madrid', description:'Design Salesforce solutions.'}) === null);
 

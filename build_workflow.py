@@ -739,6 +739,12 @@ const TITLE_BLOCK = [
   [/marketing|growth marketing|brand|content strateg/i, 'marketing'],
   [/\bdesigner\b|data scientist/i, 'design/DS'],
   [/product analyst|data analyst|business analyst|analytics engineer|system analyst/i, 'analyst'],
+  // IC engineer is a different CV. "Tech lead" in a Software Engineer posting
+  // used to open the gate because TITLE_BASE contains "tech lead" — live miss:
+  // "Sr. Software Engineer II / Tech lead, Agentic Platform". `\bengineer\b`
+  // does not match Engineering Manager / Software Engineering Manager
+  // ("engineering" is a different word). Software Architect is unaffected.
+  [/\bengineer\b/i, 'IC engineer'],
   [/salesforce architect|sap architect|servicenow architect|network architect|landscape architect/i, 'wrong architect'],
   // EM track stops at manager / tech lead — head/director/VP of engineering is a
   // level above the CV, not a stretch title.

@@ -30,14 +30,13 @@ const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 // The next live run posts this once, then remembers it in seen.json, so the chat
 // has a divider: cards above are the old rules, cards below are the new ones.
 const LOGIC_BUILD = {
-  id: '2026-10-05-lang-and-blurb',
+  id: '2026-10-08-no-swe',
   text: [
     'Сборка новой логики отбора',
     '',
     'Вакансии ниже — уже по новым правилам. То, что выше в чате, можно не смотреть.',
     '',
-    '• обязательный DE / ES / FR и другие не-английские языки — отсев',
-    '• под компанией — одно предложение про продукт',
+    '• Software Engineer / Tech Lead и другие IC-engineer title — отсев (это SWE-скрин, не архитектор/EM)',
   ].join('\n'),
 };
 
