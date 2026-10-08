@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 08.10.2026. Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-08T15:06Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 08.10.2026. Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-08T18:46Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -38,6 +38,7 @@
 
 | Компания | Роль | Ссылка | За | Против |
 |---|---|---|---|---|
+| Factorial HR 🆕 | Engineering Manager | https://careers.factorial.com/job_posting/engineering-manager-306774 | Мадрид/Барселона, 92–104k €, английский, AI-native (agentic workflows, LLM-фичи), API и интеграции | EM-трек (смещаемся от него); office-first, несколько дней в офисе; Ruby on Rails + React; 3+ года формального управления; испанский штат → sponsorship |
 | Wrike 🆕 | Software Engineering Manager | https://job-boards.greenhouse.io/wrike/jobs/4737940005 | Прага (или Никосия), hybrid 2–3 дня. Стек не задан | 3+ года формального управления, performance management; релокация не упомянута |
 | JetBrains 🆕 | Founding Tech Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4977893101 | Мадрид в списке локаций, свобода стека, GTM + AI-агенты — близко к твоим agent skills | Чистый IC: много раннего кода самому. Уже есть JetBrains AI Technical Lead в очереди |
 | Mayflower 🆕 | Team Lead (cross-functional) | https://mayflower.recruitee.com/o/team-lead | Лимасол, EU-контракт + 3-летняя виза Кипра, полный relocation-пакет | Офис, Кипр; 2+ года формального управления и performance reviews |
@@ -51,6 +52,9 @@
 
 | Компания | Роль | Причина |
 |---|---|---|
+| SFEIR 🆕 | Tech Lead Java (Nantes), Architecte Cloud (Bordeaux) | Французский, Франция on-site |
+| Collibra 🆕 | Senior People Solutions Analyst | HR-системы (Workday HCM), Прага, контракт до 01.2028 |
+| Orion Innovation / Nebius / Veeam 🆕 | AI SA (India), AI Tech Lead (India), EM Network (Singapore), TPM-роли | Не EU / TPM |
 | Unlimit 🆕 | Solution Architect (Java, Fintech) | Белград on-site; 6+ лет архитектором, hands-on Java/DevOps/AWS |
 | Nebius 🆕 | TPM / Delivery / ML SA | TPM и ML-инфра, не профиль |
 | Legora 🆕 | IT Engineering Lead – Stockholm | Corporate IT (устройства, сети, SaaS-админка), не продуктовая разработка. Стокгольм HQ. Уже есть Legora EM Foundations в очереди |
@@ -73,6 +77,7 @@
 
 ## 5. Закрыты работодателем 🔒
 
+- Aqemia — Engineering Manager (Paris), снята к 08.10
 - Mapbox — EM, Navigation Incidents (снята к 08.10)
 - Olo — Engineering Manager (Belfast/Remote) 🆕 — снята с arbeitnow на 08.10
 - Hcompany — Technical Lead, Observability (Paris) 🆕 — снята с arbeitnow на 08.10
