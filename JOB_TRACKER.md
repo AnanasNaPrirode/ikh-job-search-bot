@@ -6,15 +6,21 @@
 
 ## 1. Поданные заявки
 
-| Дата | Компания | Роль | Локация / формат | CV | Ключевые детали | Карточка |
-|---|---|---|---|---|---|---|
-| 05.10 | Supabase | Engineering Manager | Remote Global | EM (Supabase) | Иван отправил сам. Лимит Supabase — 3 заявки за 60 дней, это одна из трёх | [карточка](applications/2026-10-05_supabase_engineering-manager.md) |
-| 05.10 | Lunar | Engineering Manager, Platform | Aarhus, 4 дня в офисе | EM (Lunar) + cover letter | Зарплата 68–75k DKK в месяц без пенсии. Нужно разрешение на работу в Дании. Подтверждение «Thanks for applying» получено | [карточка](applications/2026-10-05_lunar_em-platform.md) |
-| 05.10 | Grafana Labs | EM, Observability (Ingest) | Spain Remote, 94–117k € + RSU | EM (Grafana) | Sponsorship = Yes. Submit Иван нажал сам: на форме вопрос «human/AI» и капча | [карточка](applications/2026-10-05_grafana_em-observability-ingest.md) |
-| 08.10 | Pleo | EM, Authentication & Authorisation | Spain Remote (Ashby) | EM (base PDF) | Right to work = No + «will require sponsorship» (нужен перевод с ВНЖ кочевника на рабочий). Salary 95 000 €. «Success — You're in the mix» получено | [карточка](applications/2026-10-08_pleo_em-auth.md) |
-| 05.10 | Spotify | EM, Data Platform | London, hybrid | EM (Spotify) | Lever. В шапке CV: «relocation to London — sponsorship required». Подтверждение «Application submitted!» получено | [карточка](applications/2026-10-05_spotify_em-data-platform.md) |
-| 08.10 | CoinsPaid | Senior Business System Analyst | Remote – European Region | Lead Systems Analyst | Lever EU. Salary 5 500–6 500 €/мес gross. Fintech = Yes (4 мес. в банке, кредитный конвейер). Выход через 2–3 недели | [карточка](applications/2026-10-08_coinspaid_senior-bsa.md) |
-| 08.10 | Libertex Group | System Business Analyst (Remote) | Remote (Serbia в карточке) | Lead Systems Analyst + cover letter | Workable, data-отдел, маркетинговые системы. Salary 6 000 €/мес gross | [карточка](applications/2026-10-08_libertex_system-business-analyst.md) |
+| Дата | Статус | Компания | Роль | Локация / формат | CV | Ключевые детали | Карточка |
+|---|---|---|---|---|---|---|---|
+| 05.10 | ⏳ | Supabase | Engineering Manager | Remote Global | EM (Supabase) | Иван отправил сам. Лимит Supabase — 3 заявки за 60 дней, это одна из трёх | [карточка](applications/2026-10-05_supabase_engineering-manager.md) |
+| 05.10 | ❌ 07.10 | Lunar | Engineering Manager, Platform | Aarhus, 4 дня в офисе | EM (Lunar) + cover letter | Зарплата 68–75k DKK в месяц без пенсии. Нужно разрешение на работу в Дании. Подтверждение «Thanks for applying» получено | [карточка](applications/2026-10-05_lunar_em-platform.md) |
+| 05.10 | ⏳ | Grafana Labs | EM, Observability (Ingest) | Spain Remote, 94–117k € + RSU | EM (Grafana) | Sponsorship = Yes. Submit Иван нажал сам: на форме вопрос «human/AI» и капча | [карточка](applications/2026-10-05_grafana_em-observability-ingest.md) |
+| 08.10 | ⏳ | Pleo | EM, Authentication & Authorisation | Spain Remote (Ashby) | EM (base PDF) | Right to work = No + «will require sponsorship» (нужен перевод с ВНЖ кочевника на рабочий). Salary 95 000 €. «Success — You're in the mix» получено | [карточка](applications/2026-10-08_pleo_em-auth.md) |
+| 05.10 | ⏳ | Spotify | EM, Data Platform | London, hybrid | EM (Spotify) | Lever. В шапке CV: «relocation to London — sponsorship required». Подтверждение «Application submitted!» получено | [карточка](applications/2026-10-05_spotify_em-data-platform.md) |
+| 08.10 | ⏳ | CoinsPaid | Senior Business System Analyst | Remote – European Region | Lead Systems Analyst | Lever EU. Salary 5 500–6 500 €/мес gross. Fintech = Yes (4 мес. в банке, кредитный конвейер). Выход через 2–3 недели | [карточка](applications/2026-10-08_coinspaid_senior-bsa.md) |
+| 08.10 | ⏳ | Libertex Group | System Business Analyst (Remote) | Remote (Serbia в карточке) | Lead Systems Analyst + cover letter | Workable, data-отдел, маркетинговые системы. Salary 6 000 €/мес gross | [карточка](applications/2026-10-08_libertex_system-business-analyst.md) |
+| 05.10 | ❌ 07.10 | Testlio | EM, EMEA (Platform) | 100% remote | EM | Отказ на скрининге: «experience more closely aligns» | [карточка](applications/2026-10-05_testlio_em-emea-platform.md) |
+| 05.10 | ❌ 08.10 | Mapbox | EM, Traffic Event Detections | Remote-first | EM | Отказ на скрининге, шаблон | [карточка](applications/2026-10-05_mapbox_em-traffic-event-detections.md) |
+| 06.10 | ⏳ | Finom | Engineering Manager | Berlin | EM | Обещали ответ в течение недели (≈13.10) | [карточка](applications/2026-10-06_finom_engineering-manager.md) |
+| 08.10 | ⏳ | RoomPriceGenie | Remote EM (Algorithms Team) | Remote UTC+0…+2 | EM | «Your Application is In!» | [карточка](applications/2026-10-08_roompricegenie_em-algorithms.md) |
+
+**Отказы на 08.10: 3 из 13 (Lunar, Testlio, Mapbox).** Все — EM, все на скрининге резюме за 2–3 дня, без интервью. Общий гэп по карточкам — требование формального people management (Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании). Аналитический трек пока без ответов.
 
 ## 2. Очередь — подать (проверены как подходящие)
 
@@ -23,15 +29,10 @@
 | 1 | ManyChat 🆕 | EM, Billing & Accounts | https://jobs.ashbyhq.com/manychat/81c2e258-f2ec-484d-aeaf-dc634ad10295 | Из списка HyperCareer. Барселона, hybrid, relocation support. Команда 5–6 billing-инженеров, стек PHP, но «tech-stack agnostic». Нужен реальный опыт найма/увольнения и billing/payments-систем — гэп |
 | 2 | Plata 🆕 | EM – Python [DWH Data Tools] | https://job-boards.greenhouse.io/platacard/jobs/5395249008 | Из списка HyperCareer. Worldwide remote, хабы Кипр/Сербия/Испания/Грузия. Python, Superset, DataHub, Airflow, dbt — близко к ELT. 1+ год управления, English B1+. Опубликовано 21.08 |
 | 3 | Plata 🆕 | EM [AI Business Features] | https://job-boards.greenhouse.io/platacard/jobs/5395514008 | Из списка HyperCareer. Worldwide remote, те же хабы. AI-продукты, интеграции. Опубликовано 25.08. Подать на одну из двух Plata |
-| 4 | RoomPriceGenie | Remote EM (Algorithms Team) | https://www.arbeitnow.com/view/remote-engineering-manager-algorithms-team-47686 | Удалёнка в часовых поясах UTC+0…+2, только английский, 100–110k €. Команда: 3 Senior + 1 Staff. Стек Python/Django, Snowflake, dbt, Dagster. Гэп: нужно несколько лет формального people management. Немецкая компания — подходит под визу цифрового кочевника |
-| 5 | Testlio | EM, EMEA (Platform) | https://job-boards.greenhouse.io/testlio/jobs/8179579 | 100% remote, Испания в списке стран. Спонсорства нет, но компания эстонская — виза цифрового кочевника подходит. Роль про публичный API (OpenAPI, versioning), интеграции, identity — сильный матч. Гэпы: 5+ лет управления командой от 4 инженеров, 20–30% своего кода на TS/Node/AWS |
-| 6 | Enpal | EM ERP | https://www.arbeitnow.com/view/engineering-manager-erp-berlin-274294 | Берлин, есть визовая поддержка. Проверить язык и офис |
-| 7 | Mapbox | EM, Navigation Incidents | https://www.arbeitnow.com/view/engineering-manager-navigation-incidents-mapbox-germany-335114 | Германия. Проверить формат работы |
-| 8 | Mapbox 🆕 | EM, Traffic Event Detections | https://jobs.ashbyhq.com/mapbox/6375a5f5-7fa1-4730-8ce7-c32c8ffeb14f | Remote-first. 5+ лет people management (гэп), AWS, data pipelines, agentic workflows. Выбрать одну из двух Mapbox |
-| 9 | Legora | EM, Foundations | https://jobs.ashbyhq.com/legora/1d340497-7dcc-4ed7-ac01-49695d880de0 | Стокгольм. Проверить офис и визу |
-| 10 | JetBrains | AI Technical Lead, Developer Tooling | https://www.arbeitnow.com/view/remote-ai-technical-lead-developer-tooling-51547 | Berlin, Munich или remote |
-| 11 | trawa | EM, Platform & IT Compliance | https://www.arbeitnow.com/view/engineering-manager-platform-and-it-compliance-berlin-456356 | Берлин, офис 3+ дня в неделю. Проверить немецкий. У этой же компании есть вакансия EM Data Intelligence (см. п. 3) — выбрать одну |
-| 12 | Finom | Engineering Manager | https://www.arbeitnow.com/view/engineering-manager-berlin-26263 | Берлин |
+| 4 | Enpal | EM ERP | https://www.arbeitnow.com/view/engineering-manager-erp-berlin-274294 | Берлин, есть визовая поддержка. Проверить язык и офис |
+| 5 | Legora | EM, Foundations | https://jobs.ashbyhq.com/legora/1d340497-7dcc-4ed7-ac01-49695d880de0 | Стокгольм. Проверить офис и визу |
+| 6 | JetBrains | AI Technical Lead, Developer Tooling | https://www.arbeitnow.com/view/remote-ai-technical-lead-developer-tooling-51547 | Berlin, Munich или remote |
+| 7 | trawa | EM, Platform & IT Compliance | https://www.arbeitnow.com/view/engineering-manager-platform-and-it-compliance-berlin-456356 | Берлин, офис 3+ дня в неделю. Проверить немецкий. У этой же компании есть вакансия EM Data Intelligence (см. п. 3) — выбрать одну |
 
 ## 3. Решить (пограничные)
 
@@ -72,6 +73,7 @@
 
 ## 5. Закрыты работодателем 🔒
 
+- Mapbox — EM, Navigation Incidents (снята к 08.10)
 - Olo — Engineering Manager (Belfast/Remote) 🆕 — снята с arbeitnow на 08.10
 - Hcompany — Technical Lead, Observability (Paris) 🆕 — снята с arbeitnow на 08.10
 - Pelico — Tech Lead Platform и Tech Lead Solutions
