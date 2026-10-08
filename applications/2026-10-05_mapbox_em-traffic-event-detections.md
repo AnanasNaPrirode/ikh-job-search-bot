@@ -5,7 +5,7 @@ track: EM
 url: https://jobs.ashbyhq.com/mapbox/6375a5f5-7fa1-4730-8ce7-c32c8ffeb14f
 applied: 2026-10-05
 location: Remote-first
-cv: EM (уточнить версию)
+cv: EM, адаптирована под вакансию налету в чате (файл не сохранён)
 salary_asked: —
 status: rejected
 ---
