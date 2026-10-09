@@ -4536,6 +4536,52 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/data-platform-data-architecture-consultant-berlin-103519"
+    },
+    {
+      "sentAt": "2026-10-09T11:04:47.675Z",
+      "title": "Solution Architect (m/w/d) SAP Finance S/4HANA Conversion",
+      "company": "cbs Corporate Business Solutions GmbH",
+      "location": "Heidelberg",
+      "blurb": "",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-sap-finance-s-4hana-conversion-heidelberg-258169"
+    },
+    {
+      "sentAt": "2026-10-09T11:04:47.675Z",
+      "title": "Senior Technical Program Manager - Product",
+      "company": "nebius",
+      "location": "Amsterdam, Netherlands; Tel Aviv, Israel",
+      "blurb": "div class= content-intro p strong About Nebius: /strong /p p Nebius is leading a new era in cloud infrastructure for the global AI economy.",
+      "score": 42,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "analysis",
+        "EU location"
+      ],
+      "url": "https://careers.nebius.com/?gh_jid=5000674101"
+    },
+    {
+      "sentAt": "2026-10-09T11:04:47.675Z",
+      "title": "Jira Architect",
+      "company": "Signal Processing Engineer (RF Processing & Analytics)",
+      "location": "Paris",
+      "blurb": "We operate in a demanding environment where rigor, ownership, and execution are expected.",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "REST",
+        "Python/FastAPI",
+        "EU location",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/jira-architect-paris-49795"
     }
   ]
 }
