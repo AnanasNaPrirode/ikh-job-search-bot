@@ -4496,6 +4496,46 @@
         "+1 other location"
       ],
       "url": "https://careers.nebius.com/?gh_jid=4975305101"
+    },
+    {
+      "sentAt": "2026-10-09T03:50:53.629Z",
+      "title": "Sr. Technical Program Manager, Enterprise Productivity - Communicate & Connect",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "blurb": "The pillar owns how more than a million Amazon employees message, meet, call, and email, across Slack, Zoom, telephony, fax, and email.",
+      "score": 67,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "EU location",
+        "AI-native team",
+        "spec-driven / API-first"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10574235/sr-technical-program-manager-enterprise-productivity-communicate-connect"
+    },
+    {
+      "sentAt": "2026-10-09T03:50:53.629Z",
+      "title": "Data Platform & Data Architecture Consultant",
+      "company": "Netlight",
+      "location": "Berlin",
+      "blurb": "About the role As a Data Platform Data Architecture Consultant , you are the person clients trust to turn their data infrastructure from a bottleneck into a competitive advantage.",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "platform in title",
+        "system design",
+        "integrations",
+        "data modeling",
+        "RBAC",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/data-platform-data-architecture-consultant-berlin-103519"
     }
   ]
 }
