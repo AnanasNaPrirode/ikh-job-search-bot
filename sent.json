@@ -4582,6 +4582,78 @@
         "requires hands-on AI tooling"
       ],
       "url": "https://www.arbeitnow.com/view/jira-architect-paris-49795"
+    },
+    {
+      "sentAt": "2026-10-09T17:48:04.895Z",
+      "title": "206422 - Solution Architect",
+      "company": "orioninnovation",
+      "location": "Montréal, Quebec, Canada",
+      "blurb": "div class= content-intro p Orion Innovation is a premier, award-winning, global business and technology services firm.",
+      "score": 75,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "API design",
+        "system design",
+        "event-driven",
+        "retail/martech",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "high-load scale",
+        "integration architecture"
+      ],
+      "url": "https://www.orioninc.com/careers/job/?gh_jid=4716567006"
+    },
+    {
+      "sentAt": "2026-10-09T17:48:04.895Z",
+      "title": "Engineering Manager - Experimentation",
+      "company": "Spotify",
+      "location": "Sweden, UK",
+      "blurb": "Think it, build it, ship it, tweak it\" is at the core of Spotify 's product development approach.",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/154910-engineering-manager-experimentation"
+    },
+    {
+      "sentAt": "2026-10-09T17:48:04.895Z",
+      "title": "Engineering Manager for Martech team",
+      "company": "Preply",
+      "location": "Barcelona, Spain",
+      "blurb": "",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "EU location",
+        "Spain-eligible",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/preply/19eb6660-965b-4d11-86b3-1c026b8f5c8f"
+    },
+    {
+      "sentAt": "2026-10-09T17:48:04.895Z",
+      "title": "Technical Program Manager, DC Security",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "blurb": "",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10574748/technical-program-manager-dc-security"
     }
   ]
 }
