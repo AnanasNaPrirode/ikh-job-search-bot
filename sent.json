@@ -4670,6 +4670,42 @@
         "remote"
       ],
       "url": "https://www.arbeitnow.com/view/it-solution-architect-it-inhouse-consultant-microsoft-bielefeld-336565"
+    },
+    {
+      "sentAt": "2026-10-10T10:20:08.517Z",
+      "title": "Engineering Manager",
+      "company": "Cosuno",
+      "location": "Berlin/Remote",
+      "blurb": "Your mission As Engineering Manager at Cosuno, you will lead a team of full stack engineers while staying deeply hands-on: you'll spend 60–80% of your time coding, reviewing…",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "LLM",
+        "eng management",
+        "modern stack",
+        "remote EU/EMEA"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-berlin-289104"
+    },
+    {
+      "sentAt": "2026-10-10T10:20:08.517Z",
+      "title": "Engineering Manager (m/w/d) – Core Team",
+      "company": "Metergrid",
+      "location": "Hamburg",
+      "blurb": "Das Betreiberportal ist kein generisches SaaS.",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-core-team-hamburg-409647"
     }
   ]
 }
