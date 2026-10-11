@@ -4806,6 +4806,40 @@
         "daily AI tooling"
       ],
       "url": "https://www.arbeitnow.com/view/senior-dynamics-365-power-platform-technical-lead-liebefeld-bern-switzerland-374694"
+    },
+    {
+      "sentAt": "2026-10-11T17:07:44.563Z",
+      "title": "Engineering Manager - Cloud Platform & Operations (f/m/d)",
+      "company": "Sonarsource",
+      "location": "Bochum",
+      "blurb": "Integrating seamlessly with Claude Code, Codex, Cursor, GitHub Copilot, Gemini, and Devin, we help over 75% of the Fortune 100 build trusted, reliable, compliant software.",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "Python/FastAPI",
+        "people leadership",
+        "agents"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-cloud-platform-operations-bochum-422105"
+    },
+    {
+      "sentAt": "2026-10-11T17:07:44.563Z",
+      "title": "Engineering Manager, Scientific Software",
+      "company": "Infinitesima",
+      "location": "Abingdon",
+      "blurb": "",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "people leadership",
+        "agents",
+        "eng management"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-scientific-software-abingdon-84406"
     }
   ]
 }
