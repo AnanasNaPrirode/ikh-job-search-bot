@@ -4721,6 +4721,91 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/solution-architect-sap-finance-s-4hana-conversion-heidelberg-227873"
+    },
+    {
+      "sentAt": "2026-10-11T10:29:25.944Z",
+      "title": "AI Lead / Engineering Manager",
+      "company": "saas.group",
+      "location": "Europe",
+      "blurb": "It is not combined with product management: the technical leadership scope is substantial on its own, and you'll partner with Product rather than absorb it. AI capability is…",
+      "score": 86,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "AI in title",
+        "system design",
+        "data modeling",
+        "people leadership",
+        "LLM",
+        "RAG",
+        "eng management",
+        "EU location",
+        "AI-native team",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://jobicy.com/jobs/155019-ai-lead-engineering-manager"
+    },
+    {
+      "sentAt": "2026-10-11T10:29:25.944Z",
+      "title": "Software Engineering Manager (Agentic Engineering)",
+      "company": "Coder",
+      "location": "United Kingdom",
+      "blurb": "",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "agents in title",
+        "distributed systems",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "modern stack",
+        "agent workflow design",
+        "-UK, no sponsorship"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-engineering-manager-agentic-engineering-united-kingdom-491302"
+    },
+    {
+      "sentAt": "2026-10-11T10:29:25.944Z",
+      "title": "FR - Tech Lead Coremedia",
+      "company": "Valtech",
+      "location": "n/a",
+      "blurb": "p /p p span class= TextRun SCXW246265904 BCX0 lang= EN-US data-contrast= auto span class= NormalTextRun SCXW246265904 BCX0 Why Valtech?",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "caching",
+        "retail/martech",
+        "analysis",
+        "people leadership",
+        "modern stack"
+      ],
+      "url": "https://www.arbeitnow.com/view/fr-tech-lead-coremedia-142170"
+    },
+    {
+      "sentAt": "2026-10-11T10:29:25.944Z",
+      "title": "Senior Dynamics 365 & Power Platform Technical Lead",
+      "company": "Speedgoat",
+      "location": "Liebefeld, Bern, Switzerland",
+      "blurb": "Your Impact We are looking for a senior, hands-on Dynamics 365 Power Platform Technical Lead to own the technical development, integration, and lifecycle management of our…",
+      "score": 41,
+      "reasons": [
+        "senior title",
+        "technical lead in title",
+        "platform in title",
+        "integrations",
+        "data modeling",
+        "analysis",
+        "modern stack",
+        "integration architecture",
+        "EU location",
+        "-customer-facing",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-dynamics-365-power-platform-technical-lead-liebefeld-bern-switzerland-374694"
     }
   ]
 }

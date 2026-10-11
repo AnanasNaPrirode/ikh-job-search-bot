@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-11T03:07:02.239Z",
+  "generatedAt": "2026-10-11T10:29:25.944Z",
   "dryRun": false,
   "totals": {
     "sources": 178,
     "ok": 174,
     "down": 4,
     "liveButEmpty": 12,
-    "postings": 11827,
-    "archTitled": 681,
-    "aboveThreshold": 0,
+    "postings": 11818,
+    "archTitled": 682,
+    "aboveThreshold": 4,
     "threshold": 40
   },
   "sources": [
@@ -19,7 +19,7 @@
       "http": 200,
       "ok": true,
       "bytes": 230988,
-      "ms": 292,
+      "ms": 301,
       "postings": 18
     },
     {
@@ -29,7 +29,7 @@
       "http": 200,
       "ok": true,
       "bytes": 3476021,
-      "ms": 149,
+      "ms": 146,
       "postings": 221
     },
     {
@@ -39,7 +39,7 @@
       "http": 200,
       "ok": true,
       "bytes": 8312678,
-      "ms": 230,
+      "ms": 236,
       "postings": 409
     },
     {
@@ -49,7 +49,7 @@
       "http": 200,
       "ok": true,
       "bytes": 836570,
-      "ms": 102,
+      "ms": 82,
       "postings": 89
     },
     {
@@ -59,7 +59,7 @@
       "http": 200,
       "ok": true,
       "bytes": 274728,
-      "ms": 50,
+      "ms": 69,
       "postings": 18
     },
     {
@@ -69,7 +69,7 @@
       "http": 200,
       "ok": true,
       "bytes": 9283434,
-      "ms": 285,
+      "ms": 371,
       "postings": 645
     },
     {
@@ -79,7 +79,7 @@
       "http": 200,
       "ok": true,
       "bytes": 5412692,
-      "ms": 186,
+      "ms": 196,
       "postings": 435
     },
     {
@@ -89,7 +89,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2096115,
-      "ms": 124,
+      "ms": 110,
       "postings": 144
     },
     {
@@ -109,7 +109,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1783031,
-      "ms": 83,
+      "ms": 100,
       "postings": 150
     },
     {
@@ -119,7 +119,7 @@
       "http": 200,
       "ok": true,
       "bytes": 40055,
-      "ms": 43,
+      "ms": 61,
       "postings": 4
     },
     {
@@ -129,7 +129,7 @@
       "http": 200,
       "ok": true,
       "bytes": 220895,
-      "ms": 68,
+      "ms": 72,
       "postings": 19
     },
     {
@@ -139,7 +139,7 @@
       "http": 200,
       "ok": true,
       "bytes": 158478,
-      "ms": 50,
+      "ms": 60,
       "postings": 13
     },
     {
@@ -149,7 +149,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4384157,
-      "ms": 160,
+      "ms": 283,
       "postings": 392
     },
     {
@@ -159,7 +159,7 @@
       "http": 200,
       "ok": true,
       "bytes": 86238,
-      "ms": 43,
+      "ms": 95,
       "postings": 7
     },
     {
@@ -169,7 +169,7 @@
       "http": 200,
       "ok": true,
       "bytes": 30,
-      "ms": 44,
+      "ms": 60,
       "postings": 0
     },
     {
@@ -179,7 +179,7 @@
       "http": 200,
       "ok": true,
       "bytes": 959870,
-      "ms": 188,
+      "ms": 86,
       "postings": 68
     },
     {
@@ -189,7 +189,7 @@
       "http": 200,
       "ok": true,
       "bytes": 92870,
-      "ms": 45,
+      "ms": 61,
       "postings": 20
     },
     {
@@ -198,9 +198,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/adyen/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 2227180,
-      "ms": 99,
-      "postings": 239
+      "bytes": 2219581,
+      "ms": 119,
+      "postings": 238
     },
     {
       "kind": "greenhouse",
@@ -209,7 +209,7 @@
       "http": 404,
       "ok": false,
       "bytes": 38,
-      "ms": 42,
+      "ms": 58,
       "postings": 0
     },
     {
@@ -219,7 +219,7 @@
       "http": 200,
       "ok": true,
       "bytes": 772641,
-      "ms": 59,
+      "ms": 85,
       "postings": 55
     },
     {
@@ -229,7 +229,7 @@
       "http": 200,
       "ok": true,
       "bytes": 280586,
-      "ms": 68,
+      "ms": 94,
       "postings": 32
     },
     {
@@ -238,9 +238,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 3634898,
-      "ms": 123,
-      "postings": 346
+      "bytes": 3645261,
+      "ms": 157,
+      "postings": 347
     },
     {
       "kind": "greenhouse",
@@ -249,7 +249,7 @@
       "http": 200,
       "ok": true,
       "bytes": 444492,
-      "ms": 57,
+      "ms": 72,
       "postings": 44
     },
     {
@@ -259,7 +259,7 @@
       "http": 200,
       "ok": true,
       "bytes": 561623,
-      "ms": 87,
+      "ms": 135,
       "postings": 67
     },
     {
@@ -269,7 +269,7 @@
       "http": 200,
       "ok": true,
       "bytes": 78675,
-      "ms": 65,
+      "ms": 60,
       "postings": 5
     },
     {
@@ -279,7 +279,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4093417,
-      "ms": 452,
+      "ms": 150,
       "postings": 226
     },
     {
@@ -289,7 +289,7 @@
       "http": 200,
       "ok": true,
       "bytes": 53595,
-      "ms": 47,
+      "ms": 57,
       "postings": 2
     },
     {
@@ -299,7 +299,7 @@
       "http": 200,
       "ok": true,
       "bytes": 594374,
-      "ms": 182,
+      "ms": 137,
       "postings": 52
     },
     {
@@ -309,7 +309,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1364919,
-      "ms": 165,
+      "ms": 112,
       "postings": 87
     },
     {
@@ -319,7 +319,7 @@
       "http": 200,
       "ok": true,
       "bytes": 461715,
-      "ms": 51,
+      "ms": 71,
       "postings": 31
     },
     {
@@ -329,7 +329,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1313006,
-      "ms": 132,
+      "ms": 90,
       "postings": 106
     },
     {
@@ -339,7 +339,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1617470,
-      "ms": 94,
+      "ms": 111,
       "postings": 106
     },
     {
@@ -349,7 +349,7 @@
       "http": 404,
       "ok": false,
       "bytes": 38,
-      "ms": 48,
+      "ms": 58,
       "postings": 0
     },
     {
@@ -359,7 +359,7 @@
       "http": 200,
       "ok": true,
       "bytes": 251152,
-      "ms": 53,
+      "ms": 98,
       "postings": 25
     },
     {
@@ -368,9 +368,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/platacard/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 1523920,
-      "ms": 171,
-      "postings": 158
+      "bytes": 1470503,
+      "ms": 96,
+      "postings": 149
     },
     {
       "kind": "greenhouse",
@@ -379,7 +379,7 @@
       "http": 200,
       "ok": true,
       "bytes": 577959,
-      "ms": 74,
+      "ms": 175,
       "postings": 59
     },
     {
@@ -389,7 +389,7 @@
       "http": 200,
       "ok": true,
       "bytes": 943247,
-      "ms": 72,
+      "ms": 138,
       "postings": 58
     },
     {
@@ -399,7 +399,7 @@
       "http": 200,
       "ok": true,
       "bytes": 6715181,
-      "ms": 300,
+      "ms": 406,
       "postings": 376
     },
     {
@@ -409,7 +409,7 @@
       "http": 200,
       "ok": true,
       "bytes": 386192,
-      "ms": 72,
+      "ms": 66,
       "postings": 38
     },
     {
@@ -419,7 +419,7 @@
       "http": 200,
       "ok": true,
       "bytes": 662478,
-      "ms": 141,
+      "ms": 74,
       "postings": 60
     },
     {
@@ -429,7 +429,7 @@
       "http": 200,
       "ok": true,
       "bytes": 220788,
-      "ms": 50,
+      "ms": 72,
       "postings": 16
     },
     {
@@ -439,7 +439,7 @@
       "http": 200,
       "ok": true,
       "bytes": 3294071,
-      "ms": 197,
+      "ms": 190,
       "postings": 229
     },
     {
@@ -449,7 +449,7 @@
       "http": 200,
       "ok": true,
       "bytes": 8053,
-      "ms": 48,
+      "ms": 60,
       "postings": 1
     },
     {
@@ -459,7 +459,7 @@
       "http": 200,
       "ok": true,
       "bytes": 643376,
-      "ms": 60,
+      "ms": 71,
       "postings": 76
     },
     {
@@ -469,7 +469,7 @@
       "http": 200,
       "ok": true,
       "bytes": 54225,
-      "ms": 51,
+      "ms": 57,
       "postings": 8
     },
     {
@@ -479,7 +479,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4557131,
-      "ms": 140,
+      "ms": 165,
       "postings": 241
     },
     {
@@ -489,7 +489,7 @@
       "http": 200,
       "ok": true,
       "bytes": 857642,
-      "ms": 182,
+      "ms": 105,
       "postings": 38
     },
     {
@@ -499,7 +499,7 @@
       "http": 200,
       "ok": true,
       "bytes": 414719,
-      "ms": 16,
+      "ms": 24,
       "postings": 31
     },
     {
@@ -509,7 +509,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2805093,
-      "ms": 70,
+      "ms": 74,
       "postings": 165
     },
     {
@@ -519,7 +519,7 @@
       "http": 200,
       "ok": true,
       "bytes": 13559439,
-      "ms": 230,
+      "ms": 368,
       "postings": 815
     },
     {
@@ -529,7 +529,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1125826,
-      "ms": 39,
+      "ms": 38,
       "postings": 132
     },
     {
@@ -539,7 +539,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1372103,
-      "ms": 32,
+      "ms": 37,
       "postings": 102
     },
     {
@@ -549,7 +549,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1015961,
-      "ms": 32,
+      "ms": 34,
       "postings": 69
     },
     {
@@ -559,7 +559,7 @@
       "http": 200,
       "ok": true,
       "bytes": 746010,
-      "ms": 25,
+      "ms": 32,
       "postings": 54
     },
     {
@@ -569,7 +569,7 @@
       "http": 200,
       "ok": true,
       "bytes": 191336,
-      "ms": 15,
+      "ms": 22,
       "postings": 10
     },
     {
@@ -579,7 +579,7 @@
       "http": 200,
       "ok": true,
       "bytes": 78501,
-      "ms": 16,
+      "ms": 29,
       "postings": 9
     },
     {
@@ -589,7 +589,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1966465,
-      "ms": 45,
+      "ms": 62,
       "postings": 119
     },
     {
@@ -599,7 +599,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1780559,
-      "ms": 40,
+      "ms": 47,
       "postings": 124
     },
     {
@@ -609,7 +609,7 @@
       "http": 200,
       "ok": true,
       "bytes": 732936,
-      "ms": 25,
+      "ms": 27,
       "postings": 51
     },
     {
@@ -619,7 +619,7 @@
       "http": 200,
       "ok": true,
       "bytes": 3461230,
-      "ms": 50,
+      "ms": 59,
       "postings": 195
     },
     {
@@ -629,7 +629,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1787663,
-      "ms": 41,
+      "ms": 46,
       "postings": 145
     },
     {
@@ -639,7 +639,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1323707,
-      "ms": 36,
+      "ms": 33,
       "postings": 83
     },
     {
@@ -649,7 +649,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1187474,
-      "ms": 32,
+      "ms": 39,
       "postings": 137
     },
     {
@@ -659,7 +659,7 @@
       "http": 200,
       "ok": true,
       "bytes": 901433,
-      "ms": 30,
+      "ms": 35,
       "postings": 81
     },
     {
@@ -669,7 +669,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4577999,
-      "ms": 101,
+      "ms": 285,
       "postings": 350
     },
     {
@@ -679,7 +679,7 @@
       "http": 200,
       "ok": true,
       "bytes": 985102,
-      "ms": 106,
+      "ms": 93,
       "postings": 49
     },
     {
@@ -689,7 +689,7 @@
       "http": 200,
       "ok": true,
       "bytes": 281053,
-      "ms": 45,
+      "ms": 21,
       "postings": 17
     },
     {
@@ -699,7 +699,7 @@
       "http": 200,
       "ok": true,
       "bytes": 203838,
-      "ms": 85,
+      "ms": 23,
       "postings": 14
     },
     {
@@ -709,7 +709,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2086676,
-      "ms": 58,
+      "ms": 123,
       "postings": 118
     },
     {
@@ -719,7 +719,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2296244,
-      "ms": 135,
+      "ms": 125,
       "postings": 148
     },
     {
@@ -729,7 +729,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4275335,
-      "ms": 82,
+      "ms": 127,
       "postings": 148
     },
     {
@@ -739,7 +739,7 @@
       "http": 200,
       "ok": true,
       "bytes": 130402,
-      "ms": 89,
+      "ms": 20,
       "postings": 10
     },
     {
@@ -749,7 +749,7 @@
       "http": 200,
       "ok": true,
       "bytes": 18901,
-      "ms": 81,
+      "ms": 101,
       "postings": 2
     },
     {
@@ -759,7 +759,7 @@
       "http": 200,
       "ok": true,
       "bytes": 381395,
-      "ms": 26,
+      "ms": 52,
       "postings": 41
     },
     {
@@ -769,7 +769,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1430458,
-      "ms": 40,
+      "ms": 44,
       "postings": 110
     },
     {
@@ -779,7 +779,7 @@
       "http": 200,
       "ok": true,
       "bytes": 35885,
-      "ms": 17,
+      "ms": 18,
       "postings": 3
     },
     {
@@ -789,7 +789,7 @@
       "http": 200,
       "ok": true,
       "bytes": 28,
-      "ms": 10,
+      "ms": 84,
       "postings": 0
     },
     {
@@ -799,7 +799,7 @@
       "http": 200,
       "ok": true,
       "bytes": 226873,
-      "ms": 21,
+      "ms": 27,
       "postings": 27
     },
     {
@@ -809,7 +809,7 @@
       "http": 200,
       "ok": true,
       "bytes": 246669,
-      "ms": 93,
+      "ms": 26,
       "postings": 11
     },
     {
@@ -819,7 +819,7 @@
       "http": 200,
       "ok": true,
       "bytes": 105423,
-      "ms": 87,
+      "ms": 84,
       "postings": 5
     },
     {
@@ -829,7 +829,7 @@
       "http": 200,
       "ok": true,
       "bytes": 25741,
-      "ms": 16,
+      "ms": 23,
       "postings": 2
     },
     {
@@ -839,7 +839,7 @@
       "http": 200,
       "ok": true,
       "bytes": 596218,
-      "ms": 26,
+      "ms": 29,
       "postings": 46
     },
     {
@@ -849,7 +849,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4103835,
-      "ms": 245,
+      "ms": 269,
       "postings": 290
     },
     {
@@ -859,7 +859,7 @@
       "http": 200,
       "ok": true,
       "bytes": 409158,
-      "ms": 115,
+      "ms": 87,
       "postings": 22
     },
     {
@@ -869,7 +869,7 @@
       "http": 200,
       "ok": true,
       "bytes": 211845,
-      "ms": 16,
+      "ms": 27,
       "postings": 22
     },
     {
@@ -879,7 +879,7 @@
       "http": 200,
       "ok": true,
       "bytes": 342032,
-      "ms": 18,
+      "ms": 21,
       "postings": 36
     },
     {
@@ -889,7 +889,7 @@
       "http": 200,
       "ok": true,
       "bytes": 493507,
-      "ms": 21,
+      "ms": 26,
       "postings": 22
     },
     {
@@ -899,7 +899,7 @@
       "http": 200,
       "ok": true,
       "bytes": 10370,
-      "ms": 89,
+      "ms": 82,
       "postings": 1
     },
     {
@@ -909,7 +909,7 @@
       "http": 200,
       "ok": true,
       "bytes": 234900,
-      "ms": 92,
+      "ms": 93,
       "postings": 16
     },
     {
@@ -919,7 +919,7 @@
       "http": 200,
       "ok": true,
       "bytes": 66597,
-      "ms": 15,
+      "ms": 20,
       "postings": 6
     },
     {
@@ -929,7 +929,7 @@
       "http": 200,
       "ok": true,
       "bytes": 16639,
-      "ms": 101,
+      "ms": 83,
       "postings": 2
     },
     {
@@ -939,7 +939,7 @@
       "http": 200,
       "ok": true,
       "bytes": 281890,
-      "ms": 18,
+      "ms": 23,
       "postings": 24
     },
     {
@@ -949,7 +949,7 @@
       "http": 200,
       "ok": true,
       "bytes": 98335,
-      "ms": 14,
+      "ms": 20,
       "postings": 7
     },
     {
@@ -959,7 +959,7 @@
       "http": 200,
       "ok": true,
       "bytes": 562036,
-      "ms": 19,
+      "ms": 89,
       "postings": 33
     },
     {
@@ -969,7 +969,7 @@
       "http": 200,
       "ok": true,
       "bytes": 121188,
-      "ms": 90,
+      "ms": 115,
       "postings": 10
     },
     {
@@ -979,7 +979,7 @@
       "http": 200,
       "ok": true,
       "bytes": 37037,
-      "ms": 89,
+      "ms": 81,
       "postings": 5
     },
     {
@@ -989,7 +989,7 @@
       "http": 200,
       "ok": true,
       "bytes": 60448,
-      "ms": 98,
+      "ms": 83,
       "postings": 7
     },
     {
@@ -999,7 +999,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1247022,
-      "ms": 30,
+      "ms": 108,
       "postings": 103
     },
     {
@@ -1009,7 +1009,7 @@
       "http": 200,
       "ok": true,
       "bytes": 264574,
-      "ms": 275,
+      "ms": 302,
       "postings": 9
     },
     {
@@ -1019,7 +1019,7 @@
       "http": 200,
       "ok": true,
       "bytes": 241902,
-      "ms": 283,
+      "ms": 273,
       "postings": 10
     },
     {
@@ -1029,7 +1029,7 @@
       "http": 200,
       "ok": true,
       "bytes": 561236,
-      "ms": 482,
+      "ms": 466,
       "postings": 19
     },
     {
@@ -1039,7 +1039,7 @@
       "http": 200,
       "ok": true,
       "bytes": 16503,
-      "ms": 214,
+      "ms": 203,
       "postings": 1
     },
     {
@@ -1049,7 +1049,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1015155,
-      "ms": 540,
+      "ms": 561,
       "postings": 54
     },
     {
@@ -1059,7 +1059,7 @@
       "http": 200,
       "ok": true,
       "bytes": 344697,
-      "ms": 351,
+      "ms": 391,
       "postings": 20
     },
     {
@@ -1069,7 +1069,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2324922,
-      "ms": 1104,
+      "ms": 553,
       "postings": 141
     },
     {
@@ -1079,7 +1079,7 @@
       "http": 200,
       "ok": true,
       "bytes": 346287,
-      "ms": 38,
+      "ms": 89,
       "postings": 20
     },
     {
@@ -1089,7 +1089,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1351370,
-      "ms": 60,
+      "ms": 109,
       "postings": 77
     },
     {
@@ -1099,7 +1099,7 @@
       "http": 200,
       "ok": true,
       "bytes": 242635,
-      "ms": 129,
+      "ms": 46,
       "postings": 13
     },
     {
@@ -1109,7 +1109,7 @@
       "http": 200,
       "ok": true,
       "bytes": 713798,
-      "ms": 55,
+      "ms": 314,
       "postings": 60
     },
     {
@@ -1119,7 +1119,7 @@
       "http": 200,
       "ok": true,
       "bytes": 92313,
-      "ms": 31,
+      "ms": 54,
       "postings": 9
     },
     {
@@ -1129,7 +1129,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4291,
-      "ms": 228,
+      "ms": 135,
       "postings": 6
     },
     {
@@ -1139,7 +1139,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4653,
-      "ms": 131,
+      "ms": 87,
       "postings": 6
     },
     {
@@ -1149,7 +1149,7 @@
       "http": 200,
       "ok": true,
       "bytes": 13267,
-      "ms": 118,
+      "ms": 105,
       "postings": 18
     },
     {
@@ -1159,7 +1159,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1165,
-      "ms": 111,
+      "ms": 116,
       "postings": 1
     },
     {
@@ -1169,7 +1169,7 @@
       "http": 200,
       "ok": true,
       "bytes": 13500,
-      "ms": 119,
+      "ms": 105,
       "postings": 17
     },
     {
@@ -1179,7 +1179,7 @@
       "http": 200,
       "ok": true,
       "bytes": 98193,
-      "ms": 867,
+      "ms": 816,
       "postings": 7
     },
     {
@@ -1189,7 +1189,7 @@
       "http": 200,
       "ok": true,
       "bytes": 215179,
-      "ms": 1566,
+      "ms": 1089,
       "postings": 15
     },
     {
@@ -1199,7 +1199,7 @@
       "http": 200,
       "ok": true,
       "bytes": 188095,
-      "ms": 1309,
+      "ms": 973,
       "postings": 10
     },
     {
@@ -1209,7 +1209,7 @@
       "http": 200,
       "ok": true,
       "bytes": 195165,
-      "ms": 1125,
+      "ms": 934,
       "postings": 11
     },
     {
@@ -1219,7 +1219,7 @@
       "http": 200,
       "ok": true,
       "bytes": 311158,
-      "ms": 1310,
+      "ms": 1066,
       "postings": 23
     },
     {
@@ -1229,7 +1229,7 @@
       "http": 200,
       "ok": true,
       "bytes": 622784,
-      "ms": 1742,
+      "ms": 1409,
       "postings": 56
     },
     {
@@ -1239,7 +1239,7 @@
       "http": 200,
       "ok": true,
       "bytes": 114870,
-      "ms": 1067,
+      "ms": 901,
       "postings": 1
     },
     {
@@ -1249,7 +1249,7 @@
       "http": 200,
       "ok": true,
       "bytes": 11180,
-      "ms": 735,
+      "ms": 502,
       "postings": 1
     },
     {
@@ -1259,7 +1259,7 @@
       "http": 200,
       "ok": true,
       "bytes": 70032,
-      "ms": 857,
+      "ms": 829,
       "postings": 4
     },
     {
@@ -1269,7 +1269,7 @@
       "http": 200,
       "ok": true,
       "bytes": 274100,
-      "ms": 1283,
+      "ms": 1105,
       "postings": 16
     },
     {
@@ -1279,7 +1279,7 @@
       "http": 200,
       "ok": true,
       "bytes": 45387,
-      "ms": 1207,
+      "ms": 729,
       "postings": 2
     },
     {
@@ -1289,7 +1289,7 @@
       "http": 200,
       "ok": true,
       "bytes": 727690,
-      "ms": 1381,
+      "ms": 1274,
       "postings": 39
     },
     {
@@ -1299,7 +1299,7 @@
       "http": 200,
       "ok": true,
       "bytes": 96397,
-      "ms": 1067,
+      "ms": 1205,
       "postings": 6
     },
     {
@@ -1309,7 +1309,7 @@
       "http": 404,
       "ok": false,
       "bytes": 2472,
-      "ms": 852,
+      "ms": 99,
       "postings": 0
     },
     {
@@ -1319,7 +1319,7 @@
       "http": 200,
       "ok": true,
       "bytes": 39175,
-      "ms": 911,
+      "ms": 1028,
       "postings": 8
     },
     {
@@ -1329,7 +1329,7 @@
       "http": 200,
       "ok": true,
       "bytes": 9738,
-      "ms": 714,
+      "ms": 805,
       "postings": 1
     },
     {
@@ -1339,7 +1339,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2992,
-      "ms": 544,
+      "ms": 772,
       "postings": 3
     },
     {
@@ -1349,7 +1349,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1631,
-      "ms": 576,
+      "ms": 847,
       "postings": 2
     },
     {
@@ -1359,7 +1359,7 @@
       "http": 404,
       "ok": false,
       "bytes": 2472,
-      "ms": 32,
+      "ms": 79,
       "postings": 0
     },
     {
@@ -1369,7 +1369,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2222686,
-      "ms": 1987,
+      "ms": 2173,
       "postings": 327
     },
     {
@@ -1379,7 +1379,7 @@
       "http": 200,
       "ok": true,
       "bytes": 96128,
-      "ms": 862,
+      "ms": 1113,
       "postings": 9
     },
     {
@@ -1389,7 +1389,7 @@
       "http": 200,
       "ok": true,
       "bytes": 815,
-      "ms": 712,
+      "ms": 731,
       "postings": 1
     },
     {
@@ -1399,7 +1399,7 @@
       "http": 200,
       "ok": true,
       "bytes": 29447,
-      "ms": 317,
+      "ms": 457,
       "postings": 20
     },
     {
@@ -1409,7 +1409,7 @@
       "http": 200,
       "ok": true,
       "bytes": 27795,
-      "ms": 265,
+      "ms": 130,
       "postings": 20
     },
     {
@@ -1419,7 +1419,7 @@
       "http": 200,
       "ok": true,
       "bytes": 34532,
-      "ms": 285,
+      "ms": 310,
       "postings": 20
     },
     {
@@ -1429,7 +1429,7 @@
       "http": 200,
       "ok": true,
       "bytes": 25627,
-      "ms": 266,
+      "ms": 239,
       "postings": 20
     },
     {
@@ -1439,7 +1439,7 @@
       "http": 200,
       "ok": true,
       "bytes": 30445,
-      "ms": 172,
+      "ms": 179,
       "postings": 20
     },
     {
@@ -1449,7 +1449,7 @@
       "http": 200,
       "ok": true,
       "bytes": 32046,
-      "ms": 272,
+      "ms": 224,
       "postings": 20
     },
     {
@@ -1459,7 +1459,7 @@
       "http": 200,
       "ok": true,
       "bytes": 32400,
-      "ms": 348,
+      "ms": 319,
       "postings": 20
     },
     {
@@ -1469,7 +1469,7 @@
       "http": 200,
       "ok": true,
       "bytes": 32246,
-      "ms": 276,
+      "ms": 149,
       "postings": 20
     },
     {
@@ -1479,7 +1479,7 @@
       "http": 200,
       "ok": true,
       "bytes": 40255,
-      "ms": 713,
+      "ms": 645,
       "postings": 5
     },
     {
@@ -1489,7 +1489,7 @@
       "http": 200,
       "ok": true,
       "bytes": 23684,
-      "ms": 241,
+      "ms": 231,
       "postings": 0
     },
     {
@@ -1499,7 +1499,7 @@
       "http": 200,
       "ok": true,
       "bytes": 40235,
-      "ms": 718,
+      "ms": 659,
       "postings": 5
     },
     {
@@ -1509,7 +1509,7 @@
       "http": 200,
       "ok": true,
       "bytes": 23721,
-      "ms": 254,
+      "ms": 265,
       "postings": 0
     },
     {
@@ -1519,7 +1519,7 @@
       "http": 200,
       "ok": true,
       "bytes": 11,
-      "ms": 531,
+      "ms": 484,
       "postings": 0
     },
     {
@@ -1529,7 +1529,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1918,
-      "ms": 191,
+      "ms": 182,
       "postings": 0
     },
     {
@@ -1539,7 +1539,7 @@
       "http": 200,
       "ok": true,
       "bytes": 11,
-      "ms": 530,
+      "ms": 481,
       "postings": 0
     },
     {
@@ -1549,7 +1549,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1594,
-      "ms": 196,
+      "ms": 180,
       "postings": 0
     },
     {
@@ -1559,7 +1559,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1038,
-      "ms": 783,
+      "ms": 825,
       "postings": 3
     },
     {
@@ -1569,7 +1569,7 @@
       "http": 200,
       "ok": true,
       "bytes": 41430,
-      "ms": 467,
+      "ms": 510,
       "postings": 18
     },
     {
@@ -1579,7 +1579,7 @@
       "http": 200,
       "ok": true,
       "bytes": 21108,
-      "ms": 432,
+      "ms": 422,
       "postings": 9
     },
     {
@@ -1589,7 +1589,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 511,
+      "ms": 398,
       "postings": 0
     },
     {
@@ -1599,7 +1599,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 392,
+      "ms": 391,
       "postings": 0
     },
     {
@@ -1609,7 +1609,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 399,
+      "ms": 434,
       "postings": 0
     },
     {
@@ -1619,7 +1619,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 391,
+      "ms": 396,
       "postings": 0
     },
     {
@@ -1629,7 +1629,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 384,
+      "ms": 416,
       "postings": 0
     },
     {
@@ -1639,7 +1639,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 398,
+      "ms": 417,
       "postings": 0
     },
     {
@@ -1649,7 +1649,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 391,
+      "ms": 401,
       "postings": 0
     },
     {
@@ -1659,7 +1659,7 @@
       "http": 200,
       "ok": true,
       "bytes": 20132,
-      "ms": 632,
+      "ms": 2348,
       "postings": 2
     },
     {
@@ -1668,8 +1668,8 @@
       "url": "https://www.amazon.jobs/en/search.json?base_query=technical%20program%20manager&normalized_country_code%5B%5D=GBR&sort=recent&result_limit=100",
       "http": 200,
       "ok": true,
-      "bytes": 196492,
-      "ms": 296,
+      "bytes": 196493,
+      "ms": 362,
       "postings": 20
     },
     {
@@ -1678,8 +1678,8 @@
       "url": "https://www.amazon.jobs/en/search.json?base_query=technical%20program%20manager&normalized_country_code%5B%5D=IRL&sort=recent&result_limit=100",
       "http": 200,
       "ok": true,
-      "bytes": 119246,
-      "ms": 252,
+      "bytes": 119247,
+      "ms": 307,
       "postings": 12
     },
     {
@@ -1689,7 +1689,7 @@
       "http": 200,
       "ok": true,
       "bytes": 42933,
-      "ms": 256,
+      "ms": 270,
       "postings": 4
     },
     {
@@ -1699,7 +1699,7 @@
       "http": 200,
       "ok": true,
       "bytes": 762,
-      "ms": 189,
+      "ms": 226,
       "postings": 0
     },
     {
@@ -1708,8 +1708,8 @@
       "url": "https://remoteok.com/api",
       "http": 200,
       "ok": true,
-      "bytes": 579527,
-      "ms": 471,
+      "bytes": 574230,
+      "ms": 497,
       "postings": 99
     },
     {
@@ -1718,8 +1718,8 @@
       "url": "https://himalayas.app/jobs/api?limit=100",
       "http": 200,
       "ok": true,
-      "bytes": 134322,
-      "ms": 121,
+      "bytes": 144794,
+      "ms": 123,
       "postings": 20
     },
     {
@@ -1728,8 +1728,8 @@
       "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss",
       "http": 200,
       "ok": true,
-      "bytes": 181980,
-      "ms": 210,
+      "bytes": 183293,
+      "ms": 239,
       "postings": 25
     },
     {
@@ -1739,7 +1739,7 @@
       "http": 200,
       "ok": true,
       "bytes": 203852,
-      "ms": 45,
+      "ms": 95,
       "postings": 18
     },
     {
@@ -1748,8 +1748,8 @@
       "url": "https://jobicy.com/api/v2/remote-jobs?count=100",
       "http": 200,
       "ok": true,
-      "bytes": 828743,
-      "ms": 69,
+      "bytes": 830768,
+      "ms": 117,
       "postings": 100
     },
     {
@@ -1759,7 +1759,7 @@
       "http": 200,
       "ok": true,
       "bytes": 244136,
-      "ms": 887,
+      "ms": 825,
       "postings": 53
     },
     {
@@ -1768,8 +1768,8 @@
       "url": "https://www.arbeitnow.com/api/job-board-api",
       "http": 200,
       "ok": true,
-      "bytes": 2802792,
-      "ms": 127,
+      "bytes": 2830025,
+      "ms": 176,
       "postings": 325
     },
     {
@@ -1779,7 +1779,7 @@
       "http": 200,
       "ok": true,
       "bytes": 151052,
-      "ms": 305,
+      "ms": 396,
       "postings": 20
     },
     {
@@ -1789,7 +1789,7 @@
       "http": 200,
       "ok": true,
       "bytes": 145307,
-      "ms": 220,
+      "ms": 328,
       "postings": 20
     }
   ]
