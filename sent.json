@@ -4855,6 +4855,62 @@
         "Spain-eligible"
       ],
       "url": "https://himalayas.app/companies/devop-one/jobs/technical-lead"
+    },
+    {
+      "sentAt": "2026-10-12T11:31:15.341Z",
+      "title": "Founding GTM Engineering Lead (GrowthBricks)",
+      "company": "jetbrains",
+      "location": "Amsterdam, Netherlands; Berlin, Germany; Limassol, Cyprus; Madrid, Spain; Munich, Germany; Warsaw, Poland",
+      "blurb": "p p We’re looking for a strong Founding GTM Engineering Lead /strong to build GrowthBricks with us, turning real GTM problems into working systems and using what we learn to…",
+      "score": 65,
+      "reasons": [
+        "target title",
+        "agents",
+        "LLM",
+        "agent workflow design",
+        "EU location",
+        "Spain-eligible",
+        "AI-native team",
+        "agentic practice"
+      ],
+      "url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4988356101"
+    },
+    {
+      "sentAt": "2026-10-12T11:31:15.341Z",
+      "title": "Engineering Manager - Observability | Ireland | Remote",
+      "company": "Grafana Labs",
+      "location": "Germany, Ireland, Spain, Sweden, UK",
+      "blurb": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents…",
+      "score": 57,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "agents",
+        "EU location",
+        "Spain-eligible",
+        "+1 other location"
+      ],
+      "url": "https://jobicy.com/jobs/155071-engineering-manager-observability-ireland-remote"
+    },
+    {
+      "sentAt": "2026-10-12T11:31:15.341Z",
+      "title": "Engineering Manager (Subscriptions)",
+      "company": "Paddle",
+      "location": "Ireland, Portugal, UK",
+      "blurb": "What do we do? Paddle offers digital product companies a completely different approach to their payment infrastructure.",
+      "score": 54,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/155099-engineering-manager-subscriptions"
     }
   ]
 }
