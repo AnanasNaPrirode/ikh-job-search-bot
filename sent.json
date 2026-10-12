@@ -4911,6 +4911,99 @@
         "EU location"
       ],
       "url": "https://jobicy.com/jobs/155099-engineering-manager-subscriptions"
+    },
+    {
+      "sentAt": "2026-10-12T20:40:15.186Z",
+      "title": "Engineering Manager (f/m/d)",
+      "company": "Apaleo",
+      "location": "Germany",
+      "blurb": "At Apaleo, we're revolutionizing the hospitality industry with our AI-first property management platform.",
+      "score": 73,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "distributed systems",
+        "people leadership",
+        "agents",
+        "eng management",
+        "integration architecture",
+        "EU location",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-germany-257392"
+    },
+    {
+      "sentAt": "2026-10-12T20:40:15.186Z",
+      "title": "Sr. Technical Program Manager (TPM) - AI Programs, Vinted Engineering",
+      "company": "Vinteden",
+      "location": "Berlin",
+      "blurb": "br The Vinted Group is made up of three business units that support this mission: br br strong a href= https://careers.vinted.com/marketplace target= _blank Vinted Marketplace…",
+      "score": 60,
+      "reasons": [
+        "senior title",
+        "TPM in title",
+        "AI in title",
+        "LLM",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/sr-technical-program-manager-tpm-ai-programs-vinted-engineering-berlin-320982"
+    },
+    {
+      "sentAt": "2026-10-12T20:40:15.186Z",
+      "title": "Engineering Manager - Android / iOS",
+      "company": "adyen",
+      "location": "Amsterdam",
+      "blurb": "p nbsp; /p p strong This is Adyen /strong /p p span style= font-weight: 400; Adyen provides payments, data, and financial products in a single solution for customers like Meta…",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "integrations",
+        "retail/martech",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155"
+    },
+    {
+      "sentAt": "2026-10-12T20:40:15.186Z",
+      "title": "Software Architect (m/f/d) für Web-, Backend- und Plattformlösungen",
+      "company": "Swissbit",
+      "location": "DE-München",
+      "blurb": "A Swissbit more you. Bei uns gestaltest du die Zukunft! Swissbit ist der führende europäische Hersteller von Speicher- und Security-Lösungen für Industrie- und IoT-Anwendungen.",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "API design",
+        "REST",
+        "Python/FastAPI",
+        "modern stack",
+        "API contract practice",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-421109"
+    },
+    {
+      "sentAt": "2026-10-12T20:40:15.186Z",
+      "title": "Engineering Manager, Vanta for Government",
+      "company": "vanta",
+      "location": "Remote U.S.",
+      "blurb": "At Vanta, our mission is to help businesses earn and prove trust. We believe that security should be monitored and verified continuously, and we empower companies to practice…",
+      "score": 41,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "people leadership",
+        "eng management",
+        "remote",
+        "-US-remote"
+      ],
+      "url": "https://jobs.ashbyhq.com/vanta/7b08b5e9-3285-4604-9d17-8541714674b0"
     }
   ]
 }
