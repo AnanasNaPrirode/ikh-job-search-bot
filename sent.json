@@ -5038,6 +5038,122 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/solution-architect-all-genders-munchen-muc1-156275"
+    },
+    {
+      "sentAt": "2026-10-13T15:28:22.597Z",
+      "title": "AI Solution Architect",
+      "company": "veeamsoftware",
+      "location": "Remote, United States",
+      "blurb": "",
+      "score": 82,
+      "reasons": [
+        "target title",
+        "AI role",
+        "platform role",
+        "AI solutions architect in title",
+        "solution architect in title",
+        "AI in title",
+        "integrations",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "modern stack",
+        "remote",
+        "-US-remote"
+      ],
+      "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4999633101"
+    },
+    {
+      "sentAt": "2026-10-13T15:28:22.597Z",
+      "title": "Technical Program Manager",
+      "company": "Able",
+      "location": "LATAM",
+      "blurb": "Back in 2012, we were a group of engineers and designers who decided we wanted to build things, so we did. Able started as an engineering and product hub building for a…",
+      "score": 63,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "system design",
+        "analysis",
+        "agents",
+        "LLM",
+        "RAG",
+        "eng management",
+        "agent workflow design"
+      ],
+      "url": "https://jobicy.com/jobs/155193-technical-program-manager-7"
+    },
+    {
+      "sentAt": "2026-10-13T15:28:22.597Z",
+      "title": "Solutions Architect - Netherlands",
+      "company": "Clickhouse",
+      "location": "The Netherlands",
+      "blurb": "ClickHouse is on a mission to grow a vibrant user community and establish ourselves as a cloud-first company . We are seeking an experienced Solutions Architect to help expand…",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "data modeling",
+        "distributed systems",
+        "analysis",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solutions-architect-netherlands-the-netherlands-333450"
+    },
+    {
+      "sentAt": "2026-10-13T15:28:22.597Z",
+      "title": "Technical Delivery Manager - Munich",
+      "company": "legora",
+      "location": "Munich",
+      "blurb": "Legora is redefining how legal work gets done. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same…",
+      "score": 54,
+      "reasons": [
+        "target title",
+        "delivery manager in title",
+        "analysis",
+        "integration architecture",
+        "EU location",
+        "AI-native team",
+        "+2 other locations"
+      ],
+      "url": "https://jobs.ashbyhq.com/legora/c7b53f9e-a04a-493d-8837-1f6d76e26e3b"
+    },
+    {
+      "sentAt": "2026-10-13T15:28:22.597Z",
+      "title": "Senior ML Solutions Architect - Token Factory",
+      "company": "nebius",
+      "location": "Tel Aviv, Israel",
+      "blurb": "div class= content-intro p strong About Nebius: /strong /p p Nebius is leading a new era in cloud infrastructure for the global AI economy.",
+      "score": 48,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "Python/FastAPI",
+        "caching",
+        "LLM",
+        "RAG"
+      ],
+      "url": "https://careers.nebius.com/?gh_jid=5000693101"
+    },
+    {
+      "sentAt": "2026-10-13T15:28:22.597Z",
+      "title": "Discord: Engineering Manager, Machine Learning (Safety)",
+      "company": "WeWorkRemotely",
+      "location": "Anywhere in the World",
+      "blurb": "p strong Headquarters: /strong San Francisco Bay Area (or Remote U.S.) /p div class=\"content-intro\" p Discord has a highly engaged community of millions of daily active users…",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "LLM",
+        "eng management",
+        "worldwide (unverified)"
+      ],
+      "url": "https://weworkremotely.com/remote-jobs/discord-engineering-manager-machine-learning-safety"
     }
   ]
 }
