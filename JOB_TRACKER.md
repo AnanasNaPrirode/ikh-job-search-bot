@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 13.10.2026 (почта проверена 13.10 вечером). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-13T15:28Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 13.10.2026 (почта проверена, разделы 2–3 пересобраны вечером 13.10). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-13T15:28Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -27,36 +27,27 @@
 
 ## 2. Очередь — подать (проверены как подходящие)
 
+Пересобрано 13.10 по двум правилам: (1) EM с наймом в местное юрлицо — только если компания **явно** даёт визу / релокацию (урок Pleo); (2) приоритет — роли без требования формального people management. Проверено на страницах работодателей 13.10.
+
 | Приоритет | Компания | Роль | Ссылка | Заметки |
 |---|---|---|---|---|
-| 1 | ManyChat  | EM, Billing & Accounts | https://jobs.ashbyhq.com/manychat/81c2e258-f2ec-484d-aeaf-dc634ad10295 | Из списка HyperCareer. Барселона, hybrid, relocation support. Команда 5–6 billing-инженеров, стек PHP, но «tech-stack agnostic». Нужен реальный опыт найма/увольнения и billing/payments-систем — гэп |
-| 2 | Plata  | EM – Python [DWH Data Tools] | https://job-boards.greenhouse.io/platacard/jobs/5395249008 | Из списка HyperCareer. Worldwide remote, хабы Кипр/Сербия/Испания/Грузия. Python, Superset, DataHub, Airflow, dbt — близко к ELT. 1+ год управления, English B1+. Опубликовано 21.08 |
-| 3 | Plata  | EM [AI Business Features] | https://job-boards.greenhouse.io/platacard/jobs/5395514008 | Из списка HyperCareer. Worldwide remote, те же хабы. AI-продукты, интеграции. Опубликовано 25.08. Подать на одну из двух Plata |
-| 4 | Enpal | EM ERP | https://www.arbeitnow.com/view/engineering-manager-erp-berlin-274294 | Берлин, есть визовая поддержка. Проверить язык и офис |
-| 5 | Legora | EM, Foundations | https://jobs.ashbyhq.com/legora/1d340497-7dcc-4ed7-ac01-49695d880de0 | Стокгольм. Проверить офис и визу |
-| 6 | JetBrains | AI Technical Lead, Developer Tooling | https://www.arbeitnow.com/view/remote-ai-technical-lead-developer-tooling-51547 | Berlin, Munich или remote |
-| 7 | trawa | EM, Platform & IT Compliance | https://www.arbeitnow.com/view/engineering-manager-platform-and-it-compliance-berlin-456356 | Берлин, офис 3+ дня в неделю. Проверить немецкий. У этой же компании есть вакансия EM Data Intelligence (см. п. 3) — выбрать одну |
-| 8 | saas.group (Usersnap) 🆕 | AI Lead / Engineering Manager | https://jobicy.com/jobs/155019-ai-lead-engineering-manager | 100% remote, Европа. Player-coach: AI-фичи в прод (LLM, RAG, эмбеддинги), observability, тесты, архитектура. «Formal people-management is useful, but essential — delivery + senior tech direction», 2–3 года как tech lead/EM. Гэп: 7+ лет SWE, fullstack, AI-фичи в проде. Найти страницу на ATS saas.group |
+| 1 | saas.group (Usersnap) | AI Lead / Engineering Manager | https://job-boards.eu.greenhouse.io/saasgroup/jobs/4996386101 | Найдена страница на ATS (Greenhouse EU). 100% remote, «work from wherever you like» — виза не нужна. Player-coach: AI-фичи в прод. Лидерство «2–3 years… as a tech lead» засчитывается. Гэп: 7+ лет SWE, fullstack |
+| 2 | Plata | EM – Python [DWH Data Tools] | https://job-boards.greenhouse.io/platacard/jobs/5395249008 | Worldwide; «work from one of our offices or remote» + relocation support в хабы (Кипр, Сербия, Испания, Грузия). 1+ год управления, English B1+. Python/Airflow/dbt. Гэп: «hiring, development, performance» |
+| 3 | JetBrains 🆕 | Solutions Architect (Finance Transformation Office) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4927784101 | SA-трек. Амстердам / Прага / Лондон, relocation support. Python в списке стеков, лет опыта не указано. Архитектура финансовых систем, governance, документация, стейкхолдеры — близко к профилю + 4 мес. банка. Гэпы: pre-sales/консалтинг, architect-level cloud (AWS/Azure/GCP), TOGAF — плюс. Найдено при проверке, бот не присылал |
+| 4 | Mayflower | Business Analyst (Growth) | https://mayflower.recruitee.com/o/business-analyst-growth | Аналитический трек. Лимасол, офис; **EU-контракт + 3-летняя рабочая виза Кипра + полный relocation**. 5+ лет BA/SA, API, микросервисы. Подать на один из двух BA Mayflower |
+| 5 | Mayflower 🆕 | Business Analyst (Streaming) | https://mayflower.recruitee.com/o/business-analyst-streaming | То же: Лимасол, виза Кипра + relocation. Highload video streaming (server + UI), требования/use cases/модели процессов, knowledge base, 5+ лет BA, English B2+. Альтернатива п. 4 |
+| 6 | ManyChat | EM, Billing & Accounts | https://jobs.ashbyhq.com/manychat/81c2e258-f2ec-484d-aeaf-dc634ad10295 | Барселона hybrid; **«relocation support for you and your family», старт удалённо**. Гэп: «Real people management mileage: you've hired, you've coached», billing/payments |
+| 7 | Preply | EM, MarTech | https://jobs.ashbyhq.com/preply/19eb6660-965b-4d11-86b3-1c026b8f5c8f | Барселона hybrid, **relocation package**. Python/Django, автоматизация маркетинга. Гэп: 4+ года руководства командами |
+| 8 | Enpal | EM ERP | https://www.arbeitnow.com/view/engineering-manager-erp-berlin-274294 | Берлин hybrid, на arbeitnow помечена «Visa Sponsorship» + «Relocation Package». English, немецкий — плюс. Гэп: Dynamics 365 F&O, «technical leader and a people manager». Подтвердить визу на странице Enpal |
 
 ## 3. Решить (пограничные)
 
 | Компания | Роль | Ссылка | За | Против |
 |---|---|---|---|---|
-| Factorial HR  | Engineering Manager | https://careers.factorial.com/job_posting/engineering-manager-306774 | Мадрид/Барселона, 92–104k €, английский, AI-native (agentic workflows, LLM-фичи), API и интеграции | EM-трек (смещаемся от него); office-first, несколько дней в офисе; Ruby on Rails + React; 3+ года формального управления; испанский штат → sponsorship |
-| Wrike  | Software Engineering Manager | https://job-boards.greenhouse.io/wrike/jobs/4737940005 | Прага (или Никосия), hybrid 2–3 дня. Стек не задан | 3+ года формального управления, performance management; релокация не упомянута |
-| JetBrains  | Founding Tech Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4977893101 | Мадрид в списке локаций, свобода стека, GTM + AI-агенты — близко к твоим agent skills | Чистый IC: много раннего кода самому. Уже есть JetBrains AI Technical Lead в очереди |
-| Mayflower  | Team Lead (cross-functional) | https://mayflower.recruitee.com/o/team-lead | Лимасол, EU-контракт + 3-летняя виза Кипра, полный relocation-пакет | Офис, Кипр; 2+ года формального управления и performance reviews |
-| Mayflower  | Business Analyst (Growth) | https://mayflower.recruitee.com/o/business-analyst-growth | По сути системный аналитик: требования, API, микросервисы, LLM-документация. 5+ лет BA/SA. EU-контракт + виза Кипра | Офис в Лимасоле (можно стартовать удалённо). У них же Team Lead — выбрать одну |
-| Swissbit  | Software Architect für Web-, Backend- und Plattformlösungen | https://www.arbeitnow.com/view/software-architect-fur-web-backend-und-plattformlosungen-de-munchen-75043 | Чистая архитектурная роль: REST/OpenAPI, Python в списке, event-driven, K8s. Опыт «несколько лет», без 10+ | Мюнхен, офис, remote не упомянут. Описание частично на немецком — вероятно нужен немецкий. Нужна Blue Card |
-| trawa | EM, Data Intelligence | https://www.arbeitnow.com/view/engineering-manager-data-intelligence-berlin-445105 | Стартап из энергетики (Series A). Команда отвечает за DWH, биллинг и инвойсинг — близко к твоему ELT | Берлин, 3 дня в офисе, нужна Blue Card. Стек ClickHouse, dbt, Terraform |
-| AutoScout24 | EM, Business Technology | https://www.arbeitnow.com/view/engineering-manager-business-technology-258332 | Интеграции, API, middleware, миграции, AI-first | Нужно 10+ лет и опыт с ERP, Billing, CRM, HRIS. Город не указан |
-| GoCardless | Engineering Manager II | https://job-boards.greenhouse.io/gocardless/jobs/8261497 | Финтех, сильный инженерный бренд | Рига. Страницу ещё не проверяли |
-| Preply 🆕 | EM, MarTech | https://jobs.ashbyhq.com/preply/19eb6660-965b-4d11-86b3-1c026b8f5c8f | Барселона (хаб, relocation package), Python/Django, автоматизация маркетинга, data-intensive системы — допускают вместо MarTech-опыта | 4+ года формального руководства командами; EM-трек; испанский штат → sponsorship |
-| Cosuno 🆕 | Engineering Manager | https://www.arbeitnow.com/view/engineering-manager-berlin-289104 | 100% remote или Берлин. Лидерство «или senior tech lead, который менторил» — de facto lead засчитывается. LLM/AI-команда | 60–80% кода каждый день на TypeScript/Node/React; 7+ лет SWE |
-| Netlight 🆕 | Data Platform & Data Architecture Consultant | https://www.arbeitnow.com/view/data-platform-data-architecture-consultant-berlin-103519 | Архитектурный трек: моделирование данных, data flows, lineage, governance, работа с CTO клиента. 2–4 года опыта, английский | Берлин, консалтинг у клиентов → Blue Card. Нужен hands-on cloud data platform (Snowflake/BigQuery/Databricks) и IaC (Terraform); Master's degree |
-| Spotify 🆕 | EM, Experimentation | https://jobicy.com/jobs/154910-engineering-manager-experimentation | DWH и обработка данных at scale, команда по Европе, «senior IC with leadership experience» | Стокгольм (гибко, но офис), hire/coach — формальное управление. В Spotify уже подана EM Data Platform |
-| Devop.One (клиент не назван) 🆕 | Technical Lead, Platform squad | https://himalayas.app/companies/devop-one/jobs/technical-lead | Remote Spain (офис Мадрид), billing-интеграции (Stripe, App Store), CRM, analytics | Hands-on Ruby on Rails/Redis/Sidekiq; line management с performance management — то, чего нет |
-| JetBrains 🆕 | Founding GTM Engineering Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4988356101 | Мадрид в локациях, relocation. Agentic-автоматизации, интеграции через API/webhooks | Нужен опыт B2B GTM/RevOps и инструменты Clay, TheirStack, FullEnrich. Тот же проект, что Founding Tech Lead выше — выбрать одну |
+| Plata | EM [AI Business Features] | https://job-boards.greenhouse.io/platacard/jobs/5395514008 | Те же условия, что п. 2 (remote / relocation в хабы) | Подаём на одну из двух Plata; DWH ближе к профилю |
+| JetBrains | Founding Tech Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4977893101 | Мадрид, Белград, Пафос и др., relocation support. GTM + AI-агенты | Чистый IC, много раннего кода. В JetBrains приоритет — SA (п. 3 очереди) |
+| JetBrains 🆕 | Founding GTM Engineering Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4988356101 | Мадрид в локациях, relocation. Agentic-автоматизации, API/webhooks | Нужен B2B GTM/RevOps, Clay, TheirStack. Тот же проект, что Founding Tech Lead |
+| Mayflower | Team Lead (cross-functional) | https://mayflower.recruitee.com/o/team-lead | Виза Кипра + relocation | 2+ года формального управления и performance reviews. В Mayflower приоритет — BA |
 
 ## 4. Пропущены — с причиной
 
@@ -102,9 +93,21 @@
 | Amazon / Nebius / Vinted 🆕 | TPM-роли, ML SA (Tel Aviv), Research Scientist | TPM / не профиль |
 | Speedgoat 🆕 | Dynamics 365 Technical Lead | Dynamics, Швейцария |
 | Speedgoat, think about IT, Metergrid | — | Повторы / не профиль |
+| Legora | EM, Foundations | 13.10: Stockholm HQ on-site, виза/релокация не упомянуты (правило: EM в местном юрлице — только с явной визой) |
+| trawa | EM Platform & IT Compliance, EM Data Intelligence | 13.10: Берлин, 3 дня офис, 3+ / 2+ года people management, виза не упомянута |
+| Factorial HR | Engineering Manager | 13.10: office-first Мадрид/Барселона, виза не упомянута |
+| Wrike | Software Engineering Manager | 13.10: Прага hybrid, 5+ лет, виза не упомянута |
+| GoCardless | Engineering Manager II | 13.10: Рига, виза не упомянута |
+| AutoScout24 | EM, Business Technology | 13.10: 10+ лет |
+| Cosuno 🆕 | Engineering Manager | 13.10: 60–80% кода на TypeScript/React, 7+ лет SWE; remote, вероятно, в пределах Германии |
+| Netlight 🆕 | Data Platform & Data Architecture Consultant | 13.10: Берлин, Blue Card, виза не упомянута; hands-on Snowflake/BigQuery + Terraform |
+| Spotify 🆕 | EM, Experimentation | 13.10: Стокгольм/Лондон, виза не упомянута, hire/coach; в Spotify уже подано |
+| Devop.One 🆕 | Technical Lead, Platform | 13.10: агентство, «Spain only», Ruby on Rails, line management с performance management |
 
 ## 5. Закрыты работодателем 🔒
 
+- JetBrains — AI Technical Lead, Developer Tooling — нет на доске JetBrains, arbeitnow 410 на 13.10
+- Swissbit — Software Architect (München) — arbeitnow 410 на 13.10
 - Coder — Software EM (Agentic Engineering), UK 🆕 — снята с arbeitnow (410) на 13.10
 - Fivetran — Sr. Manager, Partner Solutions Architecture 🆕 — снята (410)
 - ClickHouse — Solutions Architect, Netherlands 🆕 — снята (410)
