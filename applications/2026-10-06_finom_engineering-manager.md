@@ -7,7 +7,7 @@ applied: 2026-10-06
 location: Berlin
 cv: EM, адаптирована под вакансию налету в чате (файл не сохранён)
 salary_asked: —
-status: applied
+status: rejected
 ---
 
 # Finom — Engineering Manager
@@ -17,13 +17,14 @@ status: applied
 | Дата | Этап | Результат | Заметки |
 |---|---|---|---|
 | 06.10.2026 | Заявка отправлена | ✅ | Обещали ответ в течение 1 недели (≈13.10) |
+| 13.10.2026 | Скрининг резюме | ❌ | Письмо «Update regarding your application» от Lever (no-reply@hire.eu.lever.co), шаблон |
 
 ## Разбор (заполнить при отказе)
 
-- Этап отказа:
-- Причина (их формулировка):
-- Что из требований не закрыли:
-- Вывод для следующих заявок:
+- Этап отказа: скрининг резюме, через 7 дней (уложились в обещанный срок).
+- Причина (их формулировка): «we will not be moving forward with your application for this role. We received a high volume of strong applications» — шаблон, без деталей.
+- Что из требований не закрыли (гипотеза): формальное владение людьми («own hiring and promotions», growth plans); hands-on стек .NET/Java/Node/Go — Python в must-have не входит; product metrics (DAU/MAU, retention, funnels) в CV не видны; Берлин → Blue Card.
+- Вывод для следующих заявок: 5-й EM-отказ на скрининге. EM-вакансии с формальным владением наймом/промо и стеком не на Python — не подавать.
 
 ## Что отправили
 

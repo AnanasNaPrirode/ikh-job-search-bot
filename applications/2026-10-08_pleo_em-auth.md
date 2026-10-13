@@ -7,7 +7,7 @@ applied: 2026-10-08
 location: Spain - Remote
 cv: Ivan_Khakharev_Engineering_Manager.pdf
 salary_asked: 95 000 € gross/год
-status: applied
+status: rejected
 ---
 
 # Pleo — Engineering Manager - Authentication & Authorisation
@@ -17,13 +17,14 @@ status: applied
 | Дата | Этап | Результат | Заметки |
 |---|---|---|---|
 | 08.10.2026 | Заявка отправлена | ✅ | «Success — You're in the mix» |
+| 12.10.2026 | Скрининг резюме | ❌ | «Pleo \| Thank you for your application» (Ashby), причина — виза |
 
 ## Разбор (заполнить при отказе)
 
-- Этап отказа:
-- Причина (их формулировка):
-- Что из требований не закрыли:
-- Вывод для следующих заявок:
+- Этап отказа: скрининг резюме, через 4 дня.
+- Причина (их формулировка): «we have a bit of a hurdle we can't clear: your visa requirement… we aren't able to provide visa sponsorship for this specific position». Прямой отказ по визе, не по опыту.
+- Что из требований не закрыли: right to work в Испании (в форме ответили No + «will require sponsorship»). Гэпы по identity-домену и people management до оценки, вероятно, не дошли.
+- Вывод для следующих заявок: «Spain – Remote» у Pleo = найм в испанский штат, спонсорство не дают. Для вакансий «Remote <страна>» через местное юрлицо/EOR ответ «sponsorship = Yes» = автоматический отсев. Варианты: (1) заранее проверять, даёт ли компания спонсорство; (2) приоритет — контракт с иностранным юрлицом (contractor/remote-from-abroad), где ВНЖ кочевника достаточно; (3) уточнить у юриста, можно ли работать по найму в испанском юрлице с ВНЖ кочевника (сейчас считаем, что нельзя). Повторно в Pleo на ту же роль — не раньше 6 мес.
 
 ## Что отправили
 
