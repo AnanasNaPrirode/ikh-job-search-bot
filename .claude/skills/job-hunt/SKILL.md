@@ -19,7 +19,7 @@ description: Поиск работы Ивана Хахарева — разбо�
 | Список компаний | `companies_ru_abroad.csv` | 156 компаний (HyperCareer), колонки `ats`/`ats_slug` — найденная публичная ATS-доска |
 | Исходная таблица | Google Sheets `1vO8bLxR3kzz7VNTuHlZhIqmgedezKosX8Vb_Elu6Wbc` | CSV: `/gviz/tq?tqx=out:csv&gid=379887995` (обычный `/export` отдаёт 403) |
 | Почта откликов | Gmail **ikhakharev@gmail.com** (в Chrome это `/mail/u/2/`) | Подтверждения, отказы, приглашения |
-| CV | PDF у Ивана: `Ivan_Khakharev_Engineering_Manager.pdf`, `..._Solution_Architect.pdf`, `..._AI_Solutions_Architect.pdf`, `..._Lead_Systems_Analyst.pdf`; HTML-исходники локально (`cv_grafana.html`, `cv_spotify.html`) | Выбор по треку вакансии |
+| CV | Google Drive, папка **«CV 2026»** (`1w78XgMEYqF17EYDj0HTQfT4TkPiwJs73`), коннектор Google Drive: EM `1C-Qcw9zOw41_jVDdYM6sQieAi84gUdDM`, Solution Architect `1DjjoeOxsQ5kT6hlUYIlbxjPUMRHb2Yhh`, AI Solutions Architect `1fcJhzKGDXa43FhcV5lcpBtCTJcAb0dT_`, Lead Systems Analyst `1kla3fkJuIXrPF5ix9Crsyor229ziR-SK`. HTML-исходники адаптаций — локально у Ивана (`cv_grafana.html`, `cv_spotify.html`) | Выбор по треку вакансии. Текст — `read_file_content`; файл для формы — `download_file_content` (base64) → декодировать в PDF в scratchpad → `file_upload`. **В репозиторий CV не класть — он публичный** (телефон, email) |
 
 ## 2. Профиль и правила подачи (кратко; полная версия — раздел 6 трекера)
 
@@ -88,7 +88,7 @@ description: Поиск работы Ивана Хахарева — разбо�
 - **Коммит нового файла**: `github.com/<repo>/new/main?filename=path/to/file.md` → фокус на `.cm-content` → вставка. **Правка существующего** (`/edit/main/<path>`): синтетический paste не заменяет текст надёжно; рабочий способ — временная `<textarea>` с текстом → клик → Ctrl+A/Ctrl+C → фокус редактора → Ctrl+A/Ctrl+V → сверить число строк (гуттер) с ожидаемым → кнопка «Commit changes...» → описание → «Commit changes». Буфер обмена работает только в активной вкладке — всё в одной вкладке; данные между переходами хранить в `localStorage` страницы docs.google и **чистить после**.
 - В описание коммита — строки `Co-Authored-By` / `Claude-Session` по системной инструкции.
 - **Формы на React (Ashby, Workable)**: значение, выставленное скриптом, может не засчитаться (так было с телефоном у Pleo) — критичные поля вводить с клавиатуры и проверять ошибки формы. Workable сам подставляет адрес по геолокации — проверять.
-- **Загрузка CV** через `file_upload` иногда блокируется для файлов из чата — тогда CV прикладывает Иван.
+- **Загрузка CV**: брать PDF из Google Drive (§1), сохранить в scratchpad и передать путь в `file_upload` — так сработало для Plata 13.10. Если коннектор Drive выключен в чате — `ListConnectors` покажет `enabledInChat: false`, попросить Ивана включить.
 - **WebFetch** не видит вакансии на JS-страницах (InDrive, Semrush, Exness и т.п.) и не читает robots-закрытые (Palta). Расширение Chrome падает на длинных пачках переходов — не больше 1–4 сайтов на вызов.
 - `radar.yml` пушит без `git pull --rebase`: коммит во время прогона бота может сломать сохранение `seen.json`. Пока принято как редкий риск.
 
