@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 13.10.2026. Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-13T15:28Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 13.10.2026 (почта проверена 13.10 вечером). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-13T15:28Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -11,16 +11,19 @@
 | 05.10 | ⏳ | Supabase | Engineering Manager | Remote Global | EM (Supabase) | Иван отправил сам. Лимит Supabase — 3 заявки за 60 дней, это одна из трёх | [карточка](applications/2026-10-05_supabase_engineering-manager.md) |
 | 05.10 | ❌ 07.10 | Lunar | Engineering Manager, Platform | Aarhus, 4 дня в офисе | EM (Lunar) + cover letter | Зарплата 68–75k DKK в месяц без пенсии. Нужно разрешение на работу в Дании. Подтверждение «Thanks for applying» получено | [карточка](applications/2026-10-05_lunar_em-platform.md) |
 | 05.10 | ⏳ | Grafana Labs | EM, Observability (Ingest) | Spain Remote, 94–117k € + RSU | EM (Grafana) | Sponsorship = Yes. Submit Иван нажал сам: на форме вопрос «human/AI» и капча | [карточка](applications/2026-10-05_grafana_em-observability-ingest.md) |
-| 08.10 | ⏳ | Pleo | EM, Authentication & Authorisation | Spain Remote (Ashby) | EM (base PDF) | Right to work = No + «will require sponsorship» (нужен перевод с ВНЖ кочевника на рабочий). Salary 95 000 €. «Success — You're in the mix» получено | [карточка](applications/2026-10-08_pleo_em-auth.md) |
+| 08.10 | ❌ 12.10 | Pleo | EM, Authentication & Authorisation | Spain Remote (Ashby) | EM (base PDF) | Right to work = No + «will require sponsorship» (нужен перевод с ВНЖ кочевника на рабочий). Salary 95 000 €. «Success — You're in the mix» получено. **Отказ 12.10 по визе:** спонсорство на эту роль не дают | [карточка](applications/2026-10-08_pleo_em-auth.md) |
 | 05.10 | ⏳ | Spotify | EM, Data Platform | London, hybrid | EM (Spotify) | Lever. В шапке CV: «relocation to London — sponsorship required». Подтверждение «Application submitted!» получено | [карточка](applications/2026-10-05_spotify_em-data-platform.md) |
 | 08.10 | ⏳ | CoinsPaid | Senior Business System Analyst | Remote – European Region | Lead Systems Analyst | Lever EU. Salary 5 500–6 500 €/мес gross. Fintech = Yes (4 мес. в банке, кредитный конвейер). Выход через 2–3 недели | [карточка](applications/2026-10-08_coinspaid_senior-bsa.md) |
 | 08.10 | ⏳ | Libertex Group | System Business Analyst (Remote) | Remote (Serbia в карточке) | Lead Systems Analyst + cover letter | Workable, data-отдел, маркетинговые системы. Salary 6 000 €/мес gross | [карточка](applications/2026-10-08_libertex_system-business-analyst.md) |
 | 05.10 | ❌ 07.10 | Testlio | EM, EMEA (Platform) | 100% remote | EM | Отказ на скрининге: «experience more closely aligns» | [карточка](applications/2026-10-05_testlio_em-emea-platform.md) |
 | 05.10 | ❌ 08.10 | Mapbox | EM, Traffic Event Detections | Remote-first | EM | Отказ на скрининге, шаблон | [карточка](applications/2026-10-05_mapbox_em-traffic-event-detections.md) |
-| 06.10 | ⏳ | Finom | Engineering Manager | Berlin | EM | Обещали ответ в течение недели (≈13.10) | [карточка](applications/2026-10-06_finom_engineering-manager.md) |
+| 06.10 | ❌ 13.10 | Finom | Engineering Manager | Berlin | EM | Отказ на скрининге, шаблон «high volume of strong applications» | [карточка](applications/2026-10-06_finom_engineering-manager.md) |
 | 08.10 | ⏳ | RoomPriceGenie | Remote EM (Algorithms Team) | Remote UTC+0…+2 | EM | «Your Application is In!» | [карточка](applications/2026-10-08_roompricegenie_em-algorithms.md) |
 
-**Отказы на 08.10: 3 из 13 (Lunar, Testlio, Mapbox).** Все — EM, все на скрининге резюме за 2–3 дня, без интервью. Общий гэп по карточкам — требование формального people management (Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании). Аналитический трек пока без ответов.
+**Отказы на 13.10: 5 из 11 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
+- Опыт / people management (4): Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании, Finom (own hiring & promotions, стек .NET/Java/Node/Go, Берлин).
+- **Виза (1): Pleo** — прямо: «aren't able to provide visa sponsorship for this specific position». Ответ «sponsorship = Yes» на «Remote Spain» в испанском штате = автоматический отсев.
+- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie (EM); CoinsPaid, Libertex (аналитика) — по аналитическому треку ответов пока нет.
 
 ## 2. Очередь — подать (проверены как подходящие)
 
