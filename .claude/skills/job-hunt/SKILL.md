@@ -27,6 +27,9 @@ description: Поиск работы Ивана Хахарева — разбо�
 - Треки: Solution Architect, AI Solutions Architect, Lead Systems Analyst / Technical BA (Business Systems Analyst, Technical Analyst, Solution Analyst, Requirements Engineer), Engineering Manager. **С EM постепенно уходим** (см. §6).
 - Виза: ВНЖ цифрового кочевника. Remote на иностранную компанию — спонсор не нужен. Найм в испанский штат, DE, DK, UK — **sponsorship = Yes**, «legally allowed» = **No** (нужен перевод на рабочий ВНЖ).
 - Лидерство: de facto lead 5+ лет, без формальных подчинённых; 1:1, второй интервьюер на найме, команда ~9. Не выдумывать performance management и роль Hiring Manager.
+- Performance: 3+ года квартальных 360-ревью (self-assessment + письменный фидбэк коллегам, иногда возвращал в 1:1); итоговый цикл line manager не вёл — так и формулировать.
+- Python: пет-проекты в проде (Five Breaths — Next.js/FastAPI/PostgreSQL; Apitizer — FastAPI), код в основном пишет AI, архитектура/тесты — Иван. Не подавать как hand-coding engineer; роли с обязательной hands-on разработкой (fullstack, 7+ лет SWE) — пропускать.
+- Контакты и факты — из CV (PDF в чате): шапка, Personal Products. В шапке CV «Right to work in Spain (EU residence)» — расходится с ответом sponsorship = Yes для найма в испанское юрлицо.
 - Финтех: 4 месяца в банке — кредитный конвейер, бизнес-процессы автоматических проверок для одобрения кредита. В CV нет — указывать в анкетах честно, срок не раздувать.
 - Зарплата: EM remote Spain ~94–117k €; аналитик — верхняя полка, **5 500–6 500 € gross/мес** (66–78k/год); Дания 68–75k DKK/мес.
 - Выход: 2–3 недели после оффера.
