@@ -5004,6 +5004,40 @@
         "-US-remote"
       ],
       "url": "https://jobs.ashbyhq.com/vanta/7b08b5e9-3285-4604-9d17-8541714674b0"
+    },
+    {
+      "sentAt": "2026-10-13T04:44:57.548Z",
+      "title": "Sr. Manager, Partner Solutions Architecture",
+      "company": "Fivetran",
+      "location": "Remote, EMEA",
+      "blurb": "div class= content-intro p From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity.",
+      "score": 54,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "people leadership",
+        "remote EU/EMEA"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-sr-manager-partner-solutions-architecture-136012"
+    },
+    {
+      "sentAt": "2026-10-13T04:44:57.548Z",
+      "title": "Solution Architect (All Genders)",
+      "company": "Diva E",
+      "location": "München (MUC1)",
+      "blurb": "Je nach Projekt arbeitest du an E-Commerce-Lösungen, Web Applications, DXP, Integrationen und Cloud-Architekturen.",
+      "score": 53,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "retail/martech",
+        "analysis",
+        "LLM",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-all-genders-munchen-muc1-156275"
     }
   ]
 }
