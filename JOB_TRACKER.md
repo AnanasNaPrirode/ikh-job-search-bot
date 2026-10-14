@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 14.10.2026 (Mayflower BA ×2 поданы, очередь и «Решить» закрыты пропуском, новая порция бота разобрана). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 14.10.2026 (Mayflower BA Growth подана, Streaming не подавали, очередь и «Решить» закрыты пропуском, новая порция бота разобрана). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -21,16 +21,15 @@
 | 08.10 | ⏳ | RoomPriceGenie | Remote EM (Algorithms Team) | Remote UTC+0…+2 | EM | «Your Application is In!» | [карточка](applications/2026-10-08_roompricegenie_em-algorithms.md) |
 | 13.10 | ✅ | Plata | EM – Python [DWH Data Tools] | Worldwide remote / хабы (Кипр, Сербия, Испания, Грузия) | EM (base PDF) + cover letter | Greenhouse. «Application submitted successfully!». Гэпы названы в письме: formal performance management, Superset/DataHub, Python через AI-assisted | [карточка](applications/2026-10-13_plata_em-python-dwh.md) |
 | 13.10 | ⏳ | Mayflower | Business Analyst (Growth) | Лимасол, офис; temporary remote → релокация. EU-контракт + виза Кипра | Lead SA (уточнить) | Recruitee. Подтверждение «Confirmation of your application» 13.10 | [карточка](applications/2026-10-13_mayflower_ba-growth.md) |
-| 13.10 | ⏳ | Mayflower | Business Analyst (Streaming) | Лимасол, офис. EU-контракт + виза Кипра | Lead SA (уточнить) | Recruitee. Подтверждения в почте на 14.10 не найдено — дату и детали уточнить | [карточка](applications/2026-10-13_mayflower_ba-streaming.md) |
 
-**Отказы на 14.10: 5 из 14 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
+**Отказы на 14.10: 5 из 13 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
 - Опыт / people management (4): Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании, Finom (own hiring & promotions, стек .NET/Java/Node/Go, Берлин).
 - **Виза (1): Pleo** — прямо: «aren't able to provide visa sponsorship for this specific position». Ответ «sponsorship = Yes» на «Remote Spain» в испанском штате = автоматический отсев.
-- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex, Mayflower ×2 (аналитика) — по аналитическому треку ответов пока нет.
+- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex, Mayflower Growth (аналитика) — по аналитическому треку ответов пока нет.
 
 ## 2. Очередь — подать (проверены как подходящие)
 
-Пусто на 14.10. Mayflower BA ×2 поданы, остальное перенесено в раздел 4.
+Пусто на 14.10. Mayflower BA Growth подан, остальное перенесено в раздел 4.
 
 ## 3. Решить (пограничные)
 
@@ -47,7 +46,8 @@
 | Plata | EM [AI Business Features] | 14.10: решение Ивана — гэпы; уже подана Plata DWH |
 | JetBrains | Founding Tech Lead (GrowthBricks) | 14.10: решение Ивана — чистый IC, много раннего кода |
 | JetBrains | Founding GTM Engineering Lead (GrowthBricks) | 14.10: решение Ивана — нужен B2B GTM/RevOps, Clay, TheirStack |
-| Mayflower | Team Lead (cross-functional) | 14.10: решение Ивана — 2+ года формального управления и performance reviews; поданы оба BA |
+| Mayflower | Team Lead (cross-functional) | 14.10: решение Ивана — 2+ года формального управления и performance reviews; подан BA Growth |
+| Mayflower | Business Analyst (Streaming) | 14.10: не подавали — решение Ивана; в Mayflower подан BA Growth |
 | Insider One 🆕 | Solution Architect (Paris, hybrid) | 14.10: нужен французский; customer-facing роль в Customer Success (POC, пилоты) |
 | Cynlr 🆕 | Solution Architect – Robotics & Automation (Switzerland) | 14.10: робототехника/железо; на arbeitnow уже 410 |
 | Pelico 🆕 | Tech Lead – Platform, Tech Lead – Solutions (новые URL) | 14.10: повтор — уже в разделе 5 🔒 |
