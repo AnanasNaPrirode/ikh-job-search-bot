@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 13.10.2026 (почта проверена, разделы 2–3 пересобраны, подана Plata DWH). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-13T15:28Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 14.10.2026 (Mayflower BA ×2 поданы, очередь и «Решить» закрыты пропуском, новая порция бота разобрана). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -20,38 +20,37 @@
 | 06.10 | ❌ 13.10 | Finom | Engineering Manager | Berlin | EM | Отказ на скрининге, шаблон «high volume of strong applications» | [карточка](applications/2026-10-06_finom_engineering-manager.md) |
 | 08.10 | ⏳ | RoomPriceGenie | Remote EM (Algorithms Team) | Remote UTC+0…+2 | EM | «Your Application is In!» | [карточка](applications/2026-10-08_roompricegenie_em-algorithms.md) |
 | 13.10 | ✅ | Plata | EM – Python [DWH Data Tools] | Worldwide remote / хабы (Кипр, Сербия, Испания, Грузия) | EM (base PDF) + cover letter | Greenhouse. «Application submitted successfully!». Гэпы названы в письме: formal performance management, Superset/DataHub, Python через AI-assisted | [карточка](applications/2026-10-13_plata_em-python-dwh.md) |
+| 13.10 | ⏳ | Mayflower | Business Analyst (Growth) | Лимасол, офис; temporary remote → релокация. EU-контракт + виза Кипра | Lead SA (уточнить) | Recruitee. Подтверждение «Confirmation of your application» 13.10 | [карточка](applications/2026-10-13_mayflower_ba-growth.md) |
+| 13.10 | ⏳ | Mayflower | Business Analyst (Streaming) | Лимасол, офис. EU-контракт + виза Кипра | Lead SA (уточнить) | Recruitee. Подтверждения в почте на 14.10 не найдено — дату и детали уточнить | [карточка](applications/2026-10-13_mayflower_ba-streaming.md) |
 
-**Отказы на 13.10: 5 из 12 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
+**Отказы на 14.10: 5 из 14 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
 - Опыт / people management (4): Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании, Finom (own hiring & promotions, стек .NET/Java/Node/Go, Берлин).
 - **Виза (1): Pleo** — прямо: «aren't able to provide visa sponsorship for this specific position». Ответ «sponsorship = Yes» на «Remote Spain» в испанском штате = автоматический отсев.
-- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex (аналитика) — по аналитическому треку ответов пока нет.
+- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex, Mayflower ×2 (аналитика) — по аналитическому треку ответов пока нет.
 
 ## 2. Очередь — подать (проверены как подходящие)
 
-Пересобрано 13.10 по двум правилам: (1) EM с наймом в местное юрлицо — только если компания **явно** даёт визу / релокацию (урок Pleo); (2) приоритет — роли без требования формального people management. Проверено на страницах работодателей 13.10.
-
-| Приоритет | Компания | Роль | Ссылка | Заметки |
-|---|---|---|---|---|
-| 1 | JetBrains 🆕 | Solutions Architect (Finance Transformation Office) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4927784101 | SA-трек. Амстердам / Прага / Лондон, relocation support. Python в списке стеков, лет опыта не указано. Архитектура финансовых систем, governance, документация, стейкхолдеры — близко к профилю + 4 мес. банка. Гэпы: pre-sales/консалтинг, architect-level cloud (AWS/Azure/GCP), TOGAF — плюс. Найдено при проверке, бот не присылал |
-| 2 | Mayflower | Business Analyst (Growth) | https://mayflower.recruitee.com/o/business-analyst-growth | Аналитический трек. Лимасол, офис; **EU-контракт + 3-летняя рабочая виза Кипра + полный relocation**. 5+ лет BA/SA, API, микросервисы. Подать на один из двух BA Mayflower (п. 2–3) |
-| 3 | Mayflower 🆕 | Business Analyst (Streaming) | https://mayflower.recruitee.com/o/business-analyst-streaming | То же: Лимасол, виза Кипра + relocation. Highload video streaming (server + UI), требования/use cases/модели процессов, knowledge base, 5+ лет BA, English B2+. Альтернатива п. 2 |
-| 4 | ManyChat | EM, Billing & Accounts | https://jobs.ashbyhq.com/manychat/81c2e258-f2ec-484d-aeaf-dc634ad10295 | Барселона hybrid; **«relocation support for you and your family», старт удалённо**. Гэп: «Real people management mileage: you've hired, you've coached», billing/payments |
-| 5 | Preply | EM, MarTech | https://jobs.ashbyhq.com/preply/19eb6660-965b-4d11-86b3-1c026b8f5c8f | Барселона hybrid, **relocation package**. Python/Django, автоматизация маркетинга. Гэп: 4+ года руководства командами |
-| 6 | Enpal | EM ERP | https://www.arbeitnow.com/view/engineering-manager-erp-berlin-274294 | Берлин hybrid, на arbeitnow помечена «Visa Sponsorship» + «Relocation Package». English, немецкий — плюс. Гэп: Dynamics 365 F&O, «technical leader and a people manager». Подтвердить визу на странице Enpal |
+Пусто на 14.10. Mayflower BA ×2 поданы, остальное перенесено в раздел 4.
 
 ## 3. Решить (пограничные)
 
-| Компания | Роль | Ссылка | За | Против |
-|---|---|---|---|---|
-| Plata | EM [AI Business Features] | https://job-boards.greenhouse.io/platacard/jobs/5395514008 | Те же условия (remote / relocation в хабы) | 13.10 подана Plata DWH — вторую не подаём, пока нет ответа |
-| JetBrains | Founding Tech Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4977893101 | Мадрид, Белград, Пафос и др., relocation support. GTM + AI-агенты | Чистый IC, много раннего кода. В JetBrains приоритет — SA (п. 1 очереди) |
-| JetBrains 🆕 | Founding GTM Engineering Lead (GrowthBricks) | https://job-boards.eu.greenhouse.io/jetbrains/jobs/4988356101 | Мадрид в локациях, relocation. Agentic-автоматизации, API/webhooks | Нужен B2B GTM/RevOps, Clay, TheirStack. Тот же проект, что Founding Tech Lead |
-| Mayflower | Team Lead (cross-functional) | https://mayflower.recruitee.com/o/team-lead | Виза Кипра + relocation | 2+ года формального управления и performance reviews. В Mayflower приоритет — BA |
+Пусто на 14.10 — всё перенесено в раздел 4.
 
 ## 4. Пропущены — с причиной
 
 | Компания | Роль | Причина |
 |---|---|---|
+| JetBrains | Solutions Architect (Finance Transformation Office) | 14.10: решение Ивана — объективные гэпы (pre-sales/консалтинг, architect-level cloud, TOGAF) |
+| ManyChat | EM, Billing & Accounts | 14.10: решение Ивана — гэпы: real people management (hire/coach), billing/payments |
+| Preply | EM, MarTech | 14.10: решение Ивана — гэп: 4+ года руководства командами |
+| Enpal | EM ERP | 14.10: решение Ивана — гэпы: Dynamics 365 F&O, формальный people manager |
+| Plata | EM [AI Business Features] | 14.10: решение Ивана — гэпы; уже подана Plata DWH |
+| JetBrains | Founding Tech Lead (GrowthBricks) | 14.10: решение Ивана — чистый IC, много раннего кода |
+| JetBrains | Founding GTM Engineering Lead (GrowthBricks) | 14.10: решение Ивана — нужен B2B GTM/RevOps, Clay, TheirStack |
+| Mayflower | Team Lead (cross-functional) | 14.10: решение Ивана — 2+ года формального управления и performance reviews; поданы оба BA |
+| Insider One 🆕 | Solution Architect (Paris, hybrid) | 14.10: нужен французский; customer-facing роль в Customer Success (POC, пилоты) |
+| Cynlr 🆕 | Solution Architect – Robotics & Automation (Switzerland) | 14.10: робототехника/железо; на arbeitnow уже 410 |
+| Pelico 🆕 | Tech Lead – Platform, Tech Lead – Solutions (новые URL) | 14.10: повтор — уже в разделе 5 🔒 |
 | SFEIR  | Tech Lead Java (Nantes), Architecte Cloud (Bordeaux) | Французский, Франция on-site |
 | Collibra  | Senior People Solutions Analyst | HR-системы (Workday HCM), Прага, контракт до 01.2028 |
 | Orion Innovation / Nebius / Veeam  | AI SA (India), AI Tech Lead (India), EM Network (Singapore), TPM-роли | Не EU / TPM |
