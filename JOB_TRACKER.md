@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 14.10.2026 (Mayflower BA Growth и Parloa Partner Agent Architect UK поданы, Streaming не подавали, очередь и «Решить» закрыты пропуском, новая порция бота разобрана). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 14.10.2026 (Mayflower BA Growth и Parloa Partner Agent Architect UK поданы, Streaming не подавали, очередь и «Решить» закрыты пропуском, новая порция бота разобрана, поиск LinkedIn за неделю — SA/AI Architect + Systems/BA, Remote EU / Испания / релокация). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -30,16 +30,46 @@
 
 ## 2. Очередь — подать (проверены как подходящие)
 
-Пусто на 14.10. Mayflower BA Growth подан, остальное перенесено в раздел 4.
+14.10 — из поиска LinkedIn (Past week; SA / AI Architect / Systems & Business Analyst; Remote EU, Испания, релокация с визой). Проверено по тексту вакансий.
+
+| Приоритет | Компания | Роль | Ссылка | Заметки |
+|---|---|---|---|---|
+| 1 | Pencil 🆕 | Agent Architect | https://www.linkedin.com/jobs/view/4439225583 | Remote «from anywhere in your home country» (EU). AI-реклама / маркетинг — близко к CMP. Мультиагентная архитектура, tool-calling, evals; «not a Software Engineer role», Python/JSON/API. Гэп: «3+ Years of Direct GenAI Experience». Уточнить, нанимают ли из Испании |
+| 2 | HFM 🆕 | Enterprise Solutions Architect | https://www.linkedin.com/jobs/view/4477528353 | Ларнака, Кипр, hybrid (2 дня дома). **Visa Sponsorship and Relocation Assistance.** Брокер (финтех). Гэп: 10+ лет в нескольких технологических доменах |
+| 3 | Hexagon Manufacturing Intelligence 🆕 | Integration Architect (f/m/d) | https://www.linkedin.com/jobs/view/4476646182 | LinkedIn: Чехия, remote. 5+ лет integration / solution architecture — ядро профиля. «Remotely or hybrid, depending on your preference and location» — уточнить, можно ли из Испании |
 
 ## 3. Решить (пограничные)
 
-Пусто на 14.10 — всё перенесено в раздел 4.
+| Компания | Роль | Ссылка | За | Против |
+|---|---|---|---|---|
+| Stott and May (рекрутер, страховой консалтинг) 🆕 | AI Architect Lead | https://www.linkedin.com/jobs/view/4475249017 | Remote Portugal / Spain / UK. Мультиагентные системы, RAG, evals | 8+ лет; production RAG, MLOps/LLMOps, лидерство data science — тяжелее профиля. Клиент не назван |
+| HappyRobot 🆕 | Deployment Strategist – Spain | https://www.linkedin.com/jobs/view/4318418203 | AI-агенты для enterprise; Python через Claude Code, API и интеграции, стратегия. a16z / YC | Испания = локальный найм, виза не упомянута (урок Pleo). Стартап-темп, поездки к клиентам |
+| bridge351 🆕 | Senior Functional Analyst / Business Analyst | https://www.linkedin.com/jobs/view/4475718635 | Аналитический трек, BPMN/UML, спецификации. «Tech Visa Company, we will help» | Лиссабон hybrid, госсектор (португальский?), зарплата Португалии |
+| Bank of Valletta 🆕 | Technical Analyst (Data Architecture) | https://www.linkedin.com/jobs/view/4478115058 | **Relocation assistance для экспатов**. Требования → спецификации, модели данных | Мальта, data-архитектура банка; уровень и зарплата не указаны. Закрытие 27.10 |
+| Xebia 🆕 | Agentic AI Architect | https://www.linkedin.com/jobs/view/4479282129 | Remote EU, «work permit required» — ВНЖ Испании, вероятно, закрывает | 7+ лет software/data/AI engineering + hands-on доставка LLM-решений в прод |
 
 ## 4. Пропущены — с причиной
 
 | Компания | Роль | Причина |
 |---|---|---|
+| Ascendion 🆕 | Technical Business Analyst | 14.10 LinkedIn: сильное совпадение (systems thinking, brownfield, AI-discovery), но локация Romania/Poland |
+| GFT 🆕 | Lead AI Solution Architect (Agentic AI) | 14.10: описание на испанском, 10+ лет именно Solution Architect; Валенсия hybrid |
+| Nordea 🆕 | Lead SA, Customer Service & Agentic | 14.10: Хельсинки/Оулу, 10+ лет разработки + hands-on coding |
+| Anthropic 🆕 | Applied AI Architect, Partnerships (Munich) | 14.10: 5+ лет partner/customer-facing SA/SE и работа с GSI — тот же гэп, что у Parloa, сильнее |
+| S72 (рекрутер) 🆕 | Platform Architect (Limassol) | 14.10: 8+ лет backend/platform engineering, hands-on |
+| The Knot Worldwide 🆕 | Senior Enterprise Systems Analyst | 14.10: Барселона hybrid, финансовые системы/платёжки; виза не упомянута |
+| Rover 🆕 | Senior Application Analyst – Zendesk | 14.10: админка Zendesk, 47–57k € |
+| W3Global 🆕 | Senior BA (Manufacturing) | 14.10: 5–10 лет в pharma / Life Sciences |
+| EPAM 🆕 | Business Solution Architect (Spain) | 14.10: локальный найм в Испании, виза не упомянута; 7+ лет, уровень директора |
+| Action 🆕 | Solution Architect Finance (NL) | 14.10: SAP Finance (есть HSM-виза) |
+| HFM 🆕 | Lead Enterprise Solutions Architect (Athens) | 14.10: 14+ лет |
+| EBRD 🆕 | Principal SA – Application & Integration | 14.10: офис в Софии |
+| Danske Bank 🆕 | Senior Business Analyst (Vilnius) | 14.10: 3 920–5 880 €, виза не упомянута |
+| Zurich Insurance 🆕 | Solution Architect – Agentic Reporting | 14.10: Барселона, локальный найм, виза не упомянута |
+| Archer Recruitment 🆕 | Technical BA (Malta) | 14.10: 35–45k € |
+| emagine 🆕 | Senior Integration Architect (Lisbon) | 14.10: hybrid Лиссабон, виза не упомянута |
+| BairesDev 🆕 | Business Process Analyst | 14.10: контрактор, аутстаф |
+| Испанские консалтинги 🆕 | Minsait, knowmad mood, BIP, Accenture España, hiberus и др. | 14.10: испанский рабочий язык / ServiceNow, SAP, Salesforce, облака |
 | Parloa | Sr Agent Architect (Germany) | 14.10: «Fluency in German and English is required» |
 | Parloa | Sr Agent Architect (France), (Italy) | 14.10: локальные роли, по аналогии с Германией — местный язык (не открывали) |
 | Parloa | Manager, Forward Deployed Engineering | 14.10: 8+ лет SWE/DevOps, hands-on Kubernetes/IaC, формальный people management |
