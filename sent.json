@@ -5279,6 +5279,104 @@
         "RAG"
       ],
       "url": "https://www.arbeitnow.com/view/solutions-architect-search-specialist-29979"
+    },
+    {
+      "sentAt": "2026-10-14T22:55:02.721Z",
+      "title": "Lead Java Developer/Solution Architect (6-month contract)",
+      "company": "gravity9",
+      "location": "Remote job, Remote",
+      "blurb": "gravity9 is recruiting Java engineers and architects for a portfolio of engagements across UK central government.",
+      "score": 84,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "API design",
+        "REST",
+        "system design",
+        "event-driven",
+        "data modeling",
+        "RBAC",
+        "distributed systems",
+        "analysis",
+        "Oracle",
+        "agents",
+        "RAG",
+        "API contract practice",
+        "integration architecture",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-lead-java-developer-solution-architect-6-month-contract-london-346117"
+    },
+    {
+      "sentAt": "2026-10-14T22:55:02.721Z",
+      "title": "Dynamics 365 CRM Solution Architect",
+      "company": "SwissPeak Partners GmbH",
+      "location": "Zurich, Zürich, Switzerland",
+      "blurb": "",
+      "score": 60,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/dynamics-365-crm-solution-architect-zurich-290423"
+    },
+    {
+      "sentAt": "2026-10-14T22:55:02.721Z",
+      "title": "Engineering Manager - Observability | UK | Remote",
+      "company": "Grafana Labs",
+      "location": "Germany, Ireland, Spain, Sweden, UK",
+      "blurb": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents…",
+      "score": 57,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "distributed systems",
+        "analysis",
+        "agents",
+        "EU location",
+        "Spain-eligible",
+        "+1 other location"
+      ],
+      "url": "https://jobicy.com/jobs/155283-engineering-manager-observability-uk-remote"
+    },
+    {
+      "sentAt": "2026-10-14T22:55:02.721Z",
+      "title": "Solution Architect",
+      "company": "SwissPeak Partners GmbH",
+      "location": "Zurich, Zürich, Switzerland",
+      "blurb": "For a renowned Swiss bank in Zurich, we are looking for an experienced solution architect for new platforms in digital onboarding, sales and core banking.",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "system design",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-zurich-455794"
+    },
+    {
+      "sentAt": "2026-10-14T22:55:02.721Z",
+      "title": "Senior SAP Integration Architect",
+      "company": "SwissPeak Partners GmbH",
+      "location": "Zurich, Zürich, Switzerland",
+      "blurb": "",
+      "score": 48,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "integration architect in title",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-sap-integration-architect-zurich-74650"
     }
   ]
 }
