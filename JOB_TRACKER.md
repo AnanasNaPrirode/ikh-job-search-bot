@@ -1,6 +1,6 @@
 # Трекер вакансий — Ivan Khakharev
 
-Обновлено: 14.10.2026 (Mayflower BA Growth подана, Streaming не подавали, очередь и «Решить» закрыты пропуском, новая порция бота разобрана). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
+Обновлено: 14.10.2026 (Mayflower BA Growth и Parloa Partner Agent Architect UK поданы, Streaming не подавали, очередь и «Решить» закрыты пропуском, новая порция бота разобрана). Источник вакансий: Telegram-бот @AnanasNaPrirode_job_search, история в `sent.json` репозитория https://github.com/AnanasNaPrirode/ikh-job-search-bot. Последняя просмотренная отправка бота: **2026-10-14T09:11Z**. В следующий раз смотреть вакансии после этой даты.
 
 Статусы: ✅ подано · ⏳ в очереди · ❓ решить · ⛔ пропущено · 🔒 закрыто работодателем
 
@@ -21,11 +21,12 @@
 | 08.10 | ⏳ | RoomPriceGenie | Remote EM (Algorithms Team) | Remote UTC+0…+2 | EM | «Your Application is In!» | [карточка](applications/2026-10-08_roompricegenie_em-algorithms.md) |
 | 13.10 | ✅ | Plata | EM – Python [DWH Data Tools] | Worldwide remote / хабы (Кипр, Сербия, Испания, Грузия) | EM (base PDF) + cover letter | Greenhouse. «Application submitted successfully!». Гэпы названы в письме: formal performance management, Superset/DataHub, Python через AI-assisted | [карточка](applications/2026-10-13_plata_em-python-dwh.md) |
 | 13.10 | ⏳ | Mayflower | Business Analyst (Growth) | Лимасол, офис; temporary remote → релокация. EU-контракт + виза Кипра | Lead SA (уточнить) | Recruitee. Подтверждение «Confirmation of your application» 13.10 | [карточка](applications/2026-10-13_mayflower_ba-growth.md) |
+| 14.10 | ⏳ | Parloa | Senior Partner Agent Architect (UK) | London / Remote UK | AI Solutions Architect | Greenhouse EU. Sponsorship = Yes, relocation = Yes. Salary EUR 100–110k base (нижняя половина рынка Лондона £90–125k). Гэп: партнёрская модель поставки (SI) — назван прямо. Страница «Благодарим вас за заявку!» | [карточка](applications/2026-10-14_parloa_sr-partner-agent-architect-uk.md) |
 
-**Отказы на 14.10: 5 из 13 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
+**Отказы на 14.10: 5 из 14 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
 - Опыт / people management (4): Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании, Finom (own hiring & promotions, стек .NET/Java/Node/Go, Берлин).
 - **Виза (1): Pleo** — прямо: «aren't able to provide visa sponsorship for this specific position». Ответ «sponsorship = Yes» на «Remote Spain» в испанском штате = автоматический отсев.
-- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex, Mayflower Growth (аналитика) — по аналитическому треку ответов пока нет.
+- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex, Mayflower Growth (аналитика); Parloa (SA-трек) — по аналитическому треку ответов пока нет.
 
 ## 2. Очередь — подать (проверены как подходящие)
 
@@ -39,6 +40,10 @@
 
 | Компания | Роль | Причина |
 |---|---|---|
+| Parloa | Sr Agent Architect (Germany) | 14.10: «Fluency in German and English is required» |
+| Parloa | Sr Agent Architect (France), (Italy) | 14.10: локальные роли, по аналогии с Германией — местный язык (не открывали) |
+| Parloa | Manager, Forward Deployed Engineering | 14.10: 8+ лет SWE/DevOps, hands-on Kubernetes/IaC, формальный people management |
+| Parloa | Lead / Senior Agent Architect (NY, US) | 14.10: US-only |
 | JetBrains | Solutions Architect (Finance Transformation Office) | 14.10: решение Ивана — объективные гэпы (pre-sales/консалтинг, architect-level cloud, TOGAF) |
 | ManyChat | EM, Billing & Accounts | 14.10: решение Ивана — гэпы: real people management (hire/coach), billing/payments |
 | Preply | EM, MarTech | 14.10: решение Ивана — гэп: 4+ года руководства командами |
@@ -59,7 +64,7 @@
 | Legora  | IT Engineering Lead – Stockholm | Corporate IT (устройства, сети, SaaS-админка), не продуктовая разработка. Стокгольм HQ. Уже есть Legora EM Foundations в очереди |
 | Canonical  | EM – Linux Hardware Enablement | Не профиль: Linux kernel / железо |
 | Amazon  | Sr. TPM, European Sovereign Cloud | TPM-роль, Дублин |
-| logen.ai | AI Agent Architect | Нужен немецкий; Berlin hybrid; уровень junior/mid (45–65k €) |
+| logen.ai | AI Agent Architect | Нужен немецкий («Sehr gute Deutsch»), customer-facing с немецкими клиентами; Berlin hybrid; уровень junior/mid (45–65k €). 14.10 перепроверено: блокер — язык, не зарплата |
 | ShopFully | AI Architect, Finance | Нужен классический ML и финансовые данные; 10+ лет на уровне staff/principal |
 | Autodesk | Software Architect | Нужно 10+ лет cloud и глубокий AWS |
 | Grafana Labs | EM, Application Security | Домен security; в Grafana уже подались |
