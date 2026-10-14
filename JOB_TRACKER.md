@@ -21,37 +21,35 @@
 | 08.10 | ⏳ | RoomPriceGenie | Remote EM (Algorithms Team) | Remote UTC+0…+2 | EM | «Your Application is In!» | [карточка](applications/2026-10-08_roompricegenie_em-algorithms.md) |
 | 13.10 | ✅ | Plata | EM – Python [DWH Data Tools] | Worldwide remote / хабы (Кипр, Сербия, Испания, Грузия) | EM (base PDF) + cover letter | Greenhouse. «Application submitted successfully!». Гэпы названы в письме: formal performance management, Superset/DataHub, Python через AI-assisted | [карточка](applications/2026-10-13_plata_em-python-dwh.md) |
 | 13.10 | ⏳ | Mayflower | Business Analyst (Growth) | Лимасол, офис; temporary remote → релокация. EU-контракт + виза Кипра | Lead SA (уточнить) | Recruitee. Подтверждение «Confirmation of your application» 13.10 | [карточка](applications/2026-10-13_mayflower_ba-growth.md) |
+| 13.10 | ⏳ | ManyChat | EM, Billing & Accounts | Барселона hybrid, relocation support | (уточнить) | Ashby. Подал Иван сам; подтверждение «Ivan, your application just landed at Manychat» 13.10 22:47. Ответы формы не зафиксированы |
+| 13.10 | ⏳ | Preply | EM, MarTech | Барселона hybrid, relocation package | (уточнить) | Ashby. Подал Иван сам; подтверждение «Thanks for applying to Preply!» 13.10 22:46. Ответы формы не зафиксированы |
 | 14.10 | ⏳ | Parloa | Senior Partner Agent Architect (UK) | London / Remote UK | AI Solutions Architect | Greenhouse EU. Sponsorship = Yes, relocation = Yes. Salary EUR 100–110k base (нижняя половина рынка Лондона £90–125k). Гэп: партнёрская модель поставки (SI) — назван прямо. Страница «Благодарим вас за заявку!» | [карточка](applications/2026-10-14_parloa_sr-partner-agent-architect-uk.md) |
+| 14.10 | ⏳ | Pencil | Agent Architect | EMEA Remote (из Испании) | AI Solutions Architect | Ashby. Salary EUR 75–85k. Right to work = Yes (remote на иностранную компанию). Гэп назван прямо: нет опыта генерации изображений/видео. Подтверждение в почте 14.10 | [карточка](applications/2026-10-14_pencil_agent-architect.md) |
+| 14.10 | ⏳ | HFM | Enterprise Solutions Architect | Ларнака, Кипр, hybrid; visa sponsorship + relocation | Solution Architect (13.10) | Zoho Recruit. Salary 80 000 EUR/год. Гэпы: 10+ лет, AWS/K8s. Подтверждение в почте 14.10 | [карточка](applications/2026-10-14_hfm_enterprise-solutions-architect.md) |
+| 14.10 | ⏳ | HappyRobot | Deployment Strategist – Spain | Мадрид hybrid, частые поездки | AI Solutions Architect | Ashby. Authorized = No, Sponsorship = Yes, релокация в Мадрид = Yes. Подтверждение в почте 14.10 | [карточка](applications/2026-10-14_happyrobot_deployment-strategist.md) |
+| 14.10 | ⏳ | Bank of Valletta | Technical Analyst (Data Architecture) | Мальта, relocation assistance для экспатов | Lead Systems Analyst | Dynamics ATS через LinkedIn. Eligible = No, single work permit = Yes, salary 66 000 €. Подтверждение BOV 14.10 14:58 | [карточка](applications/2026-10-14_bov_technical-analyst.md) |
 
-**Отказы на 14.10: 5 из 14 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
+**Отказы на 14.10: 5 из 20 (Lunar, Testlio, Mapbox, Pleo, Finom).** Все — EM, все на скрининге резюме за 2–7 дней, без интервью.
 - Опыт / people management (4): Testlio 5+ лет, Mapbox 5+ лет, Lunar + спонсорство в Дании, Finom (own hiring & promotions, стек .NET/Java/Node/Go, Берлин).
 - **Виза (1): Pleo** — прямо: «aren't able to provide visa sponsorship for this specific position». Ответ «sponsorship = Yes» на «Remote Spain» в испанском штате = автоматический отсев.
-- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata (EM); CoinsPaid, Libertex, Mayflower Growth (аналитика); Parloa (SA-трек) — по аналитическому треку ответов пока нет.
+- Ждём: Supabase, Grafana, Spotify, RoomPriceGenie, Plata, ManyChat, Preply (EM); CoinsPaid, Libertex, Mayflower Growth, Bank of Valletta (аналитика); Parloa, Pencil, HFM, HappyRobot (SA / AI-трек) — по аналитическому треку ответов пока нет.
 
 ## 2. Очередь — подать (проверены как подходящие)
 
-14.10 — из поиска LinkedIn (Past week; SA / AI Architect / Systems & Business Analyst; Remote EU, Испания, релокация с визой). Проверено по тексту вакансий.
-
-| Приоритет | Компания | Роль | Ссылка | Заметки |
-|---|---|---|---|---|
-| 1 | Pencil 🆕 | Agent Architect | https://www.linkedin.com/jobs/view/4439225583 | Remote «from anywhere in your home country» (EU). AI-реклама / маркетинг — близко к CMP. Мультиагентная архитектура, tool-calling, evals; «not a Software Engineer role», Python/JSON/API. Гэп: «3+ Years of Direct GenAI Experience». Уточнить, нанимают ли из Испании |
-| 2 | HFM 🆕 | Enterprise Solutions Architect | https://www.linkedin.com/jobs/view/4477528353 | Ларнака, Кипр, hybrid (2 дня дома). **Visa Sponsorship and Relocation Assistance.** Брокер (финтех). Гэп: 10+ лет в нескольких технологических доменах |
-| 3 | Hexagon Manufacturing Intelligence 🆕 | Integration Architect (f/m/d) | https://www.linkedin.com/jobs/view/4476646182 | LinkedIn: Чехия, remote. 5+ лет integration / solution architecture — ядро профиля. «Remotely or hybrid, depending on your preference and location» — уточнить, можно ли из Испании |
+Пусто на 14.10.
 
 ## 3. Решить (пограничные)
 
-| Компания | Роль | Ссылка | За | Против |
-|---|---|---|---|---|
-| Stott and May (рекрутер, страховой консалтинг) 🆕 | AI Architect Lead | https://www.linkedin.com/jobs/view/4475249017 | Remote Portugal / Spain / UK. Мультиагентные системы, RAG, evals | 8+ лет; production RAG, MLOps/LLMOps, лидерство data science — тяжелее профиля. Клиент не назван |
-| HappyRobot 🆕 | Deployment Strategist – Spain | https://www.linkedin.com/jobs/view/4318418203 | AI-агенты для enterprise; Python через Claude Code, API и интеграции, стратегия. a16z / YC | Испания = локальный найм, виза не упомянута (урок Pleo). Стартап-темп, поездки к клиентам |
-| bridge351 🆕 | Senior Functional Analyst / Business Analyst | https://www.linkedin.com/jobs/view/4475718635 | Аналитический трек, BPMN/UML, спецификации. «Tech Visa Company, we will help» | Лиссабон hybrid, госсектор (португальский?), зарплата Португалии |
-| Bank of Valletta 🆕 | Technical Analyst (Data Architecture) | https://www.linkedin.com/jobs/view/4478115058 | **Relocation assistance для экспатов**. Требования → спецификации, модели данных | Мальта, data-архитектура банка; уровень и зарплата не указаны. Закрытие 27.10 |
-| Xebia 🆕 | Agentic AI Architect | https://www.linkedin.com/jobs/view/4479282129 | Remote EU, «work permit required» — ВНЖ Испании, вероятно, закрывает | 7+ лет software/data/AI engineering + hands-on доставка LLM-решений в прод |
+Пусто на 14.10.
 
 ## 4. Пропущены — с причиной
 
 | Компания | Роль | Причина |
 |---|---|---|
+| Hexagon Manufacturing Intelligence | Integration Architect (f/m/d) | 14.10: Workday с обязательной регистрацией — Иван отказался |
+| bridge351 | Senior Functional Analyst / BA (Lisbon) | 14.10: knockout-вопрос в Teamtailor — «Are you currently located in Portugal?» = No блокирует форму, несмотря на «Tech Visa Company» |
+| Stott and May | AI Architect Lead | 14.10: решение Ивана — 8+ лет, production RAG, MLOps/LLMOps |
+| Xebia | Agentic AI Architect | 14.10: решение Ивана — 7+ лет engineering, hands-on LLM в проде |
 | Ascendion 🆕 | Technical Business Analyst | 14.10 LinkedIn: сильное совпадение (systems thinking, brownfield, AI-discovery), но локация Romania/Poland |
 | GFT 🆕 | Lead AI Solution Architect (Agentic AI) | 14.10: описание на испанском, 10+ лет именно Solution Architect; Валенсия hybrid |
 | Nordea 🆕 | Lead SA, Customer Service & Agentic | 14.10: Хельсинки/Оулу, 10+ лет разработки + hands-on coding |
@@ -75,8 +73,6 @@
 | Parloa | Manager, Forward Deployed Engineering | 14.10: 8+ лет SWE/DevOps, hands-on Kubernetes/IaC, формальный people management |
 | Parloa | Lead / Senior Agent Architect (NY, US) | 14.10: US-only |
 | JetBrains | Solutions Architect (Finance Transformation Office) | 14.10: решение Ивана — объективные гэпы (pre-sales/консалтинг, architect-level cloud, TOGAF) |
-| ManyChat | EM, Billing & Accounts | 14.10: решение Ивана — гэпы: real people management (hire/coach), billing/payments |
-| Preply | EM, MarTech | 14.10: решение Ивана — гэп: 4+ года руководства командами |
 | Enpal | EM ERP | 14.10: решение Ивана — гэпы: Dynamics 365 F&O, формальный people manager |
 | Plata | EM [AI Business Features] | 14.10: решение Ивана — гэпы; уже подана Plata DWH |
 | JetBrains | Founding Tech Lead (GrowthBricks) | 14.10: решение Ивана — чистый IC, много раннего кода |
