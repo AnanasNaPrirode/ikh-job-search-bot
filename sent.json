@@ -5231,6 +5231,54 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/solution-architect-paris-france-171357"
+    },
+    {
+      "sentAt": "2026-10-14T16:15:26.792Z",
+      "title": "Engineering Manager - Sport Process - Worldwide Offer (f/m/d)",
+      "company": "Decathlontechnology",
+      "location": "Lille - Btwin Village, Nord",
+      "blurb": "",
+      "score": 51,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "event-driven",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-sport-process-worldwide-offer-lille-btwin-village-nord-183173"
+    },
+    {
+      "sentAt": "2026-10-14T16:15:26.792Z",
+      "title": "Senior Solutions Architect (OEM)",
+      "company": "Aiven",
+      "location": "Paris, France",
+      "blurb": "",
+      "score": 44,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://boards.greenhouse.io/aiven36/jobs/5003165101"
+    },
+    {
+      "sentAt": "2026-10-14T16:15:26.792Z",
+      "title": "Solutions Architect - Search Specialist",
+      "company": "Referralsuseonly",
+      "location": "n/a",
+      "blurb": "The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the…",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "LLM",
+        "RAG"
+      ],
+      "url": "https://www.arbeitnow.com/view/solutions-architect-search-specialist-29979"
     }
   ]
 }
