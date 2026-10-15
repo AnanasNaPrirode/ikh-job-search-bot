@@ -5377,6 +5377,44 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/senior-sap-integration-architect-zurich-74650"
+    },
+    {
+      "sentAt": "2026-10-15T08:45:51.922Z",
+      "title": "Senior Software Architect (C# / AI First) - GovTech SaaS company",
+      "company": "Truelogic",
+      "location": "LATAM",
+      "blurb": "We aim to align your skills with opportunities that foster exceptional career growth and success while contributing to transformative projects that shape the future.",
+      "score": 58,
+      "reasons": [
+        "senior title",
+        "AI in title",
+        "event-driven",
+        "distributed systems",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "modern stack",
+        "integration architecture"
+      ],
+      "url": "https://jobicy.com/jobs/149164-senior-software-architect-c-ai-first-govtech-saas-company"
+    },
+    {
+      "sentAt": "2026-10-15T08:45:51.922Z",
+      "title": "Tech Lead AI DevOps / Infrastructure (f/m/d)",
+      "company": "Stackfuel",
+      "location": "Berlin",
+      "blurb": "Jobbeschreibung StackFuel ist seit Jahren einer der führenden Anbieter für Daten- und KI-Weiterbildung in Deutschland.",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "AI in title",
+        "people leadership",
+        "agents",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/tech-lead-ai-devops-infrastructure-berlin-485204"
     }
   ]
 }
