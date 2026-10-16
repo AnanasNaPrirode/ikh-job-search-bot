@@ -5595,6 +5595,69 @@
         "+1 other location"
       ],
       "url": "https://job-boards.greenhouse.io/vercel/jobs/5796302004"
+    },
+    {
+      "sentAt": "2026-10-16T19:10:54.520Z",
+      "title": "Solutions Architect",
+      "company": "mongodb",
+      "location": "Dublin",
+      "blurb": "p At MongoDB, we&#39;re looking for a technically accomplished Solutions Architect who thrives on solving complex problems, understanding how systems work, and helping customers…",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "event-driven",
+        "Python/FastAPI",
+        "data modeling",
+        "distributed systems",
+        "agents",
+        "RAG",
+        "integration architecture",
+        "remote EU/EMEA",
+        "-customer-facing",
+        "AI-native team",
+        "+3 other locations"
+      ],
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8267982"
+    },
+    {
+      "sentAt": "2026-10-16T19:10:54.520Z",
+      "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
+      "company": "databricks",
+      "location": "Amsterdam",
+      "blurb": "",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "AI in title",
+        "Python/FastAPI",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "remote EU/EMEA",
+        "-customer-facing",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/lead-solutions-architect-generative-ai-emea-emerging-dnb-amsterdam-234185"
+    },
+    {
+      "sentAt": "2026-10-16T19:10:54.520Z",
+      "title": "Technical Program Manager, Extensibility Platform",
+      "company": "Stripe",
+      "location": "Canada, Remote",
+      "blurb": "",
+      "score": 43,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "platform in title",
+        "remote"
+      ],
+      "url": "https://stripe.com/careers/listing/technical-program-manager-extensibility-platform/8282859"
     }
   ]
 }
