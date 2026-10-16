@@ -5530,6 +5530,71 @@
         "EU location"
       ],
       "url": "https://jobicy.com/jobs/150687-engineering-manager-eu"
+    },
+    {
+      "sentAt": "2026-10-16T15:51:40.121Z",
+      "title": "Solution Architect",
+      "company": "wongdoody",
+      "location": "Berlin, DE",
+      "blurb": "p strong WongDoody nbsp; /strong creates human experiences at 24 studios across 4 continents.",
+      "score": 63,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "integrations",
+        "data modeling",
+        "analysis",
+        "campaign/martech platform",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-berlin-de-451921"
+    },
+    {
+      "sentAt": "2026-10-16T15:51:40.121Z",
+      "title": "Engineering Manager",
+      "company": "flohealth",
+      "location": "Vilnius",
+      "blurb": "p p strong The job /strong /p /div p We’re not chasing product–market fit. We’ve found it. Flo is used by 1 in 4 women aged 18–44 in the US. Last year, $200M raised.",
+      "score": 55,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "+1 other location"
+      ],
+      "url": "https://job-boards.greenhouse.io/flohealth/jobs/8032856003"
+    },
+    {
+      "sentAt": "2026-10-16T15:51:40.121Z",
+      "title": "Solutions Architect",
+      "company": "vercel",
+      "location": "Remote - United Kingdom, Germany",
+      "blurb": "div class= content-intro h2 About Vercel: /h2 p span data-sheets-root= 1 Vercel is the agentic infrastructure company, freeing people and agents to ship what&#39;s next.",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "caching",
+        "RBAC",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "modern stack",
+        "agent workflow design",
+        "remote EU/EMEA",
+        "-customer-facing",
+        "-stale 249d",
+        "agentic practice",
+        "+1 other location"
+      ],
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5796302004"
     }
   ]
 }
