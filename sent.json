@@ -5713,6 +5713,61 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/lead-architect-digital-assets-paris-298405"
+    },
+    {
+      "sentAt": "2026-10-17T21:55:35.743Z",
+      "title": "Engineering Manager (f/m/d)",
+      "company": "Moonfare",
+      "location": "Berlin",
+      "blurb": "strong /p p Moonfare delivers what few others can: the highly sought-after funds and hidden-gem investments that go beyond what most private banks offer.",
+      "score": 66,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "daily AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-berlin-329045"
+    },
+    {
+      "sentAt": "2026-10-17T21:55:35.743Z",
+      "title": "Engineering Lead (Finance & Internal Tools)",
+      "company": "Workwize",
+      "location": "Amsterdam",
+      "blurb": "p strong About Workwize /strong /p p Workwize helps companies equip their remote and global teams with IT equipment.",
+      "score": 59,
+      "reasons": [
+        "target title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "remote EU/EMEA",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-lead-finance-internal-tools-amsterdam-171567"
+    },
+    {
+      "sentAt": "2026-10-17T21:55:35.743Z",
+      "title": "Senior Solutions Architect – Large Scale AI Inference",
+      "company": "NVIDIA",
+      "location": "France",
+      "blurb": "",
+      "score": 52,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "solution architect in title",
+        "AI in title",
+        "EU location"
+      ],
+      "url": "https://himalayas.app/companies/nvidia/jobs/senior-solutions-architect-large-scale-ai-inference-2708129671"
     }
   ]
 }
