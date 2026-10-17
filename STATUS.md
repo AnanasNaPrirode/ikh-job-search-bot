@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-10-17T02:19:45.537Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-10-17T08:11:09.258Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 173/178 boards responding (97%) · 11757 postings → 657 matching titles → 0 above 40
+**RED** · 173/178 boards responding (97%) · 11755 postings → 662 matching titles → 1 above 40
 
 ## Down
 
@@ -54,7 +54,7 @@ board that should always have jobs.
 | smartrecruiters | 9 | 9 | 27 |
 | wwr | 1 | 1 | 25 |
 | himalayas | 1 | 1 | 20 |
-| remotive | 1 | 1 | 15 |
+| remotive | 1 | 1 | 13 |
 | pinpoint | 4 | 4 | 10 |
 | bamboohr | 1 | 1 | 3 |
 | pinpoint-rss | 4 | 4 | 0 |
