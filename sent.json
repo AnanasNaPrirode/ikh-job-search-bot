@@ -5696,6 +5696,23 @@
         "-US-remote"
       ],
       "url": "https://jobicy.com/jobs/153391-analytics-platforms-architect"
+    },
+    {
+      "sentAt": "2026-10-17T14:44:40.318Z",
+      "title": "Lead Architect - Digital Assets",
+      "company": "Mlabs",
+      "location": "Paris, France",
+      "blurb": "Tokenised Collateral-Management Platform: Designed for sovereign bonds to enable real-time repo, CCP-margin eligibility, and DeFi distribution of government securities through…",
+      "score": 43,
+      "reasons": [
+        "lead title",
+        "system design",
+        "distributed systems",
+        "analysis",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/lead-architect-digital-assets-paris-298405"
     }
   ]
 }
