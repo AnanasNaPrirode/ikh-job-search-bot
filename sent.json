@@ -5865,6 +5865,37 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/technical-lead-germany-199627"
+    },
+    {
+      "sentAt": "2026-10-19T09:29:07.332Z",
+      "title": "Engineering Manager - Python [DWH Data Tools]",
+      "company": "Banco Plata, S.A., Institución de Banca Múltiple",
+      "location": "Cyprus, Georgia, Serbia, Spain",
+      "blurb": "",
+      "score": 50,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "eng management",
+        "EU location",
+        "Spain-eligible"
+      ],
+      "url": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/engineering-manager-python-dwh-data-tools?utm_source=api"
+    },
+    {
+      "sentAt": "2026-10-19T09:29:07.332Z",
+      "title": "Technical Program Manager II, ICON",
+      "company": "Amazon",
+      "location": "Dublin, IRL",
+      "blurb": "Amazon ICON is looking for a Technical Program Manager to join our Dublin team. Our team is responsible for hosting Amazon’s websites, which includes all of Amazon’s global…",
+      "score": 42,
+      "reasons": [
+        "target title",
+        "TPM in title",
+        "retail/martech",
+        "EU location"
+      ],
+      "url": "https://www.amazon.jobs/en/jobs/10582353/technical-program-manager-ii-icon"
     }
   ]
 }
