@@ -5896,6 +5896,66 @@
         "EU location"
       ],
       "url": "https://www.amazon.jobs/en/jobs/10582353/technical-program-manager-ii-icon"
+    },
+    {
+      "sentAt": "2026-10-19T18:02:43.086Z",
+      "title": "AI Tech Lead, Remote (based in Europe)",
+      "company": "Virtusan",
+      "location": "Berlin, Remote",
+      "blurb": "Virtusan is a Swiss based health coaching platform for sleep, stress and recovery that works with any wearable, including our own smart ring.",
+      "score": 68,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "AI in title",
+        "system design",
+        "Python/FastAPI",
+        "people leadership",
+        "agents",
+        "LLM",
+        "remote EU/EMEA"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-tech-lead-remote-based-in-europe-berlin-165178"
+    },
+    {
+      "sentAt": "2026-10-19T18:02:43.086Z",
+      "title": "Engineering Manager, Agentic Commerce",
+      "company": "cloudflare",
+      "location": "Hybrid; In-Office",
+      "blurb": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet.",
+      "score": 64,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "agents in title",
+        "API design",
+        "distributed systems",
+        "people leadership",
+        "agents",
+        "eng management",
+        "high-load scale",
+        "agent workflow design",
+        "-hybrid"
+      ],
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8242481?gh_jid=8242481"
+    },
+    {
+      "sentAt": "2026-10-19T18:02:43.086Z",
+      "title": "Senior SAP HCM Solution & Integration Architect - Freelance",
+      "company": "Sidekick Network GmbH & Co. KG",
+      "location": "Bonn, Remote",
+      "blurb": "",
+      "score": 52,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "integration architect in title",
+        "RBAC",
+        "analysis",
+        "integration architecture",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-sap-hcm-solution-integration-architect-freelance-bonn-325348"
     }
   ]
 }
