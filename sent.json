@@ -6066,6 +6066,107 @@
         "+1 other location"
       ],
       "url": "https://www.arbeitnow.com/view/technical-lead-germany-437710"
+    },
+    {
+      "sentAt": "2026-10-20T16:07:07.996Z",
+      "title": "AI-Native Software Engineering Lead / Agentic Development Expert",
+      "company": "PROSTAFF Schweiz GmbH",
+      "location": "Zürich",
+      "blurb": "The objective is to fundamentally modernize the Product Development Lifecycle (PDLC) and Software Development Lifecycle (SDLC) by introducing AI-powered coding agents…",
+      "score": 90,
+      "reasons": [
+        "target title",
+        "AI in title",
+        "agents in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "RAG",
+        "agent workflow design",
+        "EU location",
+        "daily AI tooling",
+        "AI-native team",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-native-software-engineering-lead-agentic-development-expert-zurich-211278"
+    },
+    {
+      "sentAt": "2026-10-20T16:07:07.996Z",
+      "title": "Engineering Lead – AI Enablement (m/f/d)",
+      "company": "raisin",
+      "location": "Berlin, Berlin",
+      "blurb": "div class= content-intro p class= sc-gEkIjz cjtSrT MuiTypography-root MuiTypography-body1 sc-hoLEA Raisin is the world’s leading platform for savings and investment products.",
+      "score": 73,
+      "reasons": [
+        "target title",
+        "AI in title",
+        "analysis",
+        "agents",
+        "LLM",
+        "eng management",
+        "agent workflow design",
+        "EU location",
+        "requires hands-on AI tooling",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-lead-ai-enablement-berlin-berlin-374665"
+    },
+    {
+      "sentAt": "2026-10-20T16:07:07.996Z",
+      "title": "Engineering Manager, Compose",
+      "company": "Mural",
+      "location": "Spain, UK, USA",
+      "blurb": "ABOUT THE TEAM The Mural Compose team is ambitious and fast-moving. We are passionate builders who love to experiment and iterate.",
+      "score": 72,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "analysis",
+        "people leadership",
+        "agents",
+        "LLM",
+        "EU location",
+        "Spain-eligible",
+        "AI-native team"
+      ],
+      "url": "https://jobicy.com/jobs/155959-engineering-manager-compose"
+    },
+    {
+      "sentAt": "2026-10-20T16:07:07.996Z",
+      "title": "AI Engineering Lead",
+      "company": "Eggai",
+      "location": "France",
+      "blurb": "EggAI · Full-time · Remote (EU only) The Role You will lead a small, highly-skilled remote team of engineers designing and shipping production-grade agentic AI systems.",
+      "score": 66,
+      "reasons": [
+        "target title",
+        "AI in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "agents",
+        "modern stack",
+        "remote EU/EMEA",
+        "AI-native team"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-engineering-lead-france-14852"
+    },
+    {
+      "sentAt": "2026-10-20T16:07:07.996Z",
+      "title": "SAP SD Developer (ABAP) - AI Integration (f/m/d)",
+      "company": "Workist",
+      "location": "Berlin, Germany, Germany, Remote",
+      "blurb": "",
+      "score": 48,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "remote EU/EMEA"
+      ],
+      "url": "https://workist-gmbh.jobs.personio.de/job/2850483"
     }
   ]
 }
