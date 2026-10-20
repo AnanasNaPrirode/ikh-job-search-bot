@@ -6007,6 +6007,65 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/senior-sap-integration-architect-zurich-413721"
+    },
+    {
+      "sentAt": "2026-10-20T09:03:38.841Z",
+      "title": "Engineering Manager (Platform - Application Excellence)",
+      "company": "Paddle",
+      "location": "Ireland, Portugal, UK",
+      "blurb": "What do we do? Paddle offers digital product companies a completely different approach to their payment infrastructure.",
+      "score": 66,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "event-driven",
+        "caching",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/153641-engineering-manager-platform-application-excellence"
+    },
+    {
+      "sentAt": "2026-10-20T09:03:38.841Z",
+      "title": "Engineering Manager, Search Engine (all genders)",
+      "company": "Distribusion Technologies",
+      "location": "Remote job, Remote",
+      "blurb": "Distribusion is the world’s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase.",
+      "score": 64,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "retail/martech",
+        "distributed systems",
+        "people leadership",
+        "eng management",
+        "high-load scale",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/remote-engineering-manager-search-engine-all-genders-berlin-201029"
+    },
+    {
+      "sentAt": "2026-10-20T09:03:38.841Z",
+      "title": "Technical Lead",
+      "company": "Bjak",
+      "location": "Germany",
+      "blurb": "Our objective is to build tools that will help people get more from their money and become an expert at ease.",
+      "score": 47,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "system design",
+        "distributed systems",
+        "people leadership",
+        "EU location",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/technical-lead-germany-437710"
     }
   ]
 }
