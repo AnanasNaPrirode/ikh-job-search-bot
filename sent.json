@@ -6295,6 +6295,84 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/engineering-manager-berlin-95462"
+    },
+    {
+      "sentAt": "2026-10-22T16:23:14.077Z",
+      "title": "Senior Technical Business Analyst",
+      "company": "Xdesign",
+      "location": "n/a",
+      "blurb": "We work alongside organisations such as PayPal, adidas, NatWest, FanDuel and Money Saving Expert, building digital products and services that make a difference nbsp; while…",
+      "score": 67,
+      "reasons": [
+        "senior title",
+        "technical BA in title",
+        "API design",
+        "data modeling",
+        "analysis",
+        "agents",
+        "LLM",
+        "API contract practice",
+        "agent workflow design"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-technical-business-analyst-55619"
+    },
+    {
+      "sentAt": "2026-10-22T16:23:14.077Z",
+      "title": "Engineering Manager – Identity & Verification Services",
+      "company": "adyen",
+      "location": "Amsterdam",
+      "blurb": "p strong This is Adyen /strong /p p span style= font-weight: 400; Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H…",
+      "score": 65,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "system design",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location",
+        "hands-on builder bar"
+      ],
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8229821"
+    },
+    {
+      "sentAt": "2026-10-22T16:23:14.077Z",
+      "title": "Engineering Manager (m/f/d)",
+      "company": "Superchat",
+      "location": "Berlin, Berlin",
+      "blurb": "p strong At Superchat, we&#39;re rebuilding how businesses talk to their customers. The phone call, the contact form, the support ticket: all of it is being replaced by…",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "agents",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-berlin-berlin-381548"
+    },
+    {
+      "sentAt": "2026-10-22T16:23:14.077Z",
+      "title": "Technical Lead - Backend (Java / Spring Boot)",
+      "company": "Xdesign",
+      "location": "n/a",
+      "blurb": "",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "technical lead in title",
+        "REST",
+        "event-driven",
+        "people leadership",
+        "agents",
+        "LLM",
+        "remote"
+      ],
+      "url": "https://www.arbeitnow.com/view/technical-lead-backend-java-spring-boot-409314"
     }
   ]
 }
