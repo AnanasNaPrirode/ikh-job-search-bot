@@ -6256,6 +6256,45 @@
         "EU location"
       ],
       "url": "https://www.arbeitnow.com/view/solution-architect-data-ai-heidelberg-458909"
+    },
+    {
+      "sentAt": "2026-10-22T09:04:40.907Z",
+      "title": "Platform Architect - Banking",
+      "company": "Eggai",
+      "location": "France",
+      "blurb": "EggAI is a fast-growing AI consulting and development startup. We build agentic AI solutions for enterprise clients.",
+      "score": 67,
+      "reasons": [
+        "target title",
+        "platform role",
+        "platform architect in title",
+        "platform in title",
+        "API design",
+        "system design",
+        "agents",
+        "LLM",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/platform-architect-banking-france-469992"
+    },
+    {
+      "sentAt": "2026-10-22T09:04:40.907Z",
+      "title": "Engineering Manager",
+      "company": "Nelly Solutions",
+      "location": "Berlin",
+      "blurb": "The Automation Domain is responsible for building and owning Nelly’s SaaS and AI products - everything from onboarding new medical practices, the Doctor, Patient, and Back…",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "agents",
+        "LLM",
+        "eng management",
+        "modern stack",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-berlin-95462"
     }
   ]
 }
