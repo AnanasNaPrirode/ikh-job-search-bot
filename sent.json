@@ -6426,6 +6426,160 @@
         "EU location"
       ],
       "url": "https://jobicy.com/jobs/153901-technical-program-manager-5"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Engineering Manager - Distributed Systems, Python / Go",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets.",
+      "score": 56,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/156573-engineering-manager-distributed-systems-python-go"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Engineering Manager- Ceph & Distributed Storage",
+      "company": "Canonical",
+      "location": "EMEA, LATAM, Canada, USA",
+      "blurb": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets.",
+      "score": 52,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/156571-engineering-manager-ceph-distributed-storage-2"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Engineering Manager",
+      "company": "GreenFlux",
+      "location": "Amsterdam, Noord-Holland, Netherlands",
+      "blurb": "That’s the business we are in! GreenFlux offers a cloud-based charge point management SaaS (Software as a Service) solution.",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-amsterdam-260715"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Engineering Manager, Commercial Systems",
+      "company": "Canonical",
+      "location": "EMEA",
+      "blurb": "Canonical is a leading provider of open-source software and operating systems for global enterprise and technology markets.",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://jobicy.com/jobs/156572-engineering-manager-commercial-systems"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "AI Architect",
+      "company": "capco",
+      "location": "n/a",
+      "blurb": "li li Develop and maintain traceability, monitoring, and evaluation mechanisms for AI systems.",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "AI role",
+        "AI in title",
+        "Python/FastAPI",
+        "analysis",
+        "agents",
+        "RAG"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-architect-353099"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Solution Architect (m/w/d) – Financial Services",
+      "company": "capco",
+      "location": "n/a",
+      "blurb": "p strong Wer wir sind /strong /p p Als globale Unternehmensberatung mit Fokus auf die Finanzdienstleistungsbranche kombinieren wir bei Capco innovatives Denken mit einzigartigem…",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "distributed systems",
+        "analysis",
+        "people leadership",
+        "+1 other location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-financial-services-167688"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Engineering Manager (w/m/d) Robotics Tooling",
+      "company": "Magazino GmbH",
+      "location": "Munich",
+      "blurb": "Du entwickelst unser Remote Tooling als Teil unserer Robotics Cloud weiter und ermöglichst damit Diagnose, Flottenmanagement, Monitoring und Support aus der Ferne.",
+      "score": 45,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "analysis",
+        "people leadership",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-robotics-tooling-munich-104636"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "EPM Solution Architect (Supply Chain)",
+      "company": "adyen",
+      "location": "Amsterdam",
+      "blurb": "p strong This is Adyen /strong /p p span style= font-weight: 400; Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H…",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "EU location"
+      ],
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8105598"
+    },
+    {
+      "sentAt": "2026-10-23T16:13:29.419Z",
+      "title": "Lead Software Architect",
+      "company": "nice",
+      "location": "n/a",
+      "blurb": "div class= content-intro p At NiCE, we don’t limit our challenges. And if you’re like us, we can offer you the ultimate career opportunity that will light a fire within you. /p…",
+      "score": 44,
+      "reasons": [
+        "target title",
+        "REST",
+        "system design",
+        "people leadership",
+        "agents",
+        "agent workflow design"
+      ],
+      "url": "https://www.arbeitnow.com/view/lead-software-architect-394758"
     }
   ]
 }
