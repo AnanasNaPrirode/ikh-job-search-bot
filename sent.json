@@ -6580,6 +6580,45 @@
         "agent workflow design"
       ],
       "url": "https://www.arbeitnow.com/view/lead-software-architect-394758"
+    },
+    {
+      "sentAt": "2026-10-23T22:48:01.678Z",
+      "title": "Software Engineering Manager - Global UX - Applications - Platform",
+      "company": "elastic",
+      "location": "Spain",
+      "blurb": "div class= content-intro p Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential…",
+      "score": 62,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "platform in title",
+        "analysis",
+        "eng management",
+        "modern stack",
+        "EU location",
+        "Spain-eligible",
+        "+2 other locations"
+      ],
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8301334&gh_jid=8301334"
+    },
+    {
+      "sentAt": "2026-10-23T22:48:01.678Z",
+      "title": "Engineering Manager, Cohere APIs and DevEx",
+      "company": "cohere",
+      "location": "Toronto",
+      "blurb": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world…",
+      "score": 54,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "API in title",
+        "analysis",
+        "people leadership",
+        "LLM",
+        "eng management",
+        "modern stack"
+      ],
+      "url": "https://jobs.ashbyhq.com/cohere/dca93d1a-9ab8-442b-aa76-950595e8b9c3"
     }
   ]
 }

@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-10-23T16:13:29.419Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-10-23T22:48:01.678Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 172/178 boards responding (97%) · 11726 postings → 686 matching titles → 9 above 40
+**RED** · 173/178 boards responding (97%) · 11832 postings → 690 matching titles → 2 above 40
 
 ## Down
 
@@ -11,7 +11,6 @@ Generated 2026-10-23T16:13:29.419Z by `radar.mjs` — do not edit, it is overwri
 | greenhouse | remotecom | 404 | 0 |
 | greenhouse | amplitude | 404 | 0 |
 | greenhouse | deepmind | 404 | 0 |
-| lever | aircall | The operation was aborted due to timeout | 0 |
 | personio | alasco | 404 | 0 |
 | personio | adverity | 404 | 0 |
 
@@ -39,11 +38,11 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5844 |
-| ashby | 52 | 52 | 4087 |
+| greenhouse | 47 | 44 | 5866 |
+| ashby | 52 | 52 | 4094 |
 | personio | 10 | 8 | 331 |
+| lever | 6 | 6 | 319 |
 | arbeitnow | 1 | 1 | 300 |
-| lever | 6 | 5 | 242 |
 | teamtailor | 12 | 12 | 183 |
 | getro | 8 | 8 | 160 |
 | recruitee | 6 | 6 | 116 |
