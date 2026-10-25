@@ -30,14 +30,14 @@ const MAX_PER_RUN = Number(process.env.MAX_PER_RUN || 12);
 // The next live run posts this once, then remembers it in seen.json, so the chat
 // has a divider: cards above are the old rules, cards below are the new ones.
 const LOGIC_BUILD = {
-  id: '2026-10-08-ru-abroad-ats',
+  id: '2026-10-25-analyst-only',
   text: [
     'Сборка новой логики отбора',
     '',
     'Вакансии ниже — уже по новым правилам. То, что выше в чате, можно не смотреть.',
     '',
-    '• в радар добавлены публичные ATS русских компаний за рубежом (ManyChat, Plata, JetBrains, Wrike, Mapbox, Miro…)',
-    '• LinkedIn / Workday / «просто карьерный сайт» бот по-прежнему не открывает — только JSON-доски',
+    '• остался один трек: Lead / Senior Systems Analyst, Technical Business Analyst, Business Systems Analyst, Senior/Lead Business Analyst',
+    '• Architect, AI Architect, Engineering Manager, Tech Lead и TPM больше не присылаются',
   ].join('\n'),
 };
 
@@ -100,7 +100,7 @@ if (!Array.isArray(sentLog.sent)) sentLog.sent = [];
 
 if (!DRY && seenBefore === 0) {
   await telegram(
-    'Jobs Radar is live. Scanning boards for Solution Architect, AI Solutions Architect, Engineering Manager and Lead Systems Analyst roles…',
+    'Jobs Radar is live. Scanning boards for Lead Systems Analyst and Technical Business Analyst roles…',
   );
 }
 

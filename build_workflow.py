@@ -673,6 +673,7 @@ const TITLE_BASE = [
   'technical delivery manager', 'product delivery manager',
   'engineering delivery manager', 'software delivery manager', 'it delivery manager',
 ];
+const TRACK_ANALYST = /\b(systems?|solutions?|functional|requirements|technical|it) analyst\b|business systems analyst|technical business analyst|(lead|senior|sr\.?) (it |technical )?business analyst|\bit business analyst|requirements engineer|systemanalytiker|analista funcional|analista de sistemas/i;
 const TITLE_TPM = /\btpm\b|\btipm\b/i;
 const TITLE_AI = [
   'ai architect', 'ml architect', 'llm architect', 'genai architect',
@@ -940,18 +941,12 @@ for (const item of $input.all()) {
   const loc = j.location || '';
   const desc = j.description || '';
 
-  // Gate 1: must match one of the four CV tracks (architect / AI architect / EM / systems analyst).
-  // Seniority words like "staff" must NOT open the gate on their own — otherwise
-  // "Staff Software Engineer" would score as a lead target role.
-  const isAi = TITLE_AI.some((t) => title.includes(t));
-  const isPlatform = TITLE_PLATFORM.some((t) => title.includes(t));
-  const isTarget = TITLE_LEAD.some((t) => title.includes(t))
-    || TITLE_SENIOR.some((t) => title.includes(t))
-    || isAi || isPlatform
-    || TITLE_BASE.some((t) => title.includes(t))
-    // The abbreviation alone must not open the gate on an engineer title: Amazon
-    // posts "Sr Mechanical Engineer, TIPM, Global Building Design & Engineering".
-    || (TITLE_TPM.test(title) && !/\bengineer\b/.test(title));
+  // Gate 1: ONE track since 2026-10-25 -- Lead Systems Analyst / Technical Business
+  // Analyst. Architect / AI-architect / EM / Tech Lead / TPM tracks are closed.
+  // A bare "Business Analyst" does not open the gate; Senior/Lead Business Analyst does.
+  const isAi = false;
+  const isPlatform = false;
+  const isTarget = TRACK_ANALYST.test(title);
   if (!isTarget) continue;
 
   // Gate 2: right-shaped but wrong track.
