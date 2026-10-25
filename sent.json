@@ -6636,6 +6636,115 @@
         "-US-remote"
       ],
       "url": "https://himalayas.app/companies/bright-vision-technologies/jobs/api-solutions-architect-8859357071?utm_source=api"
+    },
+    {
+      "sentAt": "2026-10-25T08:52:06.818Z",
+      "title": "AI Solution Architect",
+      "company": "Itility B.V.",
+      "location": "Eindhoven, Noord-Brabant, Netherlands",
+      "blurb": "Een LLM aanroepen via een API is eenvoudig. Een AI-platform ontwerpen dat veilig, schaalbaar, observeerbaar en kostenefficiënt in productie draait, is iets anders.",
+      "score": 100,
+      "reasons": [
+        "target title",
+        "AI role",
+        "platform role",
+        "AI solutions architect in title",
+        "solution architect in title",
+        "AI in title",
+        "REST",
+        "Python/FastAPI",
+        "data modeling",
+        "agents",
+        "LLM",
+        "RAG",
+        "agent workflow design",
+        "EU location",
+        "agentic practice"
+      ],
+      "url": "https://www.arbeitnow.com/view/ai-solution-architect-eindhoven-352116"
+    },
+    {
+      "sentAt": "2026-10-25T08:52:06.818Z",
+      "title": "Dynamics 365 CRM Solution Architect",
+      "company": "SwissPeak Partners GmbH",
+      "location": "Zurich, Zürich, Switzerland",
+      "blurb": "",
+      "score": 60,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "data modeling",
+        "analysis",
+        "people leadership",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/dynamics-365-crm-solution-architect-zurich-313467"
+    },
+    {
+      "sentAt": "2026-10-25T08:52:06.818Z",
+      "title": "Solution Architect",
+      "company": "SwissPeak Partners GmbH",
+      "location": "Zurich, Zürich, Switzerland",
+      "blurb": "For a renowned Swiss bank in Zurich, we are looking for an experienced solution architect for new platforms in digital onboarding, sales and core banking.",
+      "score": 49,
+      "reasons": [
+        "target title",
+        "platform role",
+        "solution architect in title",
+        "system design",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/solution-architect-zurich-111138"
+    },
+    {
+      "sentAt": "2026-10-25T08:52:06.818Z",
+      "title": "Senior SAP Integration Architect",
+      "company": "SwissPeak Partners GmbH",
+      "location": "Zurich, Zürich, Switzerland",
+      "blurb": "",
+      "score": 48,
+      "reasons": [
+        "senior title",
+        "platform role",
+        "integration architect in title",
+        "integration architecture",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-sap-integration-architect-zurich-310147"
+    },
+    {
+      "sentAt": "2026-10-25T08:52:06.818Z",
+      "title": "Engineering Manager",
+      "company": "Sunday Gmbh",
+      "location": "Hamburg",
+      "blurb": "We turn idle moments into meaningful connections for millions of users worldwide. We build accessible worlds where players don't just solve puzzles, they rescue friends.",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "people leadership",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-hamburg-316393"
+    },
+    {
+      "sentAt": "2026-10-25T08:52:06.818Z",
+      "title": "Engineering Manager Embedded",
+      "company": "Qwello.eu",
+      "location": "Munich, Bavaria",
+      "blurb": "We know their needs and deliver results they love. We design, build and operate charging infrastructure for the public space.",
+      "score": 46,
+      "reasons": [
+        "target title",
+        "engineering manager in title",
+        "Python/FastAPI",
+        "eng management",
+        "EU location"
+      ],
+      "url": "https://www.arbeitnow.com/view/engineering-manager-embedded-munich-bavaria-210410"
     }
   ]
 }
