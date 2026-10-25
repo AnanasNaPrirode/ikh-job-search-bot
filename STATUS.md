@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-10-24T22:10:36.499Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-10-25T02:30:00.837Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 173/178 boards responding (97%) · 11826 postings → 686 matching titles → 0 above 40
+**RED** · 173/178 boards responding (97%) · 11826 postings → 685 matching titles → 0 above 40
 
 ## Down
 
