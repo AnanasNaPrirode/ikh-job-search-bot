@@ -6765,6 +6765,43 @@
         "-stale 530d"
       ],
       "url": "https://plata.careers/vacancy/details?id=4686542008&gh_jid=4686542008"
+    },
+    {
+      "sentAt": "2026-10-27T23:24:59.261Z",
+      "title": "Senior business analyst - deadline 03/11/2026",
+      "company": "AlmavivA de Belgique",
+      "location": "Amsterdam, Noord-Holland, Netherlands",
+      "blurb": "Job description : We are looking for an experienced Business Analyst to work closely with Product Owners, business stakeholders, Subject Matter Experts (SMEs), and technical…",
+      "score": 56,
+      "reasons": [
+        "senior title",
+        "data modeling",
+        "analysis",
+        "agents",
+        "EU location",
+        "daily AI tooling",
+        "requires hands-on AI tooling"
+      ],
+      "url": "https://www.arbeitnow.com/view/senior-business-analyst-deadline-03-11-2026-amsterdam-94749"
+    },
+    {
+      "sentAt": "2026-10-27T23:24:59.261Z",
+      "title": "Senior People Systems Analyst",
+      "company": "harvey",
+      "location": "Remote",
+      "blurb": "WHY HARVEY At Harvey, we’re transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise…",
+      "score": 50,
+      "reasons": [
+        "senior title",
+        "systems analyst in title",
+        "RBAC",
+        "analysis",
+        "people leadership",
+        "agents",
+        "remote",
+        "+1 other location"
+      ],
+      "url": "https://jobs.ashbyhq.com/harvey/6a0e78a0-e797-449d-8d6c-c20c9bfa214d"
     }
   ]
 }
