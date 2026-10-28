@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-10-28T10:13:26.228Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-10-28T17:43:34.847Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 173/178 boards responding (97%) · 11752 postings → 18 matching titles → 0 above 40
+**RED** · 172/178 boards responding (97%) · 11734 postings → 17 matching titles → 0 above 40
 
 ## Down
 
@@ -11,6 +11,7 @@ Generated 2026-10-28T10:13:26.228Z by `radar.mjs` — do not edit, it is overwri
 | greenhouse | remotecom | 404 | 0 |
 | greenhouse | amplitude | 404 | 0 |
 | greenhouse | deepmind | 404 | 0 |
+| ashby | vivid | 404 | 0 |
 | personio | alasco | 404 | 0 |
 | personio | adverity | 404 | 0 |
 
@@ -23,7 +24,9 @@ board that should always have jobs.
 | ATS | Board | HTTP | Postings |
 |---|---|---|---|
 | ashby | langfuse | 200 | 0 |
+| ashby | choco | 200 | 0 |
 | personio | celus | 200 | 0 |
+| personio | personio | 200 | 0 |
 | pinpoint | quantexa | 200 | 0 |
 | pinpoint | marshmallow | 200 | 0 |
 | smartrecruiters | DeliveryHero | 200 | 0 |
@@ -38,20 +41,20 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5800 |
-| ashby | 52 | 52 | 4077 |
-| personio | 10 | 8 | 340 |
-| lever | 6 | 6 | 313 |
+| greenhouse | 47 | 44 | 5786 |
+| ashby | 52 | 51 | 4078 |
+| personio | 10 | 8 | 337 |
+| lever | 6 | 6 | 312 |
 | arbeitnow | 1 | 1 | 300 |
-| teamtailor | 12 | 12 | 179 |
+| teamtailor | 12 | 12 | 178 |
 | getro | 8 | 8 | 160 |
-| recruitee | 6 | 6 | 113 |
+| recruitee | 6 | 6 | 114 |
 | jobicy | 1 | 1 | 100 |
 | remoteok | 1 | 1 | 99 |
-| workable | 5 | 5 | 61 |
+| workable | 5 | 5 | 62 |
 | workingnomads | 1 | 1 | 41 |
 | themuse | 2 | 2 | 40 |
-| amazon | 5 | 5 | 33 |
+| amazon | 5 | 5 | 31 |
 | smartrecruiters | 9 | 9 | 27 |
 | wwr | 1 | 1 | 25 |
 | himalayas | 1 | 1 | 20 |
