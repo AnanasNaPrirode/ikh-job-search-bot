@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-02T21:11:02.555Z",
+  "generatedAt": "2026-11-03T04:44:15.554Z",
   "dryRun": false,
   "totals": {
     "sources": 178,
     "ok": 172,
     "down": 6,
     "liveButEmpty": 13,
-    "postings": 11691,
+    "postings": 11674,
     "archTitled": 21,
-    "aboveThreshold": 2,
+    "aboveThreshold": 0,
     "threshold": 40
   },
   "sources": [
@@ -19,7 +19,7 @@
       "http": 200,
       "ok": true,
       "bytes": 316475,
-      "ms": 350,
+      "ms": 279,
       "postings": 24
     },
     {
@@ -28,8 +28,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 3662928,
-      "ms": 165,
+      "bytes": 3662386,
+      "ms": 143,
       "postings": 234
     },
     {
@@ -38,9 +38,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 8293254,
-      "ms": 303,
-      "postings": 415
+      "bytes": 8221424,
+      "ms": 232,
+      "postings": 409
     },
     {
       "kind": "greenhouse",
@@ -48,9 +48,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 832486,
-      "ms": 87,
-      "postings": 90
+      "bytes": 822749,
+      "ms": 90,
+      "postings": 89
     },
     {
       "kind": "greenhouse",
@@ -58,9 +58,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 158633,
-      "ms": 62,
-      "postings": 11
+      "bytes": 144271,
+      "ms": 58,
+      "postings": 10
     },
     {
       "kind": "greenhouse",
@@ -68,8 +68,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 9898132,
-      "ms": 348,
+      "bytes": 9898230,
+      "ms": 467,
       "postings": 677
     },
     {
@@ -78,8 +78,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 5001422,
-      "ms": 189,
+      "bytes": 5001529,
+      "ms": 178,
       "postings": 405
     },
     {
@@ -88,8 +88,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 1865480,
-      "ms": 116,
+      "bytes": 1865623,
+      "ms": 101,
       "postings": 134
     },
     {
@@ -98,9 +98,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 8367401,
-      "ms": 347,
-      "postings": 471
+      "bytes": 8336228,
+      "ms": 264,
+      "postings": 469
     },
     {
       "kind": "greenhouse",
@@ -108,8 +108,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 1640079,
-      "ms": 104,
+      "bytes": 1639383,
+      "ms": 108,
       "postings": 141
     },
     {
@@ -119,7 +119,7 @@
       "http": 200,
       "ok": true,
       "bytes": 47569,
-      "ms": 59,
+      "ms": 56,
       "postings": 5
     },
     {
@@ -129,7 +129,7 @@
       "http": 200,
       "ok": true,
       "bytes": 334824,
-      "ms": 73,
+      "ms": 69,
       "postings": 29
     },
     {
@@ -139,7 +139,7 @@
       "http": 200,
       "ok": true,
       "bytes": 137369,
-      "ms": 59,
+      "ms": 55,
       "postings": 11
     },
     {
@@ -148,8 +148,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 4085995,
-      "ms": 205,
+      "bytes": 4086010,
+      "ms": 179,
       "postings": 358
     },
     {
@@ -159,7 +159,7 @@
       "http": 200,
       "ok": true,
       "bytes": 26564,
-      "ms": 61,
+      "ms": 58,
       "postings": 2
     },
     {
@@ -169,7 +169,7 @@
       "http": 200,
       "ok": true,
       "bytes": 30,
-      "ms": 55,
+      "ms": 51,
       "postings": 0
     },
     {
@@ -179,7 +179,7 @@
       "http": 200,
       "ok": true,
       "bytes": 866916,
-      "ms": 81,
+      "ms": 79,
       "postings": 62
     },
     {
@@ -189,7 +189,7 @@
       "http": 200,
       "ok": true,
       "bytes": 93146,
-      "ms": 52,
+      "ms": 63,
       "postings": 19
     },
     {
@@ -198,9 +198,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/adyen/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 2262766,
-      "ms": 115,
-      "postings": 242
+      "bytes": 2273249,
+      "ms": 103,
+      "postings": 243
     },
     {
       "kind": "greenhouse",
@@ -209,7 +209,7 @@
       "http": 404,
       "ok": false,
       "bytes": 38,
-      "ms": 61,
+      "ms": 52,
       "postings": 0
     },
     {
@@ -218,9 +218,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/mixpanel/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 595703,
-      "ms": 72,
-      "postings": 43
+      "bytes": 581498,
+      "ms": 76,
+      "postings": 42
     },
     {
       "kind": "greenhouse",
@@ -229,7 +229,7 @@
       "http": 200,
       "ok": true,
       "bytes": 297467,
-      "ms": 73,
+      "ms": 66,
       "postings": 33
     },
     {
@@ -239,7 +239,7 @@
       "http": 200,
       "ok": true,
       "bytes": 3746714,
-      "ms": 204,
+      "ms": 141,
       "postings": 355
     },
     {
@@ -249,7 +249,7 @@
       "http": 200,
       "ok": true,
       "bytes": 277637,
-      "ms": 68,
+      "ms": 61,
       "postings": 28
     },
     {
@@ -259,7 +259,7 @@
       "http": 200,
       "ok": true,
       "bytes": 437530,
-      "ms": 92,
+      "ms": 66,
       "postings": 57
     },
     {
@@ -269,7 +269,7 @@
       "http": 200,
       "ok": true,
       "bytes": 55099,
-      "ms": 61,
+      "ms": 55,
       "postings": 3
     },
     {
@@ -278,9 +278,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 4265981,
-      "ms": 189,
-      "postings": 233
+      "bytes": 4219210,
+      "ms": 196,
+      "postings": 231
     },
     {
       "kind": "greenhouse",
@@ -289,7 +289,7 @@
       "http": 200,
       "ok": true,
       "bytes": 53364,
-      "ms": 59,
+      "ms": 60,
       "postings": 2
     },
     {
@@ -299,7 +299,7 @@
       "http": 200,
       "ok": true,
       "bytes": 498691,
-      "ms": 106,
+      "ms": 66,
       "postings": 45
     },
     {
@@ -309,7 +309,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1515835,
-      "ms": 156,
+      "ms": 88,
       "postings": 94
     },
     {
@@ -319,7 +319,7 @@
       "http": 200,
       "ok": true,
       "bytes": 397736,
-      "ms": 72,
+      "ms": 62,
       "postings": 26
     },
     {
@@ -329,7 +329,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1314854,
-      "ms": 124,
+      "ms": 86,
       "postings": 109
     },
     {
@@ -339,7 +339,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1879594,
-      "ms": 104,
+      "ms": 99,
       "postings": 124
     },
     {
@@ -349,7 +349,7 @@
       "http": 404,
       "ok": false,
       "bytes": 38,
-      "ms": 60,
+      "ms": 53,
       "postings": 0
     },
     {
@@ -359,7 +359,7 @@
       "http": 200,
       "ok": true,
       "bytes": 330970,
-      "ms": 89,
+      "ms": 63,
       "postings": 33
     },
     {
@@ -369,7 +369,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1394358,
-      "ms": 86,
+      "ms": 74,
       "postings": 147
     },
     {
@@ -378,9 +378,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/jetbrains/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 403361,
-      "ms": 68,
-      "postings": 42
+      "bytes": 393512,
+      "ms": 69,
+      "postings": 41
     },
     {
       "kind": "greenhouse",
@@ -389,7 +389,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1153857,
-      "ms": 83,
+      "ms": 135,
       "postings": 70
     },
     {
@@ -398,9 +398,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/nebius/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 6755729,
-      "ms": 212,
-      "postings": 379
+      "bytes": 6771085,
+      "ms": 214,
+      "postings": 380
     },
     {
       "kind": "greenhouse",
@@ -409,7 +409,7 @@
       "http": 200,
       "ok": true,
       "bytes": 283284,
-      "ms": 60,
+      "ms": 58,
       "postings": 28
     },
     {
@@ -418,8 +418,8 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/orioninnovation/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 673196,
-      "ms": 79,
+      "bytes": 673143,
+      "ms": 76,
       "postings": 65
     },
     {
@@ -429,7 +429,7 @@
       "http": 200,
       "ok": true,
       "bytes": 206213,
-      "ms": 60,
+      "ms": 57,
       "postings": 15
     },
     {
@@ -438,9 +438,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/xometry/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 3544164,
-      "ms": 157,
-      "postings": 239
+      "bytes": 3484982,
+      "ms": 131,
+      "postings": 235
     },
     {
       "kind": "greenhouse",
@@ -449,7 +449,7 @@
       "http": 200,
       "ok": true,
       "bytes": 3716,
-      "ms": 54,
+      "ms": 59,
       "postings": 1
     },
     {
@@ -459,7 +459,7 @@
       "http": 200,
       "ok": true,
       "bytes": 366481,
-      "ms": 87,
+      "ms": 66,
       "postings": 44
     },
     {
@@ -469,7 +469,7 @@
       "http": 200,
       "ok": true,
       "bytes": 43617,
-      "ms": 78,
+      "ms": 60,
       "postings": 6
     },
     {
@@ -478,9 +478,9 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/veeamsoftware/jobs?content=true",
       "http": 200,
       "ok": true,
-      "bytes": 3915315,
-      "ms": 159,
-      "postings": 202
+      "bytes": 3874743,
+      "ms": 132,
+      "postings": 200
     },
     {
       "kind": "ashby",
@@ -489,7 +489,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1149950,
-      "ms": 185,
+      "ms": 145,
       "postings": 51
     },
     {
@@ -499,7 +499,7 @@
       "http": 200,
       "ok": true,
       "bytes": 428792,
-      "ms": 34,
+      "ms": 25,
       "postings": 31
     },
     {
@@ -508,9 +508,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/ramp",
       "http": 200,
       "ok": true,
-      "bytes": 2862499,
-      "ms": 79,
-      "postings": 171
+      "bytes": 2839390,
+      "ms": 67,
+      "postings": 170
     },
     {
       "kind": "ashby",
@@ -518,8 +518,8 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/openai",
       "http": 200,
       "ok": true,
-      "bytes": 13399393,
-      "ms": 587,
+      "bytes": 13414968,
+      "ms": 364,
       "postings": 805
     },
     {
@@ -528,9 +528,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/perplexity",
       "http": 200,
       "ok": true,
-      "bytes": 1190815,
-      "ms": 49,
-      "postings": 137
+      "bytes": 1184419,
+      "ms": 69,
+      "postings": 136
     },
     {
       "kind": "ashby",
@@ -538,9 +538,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/langchain",
       "http": 200,
       "ok": true,
-      "bytes": 1342462,
-      "ms": 43,
-      "postings": 100
+      "bytes": 1376409,
+      "ms": 35,
+      "postings": 102
     },
     {
       "kind": "ashby",
@@ -548,8 +548,8 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/replit",
       "http": 200,
       "ok": true,
-      "bytes": 499564,
-      "ms": 32,
+      "bytes": 498201,
+      "ms": 34,
       "postings": 34
     },
     {
@@ -559,7 +559,7 @@
       "http": 200,
       "ok": true,
       "bytes": 933882,
-      "ms": 38,
+      "ms": 32,
       "postings": 69
     },
     {
@@ -569,7 +569,7 @@
       "http": 200,
       "ok": true,
       "bytes": 197545,
-      "ms": 33,
+      "ms": 24,
       "postings": 10
     },
     {
@@ -579,7 +579,7 @@
       "http": 200,
       "ok": true,
       "bytes": 78501,
-      "ms": 27,
+      "ms": 23,
       "postings": 9
     },
     {
@@ -588,9 +588,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/cohere",
       "http": 200,
       "ok": true,
-      "bytes": 1984842,
-      "ms": 109,
-      "postings": 119
+      "bytes": 1999479,
+      "ms": 78,
+      "postings": 120
     },
     {
       "kind": "ashby",
@@ -598,9 +598,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
       "http": 200,
       "ok": true,
-      "bytes": 2070532,
-      "ms": 68,
-      "postings": 145
+      "bytes": 2087742,
+      "ms": 57,
+      "postings": 146
     },
     {
       "kind": "ashby",
@@ -609,7 +609,7 @@
       "http": 200,
       "ok": true,
       "bytes": 662448,
-      "ms": 41,
+      "ms": 28,
       "postings": 46
     },
     {
@@ -619,7 +619,7 @@
       "http": 200,
       "ok": true,
       "bytes": 3906241,
-      "ms": 77,
+      "ms": 95,
       "postings": 219
     },
     {
@@ -629,7 +629,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1672100,
-      "ms": 92,
+      "ms": 42,
       "postings": 132
     },
     {
@@ -638,9 +638,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/vanta",
       "http": 200,
       "ok": true,
-      "bytes": 1242403,
-      "ms": 54,
-      "postings": 78
+      "bytes": 1288041,
+      "ms": 36,
+      "postings": 81
     },
     {
       "kind": "ashby",
@@ -648,9 +648,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/cursor",
       "http": 200,
       "ok": true,
-      "bytes": 1205795,
-      "ms": 47,
-      "postings": 124
+      "bytes": 1196503,
+      "ms": 145,
+      "postings": 123
     },
     {
       "kind": "ashby",
@@ -659,7 +659,7 @@
       "http": 200,
       "ok": true,
       "bytes": 891384,
-      "ms": 47,
+      "ms": 79,
       "postings": 80
     },
     {
@@ -668,9 +668,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/harvey",
       "http": 200,
       "ok": true,
-      "bytes": 4939261,
-      "ms": 81,
-      "postings": 377
+      "bytes": 4892500,
+      "ms": 90,
+      "postings": 374
     },
     {
       "kind": "ashby",
@@ -679,7 +679,7 @@
       "http": 200,
       "ok": true,
       "bytes": 703872,
-      "ms": 79,
+      "ms": 80,
       "postings": 46
     },
     {
@@ -689,7 +689,7 @@
       "http": 200,
       "ok": true,
       "bytes": 271658,
-      "ms": 47,
+      "ms": 27,
       "postings": 16
     },
     {
@@ -699,7 +699,7 @@
       "http": 200,
       "ok": true,
       "bytes": 133508,
-      "ms": 68,
+      "ms": 38,
       "postings": 9
     },
     {
@@ -719,7 +719,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2310684,
-      "ms": 81,
+      "ms": 60,
       "postings": 150
     },
     {
@@ -729,7 +729,7 @@
       "http": 200,
       "ok": true,
       "bytes": 5286192,
-      "ms": 89,
+      "ms": 121,
       "postings": 179
     },
     {
@@ -739,7 +739,7 @@
       "http": 200,
       "ok": true,
       "bytes": 159086,
-      "ms": 77,
+      "ms": 24,
       "postings": 12
     },
     {
@@ -749,7 +749,7 @@
       "http": 200,
       "ok": true,
       "bytes": 18901,
-      "ms": 62,
+      "ms": 152,
       "postings": 2
     },
     {
@@ -759,7 +759,7 @@
       "http": 200,
       "ok": true,
       "bytes": 389235,
-      "ms": 36,
+      "ms": 29,
       "postings": 42
     },
     {
@@ -769,7 +769,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1366259,
-      "ms": 47,
+      "ms": 45,
       "postings": 103
     },
     {
@@ -779,7 +779,7 @@
       "http": 200,
       "ok": true,
       "bytes": 19469,
-      "ms": 29,
+      "ms": 21,
       "postings": 2
     },
     {
@@ -789,7 +789,7 @@
       "http": 200,
       "ok": true,
       "bytes": 28,
-      "ms": 203,
+      "ms": 25,
       "postings": 0
     },
     {
@@ -799,7 +799,7 @@
       "http": 200,
       "ok": true,
       "bytes": 237827,
-      "ms": 38,
+      "ms": 23,
       "postings": 29
     },
     {
@@ -809,7 +809,7 @@
       "http": 200,
       "ok": true,
       "bytes": 183408,
-      "ms": 39,
+      "ms": 24,
       "postings": 9
     },
     {
@@ -819,7 +819,7 @@
       "http": 200,
       "ok": true,
       "bytes": 141006,
-      "ms": 62,
+      "ms": 30,
       "postings": 7
     },
     {
@@ -829,7 +829,7 @@
       "http": 200,
       "ok": true,
       "bytes": 32922,
-      "ms": 31,
+      "ms": 42,
       "postings": 3
     },
     {
@@ -839,7 +839,7 @@
       "http": 200,
       "ok": true,
       "bytes": 410534,
-      "ms": 33,
+      "ms": 36,
       "postings": 33
     },
     {
@@ -849,7 +849,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4328529,
-      "ms": 88,
+      "ms": 154,
       "postings": 305
     },
     {
@@ -859,7 +859,7 @@
       "http": 200,
       "ok": true,
       "bytes": 379256,
-      "ms": 93,
+      "ms": 27,
       "postings": 21
     },
     {
@@ -869,7 +869,7 @@
       "http": 200,
       "ok": true,
       "bytes": 214215,
-      "ms": 40,
+      "ms": 22,
       "postings": 22
     },
     {
@@ -879,7 +879,7 @@
       "http": 200,
       "ok": true,
       "bytes": 219875,
-      "ms": 30,
+      "ms": 22,
       "postings": 23
     },
     {
@@ -889,7 +889,7 @@
       "http": 200,
       "ok": true,
       "bytes": 711538,
-      "ms": 41,
+      "ms": 34,
       "postings": 32
     },
     {
@@ -899,7 +899,7 @@
       "http": 200,
       "ok": true,
       "bytes": 11871,
-      "ms": 57,
+      "ms": 22,
       "postings": 1
     },
     {
@@ -909,7 +909,7 @@
       "http": 200,
       "ok": true,
       "bytes": 227504,
-      "ms": 58,
+      "ms": 61,
       "postings": 16
     },
     {
@@ -919,7 +919,7 @@
       "http": 200,
       "ok": true,
       "bytes": 32376,
-      "ms": 57,
+      "ms": 29,
       "postings": 3
     },
     {
@@ -929,7 +929,7 @@
       "http": 404,
       "ok": false,
       "bytes": 9,
-      "ms": 64,
+      "ms": 26,
       "postings": 0
     },
     {
@@ -939,7 +939,7 @@
       "http": 200,
       "ok": true,
       "bytes": 219645,
-      "ms": 34,
+      "ms": 25,
       "postings": 18
     },
     {
@@ -949,7 +949,7 @@
       "http": 200,
       "ok": true,
       "bytes": 119310,
-      "ms": 61,
+      "ms": 75,
       "postings": 8
     },
     {
@@ -959,7 +959,7 @@
       "http": 200,
       "ok": true,
       "bytes": 592041,
-      "ms": 61,
+      "ms": 37,
       "postings": 36
     },
     {
@@ -969,7 +969,7 @@
       "http": 200,
       "ok": true,
       "bytes": 98551,
-      "ms": 77,
+      "ms": 55,
       "postings": 8
     },
     {
@@ -979,7 +979,7 @@
       "http": 200,
       "ok": true,
       "bytes": 154219,
-      "ms": 65,
+      "ms": 25,
       "postings": 16
     },
     {
@@ -989,7 +989,7 @@
       "http": 200,
       "ok": true,
       "bytes": 59694,
-      "ms": 34,
+      "ms": 20,
       "postings": 7
     },
     {
@@ -998,9 +998,9 @@
       "url": "https://api.ashbyhq.com/posting-api/job-board/humanoid",
       "http": 200,
       "ok": true,
-      "bytes": 1184430,
-      "ms": 52,
-      "postings": 95
+      "bytes": 1193376,
+      "ms": 45,
+      "postings": 96
     },
     {
       "kind": "recruitee",
@@ -1019,7 +1019,7 @@
       "http": 200,
       "ok": true,
       "bytes": 346349,
-      "ms": 316,
+      "ms": 337,
       "postings": 13
     },
     {
@@ -1029,7 +1029,7 @@
       "http": 200,
       "ok": true,
       "bytes": 781161,
-      "ms": 514,
+      "ms": 378,
       "postings": 27
     },
     {
@@ -1039,7 +1039,7 @@
       "http": 200,
       "ok": true,
       "bytes": 38300,
-      "ms": 204,
+      "ms": 267,
       "postings": 2
     },
     {
@@ -1049,7 +1049,7 @@
       "http": 200,
       "ok": true,
       "bytes": 958546,
-      "ms": 503,
+      "ms": 450,
       "postings": 50
     },
     {
@@ -1059,7 +1059,7 @@
       "http": 200,
       "ok": true,
       "bytes": 259479,
-      "ms": 333,
+      "ms": 298,
       "postings": 15
     },
     {
@@ -1068,9 +1068,9 @@
       "url": "https://api.lever.co/v0/postings/pigment?mode=json",
       "http": 200,
       "ok": true,
-      "bytes": 1978276,
-      "ms": 1553,
-      "postings": 130
+      "bytes": 1962079,
+      "ms": 693,
+      "postings": 129
     },
     {
       "kind": "lever",
@@ -1079,7 +1079,7 @@
       "http": 200,
       "ok": true,
       "bytes": 362249,
-      "ms": 74,
+      "ms": 67,
       "postings": 20
     },
     {
@@ -1089,7 +1089,7 @@
       "http": 404,
       "ok": false,
       "bytes": 41,
-      "ms": 58,
+      "ms": 56,
       "postings": 0
     },
     {
@@ -1099,7 +1099,7 @@
       "http": 200,
       "ok": true,
       "bytes": 300994,
-      "ms": 204,
+      "ms": 72,
       "postings": 16
     },
     {
@@ -1109,7 +1109,7 @@
       "http": 200,
       "ok": true,
       "bytes": 747249,
-      "ms": 214,
+      "ms": 119,
       "postings": 61
     },
     {
@@ -1119,7 +1119,7 @@
       "http": 200,
       "ok": true,
       "bytes": 109174,
-      "ms": 351,
+      "ms": 352,
       "postings": 11
     },
     {
@@ -1129,7 +1129,7 @@
       "http": 200,
       "ok": true,
       "bytes": 4291,
-      "ms": 110,
+      "ms": 166,
       "postings": 6
     },
     {
@@ -1139,7 +1139,7 @@
       "http": 200,
       "ok": true,
       "bytes": 9159,
-      "ms": 82,
+      "ms": 88,
       "postings": 13
     },
     {
@@ -1149,7 +1149,7 @@
       "http": 200,
       "ok": true,
       "bytes": 14407,
-      "ms": 99,
+      "ms": 117,
       "postings": 20
     },
     {
@@ -1159,7 +1159,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1165,
-      "ms": 111,
+      "ms": 77,
       "postings": 1
     },
     {
@@ -1169,7 +1169,7 @@
       "http": 200,
       "ok": true,
       "bytes": 16637,
-      "ms": 71,
+      "ms": 84,
       "postings": 22
     },
     {
@@ -1179,7 +1179,7 @@
       "http": 200,
       "ok": true,
       "bytes": 119414,
-      "ms": 757,
+      "ms": 825,
       "postings": 8
     },
     {
@@ -1189,7 +1189,7 @@
       "http": 200,
       "ok": true,
       "bytes": 212728,
-      "ms": 872,
+      "ms": 1071,
       "postings": 14
     },
     {
@@ -1199,7 +1199,7 @@
       "http": 200,
       "ok": true,
       "bytes": 86821,
-      "ms": 739,
+      "ms": 743,
       "postings": 4
     },
     {
@@ -1209,7 +1209,7 @@
       "http": 200,
       "ok": true,
       "bytes": 161503,
-      "ms": 683,
+      "ms": 832,
       "postings": 10
     },
     {
@@ -1219,7 +1219,7 @@
       "http": 200,
       "ok": true,
       "bytes": 183480,
-      "ms": 787,
+      "ms": 827,
       "postings": 14
     },
     {
@@ -1229,7 +1229,7 @@
       "http": 200,
       "ok": true,
       "bytes": 631581,
-      "ms": 880,
+      "ms": 1012,
       "postings": 53
     },
     {
@@ -1239,7 +1239,7 @@
       "http": 200,
       "ok": true,
       "bytes": 166727,
-      "ms": 776,
+      "ms": 730,
       "postings": 3
     },
     {
@@ -1249,7 +1249,7 @@
       "http": 200,
       "ok": true,
       "bytes": 40217,
-      "ms": 657,
+      "ms": 546,
       "postings": 2
     },
     {
@@ -1259,7 +1259,7 @@
       "http": 200,
       "ok": true,
       "bytes": 88572,
-      "ms": 674,
+      "ms": 672,
       "postings": 5
     },
     {
@@ -1268,8 +1268,8 @@
       "url": "https://investengine.teamtailor.com/jobs.json",
       "http": 200,
       "ok": true,
-      "bytes": 269466,
-      "ms": 758,
+      "bytes": 269487,
+      "ms": 872,
       "postings": 16
     },
     {
@@ -1279,7 +1279,7 @@
       "http": 200,
       "ok": true,
       "bytes": 228761,
-      "ms": 897,
+      "ms": 882,
       "postings": 10
     },
     {
@@ -1289,7 +1289,7 @@
       "http": 200,
       "ok": true,
       "bytes": 803290,
-      "ms": 1013,
+      "ms": 1019,
       "postings": 42
     },
     {
@@ -1299,7 +1299,7 @@
       "http": 200,
       "ok": true,
       "bytes": 128002,
-      "ms": 934,
+      "ms": 857,
       "postings": 8
     },
     {
@@ -1309,7 +1309,7 @@
       "http": 404,
       "ok": false,
       "bytes": 2472,
-      "ms": 485,
+      "ms": 793,
       "postings": 0
     },
     {
@@ -1319,7 +1319,7 @@
       "http": 200,
       "ok": true,
       "bytes": 38804,
-      "ms": 652,
+      "ms": 571,
       "postings": 9
     },
     {
@@ -1329,7 +1329,7 @@
       "http": 200,
       "ok": true,
       "bytes": 12455,
-      "ms": 598,
+      "ms": 501,
       "postings": 1
     },
     {
@@ -1339,7 +1339,7 @@
       "http": 200,
       "ok": true,
       "bytes": 2126,
-      "ms": 563,
+      "ms": 520,
       "postings": 2
     },
     {
@@ -1349,7 +1349,7 @@
       "http": 200,
       "ok": true,
       "bytes": 72,
-      "ms": 541,
+      "ms": 668,
       "postings": 0
     },
     {
@@ -1359,7 +1359,7 @@
       "http": 404,
       "ok": false,
       "bytes": 2472,
-      "ms": 91,
+      "ms": 122,
       "postings": 0
     },
     {
@@ -1368,8 +1368,8 @@
       "url": "https://1komma5grad.jobs.personio.de/xml",
       "http": 200,
       "ok": true,
-      "bytes": 2236454,
-      "ms": 1531,
+      "bytes": 2236433,
+      "ms": 1782,
       "postings": 321
     },
     {
@@ -1379,7 +1379,7 @@
       "http": 200,
       "ok": true,
       "bytes": 99988,
-      "ms": 755,
+      "ms": 787,
       "postings": 8
     },
     {
@@ -1389,7 +1389,7 @@
       "http": 200,
       "ok": true,
       "bytes": 72,
-      "ms": 563,
+      "ms": 586,
       "postings": 0
     },
     {
@@ -1399,7 +1399,7 @@
       "http": 200,
       "ok": true,
       "bytes": 30402,
-      "ms": 215,
+      "ms": 297,
       "postings": 20
     },
     {
@@ -1408,8 +1408,8 @@
       "url": "https://api.getro.com/api/v2/collections/36986/search/jobs",
       "http": 200,
       "ok": true,
-      "bytes": 27113,
-      "ms": 185,
+      "bytes": 27261,
+      "ms": 262,
       "postings": 20
     },
     {
@@ -1419,7 +1419,7 @@
       "http": 200,
       "ok": true,
       "bytes": 33552,
-      "ms": 172,
+      "ms": 125,
       "postings": 20
     },
     {
@@ -1429,7 +1429,7 @@
       "http": 200,
       "ok": true,
       "bytes": 29769,
-      "ms": 148,
+      "ms": 179,
       "postings": 20
     },
     {
@@ -1439,7 +1439,7 @@
       "http": 200,
       "ok": true,
       "bytes": 32139,
-      "ms": 246,
+      "ms": 149,
       "postings": 20
     },
     {
@@ -1449,7 +1449,7 @@
       "http": 200,
       "ok": true,
       "bytes": 33811,
-      "ms": 227,
+      "ms": 179,
       "postings": 20
     },
     {
@@ -1459,7 +1459,7 @@
       "http": 200,
       "ok": true,
       "bytes": 29488,
-      "ms": 164,
+      "ms": 182,
       "postings": 20
     },
     {
@@ -1469,7 +1469,7 @@
       "http": 200,
       "ok": true,
       "bytes": 28054,
-      "ms": 150,
+      "ms": 137,
       "postings": 20
     },
     {
@@ -1479,7 +1479,7 @@
       "http": 200,
       "ok": true,
       "bytes": 40255,
-      "ms": 582,
+      "ms": 666,
       "postings": 5
     },
     {
@@ -1489,7 +1489,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1536,
-      "ms": 172,
+      "ms": 162,
       "postings": 0
     },
     {
@@ -1499,7 +1499,7 @@
       "http": 200,
       "ok": true,
       "bytes": 40235,
-      "ms": 627,
+      "ms": 720,
       "postings": 5
     },
     {
@@ -1509,7 +1509,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1613,
-      "ms": 163,
+      "ms": 188,
       "postings": 0
     },
     {
@@ -1529,7 +1529,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1918,
-      "ms": 158,
+      "ms": 171,
       "postings": 0
     },
     {
@@ -1539,7 +1539,7 @@
       "http": 200,
       "ok": true,
       "bytes": 11,
-      "ms": 434,
+      "ms": 479,
       "postings": 0
     },
     {
@@ -1549,7 +1549,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1594,
-      "ms": 178,
+      "ms": 156,
       "postings": 0
     },
     {
@@ -1559,7 +1559,7 @@
       "http": 200,
       "ok": true,
       "bytes": 1038,
-      "ms": 698,
+      "ms": 708,
       "postings": 3
     },
     {
@@ -1569,7 +1569,7 @@
       "http": 200,
       "ok": true,
       "bytes": 36732,
-      "ms": 449,
+      "ms": 465,
       "postings": 16
     },
     {
@@ -1579,7 +1579,7 @@
       "http": 200,
       "ok": true,
       "bytes": 23280,
-      "ms": 406,
+      "ms": 387,
       "postings": 10
     },
     {
@@ -1589,7 +1589,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 378,
+      "ms": 368,
       "postings": 0
     },
     {
@@ -1599,7 +1599,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 364,
+      "ms": 349,
       "postings": 0
     },
     {
@@ -1609,7 +1609,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 372,
+      "ms": 371,
       "postings": 0
     },
     {
@@ -1619,7 +1619,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 375,
+      "ms": 370,
       "postings": 0
     },
     {
@@ -1629,7 +1629,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 413,
+      "ms": 362,
       "postings": 0
     },
     {
@@ -1639,7 +1639,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 363,
+      "ms": 360,
       "postings": 0
     },
     {
@@ -1649,7 +1649,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52,
-      "ms": 518,
+      "ms": 368,
       "postings": 0
     },
     {
@@ -1659,7 +1659,7 @@
       "http": 200,
       "ok": true,
       "bytes": 60185,
-      "ms": 368,
+      "ms": 408,
       "postings": 7
     },
     {
@@ -1668,8 +1668,8 @@
       "url": "https://www.amazon.jobs/en/search.json?base_query=technical%20program%20manager&normalized_country_code%5B%5D=GBR&sort=recent&result_limit=100",
       "http": 200,
       "ok": true,
-      "bytes": 122697,
-      "ms": 302,
+      "bytes": 122698,
+      "ms": 312,
       "postings": 14
     },
     {
@@ -1679,7 +1679,7 @@
       "http": 200,
       "ok": true,
       "bytes": 84379,
-      "ms": 437,
+      "ms": 269,
       "postings": 9
     },
     {
@@ -1689,7 +1689,7 @@
       "http": 200,
       "ok": true,
       "bytes": 52022,
-      "ms": 812,
+      "ms": 272,
       "postings": 5
     },
     {
@@ -1699,7 +1699,7 @@
       "http": 200,
       "ok": true,
       "bytes": 9644,
-      "ms": 576,
+      "ms": 239,
       "postings": 1
     },
     {
@@ -1708,8 +1708,8 @@
       "url": "https://remoteok.com/api",
       "http": 200,
       "ok": true,
-      "bytes": 643966,
-      "ms": 589,
+      "bytes": 643145,
+      "ms": 655,
       "postings": 99
     },
     {
@@ -1718,8 +1718,8 @@
       "url": "https://himalayas.app/jobs/api?limit=100",
       "http": 200,
       "ok": true,
-      "bytes": 131668,
-      "ms": 192,
+      "bytes": 123963,
+      "ms": 120,
       "postings": 20
     },
     {
@@ -1729,7 +1729,7 @@
       "http": 200,
       "ok": true,
       "bytes": 180480,
-      "ms": 182,
+      "ms": 199,
       "postings": 25
     },
     {
@@ -1739,7 +1739,7 @@
       "http": 200,
       "ok": true,
       "bytes": 172695,
-      "ms": 161,
+      "ms": 91,
       "postings": 12
     },
     {
@@ -1749,7 +1749,7 @@
       "http": 200,
       "ok": true,
       "bytes": 895180,
-      "ms": 1158,
+      "ms": 948,
       "postings": 100
     },
     {
@@ -1759,7 +1759,7 @@
       "http": 200,
       "ok": true,
       "bytes": 168208,
-      "ms": 311,
+      "ms": 318,
       "postings": 35
     },
     {
@@ -1768,8 +1768,8 @@
       "url": "https://www.arbeitnow.com/api/job-board-api",
       "http": 200,
       "ok": true,
-      "bytes": 2010951,
-      "ms": 394,
+      "bytes": 2253653,
+      "ms": 168,
       "postings": 300
     },
     {
@@ -1778,8 +1778,8 @@
       "url": "https://www.themuse.com/api/public/jobs?category=Software%20Engineering&page=1",
       "http": 200,
       "ok": true,
-      "bytes": 145831,
-      "ms": 263,
+      "bytes": 147384,
+      "ms": 282,
       "postings": 20
     },
     {
@@ -1788,8 +1788,8 @@
       "url": "https://www.themuse.com/api/public/jobs?category=Software%20Engineering&page=2",
       "http": 200,
       "ok": true,
-      "bytes": 140353,
-      "ms": 154,
+      "bytes": 138532,
+      "ms": 189,
       "postings": 20
     }
   ]
