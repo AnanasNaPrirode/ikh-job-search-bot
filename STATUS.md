@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-11-08T03:36:55.651Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-11-08T10:57:21.986Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 171/178 boards responding (96%) · 11686 postings → 18 matching titles → 0 above 40
+**RED** · 169/178 boards responding (95%) · 11646 postings → 19 matching titles → 0 above 40
 
 ## Down
 
@@ -15,6 +15,8 @@ Generated 2026-11-08T03:36:55.651Z by `radar.mjs` — do not edit, it is overwri
 | lever | aircall | 404 | 0 |
 | personio | alasco | 404 | 0 |
 | personio | adverity | 404 | 0 |
+| themuse | TheMuse | 403 | 0 |
+| themuse | TheMuse | 404 | 0 |
 
 ## Live but returning nothing
 
@@ -42,8 +44,8 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5708 |
-| ashby | 52 | 51 | 4173 |
+| greenhouse | 47 | 44 | 5707 |
+| ashby | 52 | 51 | 4174 |
 | personio | 10 | 8 | 353 |
 | arbeitnow | 1 | 1 | 300 |
 | lever | 6 | 5 | 236 |
@@ -53,7 +55,6 @@ board that should always have jobs.
 | jobicy | 1 | 1 | 100 |
 | remoteok | 1 | 1 | 99 |
 | workable | 5 | 5 | 59 |
-| themuse | 2 | 2 | 40 |
 | amazon | 5 | 5 | 39 |
 | smartrecruiters | 9 | 9 | 26 |
 | wwr | 1 | 1 | 25 |
@@ -63,4 +64,5 @@ board that should always have jobs.
 | pinpoint | 4 | 4 | 10 |
 | bamboohr | 1 | 1 | 3 |
 | pinpoint-rss | 4 | 4 | 0 |
+| themuse | 2 | 0 | 0 |
 
