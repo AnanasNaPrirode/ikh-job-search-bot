@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-11-09T12:23:18.379Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-11-09T23:57:07.426Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 169/178 boards responding (95%) · 11657 postings → 20 matching titles → 0 above 40
+**RED** · 169/178 boards responding (95%) · 11693 postings → 20 matching titles → 0 above 40
 
 ## Down
 
@@ -44,22 +44,22 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5713 |
-| ashby | 52 | 51 | 4176 |
-| personio | 10 | 8 | 351 |
+| greenhouse | 47 | 44 | 5720 |
+| ashby | 52 | 51 | 4182 |
+| personio | 10 | 8 | 352 |
 | arbeitnow | 1 | 1 | 300 |
-| lever | 6 | 5 | 235 |
-| teamtailor | 12 | 12 | 192 |
+| lever | 6 | 5 | 237 |
+| teamtailor | 12 | 12 | 194 |
 | getro | 8 | 8 | 160 |
-| recruitee | 6 | 6 | 117 |
+| recruitee | 6 | 6 | 118 |
 | jobicy | 1 | 1 | 100 |
 | remoteok | 1 | 1 | 99 |
 | workable | 5 | 5 | 61 |
 | amazon | 5 | 5 | 39 |
+| workingnomads | 1 | 1 | 35 |
 | smartrecruiters | 9 | 9 | 26 |
 | wwr | 1 | 1 | 25 |
 | himalayas | 1 | 1 | 20 |
-| workingnomads | 1 | 1 | 18 |
 | remotive | 1 | 1 | 12 |
 | pinpoint | 4 | 4 | 10 |
 | bamboohr | 1 | 1 | 3 |
