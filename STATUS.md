@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-11-15T11:48:14.295Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-11-15T18:19:01.504Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 169/178 boards responding (95%) · 11708 postings → 20 matching titles → 0 above 40
+**RED** · 169/178 boards responding (95%) · 11694 postings → 18 matching titles → 0 above 40
 
 ## Down
 
@@ -16,7 +16,7 @@ Generated 2026-11-15T11:48:14.295Z by `radar.mjs` — do not edit, it is overwri
 | personio | alasco | 404 | 0 |
 | personio | adverity | 404 | 0 |
 | themuse | TheMuse | 403 | 0 |
-| themuse | TheMuse | 404 | 0 |
+| themuse | TheMuse | 403 | 0 |
 
 ## Live but returning nothing
 
@@ -43,8 +43,8 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5725 |
-| ashby | 52 | 51 | 4207 |
+| greenhouse | 47 | 44 | 5716 |
+| ashby | 52 | 51 | 4203 |
 | personio | 10 | 8 | 358 |
 | arbeitnow | 1 | 1 | 300 |
 | lever | 6 | 5 | 233 |
@@ -57,7 +57,7 @@ board that should always have jobs.
 | amazon | 5 | 5 | 37 |
 | workingnomads | 1 | 1 | 34 |
 | wwr | 1 | 1 | 25 |
-| smartrecruiters | 9 | 9 | 21 |
+| smartrecruiters | 9 | 9 | 20 |
 | himalayas | 1 | 1 | 20 |
 | remotive | 1 | 1 | 16 |
 | pinpoint | 4 | 4 | 10 |
