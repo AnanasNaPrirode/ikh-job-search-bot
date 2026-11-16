@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-11-16T12:30:19.995Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-11-16T23:56:59.973Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 169/178 boards responding (95%) · 11677 postings → 20 matching titles → 0 above 40
+**RED** · 169/178 boards responding (95%) · 11659 postings → 18 matching titles → 0 above 40
 
 ## Down
 
@@ -16,7 +16,7 @@ Generated 2026-11-16T12:30:19.995Z by `radar.mjs` — do not edit, it is overwri
 | personio | alasco | 404 | 0 |
 | personio | adverity | 404 | 0 |
 | themuse | TheMuse | 403 | 0 |
-| themuse | TheMuse | 404 | 0 |
+| themuse | TheMuse | 403 | 0 |
 
 ## Live but returning nothing
 
@@ -43,23 +43,23 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5717 |
-| ashby | 52 | 51 | 4195 |
-| personio | 10 | 8 | 352 |
+| greenhouse | 47 | 44 | 5702 |
+| ashby | 52 | 51 | 4189 |
+| personio | 10 | 8 | 351 |
 | arbeitnow | 1 | 1 | 300 |
 | lever | 6 | 5 | 231 |
 | teamtailor | 12 | 12 | 183 |
 | getro | 8 | 8 | 160 |
-| recruitee | 6 | 6 | 112 |
+| recruitee | 6 | 6 | 114 |
 | jobicy | 1 | 1 | 100 |
 | remoteok | 1 | 1 | 97 |
-| workable | 5 | 5 | 66 |
-| amazon | 5 | 5 | 38 |
-| workingnomads | 1 | 1 | 34 |
+| workable | 5 | 5 | 67 |
+| amazon | 5 | 5 | 37 |
+| workingnomads | 1 | 1 | 35 |
 | wwr | 1 | 1 | 25 |
 | himalayas | 1 | 1 | 20 |
 | smartrecruiters | 9 | 9 | 19 |
-| remotive | 1 | 1 | 16 |
+| remotive | 1 | 1 | 17 |
 | pinpoint | 4 | 4 | 10 |
 | bamboohr | 1 | 1 | 2 |
 | pinpoint-rss | 4 | 4 | 0 |
