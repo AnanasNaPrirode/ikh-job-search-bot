@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-11-23T19:42:44.225Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-11-24T04:33:07.125Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 168/178 boards responding (94%) · 11683 postings → 25 matching titles → 0 above 40
+**RED** · 168/178 boards responding (94%) · 11684 postings → 24 matching titles → 0 above 40
 
 ## Down
 
@@ -17,7 +17,7 @@ Generated 2026-11-23T19:42:44.225Z by `radar.mjs` — do not edit, it is overwri
 | personio | alasco | 404 | 0 |
 | personio | adverity | 404 | 0 |
 | themuse | TheMuse | 403 | 0 |
-| themuse | TheMuse | 403 | 0 |
+| themuse | TheMuse | 404 | 0 |
 
 ## Live but returning nothing
 
@@ -46,12 +46,12 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5708 |
-| ashby | 52 | 50 | 4198 |
+| greenhouse | 47 | 44 | 5706 |
+| ashby | 52 | 50 | 4200 |
 | personio | 10 | 8 | 369 |
 | arbeitnow | 1 | 1 | 300 |
 | lever | 6 | 5 | 227 |
-| teamtailor | 12 | 12 | 180 |
+| teamtailor | 12 | 12 | 181 |
 | getro | 8 | 8 | 160 |
 | recruitee | 6 | 6 | 108 |
 | remoteok | 1 | 1 | 100 |
