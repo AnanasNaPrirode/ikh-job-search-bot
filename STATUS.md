@@ -1,8 +1,8 @@
 # Radar status
 
-Generated 2026-11-27T13:22:16.846Z by `radar.mjs` — do not edit, it is overwritten every run.
+Generated 2026-11-27T23:52:08.493Z by `radar.mjs` — do not edit, it is overwritten every run.
 
-**RED** · 168/178 boards responding (94%) · 11677 postings → 22 matching titles → 0 above 40
+**RED** · 168/178 boards responding (94%) · 11669 postings → 25 matching titles → 0 above 40
 
 ## Down
 
@@ -48,14 +48,14 @@ board that should always have jobs.
 
 | ATS | Boards | Responding | Postings |
 |---|---|---|---|
-| greenhouse | 47 | 44 | 5683 |
-| ashby | 52 | 50 | 4212 |
-| personio | 10 | 8 | 386 |
+| greenhouse | 47 | 44 | 5674 |
+| ashby | 52 | 50 | 4214 |
+| personio | 10 | 8 | 389 |
 | arbeitnow | 1 | 1 | 300 |
-| lever | 6 | 5 | 230 |
-| teamtailor | 12 | 12 | 165 |
+| lever | 6 | 5 | 228 |
+| teamtailor | 12 | 12 | 166 |
 | getro | 8 | 8 | 160 |
-| recruitee | 6 | 6 | 107 |
+| recruitee | 6 | 6 | 104 |
 | remoteok | 1 | 1 | 100 |
 | jobicy | 1 | 1 | 100 |
 | workable | 5 | 5 | 70 |
